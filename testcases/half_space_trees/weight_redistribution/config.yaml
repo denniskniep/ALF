@@ -1,0 +1,43 @@
+cohorts:
+- name: global
+  features_config: default
+  fields: []
+  weight: 0.25
+  model:
+    name: HalfSpaceTrees
+    params:
+      window_size: 10
+      n_trees: 5
+      height: 1
+      sliding_steps: 1
+- name: by_country
+  features_config: default
+  fields:
+  - country
+  weight: 0.25
+  model:
+    name: HalfSpaceTrees
+    params:
+      window_size: 10
+      n_trees: 5
+      height: 1
+      sliding_steps: 1
+- name: user
+  features_config: default
+  fields:
+  - user
+  weight: 0.5
+  model:
+    name: HalfSpaceTrees
+    params:
+      window_size: 10
+      n_trees: 5
+      height: 1
+      sliding_steps: 1
+database:
+  type: memory
+features:
+  default:
+    latency: numeric
+    country: str_categorical
+    user: str_categorical

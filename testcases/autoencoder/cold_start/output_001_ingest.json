@@ -1,0 +1,87 @@
+[
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "browser",
+            "value": "Chrome",
+            "preprocessed": {
+              "browser": 1.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "browser",
+            "value": "Firefox",
+            "preprocessed": {
+              "browser": 2.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "browser",
+            "value": "Chrome",
+            "preprocessed": {
+              "browser": 1.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "browser",
+            "value": "Firefox",
+            "preprocessed": {
+              "browser": 2.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "browser",
+            "value": "Chrome",
+            "preprocessed": {
+              "browser": 1.0
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

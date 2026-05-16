@@ -1,0 +1,25 @@
+cohorts:
+- name: global
+  features_config: default
+  fields: []
+  weight: 1.0
+  model:
+    name: HalfSpaceTrees
+    params:
+      window_size: 200
+      n_trees: 25
+      height: 3
+      sliding_steps: 1
+database:
+  type: memory
+features:
+  default:
+    latency: numeric
+    country:
+      type: str_categorical
+      preprocessor:
+        name: FrequencyEncoder
+    user:
+      type: str_categorical
+      preprocessor:
+        name: FrequencyEncoder

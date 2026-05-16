@@ -1,0 +1,8 @@
+{
+  "ingest": [
+    {
+      "raw": "{\"score\": 85, \"bot\": false, \"vendor\": \"acme\"}"
+    }
+  ],
+  "scores": []
+}

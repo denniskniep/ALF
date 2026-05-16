@@ -1,0 +1,7 @@
+[
+  {
+    "accepted": false,
+    "cohorts": null,
+    "error": "ts: cannot parse 'not-a-date' as datetime"
+  }
+]

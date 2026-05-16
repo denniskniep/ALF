@@ -1,0 +1,19 @@
+[
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "raw.outer.inner",
+            "value": 42.0,
+            "preprocessed": {
+              "raw.outer.inner": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

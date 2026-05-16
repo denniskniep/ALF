@@ -1,0 +1,10 @@
+{
+  "ingest": [
+    {"country": "DE"},
+    {"country": "US"},
+    {"country": "DE"},
+    {"country": "DE"},
+    {"country": "US"}
+  ],
+  "scores": []
+}

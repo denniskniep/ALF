@@ -1,0 +1,9 @@
+{
+  "ingest": [
+    {"event_id": "abc-123", "user_id": "john.doe", "latency": 100},
+    {"event_id": "def-456", "user_id": "jane.doe", "latency": 110}
+  ],
+  "scores": [
+    {"event_id": "ghi-789", "user_id": "john.doe", "latency": 105}
+  ]
+}

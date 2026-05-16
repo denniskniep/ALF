@@ -1,0 +1,19 @@
+[
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "country",
+            "value": "DE",
+            "preprocessed": {
+              "country": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

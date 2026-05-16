@@ -1,0 +1,28 @@
+[
+  {
+    "accepted": true,
+    "composite_score": null,
+    "status": "insufficient_data",
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": null,
+        "score_label": "INSUFFICIENT_DATA",
+        "properties": {},
+        "explanation": {
+          "features": [
+            {
+              "field": "latency",
+              "value": 100.0,
+              "delta": null,
+              "preprocessed": {}
+            }
+          ],
+          "baseline_score": null
+        }
+      }
+    ]
+  }
+]

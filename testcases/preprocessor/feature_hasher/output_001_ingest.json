@@ -1,0 +1,104 @@
+[
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "browser",
+            "value": "Chrome",
+            "preprocessed": {
+              "browser__388226": 1.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "browser",
+            "value": "Firefox",
+            "preprocessed": {
+              "browser__1041975": 1.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "browser",
+            "value": "Chrome",
+            "preprocessed": {
+              "browser__388226": 1.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "browser",
+            "value": "Edge",
+            "preprocessed": {
+              "browser__874796": 1.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "browser",
+            "value": "Firefox",
+            "preprocessed": {
+              "browser__1041975": 1.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "browser",
+            "value": "Chrome",
+            "preprocessed": {
+              "browser__388226": 1.0
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

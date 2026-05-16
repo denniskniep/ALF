@@ -1,0 +1,24 @@
+{
+  "ingest": [
+    { "country": "DE" },
+    { "country": "BE" },
+    { "country": "DE" },
+    { "country": "NL" },
+    { "country": "DE" },
+    { "country": "US" },
+    { "country": "US" },
+    { "country": "US" },
+    { "country": "US" },
+    { "country": "US" },
+    { "country": "FR" },
+    { "country": "FR" },
+    { "country": "FR" },
+    { "country": "FR" },
+    { "country": "FR" }
+  ],
+  "scores": [
+    { "country": "DE" },
+    { "country": "CH" },
+    { "country": "RU" }
+  ]
+}

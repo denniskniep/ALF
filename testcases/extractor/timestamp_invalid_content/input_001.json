@@ -1,0 +1,6 @@
+{
+  "ingest": [
+    {"ts": "not-a-date"}
+  ],
+  "scores": []
+}

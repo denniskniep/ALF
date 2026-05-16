@@ -1,0 +1,12 @@
+[
+  {
+    "accepted": false,
+    "cohorts": null,
+    "error": "active: expected bool, got int"
+  },
+  {
+    "accepted": false,
+    "cohorts": null,
+    "error": "active: expected bool, got str"
+  }
+]

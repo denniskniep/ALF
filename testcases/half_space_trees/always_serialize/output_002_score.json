@@ -1,0 +1,30 @@
+[
+  {
+    "accepted": true,
+    "composite_score": null,
+    "status": "insufficient_data",
+    "scores": [
+      {
+        "name": "user",
+        "key": {
+          "user": "a"
+        },
+        "weight": 1.0,
+        "anomaly_score": null,
+        "score_label": "INSUFFICIENT_DATA",
+        "properties": {},
+        "explanation": {
+          "features": [
+            {
+              "field": "value",
+              "value": 100.0,
+              "delta": null,
+              "preprocessed": {}
+            }
+          ],
+          "baseline_score": null
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "known",
+            "value": "DE",
+            "preprocessed": {
+              "known": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

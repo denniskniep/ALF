@@ -1,0 +1,121 @@
+[
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "browser",
+            "value": "Chrome",
+            "preprocessed": {
+              "browser": 1.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "browser",
+            "value": "Firefox",
+            "preprocessed": {
+              "browser": 2.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "browser",
+            "value": "Chrome",
+            "preprocessed": {
+              "browser": 1.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "browser",
+            "value": "Edge",
+            "preprocessed": {
+              "browser": 3.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "browser",
+            "value": "Chrome",
+            "preprocessed": {
+              "browser": 1.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "browser",
+            "value": "Safari",
+            "preprocessed": {
+              "browser": 4.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "browser",
+            "value": "Firefox",
+            "preprocessed": {
+              "browser": 2.0
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

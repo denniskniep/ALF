@@ -1,0 +1,17 @@
+{
+  "ingest": [
+    {"latency": 95,  "country": "DE", "user": "new_user"},
+    {"latency": 96,  "country": "DE", "user": "new_user"},
+    {"latency": 97,  "country": "DE", "user": "new_user"},
+    {"latency": 98,  "country": "DE", "user": "new_user"},
+    {"latency": 99,  "country": "DE", "user": "new_user"},
+    {"latency": 100, "country": "DE", "user": "new_user"},
+    {"latency": 101, "country": "DE", "user": "new_user"},
+    {"latency": 102, "country": "DE", "user": "new_user"},
+    {"latency": 103, "country": "DE", "user": "new_user"},
+    {"latency": 104, "country": "DE", "user": "new_user"}
+  ],
+  "scores": [
+    {"latency": 9999, "country": "DE", "user": "new_user"}
+  ]
+}

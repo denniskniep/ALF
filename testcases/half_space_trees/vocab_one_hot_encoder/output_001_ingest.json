@@ -1,0 +1,392 @@
+[
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "country",
+            "value": "DE",
+            "preprocessed": {
+              "country__1": 1.0,
+              "country__2": 0.0,
+              "country__3": 0.0,
+              "country__4": 0.0,
+              "country__5": 0.0,
+              "country__6": 0.0,
+              "country__7": 0.0,
+              "country__8": 0.0,
+              "country__9": 0.0,
+              "country__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "country",
+            "value": "BE",
+            "preprocessed": {
+              "country__1": 0.0,
+              "country__2": 1.0,
+              "country__3": 0.0,
+              "country__4": 0.0,
+              "country__5": 0.0,
+              "country__6": 0.0,
+              "country__7": 0.0,
+              "country__8": 0.0,
+              "country__9": 0.0,
+              "country__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "country",
+            "value": "DE",
+            "preprocessed": {
+              "country__1": 1.0,
+              "country__2": 0.0,
+              "country__3": 0.0,
+              "country__4": 0.0,
+              "country__5": 0.0,
+              "country__6": 0.0,
+              "country__7": 0.0,
+              "country__8": 0.0,
+              "country__9": 0.0,
+              "country__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "country",
+            "value": "NL",
+            "preprocessed": {
+              "country__1": 0.0,
+              "country__2": 0.0,
+              "country__3": 1.0,
+              "country__4": 0.0,
+              "country__5": 0.0,
+              "country__6": 0.0,
+              "country__7": 0.0,
+              "country__8": 0.0,
+              "country__9": 0.0,
+              "country__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "country",
+            "value": "DE",
+            "preprocessed": {
+              "country__1": 1.0,
+              "country__2": 0.0,
+              "country__3": 0.0,
+              "country__4": 0.0,
+              "country__5": 0.0,
+              "country__6": 0.0,
+              "country__7": 0.0,
+              "country__8": 0.0,
+              "country__9": 0.0,
+              "country__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "country",
+            "value": "US",
+            "preprocessed": {
+              "country__1": 0.0,
+              "country__2": 0.0,
+              "country__3": 0.0,
+              "country__4": 1.0,
+              "country__5": 0.0,
+              "country__6": 0.0,
+              "country__7": 0.0,
+              "country__8": 0.0,
+              "country__9": 0.0,
+              "country__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "country",
+            "value": "US",
+            "preprocessed": {
+              "country__1": 0.0,
+              "country__2": 0.0,
+              "country__3": 0.0,
+              "country__4": 1.0,
+              "country__5": 0.0,
+              "country__6": 0.0,
+              "country__7": 0.0,
+              "country__8": 0.0,
+              "country__9": 0.0,
+              "country__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "country",
+            "value": "US",
+            "preprocessed": {
+              "country__1": 0.0,
+              "country__2": 0.0,
+              "country__3": 0.0,
+              "country__4": 1.0,
+              "country__5": 0.0,
+              "country__6": 0.0,
+              "country__7": 0.0,
+              "country__8": 0.0,
+              "country__9": 0.0,
+              "country__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "country",
+            "value": "US",
+            "preprocessed": {
+              "country__1": 0.0,
+              "country__2": 0.0,
+              "country__3": 0.0,
+              "country__4": 1.0,
+              "country__5": 0.0,
+              "country__6": 0.0,
+              "country__7": 0.0,
+              "country__8": 0.0,
+              "country__9": 0.0,
+              "country__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "country",
+            "value": "US",
+            "preprocessed": {
+              "country__1": 0.0,
+              "country__2": 0.0,
+              "country__3": 0.0,
+              "country__4": 1.0,
+              "country__5": 0.0,
+              "country__6": 0.0,
+              "country__7": 0.0,
+              "country__8": 0.0,
+              "country__9": 0.0,
+              "country__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "country",
+            "value": "FR",
+            "preprocessed": {
+              "country__1": 0.0,
+              "country__2": 0.0,
+              "country__3": 0.0,
+              "country__4": 0.0,
+              "country__5": 1.0,
+              "country__6": 0.0,
+              "country__7": 0.0,
+              "country__8": 0.0,
+              "country__9": 0.0,
+              "country__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "country",
+            "value": "FR",
+            "preprocessed": {
+              "country__1": 0.0,
+              "country__2": 0.0,
+              "country__3": 0.0,
+              "country__4": 0.0,
+              "country__5": 1.0,
+              "country__6": 0.0,
+              "country__7": 0.0,
+              "country__8": 0.0,
+              "country__9": 0.0,
+              "country__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "country",
+            "value": "FR",
+            "preprocessed": {
+              "country__1": 0.0,
+              "country__2": 0.0,
+              "country__3": 0.0,
+              "country__4": 0.0,
+              "country__5": 1.0,
+              "country__6": 0.0,
+              "country__7": 0.0,
+              "country__8": 0.0,
+              "country__9": 0.0,
+              "country__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "country",
+            "value": "FR",
+            "preprocessed": {
+              "country__1": 0.0,
+              "country__2": 0.0,
+              "country__3": 0.0,
+              "country__4": 0.0,
+              "country__5": 1.0,
+              "country__6": 0.0,
+              "country__7": 0.0,
+              "country__8": 0.0,
+              "country__9": 0.0,
+              "country__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "country",
+            "value": "FR",
+            "preprocessed": {
+              "country__1": 0.0,
+              "country__2": 0.0,
+              "country__3": 0.0,
+              "country__4": 0.0,
+              "country__5": 1.0,
+              "country__6": 0.0,
+              "country__7": 0.0,
+              "country__8": 0.0,
+              "country__9": 0.0,
+              "country__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

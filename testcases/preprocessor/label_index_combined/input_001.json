@@ -1,0 +1,9 @@
+{
+  "ingest": [
+    {"browser": "Chrome",  "os": "Windows"},
+    {"browser": "Firefox", "os": "Linux"},
+    {"browser": "Chrome",  "os": "Linux"},
+    {"browser": "Edge",    "os": "Windows"}
+  ],
+  "scores": []
+}

@@ -1,0 +1,69 @@
+cohorts:
+  - name: "global"
+    features_config: "default"
+    fields: []
+    weight: 0.2
+    model:
+      name: Autoencoder
+      params:
+        buffer_size: 5000
+        min_buffer_size: 100
+        retrain_every: 50
+        epochs_per_retrain: 2
+
+  - name: "department"
+    features_config: "default"
+    fields: ["user.department"]
+    weight: 0.3
+    model:
+      name: Autoencoder
+      params:
+        buffer_size: 5000
+        min_buffer_size: 100
+        retrain_every: 50
+        epochs_per_retrain: 2
+
+  - name: "user"
+    features_config: "user"
+    fields: ["user.id"]
+    weight: 0.5
+    lru_size: 1000
+    model:
+      name: Autoencoder
+      params:
+        buffer_size: 150
+        min_buffer_size: 20
+        retrain_every: 10
+        epochs_per_retrain: 2
+
+database:
+  type: memory
+  #path: ".local/data/anomaly.db"
+
+debug:
+  dump_results: true
+
+identifiers:
+  - event.id
+  - user.name
+
+features:
+  default:
+    timestamp: timestamp
+    ip.country_iso: str_categorical
+    ip.as.number: str_categorical
+    user_agent.device.name: str_categorical
+    user_agent.os.name: str_categorical
+    user_agent.agent.class: str_categorical
+    user_agent.agent.name: str_categorical
+
+  user:
+    timestamp: timestamp
+    ip.country_iso: str_categorical
+    ip.as.number: str_categorical
+    user_agent.device.name: str_categorical
+    user_agent.os.name: str_categorical
+    user_agent.agent.class: str_categorical
+    user_agent.agent.name: str_categorical
+    auth_method: str_categorical
+    app_name: str_categorical

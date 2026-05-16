@@ -1,0 +1,18 @@
+cohorts:
+- name: test
+  features_config: default
+  fields: []
+  weight: 1.0
+  model:
+    name: HalfSpaceTrees
+    params:
+      window_size: 50
+      n_trees: 25
+      height: 2
+      sliding_steps: 5
+database:
+  type: memory
+features:
+  default:
+    user_agent.os.name: str_categorical
+    user_agent.agent.name: str_categorical

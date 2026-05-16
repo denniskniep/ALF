@@ -1,0 +1,70 @@
+[
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "latency",
+            "value": 50.0,
+            "preprocessed": {
+              "latency": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "latency",
+            "value": 250.0,
+            "preprocessed": {
+              "latency": 1.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "latency",
+            "value": 100.0,
+            "preprocessed": {
+              "latency": 0.25
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "latency",
+            "value": 200.0,
+            "preprocessed": {
+              "latency": 0.75
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

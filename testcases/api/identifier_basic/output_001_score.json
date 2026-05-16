@@ -1,0 +1,32 @@
+[
+  {
+    "accepted": true,
+    "composite_score": null,
+    "status": "insufficient_data",
+    "identifiers": {
+      "event_id": "ghi-789",
+      "user_id": "john.doe"
+    },
+    "scores": [
+      {
+        "name": "test",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": null,
+        "score_label": "INSUFFICIENT_DATA",
+        "properties": {},
+        "explanation": {
+          "features": [
+            {
+              "field": "latency",
+              "value": 105.0,
+              "delta": null,
+              "preprocessed": {}
+            }
+          ],
+          "baseline_score": null
+        }
+      }
+    ]
+  }
+]

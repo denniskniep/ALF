@@ -1,0 +1,1372 @@
+[
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "global",
+        "features": [
+          {
+            "field": "latency",
+            "value": 95.0,
+            "preprocessed": {
+              "latency": -1.4232655871294226
+            }
+          },
+          {
+            "field": "country",
+            "value": "DE",
+            "preprocessed": {
+              "country__1": 1.0,
+              "country__2": 0.0,
+              "country__3": 0.0,
+              "country__4": 0.0,
+              "country__5": 0.0,
+              "country__6": 0.0,
+              "country__7": 0.0,
+              "country__8": 0.0,
+              "country__9": 0.0,
+              "country__10": 0.0
+            }
+          },
+          {
+            "field": "user",
+            "value": "new_user",
+            "preprocessed": {
+              "user__1": 0.0,
+              "user__2": 1.0,
+              "user__3": 0.0,
+              "user__4": 0.0,
+              "user__5": 0.0,
+              "user__6": 0.0,
+              "user__7": 0.0,
+              "user__8": 0.0,
+              "user__9": 0.0,
+              "user__10": 0.0
+            }
+          }
+        ]
+      },
+      {
+        "name": "by_country",
+        "features": [
+          {
+            "field": "latency",
+            "value": 95.0,
+            "preprocessed": {
+              "latency": -1.4232655871294226
+            }
+          },
+          {
+            "field": "country",
+            "value": "DE",
+            "preprocessed": {
+              "country__1": 1.0,
+              "country__2": 0.0,
+              "country__3": 0.0,
+              "country__4": 0.0,
+              "country__5": 0.0,
+              "country__6": 0.0,
+              "country__7": 0.0,
+              "country__8": 0.0,
+              "country__9": 0.0,
+              "country__10": 0.0
+            }
+          },
+          {
+            "field": "user",
+            "value": "new_user",
+            "preprocessed": {
+              "user__1": 0.0,
+              "user__2": 1.0,
+              "user__3": 0.0,
+              "user__4": 0.0,
+              "user__5": 0.0,
+              "user__6": 0.0,
+              "user__7": 0.0,
+              "user__8": 0.0,
+              "user__9": 0.0,
+              "user__10": 0.0
+            }
+          }
+        ]
+      },
+      {
+        "name": "user",
+        "features": [
+          {
+            "field": "latency",
+            "value": 95.0,
+            "preprocessed": {
+              "latency": 0.0
+            }
+          },
+          {
+            "field": "country",
+            "value": "DE",
+            "preprocessed": {
+              "country__1": 1.0,
+              "country__2": 0.0,
+              "country__3": 0.0,
+              "country__4": 0.0,
+              "country__5": 0.0,
+              "country__6": 0.0,
+              "country__7": 0.0,
+              "country__8": 0.0,
+              "country__9": 0.0,
+              "country__10": 0.0
+            }
+          },
+          {
+            "field": "user",
+            "value": "new_user",
+            "preprocessed": {
+              "user__1": 1.0,
+              "user__2": 0.0,
+              "user__3": 0.0,
+              "user__4": 0.0,
+              "user__5": 0.0,
+              "user__6": 0.0,
+              "user__7": 0.0,
+              "user__8": 0.0,
+              "user__9": 0.0,
+              "user__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "global",
+        "features": [
+          {
+            "field": "latency",
+            "value": 96.0,
+            "preprocessed": {
+              "latency": -1.0416482135950427
+            }
+          },
+          {
+            "field": "country",
+            "value": "DE",
+            "preprocessed": {
+              "country__1": 1.0,
+              "country__2": 0.0,
+              "country__3": 0.0,
+              "country__4": 0.0,
+              "country__5": 0.0,
+              "country__6": 0.0,
+              "country__7": 0.0,
+              "country__8": 0.0,
+              "country__9": 0.0,
+              "country__10": 0.0
+            }
+          },
+          {
+            "field": "user",
+            "value": "new_user",
+            "preprocessed": {
+              "user__1": 0.0,
+              "user__2": 1.0,
+              "user__3": 0.0,
+              "user__4": 0.0,
+              "user__5": 0.0,
+              "user__6": 0.0,
+              "user__7": 0.0,
+              "user__8": 0.0,
+              "user__9": 0.0,
+              "user__10": 0.0
+            }
+          }
+        ]
+      },
+      {
+        "name": "by_country",
+        "features": [
+          {
+            "field": "latency",
+            "value": 96.0,
+            "preprocessed": {
+              "latency": -1.0416482135950427
+            }
+          },
+          {
+            "field": "country",
+            "value": "DE",
+            "preprocessed": {
+              "country__1": 1.0,
+              "country__2": 0.0,
+              "country__3": 0.0,
+              "country__4": 0.0,
+              "country__5": 0.0,
+              "country__6": 0.0,
+              "country__7": 0.0,
+              "country__8": 0.0,
+              "country__9": 0.0,
+              "country__10": 0.0
+            }
+          },
+          {
+            "field": "user",
+            "value": "new_user",
+            "preprocessed": {
+              "user__1": 0.0,
+              "user__2": 1.0,
+              "user__3": 0.0,
+              "user__4": 0.0,
+              "user__5": 0.0,
+              "user__6": 0.0,
+              "user__7": 0.0,
+              "user__8": 0.0,
+              "user__9": 0.0,
+              "user__10": 0.0
+            }
+          }
+        ]
+      },
+      {
+        "name": "user",
+        "features": [
+          {
+            "field": "latency",
+            "value": 96.0,
+            "preprocessed": {
+              "latency": 1.0
+            }
+          },
+          {
+            "field": "country",
+            "value": "DE",
+            "preprocessed": {
+              "country__1": 1.0,
+              "country__2": 0.0,
+              "country__3": 0.0,
+              "country__4": 0.0,
+              "country__5": 0.0,
+              "country__6": 0.0,
+              "country__7": 0.0,
+              "country__8": 0.0,
+              "country__9": 0.0,
+              "country__10": 0.0
+            }
+          },
+          {
+            "field": "user",
+            "value": "new_user",
+            "preprocessed": {
+              "user__1": 1.0,
+              "user__2": 0.0,
+              "user__3": 0.0,
+              "user__4": 0.0,
+              "user__5": 0.0,
+              "user__6": 0.0,
+              "user__7": 0.0,
+              "user__8": 0.0,
+              "user__9": 0.0,
+              "user__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "global",
+        "features": [
+          {
+            "field": "latency",
+            "value": 97.0,
+            "preprocessed": {
+              "latency": -0.6909515232341544
+            }
+          },
+          {
+            "field": "country",
+            "value": "DE",
+            "preprocessed": {
+              "country__1": 1.0,
+              "country__2": 0.0,
+              "country__3": 0.0,
+              "country__4": 0.0,
+              "country__5": 0.0,
+              "country__6": 0.0,
+              "country__7": 0.0,
+              "country__8": 0.0,
+              "country__9": 0.0,
+              "country__10": 0.0
+            }
+          },
+          {
+            "field": "user",
+            "value": "new_user",
+            "preprocessed": {
+              "user__1": 0.0,
+              "user__2": 1.0,
+              "user__3": 0.0,
+              "user__4": 0.0,
+              "user__5": 0.0,
+              "user__6": 0.0,
+              "user__7": 0.0,
+              "user__8": 0.0,
+              "user__9": 0.0,
+              "user__10": 0.0
+            }
+          }
+        ]
+      },
+      {
+        "name": "by_country",
+        "features": [
+          {
+            "field": "latency",
+            "value": 97.0,
+            "preprocessed": {
+              "latency": -0.6909515232341544
+            }
+          },
+          {
+            "field": "country",
+            "value": "DE",
+            "preprocessed": {
+              "country__1": 1.0,
+              "country__2": 0.0,
+              "country__3": 0.0,
+              "country__4": 0.0,
+              "country__5": 0.0,
+              "country__6": 0.0,
+              "country__7": 0.0,
+              "country__8": 0.0,
+              "country__9": 0.0,
+              "country__10": 0.0
+            }
+          },
+          {
+            "field": "user",
+            "value": "new_user",
+            "preprocessed": {
+              "user__1": 0.0,
+              "user__2": 1.0,
+              "user__3": 0.0,
+              "user__4": 0.0,
+              "user__5": 0.0,
+              "user__6": 0.0,
+              "user__7": 0.0,
+              "user__8": 0.0,
+              "user__9": 0.0,
+              "user__10": 0.0
+            }
+          }
+        ]
+      },
+      {
+        "name": "user",
+        "features": [
+          {
+            "field": "latency",
+            "value": 97.0,
+            "preprocessed": {
+              "latency": 1.224744871391589
+            }
+          },
+          {
+            "field": "country",
+            "value": "DE",
+            "preprocessed": {
+              "country__1": 1.0,
+              "country__2": 0.0,
+              "country__3": 0.0,
+              "country__4": 0.0,
+              "country__5": 0.0,
+              "country__6": 0.0,
+              "country__7": 0.0,
+              "country__8": 0.0,
+              "country__9": 0.0,
+              "country__10": 0.0
+            }
+          },
+          {
+            "field": "user",
+            "value": "new_user",
+            "preprocessed": {
+              "user__1": 1.0,
+              "user__2": 0.0,
+              "user__3": 0.0,
+              "user__4": 0.0,
+              "user__5": 0.0,
+              "user__6": 0.0,
+              "user__7": 0.0,
+              "user__8": 0.0,
+              "user__9": 0.0,
+              "user__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "global",
+        "features": [
+          {
+            "field": "latency",
+            "value": 98.0,
+            "preprocessed": {
+              "latency": -0.3513468344305807
+            }
+          },
+          {
+            "field": "country",
+            "value": "DE",
+            "preprocessed": {
+              "country__1": 1.0,
+              "country__2": 0.0,
+              "country__3": 0.0,
+              "country__4": 0.0,
+              "country__5": 0.0,
+              "country__6": 0.0,
+              "country__7": 0.0,
+              "country__8": 0.0,
+              "country__9": 0.0,
+              "country__10": 0.0
+            }
+          },
+          {
+            "field": "user",
+            "value": "new_user",
+            "preprocessed": {
+              "user__1": 0.0,
+              "user__2": 1.0,
+              "user__3": 0.0,
+              "user__4": 0.0,
+              "user__5": 0.0,
+              "user__6": 0.0,
+              "user__7": 0.0,
+              "user__8": 0.0,
+              "user__9": 0.0,
+              "user__10": 0.0
+            }
+          }
+        ]
+      },
+      {
+        "name": "by_country",
+        "features": [
+          {
+            "field": "latency",
+            "value": 98.0,
+            "preprocessed": {
+              "latency": -0.3513468344305807
+            }
+          },
+          {
+            "field": "country",
+            "value": "DE",
+            "preprocessed": {
+              "country__1": 1.0,
+              "country__2": 0.0,
+              "country__3": 0.0,
+              "country__4": 0.0,
+              "country__5": 0.0,
+              "country__6": 0.0,
+              "country__7": 0.0,
+              "country__8": 0.0,
+              "country__9": 0.0,
+              "country__10": 0.0
+            }
+          },
+          {
+            "field": "user",
+            "value": "new_user",
+            "preprocessed": {
+              "user__1": 0.0,
+              "user__2": 1.0,
+              "user__3": 0.0,
+              "user__4": 0.0,
+              "user__5": 0.0,
+              "user__6": 0.0,
+              "user__7": 0.0,
+              "user__8": 0.0,
+              "user__9": 0.0,
+              "user__10": 0.0
+            }
+          }
+        ]
+      },
+      {
+        "name": "user",
+        "features": [
+          {
+            "field": "latency",
+            "value": 98.0,
+            "preprocessed": {
+              "latency": 1.3416407864998738
+            }
+          },
+          {
+            "field": "country",
+            "value": "DE",
+            "preprocessed": {
+              "country__1": 1.0,
+              "country__2": 0.0,
+              "country__3": 0.0,
+              "country__4": 0.0,
+              "country__5": 0.0,
+              "country__6": 0.0,
+              "country__7": 0.0,
+              "country__8": 0.0,
+              "country__9": 0.0,
+              "country__10": 0.0
+            }
+          },
+          {
+            "field": "user",
+            "value": "new_user",
+            "preprocessed": {
+              "user__1": 1.0,
+              "user__2": 0.0,
+              "user__3": 0.0,
+              "user__4": 0.0,
+              "user__5": 0.0,
+              "user__6": 0.0,
+              "user__7": 0.0,
+              "user__8": 0.0,
+              "user__9": 0.0,
+              "user__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "global",
+        "features": [
+          {
+            "field": "latency",
+            "value": 99.0,
+            "preprocessed": {
+              "latency": -0.013769873079535947
+            }
+          },
+          {
+            "field": "country",
+            "value": "DE",
+            "preprocessed": {
+              "country__1": 1.0,
+              "country__2": 0.0,
+              "country__3": 0.0,
+              "country__4": 0.0,
+              "country__5": 0.0,
+              "country__6": 0.0,
+              "country__7": 0.0,
+              "country__8": 0.0,
+              "country__9": 0.0,
+              "country__10": 0.0
+            }
+          },
+          {
+            "field": "user",
+            "value": "new_user",
+            "preprocessed": {
+              "user__1": 0.0,
+              "user__2": 1.0,
+              "user__3": 0.0,
+              "user__4": 0.0,
+              "user__5": 0.0,
+              "user__6": 0.0,
+              "user__7": 0.0,
+              "user__8": 0.0,
+              "user__9": 0.0,
+              "user__10": 0.0
+            }
+          }
+        ]
+      },
+      {
+        "name": "by_country",
+        "features": [
+          {
+            "field": "latency",
+            "value": 99.0,
+            "preprocessed": {
+              "latency": -0.013769873079535947
+            }
+          },
+          {
+            "field": "country",
+            "value": "DE",
+            "preprocessed": {
+              "country__1": 1.0,
+              "country__2": 0.0,
+              "country__3": 0.0,
+              "country__4": 0.0,
+              "country__5": 0.0,
+              "country__6": 0.0,
+              "country__7": 0.0,
+              "country__8": 0.0,
+              "country__9": 0.0,
+              "country__10": 0.0
+            }
+          },
+          {
+            "field": "user",
+            "value": "new_user",
+            "preprocessed": {
+              "user__1": 0.0,
+              "user__2": 1.0,
+              "user__3": 0.0,
+              "user__4": 0.0,
+              "user__5": 0.0,
+              "user__6": 0.0,
+              "user__7": 0.0,
+              "user__8": 0.0,
+              "user__9": 0.0,
+              "user__10": 0.0
+            }
+          }
+        ]
+      },
+      {
+        "name": "user",
+        "features": [
+          {
+            "field": "latency",
+            "value": 99.0,
+            "preprocessed": {
+              "latency": 1.414213562373095
+            }
+          },
+          {
+            "field": "country",
+            "value": "DE",
+            "preprocessed": {
+              "country__1": 1.0,
+              "country__2": 0.0,
+              "country__3": 0.0,
+              "country__4": 0.0,
+              "country__5": 0.0,
+              "country__6": 0.0,
+              "country__7": 0.0,
+              "country__8": 0.0,
+              "country__9": 0.0,
+              "country__10": 0.0
+            }
+          },
+          {
+            "field": "user",
+            "value": "new_user",
+            "preprocessed": {
+              "user__1": 1.0,
+              "user__2": 0.0,
+              "user__3": 0.0,
+              "user__4": 0.0,
+              "user__5": 0.0,
+              "user__6": 0.0,
+              "user__7": 0.0,
+              "user__8": 0.0,
+              "user__9": 0.0,
+              "user__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "global",
+        "features": [
+          {
+            "field": "latency",
+            "value": 100.0,
+            "preprocessed": {
+              "latency": 0.3233808333817762
+            }
+          },
+          {
+            "field": "country",
+            "value": "DE",
+            "preprocessed": {
+              "country__1": 1.0,
+              "country__2": 0.0,
+              "country__3": 0.0,
+              "country__4": 0.0,
+              "country__5": 0.0,
+              "country__6": 0.0,
+              "country__7": 0.0,
+              "country__8": 0.0,
+              "country__9": 0.0,
+              "country__10": 0.0
+            }
+          },
+          {
+            "field": "user",
+            "value": "new_user",
+            "preprocessed": {
+              "user__1": 0.0,
+              "user__2": 1.0,
+              "user__3": 0.0,
+              "user__4": 0.0,
+              "user__5": 0.0,
+              "user__6": 0.0,
+              "user__7": 0.0,
+              "user__8": 0.0,
+              "user__9": 0.0,
+              "user__10": 0.0
+            }
+          }
+        ]
+      },
+      {
+        "name": "by_country",
+        "features": [
+          {
+            "field": "latency",
+            "value": 100.0,
+            "preprocessed": {
+              "latency": 0.3233808333817762
+            }
+          },
+          {
+            "field": "country",
+            "value": "DE",
+            "preprocessed": {
+              "country__1": 1.0,
+              "country__2": 0.0,
+              "country__3": 0.0,
+              "country__4": 0.0,
+              "country__5": 0.0,
+              "country__6": 0.0,
+              "country__7": 0.0,
+              "country__8": 0.0,
+              "country__9": 0.0,
+              "country__10": 0.0
+            }
+          },
+          {
+            "field": "user",
+            "value": "new_user",
+            "preprocessed": {
+              "user__1": 0.0,
+              "user__2": 1.0,
+              "user__3": 0.0,
+              "user__4": 0.0,
+              "user__5": 0.0,
+              "user__6": 0.0,
+              "user__7": 0.0,
+              "user__8": 0.0,
+              "user__9": 0.0,
+              "user__10": 0.0
+            }
+          }
+        ]
+      },
+      {
+        "name": "user",
+        "features": [
+          {
+            "field": "latency",
+            "value": 100.0,
+            "preprocessed": {
+              "latency": 1.4638501094227998
+            }
+          },
+          {
+            "field": "country",
+            "value": "DE",
+            "preprocessed": {
+              "country__1": 1.0,
+              "country__2": 0.0,
+              "country__3": 0.0,
+              "country__4": 0.0,
+              "country__5": 0.0,
+              "country__6": 0.0,
+              "country__7": 0.0,
+              "country__8": 0.0,
+              "country__9": 0.0,
+              "country__10": 0.0
+            }
+          },
+          {
+            "field": "user",
+            "value": "new_user",
+            "preprocessed": {
+              "user__1": 1.0,
+              "user__2": 0.0,
+              "user__3": 0.0,
+              "user__4": 0.0,
+              "user__5": 0.0,
+              "user__6": 0.0,
+              "user__7": 0.0,
+              "user__8": 0.0,
+              "user__9": 0.0,
+              "user__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "global",
+        "features": [
+          {
+            "field": "latency",
+            "value": 101.0,
+            "preprocessed": {
+              "latency": 0.6556284719717187
+            }
+          },
+          {
+            "field": "country",
+            "value": "DE",
+            "preprocessed": {
+              "country__1": 1.0,
+              "country__2": 0.0,
+              "country__3": 0.0,
+              "country__4": 0.0,
+              "country__5": 0.0,
+              "country__6": 0.0,
+              "country__7": 0.0,
+              "country__8": 0.0,
+              "country__9": 0.0,
+              "country__10": 0.0
+            }
+          },
+          {
+            "field": "user",
+            "value": "new_user",
+            "preprocessed": {
+              "user__1": 0.0,
+              "user__2": 1.0,
+              "user__3": 0.0,
+              "user__4": 0.0,
+              "user__5": 0.0,
+              "user__6": 0.0,
+              "user__7": 0.0,
+              "user__8": 0.0,
+              "user__9": 0.0,
+              "user__10": 0.0
+            }
+          }
+        ]
+      },
+      {
+        "name": "by_country",
+        "features": [
+          {
+            "field": "latency",
+            "value": 101.0,
+            "preprocessed": {
+              "latency": 0.6556284719717187
+            }
+          },
+          {
+            "field": "country",
+            "value": "DE",
+            "preprocessed": {
+              "country__1": 1.0,
+              "country__2": 0.0,
+              "country__3": 0.0,
+              "country__4": 0.0,
+              "country__5": 0.0,
+              "country__6": 0.0,
+              "country__7": 0.0,
+              "country__8": 0.0,
+              "country__9": 0.0,
+              "country__10": 0.0
+            }
+          },
+          {
+            "field": "user",
+            "value": "new_user",
+            "preprocessed": {
+              "user__1": 0.0,
+              "user__2": 1.0,
+              "user__3": 0.0,
+              "user__4": 0.0,
+              "user__5": 0.0,
+              "user__6": 0.0,
+              "user__7": 0.0,
+              "user__8": 0.0,
+              "user__9": 0.0,
+              "user__10": 0.0
+            }
+          }
+        ]
+      },
+      {
+        "name": "user",
+        "features": [
+          {
+            "field": "latency",
+            "value": 101.0,
+            "preprocessed": {
+              "latency": 1.5
+            }
+          },
+          {
+            "field": "country",
+            "value": "DE",
+            "preprocessed": {
+              "country__1": 1.0,
+              "country__2": 0.0,
+              "country__3": 0.0,
+              "country__4": 0.0,
+              "country__5": 0.0,
+              "country__6": 0.0,
+              "country__7": 0.0,
+              "country__8": 0.0,
+              "country__9": 0.0,
+              "country__10": 0.0
+            }
+          },
+          {
+            "field": "user",
+            "value": "new_user",
+            "preprocessed": {
+              "user__1": 1.0,
+              "user__2": 0.0,
+              "user__3": 0.0,
+              "user__4": 0.0,
+              "user__5": 0.0,
+              "user__6": 0.0,
+              "user__7": 0.0,
+              "user__8": 0.0,
+              "user__9": 0.0,
+              "user__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "global",
+        "features": [
+          {
+            "field": "latency",
+            "value": 102.0,
+            "preprocessed": {
+              "latency": 0.9739036101592905
+            }
+          },
+          {
+            "field": "country",
+            "value": "DE",
+            "preprocessed": {
+              "country__1": 1.0,
+              "country__2": 0.0,
+              "country__3": 0.0,
+              "country__4": 0.0,
+              "country__5": 0.0,
+              "country__6": 0.0,
+              "country__7": 0.0,
+              "country__8": 0.0,
+              "country__9": 0.0,
+              "country__10": 0.0
+            }
+          },
+          {
+            "field": "user",
+            "value": "new_user",
+            "preprocessed": {
+              "user__1": 0.0,
+              "user__2": 1.0,
+              "user__3": 0.0,
+              "user__4": 0.0,
+              "user__5": 0.0,
+              "user__6": 0.0,
+              "user__7": 0.0,
+              "user__8": 0.0,
+              "user__9": 0.0,
+              "user__10": 0.0
+            }
+          }
+        ]
+      },
+      {
+        "name": "by_country",
+        "features": [
+          {
+            "field": "latency",
+            "value": 102.0,
+            "preprocessed": {
+              "latency": 0.9739036101592905
+            }
+          },
+          {
+            "field": "country",
+            "value": "DE",
+            "preprocessed": {
+              "country__1": 1.0,
+              "country__2": 0.0,
+              "country__3": 0.0,
+              "country__4": 0.0,
+              "country__5": 0.0,
+              "country__6": 0.0,
+              "country__7": 0.0,
+              "country__8": 0.0,
+              "country__9": 0.0,
+              "country__10": 0.0
+            }
+          },
+          {
+            "field": "user",
+            "value": "new_user",
+            "preprocessed": {
+              "user__1": 0.0,
+              "user__2": 1.0,
+              "user__3": 0.0,
+              "user__4": 0.0,
+              "user__5": 0.0,
+              "user__6": 0.0,
+              "user__7": 0.0,
+              "user__8": 0.0,
+              "user__9": 0.0,
+              "user__10": 0.0
+            }
+          }
+        ]
+      },
+      {
+        "name": "user",
+        "features": [
+          {
+            "field": "latency",
+            "value": 102.0,
+            "preprocessed": {
+              "latency": 1.5275252316519468
+            }
+          },
+          {
+            "field": "country",
+            "value": "DE",
+            "preprocessed": {
+              "country__1": 1.0,
+              "country__2": 0.0,
+              "country__3": 0.0,
+              "country__4": 0.0,
+              "country__5": 0.0,
+              "country__6": 0.0,
+              "country__7": 0.0,
+              "country__8": 0.0,
+              "country__9": 0.0,
+              "country__10": 0.0
+            }
+          },
+          {
+            "field": "user",
+            "value": "new_user",
+            "preprocessed": {
+              "user__1": 1.0,
+              "user__2": 0.0,
+              "user__3": 0.0,
+              "user__4": 0.0,
+              "user__5": 0.0,
+              "user__6": 0.0,
+              "user__7": 0.0,
+              "user__8": 0.0,
+              "user__9": 0.0,
+              "user__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "global",
+        "features": [
+          {
+            "field": "latency",
+            "value": 103.0,
+            "preprocessed": {
+              "latency": 1.2669928260253753
+            }
+          },
+          {
+            "field": "country",
+            "value": "DE",
+            "preprocessed": {
+              "country__1": 1.0,
+              "country__2": 0.0,
+              "country__3": 0.0,
+              "country__4": 0.0,
+              "country__5": 0.0,
+              "country__6": 0.0,
+              "country__7": 0.0,
+              "country__8": 0.0,
+              "country__9": 0.0,
+              "country__10": 0.0
+            }
+          },
+          {
+            "field": "user",
+            "value": "new_user",
+            "preprocessed": {
+              "user__1": 0.0,
+              "user__2": 1.0,
+              "user__3": 0.0,
+              "user__4": 0.0,
+              "user__5": 0.0,
+              "user__6": 0.0,
+              "user__7": 0.0,
+              "user__8": 0.0,
+              "user__9": 0.0,
+              "user__10": 0.0
+            }
+          }
+        ]
+      },
+      {
+        "name": "by_country",
+        "features": [
+          {
+            "field": "latency",
+            "value": 103.0,
+            "preprocessed": {
+              "latency": 1.2669928260253753
+            }
+          },
+          {
+            "field": "country",
+            "value": "DE",
+            "preprocessed": {
+              "country__1": 1.0,
+              "country__2": 0.0,
+              "country__3": 0.0,
+              "country__4": 0.0,
+              "country__5": 0.0,
+              "country__6": 0.0,
+              "country__7": 0.0,
+              "country__8": 0.0,
+              "country__9": 0.0,
+              "country__10": 0.0
+            }
+          },
+          {
+            "field": "user",
+            "value": "new_user",
+            "preprocessed": {
+              "user__1": 0.0,
+              "user__2": 1.0,
+              "user__3": 0.0,
+              "user__4": 0.0,
+              "user__5": 0.0,
+              "user__6": 0.0,
+              "user__7": 0.0,
+              "user__8": 0.0,
+              "user__9": 0.0,
+              "user__10": 0.0
+            }
+          }
+        ]
+      },
+      {
+        "name": "user",
+        "features": [
+          {
+            "field": "latency",
+            "value": 103.0,
+            "preprocessed": {
+              "latency": 1.5491933384829668
+            }
+          },
+          {
+            "field": "country",
+            "value": "DE",
+            "preprocessed": {
+              "country__1": 1.0,
+              "country__2": 0.0,
+              "country__3": 0.0,
+              "country__4": 0.0,
+              "country__5": 0.0,
+              "country__6": 0.0,
+              "country__7": 0.0,
+              "country__8": 0.0,
+              "country__9": 0.0,
+              "country__10": 0.0
+            }
+          },
+          {
+            "field": "user",
+            "value": "new_user",
+            "preprocessed": {
+              "user__1": 1.0,
+              "user__2": 0.0,
+              "user__3": 0.0,
+              "user__4": 0.0,
+              "user__5": 0.0,
+              "user__6": 0.0,
+              "user__7": 0.0,
+              "user__8": 0.0,
+              "user__9": 0.0,
+              "user__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "global",
+        "features": [
+          {
+            "field": "latency",
+            "value": 104.0,
+            "preprocessed": {
+              "latency": 1.5246974214005486
+            }
+          },
+          {
+            "field": "country",
+            "value": "DE",
+            "preprocessed": {
+              "country__1": 1.0,
+              "country__2": 0.0,
+              "country__3": 0.0,
+              "country__4": 0.0,
+              "country__5": 0.0,
+              "country__6": 0.0,
+              "country__7": 0.0,
+              "country__8": 0.0,
+              "country__9": 0.0,
+              "country__10": 0.0
+            }
+          },
+          {
+            "field": "user",
+            "value": "new_user",
+            "preprocessed": {
+              "user__1": 0.0,
+              "user__2": 1.0,
+              "user__3": 0.0,
+              "user__4": 0.0,
+              "user__5": 0.0,
+              "user__6": 0.0,
+              "user__7": 0.0,
+              "user__8": 0.0,
+              "user__9": 0.0,
+              "user__10": 0.0
+            }
+          }
+        ]
+      },
+      {
+        "name": "by_country",
+        "features": [
+          {
+            "field": "latency",
+            "value": 104.0,
+            "preprocessed": {
+              "latency": 1.5246974214005486
+            }
+          },
+          {
+            "field": "country",
+            "value": "DE",
+            "preprocessed": {
+              "country__1": 1.0,
+              "country__2": 0.0,
+              "country__3": 0.0,
+              "country__4": 0.0,
+              "country__5": 0.0,
+              "country__6": 0.0,
+              "country__7": 0.0,
+              "country__8": 0.0,
+              "country__9": 0.0,
+              "country__10": 0.0
+            }
+          },
+          {
+            "field": "user",
+            "value": "new_user",
+            "preprocessed": {
+              "user__1": 0.0,
+              "user__2": 1.0,
+              "user__3": 0.0,
+              "user__4": 0.0,
+              "user__5": 0.0,
+              "user__6": 0.0,
+              "user__7": 0.0,
+              "user__8": 0.0,
+              "user__9": 0.0,
+              "user__10": 0.0
+            }
+          }
+        ]
+      },
+      {
+        "name": "user",
+        "features": [
+          {
+            "field": "latency",
+            "value": 104.0,
+            "preprocessed": {
+              "latency": 1.5666989036012806
+            }
+          },
+          {
+            "field": "country",
+            "value": "DE",
+            "preprocessed": {
+              "country__1": 1.0,
+              "country__2": 0.0,
+              "country__3": 0.0,
+              "country__4": 0.0,
+              "country__5": 0.0,
+              "country__6": 0.0,
+              "country__7": 0.0,
+              "country__8": 0.0,
+              "country__9": 0.0,
+              "country__10": 0.0
+            }
+          },
+          {
+            "field": "user",
+            "value": "new_user",
+            "preprocessed": {
+              "user__1": 1.0,
+              "user__2": 0.0,
+              "user__3": 0.0,
+              "user__4": 0.0,
+              "user__5": 0.0,
+              "user__6": 0.0,
+              "user__7": 0.0,
+              "user__8": 0.0,
+              "user__9": 0.0,
+              "user__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "accepted": true,
+    "composite_score": 0.0,
+    "status": "NORMAL",
+    "scores": [
+      {
+        "name": "test",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 0.0,
+        "score_label": "NORMAL",
+        "properties": {
+          "buffer_size": 100,
+          "events_since_retrain": 4
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "browser",
+              "value": "Chrome",
+              "delta": 0.0,
+              "preprocessed": {
+                "browser": 1.0
+              }
+            },
+            {
+              "field": "os",
+              "value": "Windows",
+              "delta": 0.0,
+              "preprocessed": {
+                "os": 1.0
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 100.0,
+    "status": "HIGHLY_ANOMALOUS",
+    "scores": [
+      {
+        "name": "test",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 100.0,
+        "score_label": "HIGHLY_ANOMALOUS",
+        "properties": {
+          "buffer_size": 100,
+          "events_since_retrain": 4
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "browser",
+              "value": "Chrome",
+              "delta": 60.0383,
+              "preprocessed": {
+                "browser": 1.0
+              }
+            },
+            {
+              "field": "os",
+              "value": "Linux",
+              "delta": 39.9617,
+              "preprocessed": {
+                "os": 2.0
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "ingest": [
+    {
+      "kept": 42,
+      "dropped": "sensitive"
+    }
+  ],
+  "scores": []
+}

@@ -1,0 +1,94 @@
+[
+  {
+    "accepted": true,
+    "composite_score": 22.298666666666666,
+    "status": "NORMAL",
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 22.298666666666666,
+        "score_label": "NORMAL",
+        "properties": {
+          "reference_age": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "latency",
+              "value": 100.0,
+              "delta": -0.6826666666666661,
+              "preprocessed": {
+                "latency": 0.01415754251927245
+              }
+            },
+            {
+              "field": "country",
+              "value": "DE",
+              "delta": 0.0,
+              "preprocessed": {
+                "country": 1.0
+              }
+            },
+            {
+              "field": "user",
+              "value": "u1",
+              "delta": 0.0,
+              "preprocessed": {
+                "user": 0.1
+              }
+            }
+          ],
+          "baseline_score": 22.9813
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 82.41066666666667,
+    "status": "ANOMALOUS",
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 82.41066666666667,
+        "score_label": "ANOMALOUS",
+        "properties": {
+          "reference_age": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "latency",
+              "value": 9999.0,
+              "delta": 51.09866666666667,
+              "preprocessed": {
+                "latency": 5.0
+              }
+            },
+            {
+              "field": "country",
+              "value": "RU",
+              "delta": 25.42933333333334,
+              "preprocessed": {
+                "country": 0.0
+              }
+            },
+            {
+              "field": "user",
+              "value": "unknown",
+              "delta": 0.0,
+              "preprocessed": {
+                "user": 0.0
+              }
+            }
+          ],
+          "baseline_score": 22.9813
+        }
+      }
+    ]
+  }
+]

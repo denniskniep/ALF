@@ -1,0 +1,626 @@
+{
+  "ingest": [
+    {
+      "latency": 95,
+      "country": "DE"
+    },
+    {
+      "latency": 96,
+      "country": "DE"
+    },
+    {
+      "latency": 97,
+      "country": "DE"
+    },
+    {
+      "latency": 98,
+      "country": "DE"
+    },
+    {
+      "latency": 99,
+      "country": "DE"
+    },
+    {
+      "latency": 100,
+      "country": "DE"
+    },
+    {
+      "latency": 101,
+      "country": "DE"
+    },
+    {
+      "latency": 102,
+      "country": "DE"
+    },
+    {
+      "latency": 103,
+      "country": "DE"
+    },
+    {
+      "latency": 104,
+      "country": "DE"
+    },
+    {
+      "latency": 105,
+      "country": "DE"
+    },
+    {
+      "latency": 95,
+      "country": "DE"
+    },
+    {
+      "latency": 96,
+      "country": "DE"
+    },
+    {
+      "latency": 97,
+      "country": "DE"
+    },
+    {
+      "latency": 98,
+      "country": "DE"
+    },
+    {
+      "latency": 99,
+      "country": "DE"
+    },
+    {
+      "latency": 100,
+      "country": "DE"
+    },
+    {
+      "latency": 101,
+      "country": "DE"
+    },
+    {
+      "latency": 102,
+      "country": "DE"
+    },
+    {
+      "latency": 103,
+      "country": "DE"
+    },
+    {
+      "latency": 104,
+      "country": "DE"
+    },
+    {
+      "latency": 105,
+      "country": "DE"
+    },
+    {
+      "latency": 95,
+      "country": "DE"
+    },
+    {
+      "latency": 96,
+      "country": "DE"
+    },
+    {
+      "latency": 97,
+      "country": "DE"
+    },
+    {
+      "latency": 98,
+      "country": "DE"
+    },
+    {
+      "latency": 99,
+      "country": "DE"
+    },
+    {
+      "latency": 100,
+      "country": "DE"
+    },
+    {
+      "latency": 101,
+      "country": "DE"
+    },
+    {
+      "latency": 102,
+      "country": "DE"
+    },
+    {
+      "latency": 103,
+      "country": "DE"
+    },
+    {
+      "latency": 104,
+      "country": "DE"
+    },
+    {
+      "latency": 105,
+      "country": "DE"
+    },
+    {
+      "latency": 95,
+      "country": "DE"
+    },
+    {
+      "latency": 96,
+      "country": "DE"
+    },
+    {
+      "latency": 97,
+      "country": "DE"
+    },
+    {
+      "latency": 98,
+      "country": "DE"
+    },
+    {
+      "latency": 99,
+      "country": "DE"
+    },
+    {
+      "latency": 100,
+      "country": "DE"
+    },
+    {
+      "latency": 101,
+      "country": "DE"
+    },
+    {
+      "latency": 102,
+      "country": "DE"
+    },
+    {
+      "latency": 103,
+      "country": "DE"
+    },
+    {
+      "latency": 104,
+      "country": "DE"
+    },
+    {
+      "latency": 105,
+      "country": "DE"
+    },
+    {
+      "latency": 95,
+      "country": "DE"
+    },
+    {
+      "latency": 96,
+      "country": "DE"
+    },
+    {
+      "latency": 97,
+      "country": "DE"
+    },
+    {
+      "latency": 98,
+      "country": "DE"
+    },
+    {
+      "latency": 99,
+      "country": "DE"
+    },
+    {
+      "latency": 100,
+      "country": "DE"
+    },
+    {
+      "latency": 101,
+      "country": "DE"
+    },
+    {
+      "latency": 102,
+      "country": "DE"
+    },
+    {
+      "latency": 103,
+      "country": "DE"
+    },
+    {
+      "latency": 104,
+      "country": "DE"
+    },
+    {
+      "latency": 105,
+      "country": "DE"
+    },
+    {
+      "latency": 95,
+      "country": "DE"
+    },
+    {
+      "latency": 96,
+      "country": "DE"
+    },
+    {
+      "latency": 97,
+      "country": "DE"
+    },
+    {
+      "latency": 98,
+      "country": "DE"
+    },
+    {
+      "latency": 99,
+      "country": "DE"
+    },
+    {
+      "latency": 100,
+      "country": "DE"
+    },
+    {
+      "latency": 101,
+      "country": "DE"
+    },
+    {
+      "latency": 102,
+      "country": "DE"
+    },
+    {
+      "latency": 103,
+      "country": "DE"
+    },
+    {
+      "latency": 104,
+      "country": "DE"
+    },
+    {
+      "latency": 105,
+      "country": "DE"
+    },
+    {
+      "latency": 95,
+      "country": "DE"
+    },
+    {
+      "latency": 96,
+      "country": "DE"
+    },
+    {
+      "latency": 97,
+      "country": "DE"
+    },
+    {
+      "latency": 98,
+      "country": "DE"
+    },
+    {
+      "latency": 99,
+      "country": "DE"
+    },
+    {
+      "latency": 100,
+      "country": "DE"
+    },
+    {
+      "latency": 101,
+      "country": "DE"
+    },
+    {
+      "latency": 102,
+      "country": "DE"
+    },
+    {
+      "latency": 103,
+      "country": "DE"
+    },
+    {
+      "latency": 104,
+      "country": "DE"
+    },
+    {
+      "latency": 105,
+      "country": "DE"
+    },
+    {
+      "latency": 95,
+      "country": "DE"
+    },
+    {
+      "latency": 96,
+      "country": "DE"
+    },
+    {
+      "latency": 97,
+      "country": "DE"
+    },
+    {
+      "latency": 98,
+      "country": "DE"
+    },
+    {
+      "latency": 99,
+      "country": "DE"
+    },
+    {
+      "latency": 100,
+      "country": "DE"
+    },
+    {
+      "latency": 101,
+      "country": "DE"
+    },
+    {
+      "latency": 102,
+      "country": "DE"
+    },
+    {
+      "latency": 103,
+      "country": "DE"
+    },
+    {
+      "latency": 104,
+      "country": "DE"
+    },
+    {
+      "latency": 105,
+      "country": "DE"
+    },
+    {
+      "latency": 95,
+      "country": "DE"
+    },
+    {
+      "latency": 96,
+      "country": "DE"
+    },
+    {
+      "latency": 97,
+      "country": "DE"
+    },
+    {
+      "latency": 98,
+      "country": "DE"
+    },
+    {
+      "latency": 99,
+      "country": "DE"
+    },
+    {
+      "latency": 100,
+      "country": "DE"
+    },
+    {
+      "latency": 101,
+      "country": "DE"
+    },
+    {
+      "latency": 102,
+      "country": "DE"
+    },
+    {
+      "latency": 103,
+      "country": "DE"
+    },
+    {
+      "latency": 104,
+      "country": "DE"
+    },
+    {
+      "latency": 105,
+      "country": "DE"
+    },
+    {
+      "latency": 95,
+      "country": "DE"
+    },
+    {
+      "latency": 96,
+      "country": "DE"
+    },
+    {
+      "latency": 97,
+      "country": "DE"
+    },
+    {
+      "latency": 98,
+      "country": "DE"
+    },
+    {
+      "latency": 99,
+      "country": "DE"
+    },
+    {
+      "latency": 100,
+      "country": "DE"
+    },
+    {
+      "latency": 101,
+      "country": "DE"
+    },
+    {
+      "latency": 102,
+      "country": "DE"
+    },
+    {
+      "latency": 103,
+      "country": "DE"
+    },
+    {
+      "latency": 104,
+      "country": "DE"
+    },
+    {
+      "latency": 105,
+      "country": "DE"
+    },
+    {
+      "latency": 95,
+      "country": "DE"
+    },
+    {
+      "latency": 96,
+      "country": "DE"
+    },
+    {
+      "latency": 97,
+      "country": "DE"
+    },
+    {
+      "latency": 98,
+      "country": "DE"
+    },
+    {
+      "latency": 99,
+      "country": "DE"
+    },
+    {
+      "latency": 100,
+      "country": "DE"
+    },
+    {
+      "latency": 101,
+      "country": "DE"
+    },
+    {
+      "latency": 102,
+      "country": "DE"
+    },
+    {
+      "latency": 103,
+      "country": "DE"
+    },
+    {
+      "latency": 104,
+      "country": "DE"
+    },
+    {
+      "latency": 105,
+      "country": "DE"
+    },
+    {
+      "latency": 95,
+      "country": "DE"
+    },
+    {
+      "latency": 96,
+      "country": "DE"
+    },
+    {
+      "latency": 97,
+      "country": "DE"
+    },
+    {
+      "latency": 98,
+      "country": "DE"
+    },
+    {
+      "latency": 99,
+      "country": "DE"
+    },
+    {
+      "latency": 100,
+      "country": "DE"
+    },
+    {
+      "latency": 101,
+      "country": "DE"
+    },
+    {
+      "latency": 102,
+      "country": "DE"
+    },
+    {
+      "latency": 103,
+      "country": "DE"
+    },
+    {
+      "latency": 104,
+      "country": "DE"
+    },
+    {
+      "latency": 105,
+      "country": "DE"
+    },
+    {
+      "latency": 95,
+      "country": "DE"
+    },
+    {
+      "latency": 96,
+      "country": "DE"
+    },
+    {
+      "latency": 97,
+      "country": "DE"
+    },
+    {
+      "latency": 98,
+      "country": "DE"
+    },
+    {
+      "latency": 99,
+      "country": "DE"
+    },
+    {
+      "latency": 100,
+      "country": "DE"
+    },
+    {
+      "latency": 101,
+      "country": "DE"
+    },
+    {
+      "latency": 102,
+      "country": "DE"
+    },
+    {
+      "latency": 103,
+      "country": "DE"
+    },
+    {
+      "latency": 104,
+      "country": "DE"
+    },
+    {
+      "latency": 105,
+      "country": "DE"
+    },
+    {
+      "latency": 95,
+      "country": "DE"
+    },
+    {
+      "latency": 96,
+      "country": "DE"
+    },
+    {
+      "latency": 97,
+      "country": "DE"
+    },
+    {
+      "latency": 98,
+      "country": "DE"
+    },
+    {
+      "latency": 99,
+      "country": "DE"
+    },
+    {
+      "latency": 100,
+      "country": "DE"
+    },
+    {
+      "latency": 101,
+      "country": "DE"
+    }
+  ],
+  "scores": [
+    {
+      "latency": 9999,
+      "country": "RU"
+    },
+    {
+      "latency": 100,
+      "country": "RU"
+    },
+    {
+      "latency": 9999,
+      "country": "DE"
+    },
+    {
+      "latency": 100,
+      "country": "DE"
+    },
+    {
+      "latency": 150,
+      "country": "FR"
+    }
+  ]
+}

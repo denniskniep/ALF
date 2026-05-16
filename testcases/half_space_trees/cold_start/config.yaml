@@ -1,0 +1,17 @@
+cohorts:
+- name: test
+  features_config: default
+  fields: []
+  weight: 1.0
+  model:
+    name: HalfSpaceTrees
+    params:
+      window_size: 250
+      n_trees: 25
+      height: 8
+      sliding_steps: 1
+database:
+  type: memory
+features:
+  default:
+    latency: numeric

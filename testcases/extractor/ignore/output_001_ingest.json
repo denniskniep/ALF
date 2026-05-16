@@ -1,0 +1,19 @@
+[
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "kept",
+            "value": 42.0,
+            "preprocessed": {
+              "kept": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

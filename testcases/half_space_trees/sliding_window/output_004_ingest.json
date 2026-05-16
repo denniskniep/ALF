@@ -1,0 +1,19 @@
+[
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "global",
+        "features": [
+          {
+            "field": "latency",
+            "value": 100.0,
+            "preprocessed": {
+              "latency": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

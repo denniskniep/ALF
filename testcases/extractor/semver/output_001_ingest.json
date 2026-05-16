@@ -1,0 +1,33 @@
+[
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "version.major",
+            "value": 1.0,
+            "preprocessed": {
+              "version.major": 0.0
+            }
+          },
+          {
+            "field": "version.minor",
+            "value": 18.0,
+            "preprocessed": {
+              "version.minor": 0.0
+            }
+          },
+          {
+            "field": "version.patch",
+            "value": 2.0,
+            "preprocessed": {
+              "version.patch": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

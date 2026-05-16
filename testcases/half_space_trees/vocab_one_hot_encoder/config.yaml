@@ -1,0 +1,20 @@
+cohorts:
+- name: test
+  features_config: default
+  fields: []
+  weight: 1.0
+  model:
+    name: HalfSpaceTrees
+    params:
+      window_size: 15
+      sliding_steps: 1
+database:
+  type: memory
+features:
+  default:
+    country:
+      type: str_categorical
+      preprocessor:
+        name: OneHotEncoder
+        params:
+          n_categories: 10

@@ -1,0 +1,238 @@
+{
+  "ingest": [
+    {
+      "user_agent.os.name": "Windows 10",
+      "user_agent.agent.name": "Chrome"
+    },
+    {
+      "user_agent.os.name": "Windows 10",
+      "user_agent.agent.name": "Chrome"
+    },
+    {
+      "user_agent.os.name": "Windows 10",
+      "user_agent.agent.name": "Chrome"
+    },
+    {
+      "user_agent.os.name": "Windows 10",
+      "user_agent.agent.name": "Chrome"
+    },
+    {
+      "user_agent.os.name": "Windows 10",
+      "user_agent.agent.name": "Chrome"
+    },
+    {
+      "user_agent.os.name": "Windows 10",
+      "user_agent.agent.name": "Chrome"
+    },
+    {
+      "user_agent.os.name": "Windows 10",
+      "user_agent.agent.name": "Chrome"
+    },
+    {
+      "user_agent.os.name": "Windows 10",
+      "user_agent.agent.name": "Chrome"
+    },
+    {
+      "user_agent.os.name": "Windows 10",
+      "user_agent.agent.name": "Chrome"
+    },
+    {
+      "user_agent.os.name": "Windows 10",
+      "user_agent.agent.name": "Chrome"
+    },
+    {
+      "user_agent.os.name": "Windows 10",
+      "user_agent.agent.name": "Chrome"
+    },
+    {
+      "user_agent.os.name": "Windows 10",
+      "user_agent.agent.name": "Chrome"
+    },
+    {
+      "user_agent.os.name": "Windows 10",
+      "user_agent.agent.name": "Chrome"
+    },
+    {
+      "user_agent.os.name": "Windows 10",
+      "user_agent.agent.name": "Chrome"
+    },
+    {
+      "user_agent.os.name": "Windows 10",
+      "user_agent.agent.name": "Chrome"
+    },
+    {
+      "user_agent.os.name": "Windows 10",
+      "user_agent.agent.name": "Chrome"
+    },
+    {
+      "user_agent.os.name": "Windows 10",
+      "user_agent.agent.name": "Chrome"
+    },
+    {
+      "user_agent.os.name": "Windows 10",
+      "user_agent.agent.name": "Chrome"
+    },
+    {
+      "user_agent.os.name": "Windows 10",
+      "user_agent.agent.name": "Chrome"
+    },
+    {
+      "user_agent.os.name": "Windows 10",
+      "user_agent.agent.name": "Chrome"
+    },
+    {
+      "user_agent.os.name": "Windows 10",
+      "user_agent.agent.name": "Chrome"
+    },
+    {
+      "user_agent.os.name": "Windows 10",
+      "user_agent.agent.name": "Chrome"
+    },
+    {
+      "user_agent.os.name": "Windows 10",
+      "user_agent.agent.name": "Chrome"
+    },
+    {
+      "user_agent.os.name": "Windows 10",
+      "user_agent.agent.name": "Chrome"
+    },
+    {
+      "user_agent.os.name": "Windows 10",
+      "user_agent.agent.name": "Chrome"
+    },
+    {
+      "user_agent.os.name": "Windows 10",
+      "user_agent.agent.name": "Firefox"
+    },
+    {
+      "user_agent.os.name": "Windows 10",
+      "user_agent.agent.name": "Firefox"
+    },
+    {
+      "user_agent.os.name": "Windows 10",
+      "user_agent.agent.name": "Firefox"
+    },
+    {
+      "user_agent.os.name": "Windows 10",
+      "user_agent.agent.name": "Firefox"
+    },
+    {
+      "user_agent.os.name": "Windows 10",
+      "user_agent.agent.name": "Firefox"
+    },
+    {
+      "user_agent.os.name": "Windows 10",
+      "user_agent.agent.name": "Firefox"
+    },
+    {
+      "user_agent.os.name": "Windows 10",
+      "user_agent.agent.name": "Firefox"
+    },
+    {
+      "user_agent.os.name": "Windows 10",
+      "user_agent.agent.name": "Firefox"
+    },
+    {
+      "user_agent.os.name": "Windows 10",
+      "user_agent.agent.name": "Firefox"
+    },
+    {
+      "user_agent.os.name": "Windows 10",
+      "user_agent.agent.name": "Firefox"
+    },
+    {
+      "user_agent.os.name": "Windows 10",
+      "user_agent.agent.name": "Firefox"
+    },
+    {
+      "user_agent.os.name": "Windows 10",
+      "user_agent.agent.name": "Firefox"
+    },
+    {
+      "user_agent.os.name": "Windows 10",
+      "user_agent.agent.name": "Firefox"
+    },
+    {
+      "user_agent.os.name": "Windows 10",
+      "user_agent.agent.name": "Firefox"
+    },
+    {
+      "user_agent.os.name": "Windows 10",
+      "user_agent.agent.name": "Firefox"
+    },
+    {
+      "user_agent.os.name": "Windows 11",
+      "user_agent.agent.name": "Edge"
+    },
+    {
+      "user_agent.os.name": "Windows 11",
+      "user_agent.agent.name": "Edge"
+    },
+    {
+      "user_agent.os.name": "Windows 11",
+      "user_agent.agent.name": "Edge"
+    },
+    {
+      "user_agent.os.name": "Windows 11",
+      "user_agent.agent.name": "Edge"
+    },
+    {
+      "user_agent.os.name": "Windows 11",
+      "user_agent.agent.name": "Edge"
+    },
+    {
+      "user_agent.os.name": "Windows 11",
+      "user_agent.agent.name": "Edge"
+    },
+    {
+      "user_agent.os.name": "Windows 11",
+      "user_agent.agent.name": "Edge"
+    },
+    {
+      "user_agent.os.name": "Windows 11",
+      "user_agent.agent.name": "Edge"
+    },
+    {
+      "user_agent.os.name": "Windows 11",
+      "user_agent.agent.name": "Edge"
+    },
+    {
+      "user_agent.os.name": "Windows 11",
+      "user_agent.agent.name": "Edge"
+    },
+    {
+      "user_agent.os.name": "Windows 11",
+      "user_agent.agent.name": "Firefox"
+    },
+    {
+      "user_agent.os.name": "Windows 11",
+      "user_agent.agent.name": "Firefox"
+    },
+    {
+      "user_agent.os.name": "Windows 11",
+      "user_agent.agent.name": "Firefox"
+    },
+    {
+      "user_agent.os.name": "Windows 11",
+      "user_agent.agent.name": "Firefox"
+    },
+    {
+      "user_agent.os.name": "Windows 11",
+      "user_agent.agent.name": "Firefox"
+    }
+  ],
+  "scores": [
+    {
+      "user_agent.os.name": "Linux",
+      "user_agent.agent.name": "Firefox"
+    },
+    {
+      "user_agent.os.name": "Windows 10",
+      "user_agent.agent.name": "Chrome"
+    },
+    {
+      "user_agent.os.name": "Windows 10",
+      "user_agent.agent.name": "Edge"
+    }
+  ]
+}

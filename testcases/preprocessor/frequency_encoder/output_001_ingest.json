@@ -1,0 +1,87 @@
+[
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "global",
+        "features": [
+          {
+            "field": "country",
+            "value": "DE",
+            "preprocessed": {
+              "country": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "global",
+        "features": [
+          {
+            "field": "country",
+            "value": "US",
+            "preprocessed": {
+              "country": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "global",
+        "features": [
+          {
+            "field": "country",
+            "value": "DE",
+            "preprocessed": {
+              "country": 0.5
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "global",
+        "features": [
+          {
+            "field": "country",
+            "value": "DE",
+            "preprocessed": {
+              "country": 0.6666666666666666
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "global",
+        "features": [
+          {
+            "field": "country",
+            "value": "US",
+            "preprocessed": {
+              "country": 0.25
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

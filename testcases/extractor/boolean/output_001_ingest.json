@@ -1,0 +1,26 @@
+[
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "active",
+            "value": 1.0,
+            "preprocessed": {
+              "active": 0.0
+            }
+          },
+          {
+            "field": "verified",
+            "value": 0.0,
+            "preprocessed": {
+              "verified": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

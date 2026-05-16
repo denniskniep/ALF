@@ -1,0 +1,12 @@
+{
+  "ingest": [
+    {"latency": 100},
+    {"latency": 100},
+    {"latency": 100},
+    {"latency": 100},
+    {"latency": 100}
+  ],
+  "scores": [
+    {"latency": 100}
+  ]
+}

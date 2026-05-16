@@ -1,0 +1,26 @@
+[
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "ip.is_private",
+            "value": 1.0,
+            "preprocessed": {
+              "ip.is_private": 0.0
+            }
+          },
+          {
+            "field": "ip.subnet_hash",
+            "value": 0.719720471119443,
+            "preprocessed": {
+              "ip.subnet_hash": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

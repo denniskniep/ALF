@@ -1,0 +1,80 @@
+[
+  {
+    "accepted": true,
+    "composite_score": 6.5625,
+    "status": "NORMAL",
+    "scores": [
+      {
+        "name": "test",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 6.5625,
+        "score_label": "NORMAL",
+        "properties": {
+          "buffer_size": 40,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "country",
+              "value": "DE",
+              "delta": 5.7739,
+              "preprocessed": {
+                "country": 1.0
+              }
+            },
+            {
+              "field": "latency",
+              "value": 100.0,
+              "delta": 0.7886,
+              "preprocessed": {
+                "latency": 0.17407765595569788
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 100.0,
+    "status": "HIGHLY_ANOMALOUS",
+    "scores": [
+      {
+        "name": "test",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 100.0,
+        "score_label": "HIGHLY_ANOMALOUS",
+        "properties": {
+          "buffer_size": 40,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "latency",
+              "value": 9999.0,
+              "delta": 80.3005,
+              "preprocessed": {
+                "latency": 5.0
+              }
+            },
+            {
+              "field": "country",
+              "value": "RU",
+              "delta": 19.6995,
+              "preprocessed": {
+                "country": 3.0
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  }
+]

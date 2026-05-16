@@ -1,0 +1,19 @@
+[
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "fingerprint",
+            "value": "39afi884565g",
+            "preprocessed": {
+              "fingerprint": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

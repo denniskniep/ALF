@@ -1,0 +1,27 @@
+{
+  "ingest": [
+    {"latency": 95,  "country": "DE", "user": "known"},
+    {"latency": 96,  "country": "DE", "user": "known"},
+    {"latency": 97,  "country": "DE", "user": "known"},
+    {"latency": 98,  "country": "DE", "user": "known"},
+    {"latency": 99,  "country": "DE", "user": "known"},
+    {"latency": 100, "country": "DE", "user": "known"},
+    {"latency": 101, "country": "DE", "user": "known"},
+    {"latency": 102, "country": "DE", "user": "known"},
+    {"latency": 103, "country": "DE", "user": "known"},
+    {"latency": 104, "country": "DE", "user": "known"},
+    {"latency": 105, "country": "DE", "user": "known"},
+    {"latency": 95,  "country": "DE", "user": "known"},
+    {"latency": 96,  "country": "DE", "user": "known"},
+    {"latency": 97,  "country": "DE", "user": "known"},
+    {"latency": 98,  "country": "DE", "user": "known"},
+    {"latency": 99,  "country": "DE", "user": "known"},
+    {"latency": 100, "country": "DE", "user": "known"},
+    {"latency": 101, "country": "DE", "user": "known"},
+    {"latency": 102, "country": "DE", "user": "known"},
+    {"latency": 103, "country": "DE", "user": "known"}
+  ],
+  "scores": [
+    {"latency": 100, "country": "DE", "user": "new_user"}
+  ]
+}

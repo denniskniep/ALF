@@ -1,0 +1,32 @@
+[
+  {
+    "accepted": true,
+    "composite_score": 0.0,
+    "status": "NORMAL",
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 0.0,
+        "score_label": "NORMAL",
+        "properties": {
+          "reference_age": 4
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "latency",
+              "value": 100.0,
+              "delta": 0.0,
+              "preprocessed": {
+                "latency": 0.0
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  }
+]

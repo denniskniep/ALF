@@ -1,0 +1,2312 @@
+[
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "user_agent.os.name",
+            "value": "Windows 10",
+            "preprocessed": {
+              "user_agent.os.name__1": 1.0,
+              "user_agent.os.name__2": 0.0,
+              "user_agent.os.name__3": 0.0,
+              "user_agent.os.name__4": 0.0,
+              "user_agent.os.name__5": 0.0,
+              "user_agent.os.name__6": 0.0,
+              "user_agent.os.name__7": 0.0,
+              "user_agent.os.name__8": 0.0,
+              "user_agent.os.name__9": 0.0,
+              "user_agent.os.name__10": 0.0
+            }
+          },
+          {
+            "field": "user_agent.agent.name",
+            "value": "Chrome",
+            "preprocessed": {
+              "user_agent.agent.name__1": 1.0,
+              "user_agent.agent.name__2": 0.0,
+              "user_agent.agent.name__3": 0.0,
+              "user_agent.agent.name__4": 0.0,
+              "user_agent.agent.name__5": 0.0,
+              "user_agent.agent.name__6": 0.0,
+              "user_agent.agent.name__7": 0.0,
+              "user_agent.agent.name__8": 0.0,
+              "user_agent.agent.name__9": 0.0,
+              "user_agent.agent.name__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "user_agent.os.name",
+            "value": "Windows 10",
+            "preprocessed": {
+              "user_agent.os.name__1": 1.0,
+              "user_agent.os.name__2": 0.0,
+              "user_agent.os.name__3": 0.0,
+              "user_agent.os.name__4": 0.0,
+              "user_agent.os.name__5": 0.0,
+              "user_agent.os.name__6": 0.0,
+              "user_agent.os.name__7": 0.0,
+              "user_agent.os.name__8": 0.0,
+              "user_agent.os.name__9": 0.0,
+              "user_agent.os.name__10": 0.0
+            }
+          },
+          {
+            "field": "user_agent.agent.name",
+            "value": "Chrome",
+            "preprocessed": {
+              "user_agent.agent.name__1": 1.0,
+              "user_agent.agent.name__2": 0.0,
+              "user_agent.agent.name__3": 0.0,
+              "user_agent.agent.name__4": 0.0,
+              "user_agent.agent.name__5": 0.0,
+              "user_agent.agent.name__6": 0.0,
+              "user_agent.agent.name__7": 0.0,
+              "user_agent.agent.name__8": 0.0,
+              "user_agent.agent.name__9": 0.0,
+              "user_agent.agent.name__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "user_agent.os.name",
+            "value": "Windows 10",
+            "preprocessed": {
+              "user_agent.os.name__1": 1.0,
+              "user_agent.os.name__2": 0.0,
+              "user_agent.os.name__3": 0.0,
+              "user_agent.os.name__4": 0.0,
+              "user_agent.os.name__5": 0.0,
+              "user_agent.os.name__6": 0.0,
+              "user_agent.os.name__7": 0.0,
+              "user_agent.os.name__8": 0.0,
+              "user_agent.os.name__9": 0.0,
+              "user_agent.os.name__10": 0.0
+            }
+          },
+          {
+            "field": "user_agent.agent.name",
+            "value": "Chrome",
+            "preprocessed": {
+              "user_agent.agent.name__1": 1.0,
+              "user_agent.agent.name__2": 0.0,
+              "user_agent.agent.name__3": 0.0,
+              "user_agent.agent.name__4": 0.0,
+              "user_agent.agent.name__5": 0.0,
+              "user_agent.agent.name__6": 0.0,
+              "user_agent.agent.name__7": 0.0,
+              "user_agent.agent.name__8": 0.0,
+              "user_agent.agent.name__9": 0.0,
+              "user_agent.agent.name__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "user_agent.os.name",
+            "value": "Windows 10",
+            "preprocessed": {
+              "user_agent.os.name__1": 1.0,
+              "user_agent.os.name__2": 0.0,
+              "user_agent.os.name__3": 0.0,
+              "user_agent.os.name__4": 0.0,
+              "user_agent.os.name__5": 0.0,
+              "user_agent.os.name__6": 0.0,
+              "user_agent.os.name__7": 0.0,
+              "user_agent.os.name__8": 0.0,
+              "user_agent.os.name__9": 0.0,
+              "user_agent.os.name__10": 0.0
+            }
+          },
+          {
+            "field": "user_agent.agent.name",
+            "value": "Chrome",
+            "preprocessed": {
+              "user_agent.agent.name__1": 1.0,
+              "user_agent.agent.name__2": 0.0,
+              "user_agent.agent.name__3": 0.0,
+              "user_agent.agent.name__4": 0.0,
+              "user_agent.agent.name__5": 0.0,
+              "user_agent.agent.name__6": 0.0,
+              "user_agent.agent.name__7": 0.0,
+              "user_agent.agent.name__8": 0.0,
+              "user_agent.agent.name__9": 0.0,
+              "user_agent.agent.name__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "user_agent.os.name",
+            "value": "Windows 10",
+            "preprocessed": {
+              "user_agent.os.name__1": 1.0,
+              "user_agent.os.name__2": 0.0,
+              "user_agent.os.name__3": 0.0,
+              "user_agent.os.name__4": 0.0,
+              "user_agent.os.name__5": 0.0,
+              "user_agent.os.name__6": 0.0,
+              "user_agent.os.name__7": 0.0,
+              "user_agent.os.name__8": 0.0,
+              "user_agent.os.name__9": 0.0,
+              "user_agent.os.name__10": 0.0
+            }
+          },
+          {
+            "field": "user_agent.agent.name",
+            "value": "Chrome",
+            "preprocessed": {
+              "user_agent.agent.name__1": 1.0,
+              "user_agent.agent.name__2": 0.0,
+              "user_agent.agent.name__3": 0.0,
+              "user_agent.agent.name__4": 0.0,
+              "user_agent.agent.name__5": 0.0,
+              "user_agent.agent.name__6": 0.0,
+              "user_agent.agent.name__7": 0.0,
+              "user_agent.agent.name__8": 0.0,
+              "user_agent.agent.name__9": 0.0,
+              "user_agent.agent.name__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "user_agent.os.name",
+            "value": "Windows 10",
+            "preprocessed": {
+              "user_agent.os.name__1": 1.0,
+              "user_agent.os.name__2": 0.0,
+              "user_agent.os.name__3": 0.0,
+              "user_agent.os.name__4": 0.0,
+              "user_agent.os.name__5": 0.0,
+              "user_agent.os.name__6": 0.0,
+              "user_agent.os.name__7": 0.0,
+              "user_agent.os.name__8": 0.0,
+              "user_agent.os.name__9": 0.0,
+              "user_agent.os.name__10": 0.0
+            }
+          },
+          {
+            "field": "user_agent.agent.name",
+            "value": "Chrome",
+            "preprocessed": {
+              "user_agent.agent.name__1": 1.0,
+              "user_agent.agent.name__2": 0.0,
+              "user_agent.agent.name__3": 0.0,
+              "user_agent.agent.name__4": 0.0,
+              "user_agent.agent.name__5": 0.0,
+              "user_agent.agent.name__6": 0.0,
+              "user_agent.agent.name__7": 0.0,
+              "user_agent.agent.name__8": 0.0,
+              "user_agent.agent.name__9": 0.0,
+              "user_agent.agent.name__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "user_agent.os.name",
+            "value": "Windows 10",
+            "preprocessed": {
+              "user_agent.os.name__1": 1.0,
+              "user_agent.os.name__2": 0.0,
+              "user_agent.os.name__3": 0.0,
+              "user_agent.os.name__4": 0.0,
+              "user_agent.os.name__5": 0.0,
+              "user_agent.os.name__6": 0.0,
+              "user_agent.os.name__7": 0.0,
+              "user_agent.os.name__8": 0.0,
+              "user_agent.os.name__9": 0.0,
+              "user_agent.os.name__10": 0.0
+            }
+          },
+          {
+            "field": "user_agent.agent.name",
+            "value": "Chrome",
+            "preprocessed": {
+              "user_agent.agent.name__1": 1.0,
+              "user_agent.agent.name__2": 0.0,
+              "user_agent.agent.name__3": 0.0,
+              "user_agent.agent.name__4": 0.0,
+              "user_agent.agent.name__5": 0.0,
+              "user_agent.agent.name__6": 0.0,
+              "user_agent.agent.name__7": 0.0,
+              "user_agent.agent.name__8": 0.0,
+              "user_agent.agent.name__9": 0.0,
+              "user_agent.agent.name__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "user_agent.os.name",
+            "value": "Windows 10",
+            "preprocessed": {
+              "user_agent.os.name__1": 1.0,
+              "user_agent.os.name__2": 0.0,
+              "user_agent.os.name__3": 0.0,
+              "user_agent.os.name__4": 0.0,
+              "user_agent.os.name__5": 0.0,
+              "user_agent.os.name__6": 0.0,
+              "user_agent.os.name__7": 0.0,
+              "user_agent.os.name__8": 0.0,
+              "user_agent.os.name__9": 0.0,
+              "user_agent.os.name__10": 0.0
+            }
+          },
+          {
+            "field": "user_agent.agent.name",
+            "value": "Chrome",
+            "preprocessed": {
+              "user_agent.agent.name__1": 1.0,
+              "user_agent.agent.name__2": 0.0,
+              "user_agent.agent.name__3": 0.0,
+              "user_agent.agent.name__4": 0.0,
+              "user_agent.agent.name__5": 0.0,
+              "user_agent.agent.name__6": 0.0,
+              "user_agent.agent.name__7": 0.0,
+              "user_agent.agent.name__8": 0.0,
+              "user_agent.agent.name__9": 0.0,
+              "user_agent.agent.name__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "user_agent.os.name",
+            "value": "Windows 10",
+            "preprocessed": {
+              "user_agent.os.name__1": 1.0,
+              "user_agent.os.name__2": 0.0,
+              "user_agent.os.name__3": 0.0,
+              "user_agent.os.name__4": 0.0,
+              "user_agent.os.name__5": 0.0,
+              "user_agent.os.name__6": 0.0,
+              "user_agent.os.name__7": 0.0,
+              "user_agent.os.name__8": 0.0,
+              "user_agent.os.name__9": 0.0,
+              "user_agent.os.name__10": 0.0
+            }
+          },
+          {
+            "field": "user_agent.agent.name",
+            "value": "Chrome",
+            "preprocessed": {
+              "user_agent.agent.name__1": 1.0,
+              "user_agent.agent.name__2": 0.0,
+              "user_agent.agent.name__3": 0.0,
+              "user_agent.agent.name__4": 0.0,
+              "user_agent.agent.name__5": 0.0,
+              "user_agent.agent.name__6": 0.0,
+              "user_agent.agent.name__7": 0.0,
+              "user_agent.agent.name__8": 0.0,
+              "user_agent.agent.name__9": 0.0,
+              "user_agent.agent.name__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "user_agent.os.name",
+            "value": "Windows 10",
+            "preprocessed": {
+              "user_agent.os.name__1": 1.0,
+              "user_agent.os.name__2": 0.0,
+              "user_agent.os.name__3": 0.0,
+              "user_agent.os.name__4": 0.0,
+              "user_agent.os.name__5": 0.0,
+              "user_agent.os.name__6": 0.0,
+              "user_agent.os.name__7": 0.0,
+              "user_agent.os.name__8": 0.0,
+              "user_agent.os.name__9": 0.0,
+              "user_agent.os.name__10": 0.0
+            }
+          },
+          {
+            "field": "user_agent.agent.name",
+            "value": "Chrome",
+            "preprocessed": {
+              "user_agent.agent.name__1": 1.0,
+              "user_agent.agent.name__2": 0.0,
+              "user_agent.agent.name__3": 0.0,
+              "user_agent.agent.name__4": 0.0,
+              "user_agent.agent.name__5": 0.0,
+              "user_agent.agent.name__6": 0.0,
+              "user_agent.agent.name__7": 0.0,
+              "user_agent.agent.name__8": 0.0,
+              "user_agent.agent.name__9": 0.0,
+              "user_agent.agent.name__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "user_agent.os.name",
+            "value": "Windows 10",
+            "preprocessed": {
+              "user_agent.os.name__1": 1.0,
+              "user_agent.os.name__2": 0.0,
+              "user_agent.os.name__3": 0.0,
+              "user_agent.os.name__4": 0.0,
+              "user_agent.os.name__5": 0.0,
+              "user_agent.os.name__6": 0.0,
+              "user_agent.os.name__7": 0.0,
+              "user_agent.os.name__8": 0.0,
+              "user_agent.os.name__9": 0.0,
+              "user_agent.os.name__10": 0.0
+            }
+          },
+          {
+            "field": "user_agent.agent.name",
+            "value": "Chrome",
+            "preprocessed": {
+              "user_agent.agent.name__1": 1.0,
+              "user_agent.agent.name__2": 0.0,
+              "user_agent.agent.name__3": 0.0,
+              "user_agent.agent.name__4": 0.0,
+              "user_agent.agent.name__5": 0.0,
+              "user_agent.agent.name__6": 0.0,
+              "user_agent.agent.name__7": 0.0,
+              "user_agent.agent.name__8": 0.0,
+              "user_agent.agent.name__9": 0.0,
+              "user_agent.agent.name__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "user_agent.os.name",
+            "value": "Windows 10",
+            "preprocessed": {
+              "user_agent.os.name__1": 1.0,
+              "user_agent.os.name__2": 0.0,
+              "user_agent.os.name__3": 0.0,
+              "user_agent.os.name__4": 0.0,
+              "user_agent.os.name__5": 0.0,
+              "user_agent.os.name__6": 0.0,
+              "user_agent.os.name__7": 0.0,
+              "user_agent.os.name__8": 0.0,
+              "user_agent.os.name__9": 0.0,
+              "user_agent.os.name__10": 0.0
+            }
+          },
+          {
+            "field": "user_agent.agent.name",
+            "value": "Chrome",
+            "preprocessed": {
+              "user_agent.agent.name__1": 1.0,
+              "user_agent.agent.name__2": 0.0,
+              "user_agent.agent.name__3": 0.0,
+              "user_agent.agent.name__4": 0.0,
+              "user_agent.agent.name__5": 0.0,
+              "user_agent.agent.name__6": 0.0,
+              "user_agent.agent.name__7": 0.0,
+              "user_agent.agent.name__8": 0.0,
+              "user_agent.agent.name__9": 0.0,
+              "user_agent.agent.name__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "user_agent.os.name",
+            "value": "Windows 10",
+            "preprocessed": {
+              "user_agent.os.name__1": 1.0,
+              "user_agent.os.name__2": 0.0,
+              "user_agent.os.name__3": 0.0,
+              "user_agent.os.name__4": 0.0,
+              "user_agent.os.name__5": 0.0,
+              "user_agent.os.name__6": 0.0,
+              "user_agent.os.name__7": 0.0,
+              "user_agent.os.name__8": 0.0,
+              "user_agent.os.name__9": 0.0,
+              "user_agent.os.name__10": 0.0
+            }
+          },
+          {
+            "field": "user_agent.agent.name",
+            "value": "Chrome",
+            "preprocessed": {
+              "user_agent.agent.name__1": 1.0,
+              "user_agent.agent.name__2": 0.0,
+              "user_agent.agent.name__3": 0.0,
+              "user_agent.agent.name__4": 0.0,
+              "user_agent.agent.name__5": 0.0,
+              "user_agent.agent.name__6": 0.0,
+              "user_agent.agent.name__7": 0.0,
+              "user_agent.agent.name__8": 0.0,
+              "user_agent.agent.name__9": 0.0,
+              "user_agent.agent.name__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "user_agent.os.name",
+            "value": "Windows 10",
+            "preprocessed": {
+              "user_agent.os.name__1": 1.0,
+              "user_agent.os.name__2": 0.0,
+              "user_agent.os.name__3": 0.0,
+              "user_agent.os.name__4": 0.0,
+              "user_agent.os.name__5": 0.0,
+              "user_agent.os.name__6": 0.0,
+              "user_agent.os.name__7": 0.0,
+              "user_agent.os.name__8": 0.0,
+              "user_agent.os.name__9": 0.0,
+              "user_agent.os.name__10": 0.0
+            }
+          },
+          {
+            "field": "user_agent.agent.name",
+            "value": "Chrome",
+            "preprocessed": {
+              "user_agent.agent.name__1": 1.0,
+              "user_agent.agent.name__2": 0.0,
+              "user_agent.agent.name__3": 0.0,
+              "user_agent.agent.name__4": 0.0,
+              "user_agent.agent.name__5": 0.0,
+              "user_agent.agent.name__6": 0.0,
+              "user_agent.agent.name__7": 0.0,
+              "user_agent.agent.name__8": 0.0,
+              "user_agent.agent.name__9": 0.0,
+              "user_agent.agent.name__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "user_agent.os.name",
+            "value": "Windows 10",
+            "preprocessed": {
+              "user_agent.os.name__1": 1.0,
+              "user_agent.os.name__2": 0.0,
+              "user_agent.os.name__3": 0.0,
+              "user_agent.os.name__4": 0.0,
+              "user_agent.os.name__5": 0.0,
+              "user_agent.os.name__6": 0.0,
+              "user_agent.os.name__7": 0.0,
+              "user_agent.os.name__8": 0.0,
+              "user_agent.os.name__9": 0.0,
+              "user_agent.os.name__10": 0.0
+            }
+          },
+          {
+            "field": "user_agent.agent.name",
+            "value": "Chrome",
+            "preprocessed": {
+              "user_agent.agent.name__1": 1.0,
+              "user_agent.agent.name__2": 0.0,
+              "user_agent.agent.name__3": 0.0,
+              "user_agent.agent.name__4": 0.0,
+              "user_agent.agent.name__5": 0.0,
+              "user_agent.agent.name__6": 0.0,
+              "user_agent.agent.name__7": 0.0,
+              "user_agent.agent.name__8": 0.0,
+              "user_agent.agent.name__9": 0.0,
+              "user_agent.agent.name__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "user_agent.os.name",
+            "value": "Windows 10",
+            "preprocessed": {
+              "user_agent.os.name__1": 1.0,
+              "user_agent.os.name__2": 0.0,
+              "user_agent.os.name__3": 0.0,
+              "user_agent.os.name__4": 0.0,
+              "user_agent.os.name__5": 0.0,
+              "user_agent.os.name__6": 0.0,
+              "user_agent.os.name__7": 0.0,
+              "user_agent.os.name__8": 0.0,
+              "user_agent.os.name__9": 0.0,
+              "user_agent.os.name__10": 0.0
+            }
+          },
+          {
+            "field": "user_agent.agent.name",
+            "value": "Chrome",
+            "preprocessed": {
+              "user_agent.agent.name__1": 1.0,
+              "user_agent.agent.name__2": 0.0,
+              "user_agent.agent.name__3": 0.0,
+              "user_agent.agent.name__4": 0.0,
+              "user_agent.agent.name__5": 0.0,
+              "user_agent.agent.name__6": 0.0,
+              "user_agent.agent.name__7": 0.0,
+              "user_agent.agent.name__8": 0.0,
+              "user_agent.agent.name__9": 0.0,
+              "user_agent.agent.name__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "user_agent.os.name",
+            "value": "Windows 10",
+            "preprocessed": {
+              "user_agent.os.name__1": 1.0,
+              "user_agent.os.name__2": 0.0,
+              "user_agent.os.name__3": 0.0,
+              "user_agent.os.name__4": 0.0,
+              "user_agent.os.name__5": 0.0,
+              "user_agent.os.name__6": 0.0,
+              "user_agent.os.name__7": 0.0,
+              "user_agent.os.name__8": 0.0,
+              "user_agent.os.name__9": 0.0,
+              "user_agent.os.name__10": 0.0
+            }
+          },
+          {
+            "field": "user_agent.agent.name",
+            "value": "Chrome",
+            "preprocessed": {
+              "user_agent.agent.name__1": 1.0,
+              "user_agent.agent.name__2": 0.0,
+              "user_agent.agent.name__3": 0.0,
+              "user_agent.agent.name__4": 0.0,
+              "user_agent.agent.name__5": 0.0,
+              "user_agent.agent.name__6": 0.0,
+              "user_agent.agent.name__7": 0.0,
+              "user_agent.agent.name__8": 0.0,
+              "user_agent.agent.name__9": 0.0,
+              "user_agent.agent.name__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "user_agent.os.name",
+            "value": "Windows 10",
+            "preprocessed": {
+              "user_agent.os.name__1": 1.0,
+              "user_agent.os.name__2": 0.0,
+              "user_agent.os.name__3": 0.0,
+              "user_agent.os.name__4": 0.0,
+              "user_agent.os.name__5": 0.0,
+              "user_agent.os.name__6": 0.0,
+              "user_agent.os.name__7": 0.0,
+              "user_agent.os.name__8": 0.0,
+              "user_agent.os.name__9": 0.0,
+              "user_agent.os.name__10": 0.0
+            }
+          },
+          {
+            "field": "user_agent.agent.name",
+            "value": "Chrome",
+            "preprocessed": {
+              "user_agent.agent.name__1": 1.0,
+              "user_agent.agent.name__2": 0.0,
+              "user_agent.agent.name__3": 0.0,
+              "user_agent.agent.name__4": 0.0,
+              "user_agent.agent.name__5": 0.0,
+              "user_agent.agent.name__6": 0.0,
+              "user_agent.agent.name__7": 0.0,
+              "user_agent.agent.name__8": 0.0,
+              "user_agent.agent.name__9": 0.0,
+              "user_agent.agent.name__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "user_agent.os.name",
+            "value": "Windows 10",
+            "preprocessed": {
+              "user_agent.os.name__1": 1.0,
+              "user_agent.os.name__2": 0.0,
+              "user_agent.os.name__3": 0.0,
+              "user_agent.os.name__4": 0.0,
+              "user_agent.os.name__5": 0.0,
+              "user_agent.os.name__6": 0.0,
+              "user_agent.os.name__7": 0.0,
+              "user_agent.os.name__8": 0.0,
+              "user_agent.os.name__9": 0.0,
+              "user_agent.os.name__10": 0.0
+            }
+          },
+          {
+            "field": "user_agent.agent.name",
+            "value": "Chrome",
+            "preprocessed": {
+              "user_agent.agent.name__1": 1.0,
+              "user_agent.agent.name__2": 0.0,
+              "user_agent.agent.name__3": 0.0,
+              "user_agent.agent.name__4": 0.0,
+              "user_agent.agent.name__5": 0.0,
+              "user_agent.agent.name__6": 0.0,
+              "user_agent.agent.name__7": 0.0,
+              "user_agent.agent.name__8": 0.0,
+              "user_agent.agent.name__9": 0.0,
+              "user_agent.agent.name__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "user_agent.os.name",
+            "value": "Windows 10",
+            "preprocessed": {
+              "user_agent.os.name__1": 1.0,
+              "user_agent.os.name__2": 0.0,
+              "user_agent.os.name__3": 0.0,
+              "user_agent.os.name__4": 0.0,
+              "user_agent.os.name__5": 0.0,
+              "user_agent.os.name__6": 0.0,
+              "user_agent.os.name__7": 0.0,
+              "user_agent.os.name__8": 0.0,
+              "user_agent.os.name__9": 0.0,
+              "user_agent.os.name__10": 0.0
+            }
+          },
+          {
+            "field": "user_agent.agent.name",
+            "value": "Chrome",
+            "preprocessed": {
+              "user_agent.agent.name__1": 1.0,
+              "user_agent.agent.name__2": 0.0,
+              "user_agent.agent.name__3": 0.0,
+              "user_agent.agent.name__4": 0.0,
+              "user_agent.agent.name__5": 0.0,
+              "user_agent.agent.name__6": 0.0,
+              "user_agent.agent.name__7": 0.0,
+              "user_agent.agent.name__8": 0.0,
+              "user_agent.agent.name__9": 0.0,
+              "user_agent.agent.name__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "user_agent.os.name",
+            "value": "Windows 10",
+            "preprocessed": {
+              "user_agent.os.name__1": 1.0,
+              "user_agent.os.name__2": 0.0,
+              "user_agent.os.name__3": 0.0,
+              "user_agent.os.name__4": 0.0,
+              "user_agent.os.name__5": 0.0,
+              "user_agent.os.name__6": 0.0,
+              "user_agent.os.name__7": 0.0,
+              "user_agent.os.name__8": 0.0,
+              "user_agent.os.name__9": 0.0,
+              "user_agent.os.name__10": 0.0
+            }
+          },
+          {
+            "field": "user_agent.agent.name",
+            "value": "Chrome",
+            "preprocessed": {
+              "user_agent.agent.name__1": 1.0,
+              "user_agent.agent.name__2": 0.0,
+              "user_agent.agent.name__3": 0.0,
+              "user_agent.agent.name__4": 0.0,
+              "user_agent.agent.name__5": 0.0,
+              "user_agent.agent.name__6": 0.0,
+              "user_agent.agent.name__7": 0.0,
+              "user_agent.agent.name__8": 0.0,
+              "user_agent.agent.name__9": 0.0,
+              "user_agent.agent.name__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "user_agent.os.name",
+            "value": "Windows 10",
+            "preprocessed": {
+              "user_agent.os.name__1": 1.0,
+              "user_agent.os.name__2": 0.0,
+              "user_agent.os.name__3": 0.0,
+              "user_agent.os.name__4": 0.0,
+              "user_agent.os.name__5": 0.0,
+              "user_agent.os.name__6": 0.0,
+              "user_agent.os.name__7": 0.0,
+              "user_agent.os.name__8": 0.0,
+              "user_agent.os.name__9": 0.0,
+              "user_agent.os.name__10": 0.0
+            }
+          },
+          {
+            "field": "user_agent.agent.name",
+            "value": "Chrome",
+            "preprocessed": {
+              "user_agent.agent.name__1": 1.0,
+              "user_agent.agent.name__2": 0.0,
+              "user_agent.agent.name__3": 0.0,
+              "user_agent.agent.name__4": 0.0,
+              "user_agent.agent.name__5": 0.0,
+              "user_agent.agent.name__6": 0.0,
+              "user_agent.agent.name__7": 0.0,
+              "user_agent.agent.name__8": 0.0,
+              "user_agent.agent.name__9": 0.0,
+              "user_agent.agent.name__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "user_agent.os.name",
+            "value": "Windows 10",
+            "preprocessed": {
+              "user_agent.os.name__1": 1.0,
+              "user_agent.os.name__2": 0.0,
+              "user_agent.os.name__3": 0.0,
+              "user_agent.os.name__4": 0.0,
+              "user_agent.os.name__5": 0.0,
+              "user_agent.os.name__6": 0.0,
+              "user_agent.os.name__7": 0.0,
+              "user_agent.os.name__8": 0.0,
+              "user_agent.os.name__9": 0.0,
+              "user_agent.os.name__10": 0.0
+            }
+          },
+          {
+            "field": "user_agent.agent.name",
+            "value": "Chrome",
+            "preprocessed": {
+              "user_agent.agent.name__1": 1.0,
+              "user_agent.agent.name__2": 0.0,
+              "user_agent.agent.name__3": 0.0,
+              "user_agent.agent.name__4": 0.0,
+              "user_agent.agent.name__5": 0.0,
+              "user_agent.agent.name__6": 0.0,
+              "user_agent.agent.name__7": 0.0,
+              "user_agent.agent.name__8": 0.0,
+              "user_agent.agent.name__9": 0.0,
+              "user_agent.agent.name__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "user_agent.os.name",
+            "value": "Windows 10",
+            "preprocessed": {
+              "user_agent.os.name__1": 1.0,
+              "user_agent.os.name__2": 0.0,
+              "user_agent.os.name__3": 0.0,
+              "user_agent.os.name__4": 0.0,
+              "user_agent.os.name__5": 0.0,
+              "user_agent.os.name__6": 0.0,
+              "user_agent.os.name__7": 0.0,
+              "user_agent.os.name__8": 0.0,
+              "user_agent.os.name__9": 0.0,
+              "user_agent.os.name__10": 0.0
+            }
+          },
+          {
+            "field": "user_agent.agent.name",
+            "value": "Chrome",
+            "preprocessed": {
+              "user_agent.agent.name__1": 1.0,
+              "user_agent.agent.name__2": 0.0,
+              "user_agent.agent.name__3": 0.0,
+              "user_agent.agent.name__4": 0.0,
+              "user_agent.agent.name__5": 0.0,
+              "user_agent.agent.name__6": 0.0,
+              "user_agent.agent.name__7": 0.0,
+              "user_agent.agent.name__8": 0.0,
+              "user_agent.agent.name__9": 0.0,
+              "user_agent.agent.name__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "user_agent.os.name",
+            "value": "Windows 10",
+            "preprocessed": {
+              "user_agent.os.name__1": 1.0,
+              "user_agent.os.name__2": 0.0,
+              "user_agent.os.name__3": 0.0,
+              "user_agent.os.name__4": 0.0,
+              "user_agent.os.name__5": 0.0,
+              "user_agent.os.name__6": 0.0,
+              "user_agent.os.name__7": 0.0,
+              "user_agent.os.name__8": 0.0,
+              "user_agent.os.name__9": 0.0,
+              "user_agent.os.name__10": 0.0
+            }
+          },
+          {
+            "field": "user_agent.agent.name",
+            "value": "Chrome",
+            "preprocessed": {
+              "user_agent.agent.name__1": 1.0,
+              "user_agent.agent.name__2": 0.0,
+              "user_agent.agent.name__3": 0.0,
+              "user_agent.agent.name__4": 0.0,
+              "user_agent.agent.name__5": 0.0,
+              "user_agent.agent.name__6": 0.0,
+              "user_agent.agent.name__7": 0.0,
+              "user_agent.agent.name__8": 0.0,
+              "user_agent.agent.name__9": 0.0,
+              "user_agent.agent.name__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "user_agent.os.name",
+            "value": "Windows 10",
+            "preprocessed": {
+              "user_agent.os.name__1": 1.0,
+              "user_agent.os.name__2": 0.0,
+              "user_agent.os.name__3": 0.0,
+              "user_agent.os.name__4": 0.0,
+              "user_agent.os.name__5": 0.0,
+              "user_agent.os.name__6": 0.0,
+              "user_agent.os.name__7": 0.0,
+              "user_agent.os.name__8": 0.0,
+              "user_agent.os.name__9": 0.0,
+              "user_agent.os.name__10": 0.0
+            }
+          },
+          {
+            "field": "user_agent.agent.name",
+            "value": "Firefox",
+            "preprocessed": {
+              "user_agent.agent.name__1": 0.0,
+              "user_agent.agent.name__2": 1.0,
+              "user_agent.agent.name__3": 0.0,
+              "user_agent.agent.name__4": 0.0,
+              "user_agent.agent.name__5": 0.0,
+              "user_agent.agent.name__6": 0.0,
+              "user_agent.agent.name__7": 0.0,
+              "user_agent.agent.name__8": 0.0,
+              "user_agent.agent.name__9": 0.0,
+              "user_agent.agent.name__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "user_agent.os.name",
+            "value": "Windows 10",
+            "preprocessed": {
+              "user_agent.os.name__1": 1.0,
+              "user_agent.os.name__2": 0.0,
+              "user_agent.os.name__3": 0.0,
+              "user_agent.os.name__4": 0.0,
+              "user_agent.os.name__5": 0.0,
+              "user_agent.os.name__6": 0.0,
+              "user_agent.os.name__7": 0.0,
+              "user_agent.os.name__8": 0.0,
+              "user_agent.os.name__9": 0.0,
+              "user_agent.os.name__10": 0.0
+            }
+          },
+          {
+            "field": "user_agent.agent.name",
+            "value": "Firefox",
+            "preprocessed": {
+              "user_agent.agent.name__1": 0.0,
+              "user_agent.agent.name__2": 1.0,
+              "user_agent.agent.name__3": 0.0,
+              "user_agent.agent.name__4": 0.0,
+              "user_agent.agent.name__5": 0.0,
+              "user_agent.agent.name__6": 0.0,
+              "user_agent.agent.name__7": 0.0,
+              "user_agent.agent.name__8": 0.0,
+              "user_agent.agent.name__9": 0.0,
+              "user_agent.agent.name__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "user_agent.os.name",
+            "value": "Windows 10",
+            "preprocessed": {
+              "user_agent.os.name__1": 1.0,
+              "user_agent.os.name__2": 0.0,
+              "user_agent.os.name__3": 0.0,
+              "user_agent.os.name__4": 0.0,
+              "user_agent.os.name__5": 0.0,
+              "user_agent.os.name__6": 0.0,
+              "user_agent.os.name__7": 0.0,
+              "user_agent.os.name__8": 0.0,
+              "user_agent.os.name__9": 0.0,
+              "user_agent.os.name__10": 0.0
+            }
+          },
+          {
+            "field": "user_agent.agent.name",
+            "value": "Firefox",
+            "preprocessed": {
+              "user_agent.agent.name__1": 0.0,
+              "user_agent.agent.name__2": 1.0,
+              "user_agent.agent.name__3": 0.0,
+              "user_agent.agent.name__4": 0.0,
+              "user_agent.agent.name__5": 0.0,
+              "user_agent.agent.name__6": 0.0,
+              "user_agent.agent.name__7": 0.0,
+              "user_agent.agent.name__8": 0.0,
+              "user_agent.agent.name__9": 0.0,
+              "user_agent.agent.name__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "user_agent.os.name",
+            "value": "Windows 10",
+            "preprocessed": {
+              "user_agent.os.name__1": 1.0,
+              "user_agent.os.name__2": 0.0,
+              "user_agent.os.name__3": 0.0,
+              "user_agent.os.name__4": 0.0,
+              "user_agent.os.name__5": 0.0,
+              "user_agent.os.name__6": 0.0,
+              "user_agent.os.name__7": 0.0,
+              "user_agent.os.name__8": 0.0,
+              "user_agent.os.name__9": 0.0,
+              "user_agent.os.name__10": 0.0
+            }
+          },
+          {
+            "field": "user_agent.agent.name",
+            "value": "Firefox",
+            "preprocessed": {
+              "user_agent.agent.name__1": 0.0,
+              "user_agent.agent.name__2": 1.0,
+              "user_agent.agent.name__3": 0.0,
+              "user_agent.agent.name__4": 0.0,
+              "user_agent.agent.name__5": 0.0,
+              "user_agent.agent.name__6": 0.0,
+              "user_agent.agent.name__7": 0.0,
+              "user_agent.agent.name__8": 0.0,
+              "user_agent.agent.name__9": 0.0,
+              "user_agent.agent.name__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "user_agent.os.name",
+            "value": "Windows 10",
+            "preprocessed": {
+              "user_agent.os.name__1": 1.0,
+              "user_agent.os.name__2": 0.0,
+              "user_agent.os.name__3": 0.0,
+              "user_agent.os.name__4": 0.0,
+              "user_agent.os.name__5": 0.0,
+              "user_agent.os.name__6": 0.0,
+              "user_agent.os.name__7": 0.0,
+              "user_agent.os.name__8": 0.0,
+              "user_agent.os.name__9": 0.0,
+              "user_agent.os.name__10": 0.0
+            }
+          },
+          {
+            "field": "user_agent.agent.name",
+            "value": "Firefox",
+            "preprocessed": {
+              "user_agent.agent.name__1": 0.0,
+              "user_agent.agent.name__2": 1.0,
+              "user_agent.agent.name__3": 0.0,
+              "user_agent.agent.name__4": 0.0,
+              "user_agent.agent.name__5": 0.0,
+              "user_agent.agent.name__6": 0.0,
+              "user_agent.agent.name__7": 0.0,
+              "user_agent.agent.name__8": 0.0,
+              "user_agent.agent.name__9": 0.0,
+              "user_agent.agent.name__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "user_agent.os.name",
+            "value": "Windows 10",
+            "preprocessed": {
+              "user_agent.os.name__1": 1.0,
+              "user_agent.os.name__2": 0.0,
+              "user_agent.os.name__3": 0.0,
+              "user_agent.os.name__4": 0.0,
+              "user_agent.os.name__5": 0.0,
+              "user_agent.os.name__6": 0.0,
+              "user_agent.os.name__7": 0.0,
+              "user_agent.os.name__8": 0.0,
+              "user_agent.os.name__9": 0.0,
+              "user_agent.os.name__10": 0.0
+            }
+          },
+          {
+            "field": "user_agent.agent.name",
+            "value": "Firefox",
+            "preprocessed": {
+              "user_agent.agent.name__1": 0.0,
+              "user_agent.agent.name__2": 1.0,
+              "user_agent.agent.name__3": 0.0,
+              "user_agent.agent.name__4": 0.0,
+              "user_agent.agent.name__5": 0.0,
+              "user_agent.agent.name__6": 0.0,
+              "user_agent.agent.name__7": 0.0,
+              "user_agent.agent.name__8": 0.0,
+              "user_agent.agent.name__9": 0.0,
+              "user_agent.agent.name__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "user_agent.os.name",
+            "value": "Windows 10",
+            "preprocessed": {
+              "user_agent.os.name__1": 1.0,
+              "user_agent.os.name__2": 0.0,
+              "user_agent.os.name__3": 0.0,
+              "user_agent.os.name__4": 0.0,
+              "user_agent.os.name__5": 0.0,
+              "user_agent.os.name__6": 0.0,
+              "user_agent.os.name__7": 0.0,
+              "user_agent.os.name__8": 0.0,
+              "user_agent.os.name__9": 0.0,
+              "user_agent.os.name__10": 0.0
+            }
+          },
+          {
+            "field": "user_agent.agent.name",
+            "value": "Firefox",
+            "preprocessed": {
+              "user_agent.agent.name__1": 0.0,
+              "user_agent.agent.name__2": 1.0,
+              "user_agent.agent.name__3": 0.0,
+              "user_agent.agent.name__4": 0.0,
+              "user_agent.agent.name__5": 0.0,
+              "user_agent.agent.name__6": 0.0,
+              "user_agent.agent.name__7": 0.0,
+              "user_agent.agent.name__8": 0.0,
+              "user_agent.agent.name__9": 0.0,
+              "user_agent.agent.name__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "user_agent.os.name",
+            "value": "Windows 10",
+            "preprocessed": {
+              "user_agent.os.name__1": 1.0,
+              "user_agent.os.name__2": 0.0,
+              "user_agent.os.name__3": 0.0,
+              "user_agent.os.name__4": 0.0,
+              "user_agent.os.name__5": 0.0,
+              "user_agent.os.name__6": 0.0,
+              "user_agent.os.name__7": 0.0,
+              "user_agent.os.name__8": 0.0,
+              "user_agent.os.name__9": 0.0,
+              "user_agent.os.name__10": 0.0
+            }
+          },
+          {
+            "field": "user_agent.agent.name",
+            "value": "Firefox",
+            "preprocessed": {
+              "user_agent.agent.name__1": 0.0,
+              "user_agent.agent.name__2": 1.0,
+              "user_agent.agent.name__3": 0.0,
+              "user_agent.agent.name__4": 0.0,
+              "user_agent.agent.name__5": 0.0,
+              "user_agent.agent.name__6": 0.0,
+              "user_agent.agent.name__7": 0.0,
+              "user_agent.agent.name__8": 0.0,
+              "user_agent.agent.name__9": 0.0,
+              "user_agent.agent.name__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "user_agent.os.name",
+            "value": "Windows 10",
+            "preprocessed": {
+              "user_agent.os.name__1": 1.0,
+              "user_agent.os.name__2": 0.0,
+              "user_agent.os.name__3": 0.0,
+              "user_agent.os.name__4": 0.0,
+              "user_agent.os.name__5": 0.0,
+              "user_agent.os.name__6": 0.0,
+              "user_agent.os.name__7": 0.0,
+              "user_agent.os.name__8": 0.0,
+              "user_agent.os.name__9": 0.0,
+              "user_agent.os.name__10": 0.0
+            }
+          },
+          {
+            "field": "user_agent.agent.name",
+            "value": "Firefox",
+            "preprocessed": {
+              "user_agent.agent.name__1": 0.0,
+              "user_agent.agent.name__2": 1.0,
+              "user_agent.agent.name__3": 0.0,
+              "user_agent.agent.name__4": 0.0,
+              "user_agent.agent.name__5": 0.0,
+              "user_agent.agent.name__6": 0.0,
+              "user_agent.agent.name__7": 0.0,
+              "user_agent.agent.name__8": 0.0,
+              "user_agent.agent.name__9": 0.0,
+              "user_agent.agent.name__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "user_agent.os.name",
+            "value": "Windows 10",
+            "preprocessed": {
+              "user_agent.os.name__1": 1.0,
+              "user_agent.os.name__2": 0.0,
+              "user_agent.os.name__3": 0.0,
+              "user_agent.os.name__4": 0.0,
+              "user_agent.os.name__5": 0.0,
+              "user_agent.os.name__6": 0.0,
+              "user_agent.os.name__7": 0.0,
+              "user_agent.os.name__8": 0.0,
+              "user_agent.os.name__9": 0.0,
+              "user_agent.os.name__10": 0.0
+            }
+          },
+          {
+            "field": "user_agent.agent.name",
+            "value": "Firefox",
+            "preprocessed": {
+              "user_agent.agent.name__1": 0.0,
+              "user_agent.agent.name__2": 1.0,
+              "user_agent.agent.name__3": 0.0,
+              "user_agent.agent.name__4": 0.0,
+              "user_agent.agent.name__5": 0.0,
+              "user_agent.agent.name__6": 0.0,
+              "user_agent.agent.name__7": 0.0,
+              "user_agent.agent.name__8": 0.0,
+              "user_agent.agent.name__9": 0.0,
+              "user_agent.agent.name__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "user_agent.os.name",
+            "value": "Windows 10",
+            "preprocessed": {
+              "user_agent.os.name__1": 1.0,
+              "user_agent.os.name__2": 0.0,
+              "user_agent.os.name__3": 0.0,
+              "user_agent.os.name__4": 0.0,
+              "user_agent.os.name__5": 0.0,
+              "user_agent.os.name__6": 0.0,
+              "user_agent.os.name__7": 0.0,
+              "user_agent.os.name__8": 0.0,
+              "user_agent.os.name__9": 0.0,
+              "user_agent.os.name__10": 0.0
+            }
+          },
+          {
+            "field": "user_agent.agent.name",
+            "value": "Firefox",
+            "preprocessed": {
+              "user_agent.agent.name__1": 0.0,
+              "user_agent.agent.name__2": 1.0,
+              "user_agent.agent.name__3": 0.0,
+              "user_agent.agent.name__4": 0.0,
+              "user_agent.agent.name__5": 0.0,
+              "user_agent.agent.name__6": 0.0,
+              "user_agent.agent.name__7": 0.0,
+              "user_agent.agent.name__8": 0.0,
+              "user_agent.agent.name__9": 0.0,
+              "user_agent.agent.name__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "user_agent.os.name",
+            "value": "Windows 10",
+            "preprocessed": {
+              "user_agent.os.name__1": 1.0,
+              "user_agent.os.name__2": 0.0,
+              "user_agent.os.name__3": 0.0,
+              "user_agent.os.name__4": 0.0,
+              "user_agent.os.name__5": 0.0,
+              "user_agent.os.name__6": 0.0,
+              "user_agent.os.name__7": 0.0,
+              "user_agent.os.name__8": 0.0,
+              "user_agent.os.name__9": 0.0,
+              "user_agent.os.name__10": 0.0
+            }
+          },
+          {
+            "field": "user_agent.agent.name",
+            "value": "Firefox",
+            "preprocessed": {
+              "user_agent.agent.name__1": 0.0,
+              "user_agent.agent.name__2": 1.0,
+              "user_agent.agent.name__3": 0.0,
+              "user_agent.agent.name__4": 0.0,
+              "user_agent.agent.name__5": 0.0,
+              "user_agent.agent.name__6": 0.0,
+              "user_agent.agent.name__7": 0.0,
+              "user_agent.agent.name__8": 0.0,
+              "user_agent.agent.name__9": 0.0,
+              "user_agent.agent.name__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "user_agent.os.name",
+            "value": "Windows 10",
+            "preprocessed": {
+              "user_agent.os.name__1": 1.0,
+              "user_agent.os.name__2": 0.0,
+              "user_agent.os.name__3": 0.0,
+              "user_agent.os.name__4": 0.0,
+              "user_agent.os.name__5": 0.0,
+              "user_agent.os.name__6": 0.0,
+              "user_agent.os.name__7": 0.0,
+              "user_agent.os.name__8": 0.0,
+              "user_agent.os.name__9": 0.0,
+              "user_agent.os.name__10": 0.0
+            }
+          },
+          {
+            "field": "user_agent.agent.name",
+            "value": "Firefox",
+            "preprocessed": {
+              "user_agent.agent.name__1": 0.0,
+              "user_agent.agent.name__2": 1.0,
+              "user_agent.agent.name__3": 0.0,
+              "user_agent.agent.name__4": 0.0,
+              "user_agent.agent.name__5": 0.0,
+              "user_agent.agent.name__6": 0.0,
+              "user_agent.agent.name__7": 0.0,
+              "user_agent.agent.name__8": 0.0,
+              "user_agent.agent.name__9": 0.0,
+              "user_agent.agent.name__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "user_agent.os.name",
+            "value": "Windows 10",
+            "preprocessed": {
+              "user_agent.os.name__1": 1.0,
+              "user_agent.os.name__2": 0.0,
+              "user_agent.os.name__3": 0.0,
+              "user_agent.os.name__4": 0.0,
+              "user_agent.os.name__5": 0.0,
+              "user_agent.os.name__6": 0.0,
+              "user_agent.os.name__7": 0.0,
+              "user_agent.os.name__8": 0.0,
+              "user_agent.os.name__9": 0.0,
+              "user_agent.os.name__10": 0.0
+            }
+          },
+          {
+            "field": "user_agent.agent.name",
+            "value": "Firefox",
+            "preprocessed": {
+              "user_agent.agent.name__1": 0.0,
+              "user_agent.agent.name__2": 1.0,
+              "user_agent.agent.name__3": 0.0,
+              "user_agent.agent.name__4": 0.0,
+              "user_agent.agent.name__5": 0.0,
+              "user_agent.agent.name__6": 0.0,
+              "user_agent.agent.name__7": 0.0,
+              "user_agent.agent.name__8": 0.0,
+              "user_agent.agent.name__9": 0.0,
+              "user_agent.agent.name__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "user_agent.os.name",
+            "value": "Windows 10",
+            "preprocessed": {
+              "user_agent.os.name__1": 1.0,
+              "user_agent.os.name__2": 0.0,
+              "user_agent.os.name__3": 0.0,
+              "user_agent.os.name__4": 0.0,
+              "user_agent.os.name__5": 0.0,
+              "user_agent.os.name__6": 0.0,
+              "user_agent.os.name__7": 0.0,
+              "user_agent.os.name__8": 0.0,
+              "user_agent.os.name__9": 0.0,
+              "user_agent.os.name__10": 0.0
+            }
+          },
+          {
+            "field": "user_agent.agent.name",
+            "value": "Firefox",
+            "preprocessed": {
+              "user_agent.agent.name__1": 0.0,
+              "user_agent.agent.name__2": 1.0,
+              "user_agent.agent.name__3": 0.0,
+              "user_agent.agent.name__4": 0.0,
+              "user_agent.agent.name__5": 0.0,
+              "user_agent.agent.name__6": 0.0,
+              "user_agent.agent.name__7": 0.0,
+              "user_agent.agent.name__8": 0.0,
+              "user_agent.agent.name__9": 0.0,
+              "user_agent.agent.name__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "user_agent.os.name",
+            "value": "Windows 11",
+            "preprocessed": {
+              "user_agent.os.name__1": 0.0,
+              "user_agent.os.name__2": 1.0,
+              "user_agent.os.name__3": 0.0,
+              "user_agent.os.name__4": 0.0,
+              "user_agent.os.name__5": 0.0,
+              "user_agent.os.name__6": 0.0,
+              "user_agent.os.name__7": 0.0,
+              "user_agent.os.name__8": 0.0,
+              "user_agent.os.name__9": 0.0,
+              "user_agent.os.name__10": 0.0
+            }
+          },
+          {
+            "field": "user_agent.agent.name",
+            "value": "Edge",
+            "preprocessed": {
+              "user_agent.agent.name__1": 0.0,
+              "user_agent.agent.name__2": 0.0,
+              "user_agent.agent.name__3": 1.0,
+              "user_agent.agent.name__4": 0.0,
+              "user_agent.agent.name__5": 0.0,
+              "user_agent.agent.name__6": 0.0,
+              "user_agent.agent.name__7": 0.0,
+              "user_agent.agent.name__8": 0.0,
+              "user_agent.agent.name__9": 0.0,
+              "user_agent.agent.name__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "user_agent.os.name",
+            "value": "Windows 11",
+            "preprocessed": {
+              "user_agent.os.name__1": 0.0,
+              "user_agent.os.name__2": 1.0,
+              "user_agent.os.name__3": 0.0,
+              "user_agent.os.name__4": 0.0,
+              "user_agent.os.name__5": 0.0,
+              "user_agent.os.name__6": 0.0,
+              "user_agent.os.name__7": 0.0,
+              "user_agent.os.name__8": 0.0,
+              "user_agent.os.name__9": 0.0,
+              "user_agent.os.name__10": 0.0
+            }
+          },
+          {
+            "field": "user_agent.agent.name",
+            "value": "Edge",
+            "preprocessed": {
+              "user_agent.agent.name__1": 0.0,
+              "user_agent.agent.name__2": 0.0,
+              "user_agent.agent.name__3": 1.0,
+              "user_agent.agent.name__4": 0.0,
+              "user_agent.agent.name__5": 0.0,
+              "user_agent.agent.name__6": 0.0,
+              "user_agent.agent.name__7": 0.0,
+              "user_agent.agent.name__8": 0.0,
+              "user_agent.agent.name__9": 0.0,
+              "user_agent.agent.name__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "user_agent.os.name",
+            "value": "Windows 11",
+            "preprocessed": {
+              "user_agent.os.name__1": 0.0,
+              "user_agent.os.name__2": 1.0,
+              "user_agent.os.name__3": 0.0,
+              "user_agent.os.name__4": 0.0,
+              "user_agent.os.name__5": 0.0,
+              "user_agent.os.name__6": 0.0,
+              "user_agent.os.name__7": 0.0,
+              "user_agent.os.name__8": 0.0,
+              "user_agent.os.name__9": 0.0,
+              "user_agent.os.name__10": 0.0
+            }
+          },
+          {
+            "field": "user_agent.agent.name",
+            "value": "Edge",
+            "preprocessed": {
+              "user_agent.agent.name__1": 0.0,
+              "user_agent.agent.name__2": 0.0,
+              "user_agent.agent.name__3": 1.0,
+              "user_agent.agent.name__4": 0.0,
+              "user_agent.agent.name__5": 0.0,
+              "user_agent.agent.name__6": 0.0,
+              "user_agent.agent.name__7": 0.0,
+              "user_agent.agent.name__8": 0.0,
+              "user_agent.agent.name__9": 0.0,
+              "user_agent.agent.name__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "user_agent.os.name",
+            "value": "Windows 11",
+            "preprocessed": {
+              "user_agent.os.name__1": 0.0,
+              "user_agent.os.name__2": 1.0,
+              "user_agent.os.name__3": 0.0,
+              "user_agent.os.name__4": 0.0,
+              "user_agent.os.name__5": 0.0,
+              "user_agent.os.name__6": 0.0,
+              "user_agent.os.name__7": 0.0,
+              "user_agent.os.name__8": 0.0,
+              "user_agent.os.name__9": 0.0,
+              "user_agent.os.name__10": 0.0
+            }
+          },
+          {
+            "field": "user_agent.agent.name",
+            "value": "Edge",
+            "preprocessed": {
+              "user_agent.agent.name__1": 0.0,
+              "user_agent.agent.name__2": 0.0,
+              "user_agent.agent.name__3": 1.0,
+              "user_agent.agent.name__4": 0.0,
+              "user_agent.agent.name__5": 0.0,
+              "user_agent.agent.name__6": 0.0,
+              "user_agent.agent.name__7": 0.0,
+              "user_agent.agent.name__8": 0.0,
+              "user_agent.agent.name__9": 0.0,
+              "user_agent.agent.name__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "user_agent.os.name",
+            "value": "Windows 11",
+            "preprocessed": {
+              "user_agent.os.name__1": 0.0,
+              "user_agent.os.name__2": 1.0,
+              "user_agent.os.name__3": 0.0,
+              "user_agent.os.name__4": 0.0,
+              "user_agent.os.name__5": 0.0,
+              "user_agent.os.name__6": 0.0,
+              "user_agent.os.name__7": 0.0,
+              "user_agent.os.name__8": 0.0,
+              "user_agent.os.name__9": 0.0,
+              "user_agent.os.name__10": 0.0
+            }
+          },
+          {
+            "field": "user_agent.agent.name",
+            "value": "Edge",
+            "preprocessed": {
+              "user_agent.agent.name__1": 0.0,
+              "user_agent.agent.name__2": 0.0,
+              "user_agent.agent.name__3": 1.0,
+              "user_agent.agent.name__4": 0.0,
+              "user_agent.agent.name__5": 0.0,
+              "user_agent.agent.name__6": 0.0,
+              "user_agent.agent.name__7": 0.0,
+              "user_agent.agent.name__8": 0.0,
+              "user_agent.agent.name__9": 0.0,
+              "user_agent.agent.name__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "user_agent.os.name",
+            "value": "Windows 11",
+            "preprocessed": {
+              "user_agent.os.name__1": 0.0,
+              "user_agent.os.name__2": 1.0,
+              "user_agent.os.name__3": 0.0,
+              "user_agent.os.name__4": 0.0,
+              "user_agent.os.name__5": 0.0,
+              "user_agent.os.name__6": 0.0,
+              "user_agent.os.name__7": 0.0,
+              "user_agent.os.name__8": 0.0,
+              "user_agent.os.name__9": 0.0,
+              "user_agent.os.name__10": 0.0
+            }
+          },
+          {
+            "field": "user_agent.agent.name",
+            "value": "Edge",
+            "preprocessed": {
+              "user_agent.agent.name__1": 0.0,
+              "user_agent.agent.name__2": 0.0,
+              "user_agent.agent.name__3": 1.0,
+              "user_agent.agent.name__4": 0.0,
+              "user_agent.agent.name__5": 0.0,
+              "user_agent.agent.name__6": 0.0,
+              "user_agent.agent.name__7": 0.0,
+              "user_agent.agent.name__8": 0.0,
+              "user_agent.agent.name__9": 0.0,
+              "user_agent.agent.name__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "user_agent.os.name",
+            "value": "Windows 11",
+            "preprocessed": {
+              "user_agent.os.name__1": 0.0,
+              "user_agent.os.name__2": 1.0,
+              "user_agent.os.name__3": 0.0,
+              "user_agent.os.name__4": 0.0,
+              "user_agent.os.name__5": 0.0,
+              "user_agent.os.name__6": 0.0,
+              "user_agent.os.name__7": 0.0,
+              "user_agent.os.name__8": 0.0,
+              "user_agent.os.name__9": 0.0,
+              "user_agent.os.name__10": 0.0
+            }
+          },
+          {
+            "field": "user_agent.agent.name",
+            "value": "Edge",
+            "preprocessed": {
+              "user_agent.agent.name__1": 0.0,
+              "user_agent.agent.name__2": 0.0,
+              "user_agent.agent.name__3": 1.0,
+              "user_agent.agent.name__4": 0.0,
+              "user_agent.agent.name__5": 0.0,
+              "user_agent.agent.name__6": 0.0,
+              "user_agent.agent.name__7": 0.0,
+              "user_agent.agent.name__8": 0.0,
+              "user_agent.agent.name__9": 0.0,
+              "user_agent.agent.name__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "user_agent.os.name",
+            "value": "Windows 11",
+            "preprocessed": {
+              "user_agent.os.name__1": 0.0,
+              "user_agent.os.name__2": 1.0,
+              "user_agent.os.name__3": 0.0,
+              "user_agent.os.name__4": 0.0,
+              "user_agent.os.name__5": 0.0,
+              "user_agent.os.name__6": 0.0,
+              "user_agent.os.name__7": 0.0,
+              "user_agent.os.name__8": 0.0,
+              "user_agent.os.name__9": 0.0,
+              "user_agent.os.name__10": 0.0
+            }
+          },
+          {
+            "field": "user_agent.agent.name",
+            "value": "Edge",
+            "preprocessed": {
+              "user_agent.agent.name__1": 0.0,
+              "user_agent.agent.name__2": 0.0,
+              "user_agent.agent.name__3": 1.0,
+              "user_agent.agent.name__4": 0.0,
+              "user_agent.agent.name__5": 0.0,
+              "user_agent.agent.name__6": 0.0,
+              "user_agent.agent.name__7": 0.0,
+              "user_agent.agent.name__8": 0.0,
+              "user_agent.agent.name__9": 0.0,
+              "user_agent.agent.name__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "user_agent.os.name",
+            "value": "Windows 11",
+            "preprocessed": {
+              "user_agent.os.name__1": 0.0,
+              "user_agent.os.name__2": 1.0,
+              "user_agent.os.name__3": 0.0,
+              "user_agent.os.name__4": 0.0,
+              "user_agent.os.name__5": 0.0,
+              "user_agent.os.name__6": 0.0,
+              "user_agent.os.name__7": 0.0,
+              "user_agent.os.name__8": 0.0,
+              "user_agent.os.name__9": 0.0,
+              "user_agent.os.name__10": 0.0
+            }
+          },
+          {
+            "field": "user_agent.agent.name",
+            "value": "Edge",
+            "preprocessed": {
+              "user_agent.agent.name__1": 0.0,
+              "user_agent.agent.name__2": 0.0,
+              "user_agent.agent.name__3": 1.0,
+              "user_agent.agent.name__4": 0.0,
+              "user_agent.agent.name__5": 0.0,
+              "user_agent.agent.name__6": 0.0,
+              "user_agent.agent.name__7": 0.0,
+              "user_agent.agent.name__8": 0.0,
+              "user_agent.agent.name__9": 0.0,
+              "user_agent.agent.name__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "user_agent.os.name",
+            "value": "Windows 11",
+            "preprocessed": {
+              "user_agent.os.name__1": 0.0,
+              "user_agent.os.name__2": 1.0,
+              "user_agent.os.name__3": 0.0,
+              "user_agent.os.name__4": 0.0,
+              "user_agent.os.name__5": 0.0,
+              "user_agent.os.name__6": 0.0,
+              "user_agent.os.name__7": 0.0,
+              "user_agent.os.name__8": 0.0,
+              "user_agent.os.name__9": 0.0,
+              "user_agent.os.name__10": 0.0
+            }
+          },
+          {
+            "field": "user_agent.agent.name",
+            "value": "Edge",
+            "preprocessed": {
+              "user_agent.agent.name__1": 0.0,
+              "user_agent.agent.name__2": 0.0,
+              "user_agent.agent.name__3": 1.0,
+              "user_agent.agent.name__4": 0.0,
+              "user_agent.agent.name__5": 0.0,
+              "user_agent.agent.name__6": 0.0,
+              "user_agent.agent.name__7": 0.0,
+              "user_agent.agent.name__8": 0.0,
+              "user_agent.agent.name__9": 0.0,
+              "user_agent.agent.name__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "user_agent.os.name",
+            "value": "Windows 11",
+            "preprocessed": {
+              "user_agent.os.name__1": 0.0,
+              "user_agent.os.name__2": 1.0,
+              "user_agent.os.name__3": 0.0,
+              "user_agent.os.name__4": 0.0,
+              "user_agent.os.name__5": 0.0,
+              "user_agent.os.name__6": 0.0,
+              "user_agent.os.name__7": 0.0,
+              "user_agent.os.name__8": 0.0,
+              "user_agent.os.name__9": 0.0,
+              "user_agent.os.name__10": 0.0
+            }
+          },
+          {
+            "field": "user_agent.agent.name",
+            "value": "Firefox",
+            "preprocessed": {
+              "user_agent.agent.name__1": 0.0,
+              "user_agent.agent.name__2": 1.0,
+              "user_agent.agent.name__3": 0.0,
+              "user_agent.agent.name__4": 0.0,
+              "user_agent.agent.name__5": 0.0,
+              "user_agent.agent.name__6": 0.0,
+              "user_agent.agent.name__7": 0.0,
+              "user_agent.agent.name__8": 0.0,
+              "user_agent.agent.name__9": 0.0,
+              "user_agent.agent.name__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "user_agent.os.name",
+            "value": "Windows 11",
+            "preprocessed": {
+              "user_agent.os.name__1": 0.0,
+              "user_agent.os.name__2": 1.0,
+              "user_agent.os.name__3": 0.0,
+              "user_agent.os.name__4": 0.0,
+              "user_agent.os.name__5": 0.0,
+              "user_agent.os.name__6": 0.0,
+              "user_agent.os.name__7": 0.0,
+              "user_agent.os.name__8": 0.0,
+              "user_agent.os.name__9": 0.0,
+              "user_agent.os.name__10": 0.0
+            }
+          },
+          {
+            "field": "user_agent.agent.name",
+            "value": "Firefox",
+            "preprocessed": {
+              "user_agent.agent.name__1": 0.0,
+              "user_agent.agent.name__2": 1.0,
+              "user_agent.agent.name__3": 0.0,
+              "user_agent.agent.name__4": 0.0,
+              "user_agent.agent.name__5": 0.0,
+              "user_agent.agent.name__6": 0.0,
+              "user_agent.agent.name__7": 0.0,
+              "user_agent.agent.name__8": 0.0,
+              "user_agent.agent.name__9": 0.0,
+              "user_agent.agent.name__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "user_agent.os.name",
+            "value": "Windows 11",
+            "preprocessed": {
+              "user_agent.os.name__1": 0.0,
+              "user_agent.os.name__2": 1.0,
+              "user_agent.os.name__3": 0.0,
+              "user_agent.os.name__4": 0.0,
+              "user_agent.os.name__5": 0.0,
+              "user_agent.os.name__6": 0.0,
+              "user_agent.os.name__7": 0.0,
+              "user_agent.os.name__8": 0.0,
+              "user_agent.os.name__9": 0.0,
+              "user_agent.os.name__10": 0.0
+            }
+          },
+          {
+            "field": "user_agent.agent.name",
+            "value": "Firefox",
+            "preprocessed": {
+              "user_agent.agent.name__1": 0.0,
+              "user_agent.agent.name__2": 1.0,
+              "user_agent.agent.name__3": 0.0,
+              "user_agent.agent.name__4": 0.0,
+              "user_agent.agent.name__5": 0.0,
+              "user_agent.agent.name__6": 0.0,
+              "user_agent.agent.name__7": 0.0,
+              "user_agent.agent.name__8": 0.0,
+              "user_agent.agent.name__9": 0.0,
+              "user_agent.agent.name__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "user_agent.os.name",
+            "value": "Windows 11",
+            "preprocessed": {
+              "user_agent.os.name__1": 0.0,
+              "user_agent.os.name__2": 1.0,
+              "user_agent.os.name__3": 0.0,
+              "user_agent.os.name__4": 0.0,
+              "user_agent.os.name__5": 0.0,
+              "user_agent.os.name__6": 0.0,
+              "user_agent.os.name__7": 0.0,
+              "user_agent.os.name__8": 0.0,
+              "user_agent.os.name__9": 0.0,
+              "user_agent.os.name__10": 0.0
+            }
+          },
+          {
+            "field": "user_agent.agent.name",
+            "value": "Firefox",
+            "preprocessed": {
+              "user_agent.agent.name__1": 0.0,
+              "user_agent.agent.name__2": 1.0,
+              "user_agent.agent.name__3": 0.0,
+              "user_agent.agent.name__4": 0.0,
+              "user_agent.agent.name__5": 0.0,
+              "user_agent.agent.name__6": 0.0,
+              "user_agent.agent.name__7": 0.0,
+              "user_agent.agent.name__8": 0.0,
+              "user_agent.agent.name__9": 0.0,
+              "user_agent.agent.name__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "user_agent.os.name",
+            "value": "Windows 11",
+            "preprocessed": {
+              "user_agent.os.name__1": 0.0,
+              "user_agent.os.name__2": 1.0,
+              "user_agent.os.name__3": 0.0,
+              "user_agent.os.name__4": 0.0,
+              "user_agent.os.name__5": 0.0,
+              "user_agent.os.name__6": 0.0,
+              "user_agent.os.name__7": 0.0,
+              "user_agent.os.name__8": 0.0,
+              "user_agent.os.name__9": 0.0,
+              "user_agent.os.name__10": 0.0
+            }
+          },
+          {
+            "field": "user_agent.agent.name",
+            "value": "Firefox",
+            "preprocessed": {
+              "user_agent.agent.name__1": 0.0,
+              "user_agent.agent.name__2": 1.0,
+              "user_agent.agent.name__3": 0.0,
+              "user_agent.agent.name__4": 0.0,
+              "user_agent.agent.name__5": 0.0,
+              "user_agent.agent.name__6": 0.0,
+              "user_agent.agent.name__7": 0.0,
+              "user_agent.agent.name__8": 0.0,
+              "user_agent.agent.name__9": 0.0,
+              "user_agent.agent.name__10": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+cohorts:
+- name: test
+  features_config: default
+  fields: []
+  weight: 1.0
+  model:
+    name: NoOp
+database:
+  type: memory
+features:
+  default:
+    country.a:
+      type: str_categorical
+      source: ip.country_iso
+    country.b:
+      type: str_categorical
+      source: ip.country_iso

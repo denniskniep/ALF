@@ -1,0 +1,26 @@
+[
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "ts.dayofweek",
+            "value": 0.0,
+            "preprocessed": {
+              "ts.dayofweek": 0.0
+            }
+          },
+          {
+            "field": "ts.is_weekend",
+            "value": 0.0,
+            "preprocessed": {
+              "ts.is_weekend": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

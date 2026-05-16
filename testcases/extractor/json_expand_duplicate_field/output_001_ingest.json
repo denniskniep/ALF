@@ -1,0 +1,96 @@
+[
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "raw.score",
+            "value": 42.0,
+            "preprocessed": {
+              "raw.score": 0.0
+            }
+          },
+          {
+            "field": "raw.score.x",
+            "value": 42.0,
+            "preprocessed": {
+              "raw.score.x": 0.0
+            }
+          },
+          {
+            "field": "raw.score.y",
+            "value": 42.0,
+            "preprocessed": {
+              "raw.score.y": 0.0
+            }
+          },
+          {
+            "field": "raw.meta.x.version.major",
+            "value": 2.0,
+            "preprocessed": {
+              "raw.meta.x.version.major": 0.0
+            }
+          },
+          {
+            "field": "raw.meta.x.version.minor",
+            "value": 1.0,
+            "preprocessed": {
+              "raw.meta.x.version.minor": 0.0
+            }
+          },
+          {
+            "field": "raw.meta.x.version.patch",
+            "value": 0.0,
+            "preprocessed": {
+              "raw.meta.x.version.patch": 0.0
+            }
+          },
+          {
+            "field": "raw.meta.x.version.minor.x",
+            "value": 1.0,
+            "preprocessed": {
+              "raw.meta.x.version.minor.x": 0.0
+            }
+          },
+          {
+            "field": "raw.meta.x.version.minor.y",
+            "value": 1.0,
+            "preprocessed": {
+              "raw.meta.x.version.minor.y": 0.0
+            }
+          },
+          {
+            "field": "raw.meta.version.major",
+            "value": 2.0,
+            "preprocessed": {
+              "raw.meta.version.major": 0.0
+            }
+          },
+          {
+            "field": "raw.meta.version.minor",
+            "value": 1.0,
+            "preprocessed": {
+              "raw.meta.version.minor": 0.0
+            }
+          },
+          {
+            "field": "raw.meta.version.patch",
+            "value": 0.0,
+            "preprocessed": {
+              "raw.meta.version.patch": 0.0
+            }
+          },
+          {
+            "field": "raw.meta.version.minor.x",
+            "value": 1.0,
+            "preprocessed": {
+              "raw.meta.version.minor.x": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

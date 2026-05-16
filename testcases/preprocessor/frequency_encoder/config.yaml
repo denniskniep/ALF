@@ -1,0 +1,15 @@
+cohorts:
+- name: global
+  features_config: default
+  fields: []
+  weight: 1.0
+  model:
+    name: NoOp
+database:
+  type: memory
+features:
+  default:
+    country:
+      type: str_categorical
+      preprocessor:
+        name: FrequencyEncoder

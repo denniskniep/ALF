@@ -1,0 +1,17 @@
+[
+  {
+    "accepted": false,
+    "cohorts": null,
+    "error": "ts: expected str, got NoneType"
+  },
+  {
+    "accepted": false,
+    "cohorts": null,
+    "error": "ts: expected str, got int"
+  },
+  {
+    "accepted": false,
+    "cohorts": null,
+    "error": "ts: cannot parse '12345' as datetime"
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "global",
+        "features": [
+          {
+            "field": "country",
+            "value": "US",
+            "preprocessed": {
+              "country": 0.4
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "global",
+        "features": [
+          {
+            "field": "country",
+            "value": "US",
+            "preprocessed": {
+              "country": 0.5
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "global",
+        "features": [
+          {
+            "field": "country",
+            "value": "DE",
+            "preprocessed": {
+              "country": 0.42857142857142855
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

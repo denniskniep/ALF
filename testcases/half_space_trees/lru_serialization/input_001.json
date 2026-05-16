@@ -1,0 +1,17 @@
+{
+  "ingest": [
+    {"user": "a", "value": 100},
+    {"user": "a", "value": 100},
+    {"user": "a", "value": 100},
+    {"user": "a", "value": 100},
+    {"user": "a", "value": 100},
+    {"user": "a", "value": 100},
+    {"user": "a", "value": 100},
+    {"user": "a", "value": 100},
+    {"user": "a", "value": 100},
+    {"user": "a", "value": 100}
+  ],
+  "scores": [
+    {"user": "a", "value": 100}
+  ]
+}

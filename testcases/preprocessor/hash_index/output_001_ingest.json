@@ -1,0 +1,121 @@
+[
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "browser",
+            "value": "Chrome",
+            "preprocessed": {
+              "browser": 914.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "browser",
+            "value": "Firefox",
+            "preprocessed": {
+              "browser": 1383.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "browser",
+            "value": "Chrome",
+            "preprocessed": {
+              "browser": 914.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "browser",
+            "value": "Edge",
+            "preprocessed": {
+              "browser": 204.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "browser",
+            "value": "Chrome",
+            "preprocessed": {
+              "browser": 914.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "browser",
+            "value": "Safari",
+            "preprocessed": {
+              "browser": 1649.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "browser",
+            "value": "Firefox",
+            "preprocessed": {
+              "browser": 1383.0
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

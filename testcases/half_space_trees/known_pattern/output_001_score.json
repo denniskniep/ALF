@@ -1,0 +1,237 @@
+[
+  {
+    "accepted": true,
+    "composite_score": 73.23870967741935,
+    "status": "ANOMALOUS",
+    "scores": [
+      {
+        "name": "test",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 73.23870967741935,
+        "score_label": "ANOMALOUS",
+        "properties": {
+          "reference_age": 6
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "country",
+              "value": "RU",
+              "delta": 39.552688172043005,
+              "preprocessed": {
+                "country__1": 0.0,
+                "country__2": 1.0,
+                "country__3": 0.0,
+                "country__4": 0.0,
+                "country__5": 0.0,
+                "country__6": 0.0,
+                "country__7": 0.0,
+                "country__8": 0.0,
+                "country__9": 0.0,
+                "country__10": 0.0
+              }
+            },
+            {
+              "field": "latency",
+              "value": 9999.0,
+              "delta": 36.258064516129025,
+              "preprocessed": {
+                "latency": 5.0
+              }
+            }
+          ],
+          "baseline_score": 19.1269
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 58.67956989247312,
+    "status": "ELEVATED",
+    "scores": [
+      {
+        "name": "test",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 58.67956989247312,
+        "score_label": "ELEVATED",
+        "properties": {
+          "reference_age": 6
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "country",
+              "value": "RU",
+              "delta": 39.552688172043005,
+              "preprocessed": {
+                "country__1": 0.0,
+                "country__2": 1.0,
+                "country__3": 0.0,
+                "country__4": 0.0,
+                "country__5": 0.0,
+                "country__6": 0.0,
+                "country__7": 0.0,
+                "country__8": 0.0,
+                "country__9": 0.0,
+                "country__10": 0.0
+              }
+            },
+            {
+              "field": "latency",
+              "value": 100.0,
+              "delta": 0.0,
+              "preprocessed": {
+                "latency": 0.029666343903973515
+              }
+            }
+          ],
+          "baseline_score": 19.1269
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 55.38494623655914,
+    "status": "ELEVATED",
+    "scores": [
+      {
+        "name": "test",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 55.38494623655914,
+        "score_label": "ELEVATED",
+        "properties": {
+          "reference_age": 6
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "latency",
+              "value": 9999.0,
+              "delta": 36.258064516129025,
+              "preprocessed": {
+                "latency": 5.0
+              }
+            },
+            {
+              "field": "country",
+              "value": "DE",
+              "delta": 0.0,
+              "preprocessed": {
+                "country__1": 1.0,
+                "country__2": 0.0,
+                "country__3": 0.0,
+                "country__4": 0.0,
+                "country__5": 0.0,
+                "country__6": 0.0,
+                "country__7": 0.0,
+                "country__8": 0.0,
+                "country__9": 0.0,
+                "country__10": 0.0
+              }
+            }
+          ],
+          "baseline_score": 19.1269
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 19.126881720430113,
+    "status": "NORMAL",
+    "scores": [
+      {
+        "name": "test",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 19.126881720430113,
+        "score_label": "NORMAL",
+        "properties": {
+          "reference_age": 6
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "latency",
+              "value": 100.0,
+              "delta": 0.0,
+              "preprocessed": {
+                "latency": 0.029666343903973515
+              }
+            },
+            {
+              "field": "country",
+              "value": "DE",
+              "delta": 0.0,
+              "preprocessed": {
+                "country__1": 1.0,
+                "country__2": 0.0,
+                "country__3": 0.0,
+                "country__4": 0.0,
+                "country__5": 0.0,
+                "country__6": 0.0,
+                "country__7": 0.0,
+                "country__8": 0.0,
+                "country__9": 0.0,
+                "country__10": 0.0
+              }
+            }
+          ],
+          "baseline_score": 19.1269
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 63.01075268817205,
+    "status": "ELEVATED",
+    "scores": [
+      {
+        "name": "test",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 63.01075268817205,
+        "score_label": "ELEVATED",
+        "properties": {
+          "reference_age": 6
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "latency",
+              "value": 150.0,
+              "delta": 36.258064516129025,
+              "preprocessed": {
+                "latency": 5.0
+              }
+            },
+            {
+              "field": "country",
+              "value": "FR",
+              "delta": 27.599999999999987,
+              "preprocessed": {
+                "country__1": 0.0,
+                "country__2": 0.0,
+                "country__3": 1.0,
+                "country__4": 0.0,
+                "country__5": 0.0,
+                "country__6": 0.0,
+                "country__7": 0.0,
+                "country__8": 0.0,
+                "country__9": 0.0,
+                "country__10": 0.0
+              }
+            }
+          ],
+          "baseline_score": 19.1269
+        }
+      }
+    ]
+  }
+]

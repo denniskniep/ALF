@@ -1,0 +1,40 @@
+[
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "raw.score",
+            "value": 42.0,
+            "preprocessed": {
+              "raw.score": 0.0
+            }
+          },
+          {
+            "field": "raw.meta.version.major",
+            "value": 2.0,
+            "preprocessed": {
+              "raw.meta.version.major": 0.0
+            }
+          },
+          {
+            "field": "raw.meta.version.minor",
+            "value": 1.0,
+            "preprocessed": {
+              "raw.meta.version.minor": 0.0
+            }
+          },
+          {
+            "field": "raw.meta.version.patch",
+            "value": 0.0,
+            "preprocessed": {
+              "raw.meta.version.patch": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

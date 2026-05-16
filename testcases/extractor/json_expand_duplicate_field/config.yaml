@@ -1,0 +1,34 @@
+cohorts:
+- name: test
+  features_config: default
+  fields: []
+  weight: 1.0
+  model:
+    name: NoOp
+database:
+  type: memory
+features:
+  default:
+    raw: json_expand
+    raw.score: numeric
+    raw.score.x:
+      type: numeric
+      source: raw.score
+    raw.score.y:
+      type: numeric
+      source: raw.score
+    raw.meta: json_expand
+    raw.meta.x:
+      type: json_expand
+      source: raw.meta
+    raw.meta.x.version: semver
+    raw.meta.x.version.minor.x:
+      type: numeric
+      source: raw.meta.x.version.minor
+    raw.meta.x.version.minor.y:
+      type: numeric
+      source: raw.meta.x.version.minor
+    raw.meta.version: semver
+    raw.meta.version.minor.x:
+      type: numeric
+      source: raw.meta.version.minor

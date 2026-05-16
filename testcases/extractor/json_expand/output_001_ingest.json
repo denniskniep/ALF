@@ -1,0 +1,26 @@
+[
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "raw.score",
+            "value": 85.0,
+            "preprocessed": {
+              "raw.score": 0.0
+            }
+          },
+          {
+            "field": "raw.bot",
+            "value": 0.0,
+            "preprocessed": {
+              "raw.bot": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,143 @@
+[
+  {
+    "accepted": true,
+    "composite_score": 78.70709677419356,
+    "status": "ANOMALOUS",
+    "scores": [
+      {
+        "name": "test",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 78.70709677419356,
+        "score_label": "ANOMALOUS",
+        "properties": {
+          "reference_age": 50
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "latency",
+              "value": 9999.0,
+              "delta": 46.797419354838716,
+              "preprocessed": {
+                "latency": 5.0
+              }
+            },
+            {
+              "field": "country",
+              "value": "RU",
+              "delta": 6.405161290322582,
+              "preprocessed": {
+                "country__1": 0.0,
+                "country__2": 1.0,
+                "country__3": 0.0,
+                "country__4": 0.0,
+                "country__5": 0.0,
+                "country__6": 0.0,
+                "country__7": 0.0,
+                "country__8": 0.0,
+                "country__9": 0.0,
+                "country__10": 0.0
+              }
+            }
+          ],
+          "baseline_score": 28.2916
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 28.446451612903225,
+    "status": "NORMAL",
+    "scores": [
+      {
+        "name": "test",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 28.446451612903225,
+        "score_label": "NORMAL",
+        "properties": {
+          "reference_age": 50
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "latency",
+              "value": 100.0,
+              "delta": 0.15483870967742064,
+              "preprocessed": {
+                "latency": 0.029666343903973515
+              }
+            },
+            {
+              "field": "country",
+              "value": "DE",
+              "delta": 0.0,
+              "preprocessed": {
+                "country__1": 1.0,
+                "country__2": 0.0,
+                "country__3": 0.0,
+                "country__4": 0.0,
+                "country__5": 0.0,
+                "country__6": 0.0,
+                "country__7": 0.0,
+                "country__8": 0.0,
+                "country__9": 0.0,
+                "country__10": 0.0
+              }
+            }
+          ],
+          "baseline_score": 28.2916
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 79.56387096774193,
+    "status": "ANOMALOUS",
+    "scores": [
+      {
+        "name": "test",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 79.56387096774193,
+        "score_label": "ANOMALOUS",
+        "properties": {
+          "reference_age": 50
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "latency",
+              "value": 150.0,
+              "delta": 46.797419354838716,
+              "preprocessed": {
+                "latency": 5.0
+              }
+            },
+            {
+              "field": "country",
+              "value": "FR",
+              "delta": 23.94838709677419,
+              "preprocessed": {
+                "country__1": 0.0,
+                "country__2": 0.0,
+                "country__3": 1.0,
+                "country__4": 0.0,
+                "country__5": 0.0,
+                "country__6": 0.0,
+                "country__7": 0.0,
+                "country__8": 0.0,
+                "country__9": 0.0,
+                "country__10": 0.0
+              }
+            }
+          ],
+          "baseline_score": 28.2916
+        }
+      }
+    ]
+  }
+]

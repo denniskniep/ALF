@@ -1,0 +1,87 @@
+[
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "latency",
+            "value": 100.0,
+            "preprocessed": {
+              "latency": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "latency",
+            "value": 100.0,
+            "preprocessed": {
+              "latency": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "latency",
+            "value": 110.0,
+            "preprocessed": {
+              "latency": 1.4142135623730954
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "latency",
+            "value": 90.0,
+            "preprocessed": {
+              "latency": -1.414213562373095
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "latency",
+            "value": 100.0,
+            "preprocessed": {
+              "latency": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

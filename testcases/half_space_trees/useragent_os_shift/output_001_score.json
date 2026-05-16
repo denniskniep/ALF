@@ -1,0 +1,170 @@
+[
+  {
+    "accepted": true,
+    "composite_score": 16.57142857142857,
+    "status": "NORMAL",
+    "scores": [
+      {
+        "name": "test",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 16.57142857142857,
+        "score_label": "NORMAL",
+        "properties": {
+          "reference_age": 5
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "user_agent.os.name",
+              "value": "Linux",
+              "delta": 2.7428571428571473,
+              "preprocessed": {
+                "user_agent.os.name__1": 0.0,
+                "user_agent.os.name__2": 0.0,
+                "user_agent.os.name__3": 1.0,
+                "user_agent.os.name__4": 0.0,
+                "user_agent.os.name__5": 0.0,
+                "user_agent.os.name__6": 0.0,
+                "user_agent.os.name__7": 0.0,
+                "user_agent.os.name__8": 0.0,
+                "user_agent.os.name__9": 0.0,
+                "user_agent.os.name__10": 0.0
+              }
+            },
+            {
+              "field": "user_agent.agent.name",
+              "value": "Firefox",
+              "delta": 1.371428571428579,
+              "preprocessed": {
+                "user_agent.agent.name__1": 0.0,
+                "user_agent.agent.name__2": 1.0,
+                "user_agent.agent.name__3": 0.0,
+                "user_agent.agent.name__4": 0.0,
+                "user_agent.agent.name__5": 0.0,
+                "user_agent.agent.name__6": 0.0,
+                "user_agent.agent.name__7": 0.0,
+                "user_agent.agent.name__8": 0.0,
+                "user_agent.agent.name__9": 0.0,
+                "user_agent.agent.name__10": 0.0
+              }
+            }
+          ],
+          "baseline_score": 11.3143
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 7.885714285714284,
+    "status": "NORMAL",
+    "scores": [
+      {
+        "name": "test",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 7.885714285714284,
+        "score_label": "NORMAL",
+        "properties": {
+          "reference_age": 5
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "user_agent.os.name",
+              "value": "Windows 10",
+              "delta": -3.4285714285714253,
+              "preprocessed": {
+                "user_agent.os.name__1": 1.0,
+                "user_agent.os.name__2": 0.0,
+                "user_agent.os.name__3": 0.0,
+                "user_agent.os.name__4": 0.0,
+                "user_agent.os.name__5": 0.0,
+                "user_agent.os.name__6": 0.0,
+                "user_agent.os.name__7": 0.0,
+                "user_agent.os.name__8": 0.0,
+                "user_agent.os.name__9": 0.0,
+                "user_agent.os.name__10": 0.0
+              }
+            },
+            {
+              "field": "user_agent.agent.name",
+              "value": "Chrome",
+              "delta": 0.0,
+              "preprocessed": {
+                "user_agent.agent.name__1": 1.0,
+                "user_agent.agent.name__2": 0.0,
+                "user_agent.agent.name__3": 0.0,
+                "user_agent.agent.name__4": 0.0,
+                "user_agent.agent.name__5": 0.0,
+                "user_agent.agent.name__6": 0.0,
+                "user_agent.agent.name__7": 0.0,
+                "user_agent.agent.name__8": 0.0,
+                "user_agent.agent.name__9": 0.0,
+                "user_agent.agent.name__10": 0.0
+              }
+            }
+          ],
+          "baseline_score": 11.3143
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 9.714285714285719,
+    "status": "NORMAL",
+    "scores": [
+      {
+        "name": "test",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 9.714285714285719,
+        "score_label": "NORMAL",
+        "properties": {
+          "reference_age": 5
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "user_agent.os.name",
+              "value": "Windows 10",
+              "delta": -3.4285714285714253,
+              "preprocessed": {
+                "user_agent.os.name__1": 1.0,
+                "user_agent.os.name__2": 0.0,
+                "user_agent.os.name__3": 0.0,
+                "user_agent.os.name__4": 0.0,
+                "user_agent.os.name__5": 0.0,
+                "user_agent.os.name__6": 0.0,
+                "user_agent.os.name__7": 0.0,
+                "user_agent.os.name__8": 0.0,
+                "user_agent.os.name__9": 0.0,
+                "user_agent.os.name__10": 0.0
+              }
+            },
+            {
+              "field": "user_agent.agent.name",
+              "value": "Edge",
+              "delta": 1.8285714285714363,
+              "preprocessed": {
+                "user_agent.agent.name__1": 0.0,
+                "user_agent.agent.name__2": 0.0,
+                "user_agent.agent.name__3": 1.0,
+                "user_agent.agent.name__4": 0.0,
+                "user_agent.agent.name__5": 0.0,
+                "user_agent.agent.name__6": 0.0,
+                "user_agent.agent.name__7": 0.0,
+                "user_agent.agent.name__8": 0.0,
+                "user_agent.agent.name__9": 0.0,
+                "user_agent.agent.name__10": 0.0
+              }
+            }
+          ],
+          "baseline_score": 11.3143
+        }
+      }
+    ]
+  }
+]

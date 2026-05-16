@@ -1,0 +1,6 @@
+.venv
+.idea
+.claude
+.train_and_detect
+.local
+**/__pycache__/**

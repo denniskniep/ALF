@@ -1,0 +1,8 @@
+{
+  "ingest": [
+    {
+      "raw": "{\"outer\": {\"inner\": 42, \"other\": 99}}"
+    }
+  ],
+  "scores": []
+}

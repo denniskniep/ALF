@@ -1,0 +1,15 @@
+cohorts:
+- name: test
+  features_config: default
+  fields: []
+  weight: 1.0
+  model:
+    name: NoOp
+database:
+  type: memory
+features:
+  default:
+    latency: numeric
+identifiers:
+  - event.id
+  - user.id

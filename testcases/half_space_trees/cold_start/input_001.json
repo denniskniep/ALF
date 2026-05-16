@@ -1,0 +1,25 @@
+{
+  "ingest": [
+    {
+      "latency": 95
+    },
+    {
+      "latency": 100
+    },
+    {
+      "latency": 105
+    },
+    {
+      "latency": 98
+    },
+    {
+      "latency": 102
+    }
+  ],
+  "scores": [
+    {
+      "latency": 9999,
+      "country": "RU"
+    }
+  ]
+}

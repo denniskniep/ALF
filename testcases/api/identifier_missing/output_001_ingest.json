@@ -1,0 +1,44 @@
+[
+  {
+    "accepted": true,
+    "identifiers": {
+      "event_id": "abc-123",
+      "user_id": "john.doe"
+    },
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "latency",
+            "value": 100.0,
+            "preprocessed": {
+              "latency": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "identifiers": {
+      "event_id": "def-456",
+      "user_id": null
+    },
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "latency",
+            "value": 110.0,
+            "preprocessed": {
+              "latency": 0.0
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

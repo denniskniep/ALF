@@ -21,7 +21,9 @@
               "value": "DE",
               "delta": 5.7739,
               "preprocessed": {
-                "country": 1.0
+                "country": [
+                  1.0
+                ]
               }
             },
             {
@@ -29,7 +31,9 @@
               "value": 100.0,
               "delta": 0.7886,
               "preprocessed": {
-                "latency": 0.17407765595569788
+                "latency": [
+                  0.17407765595569788
+                ]
               }
             }
           ],
@@ -60,7 +64,9 @@
               "value": 9999.0,
               "delta": 80.3005,
               "preprocessed": {
-                "latency": 5.0
+                "latency": [
+                  5.0
+                ]
               }
             },
             {
@@ -68,7 +74,9 @@
               "value": "RU",
               "delta": 19.6995,
               "preprocessed": {
-                "country": 3.0
+                "country": [
+                  3.0
+                ]
               }
             }
           ],

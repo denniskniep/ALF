@@ -11,7 +11,7 @@ from app.features.preprocessors import FieldInfo
 class FeatureResult:
     field: str
     value: Any
-    preprocessed: dict[str, float]
+    preprocessed: dict[str, list[float]]
 
 
 @dataclass
@@ -19,7 +19,7 @@ class FieldContribution:
     field: str
     value: Any
     delta: float | None
-    preprocessed: dict[str, float]
+    preprocessed: dict[str, list[float]]
 
 
 @dataclass
@@ -47,7 +47,7 @@ class BaseModel(ABC):
     PREPROCESSOR_TYPE_DEFAULTS: dict[str, str] = {}
 
     @abstractmethod
-    def train(self, features: dict[FieldInfo, float], n_learned: int) -> None:
+    def train(self, features: dict[FieldInfo, list[float]], n_learned: int) -> None:
         """Update the model with one preprocessed feature vector.
 
         n_learned is the Detector's total event count after this sample —
@@ -59,7 +59,7 @@ class BaseModel(ABC):
     @abstractmethod
     def score(
         self,
-        features: dict[FieldInfo, float],
+        features: dict[FieldInfo, list[float]],
         flat: dict[str, Any],
         explain: bool,
     ) -> DetectorResult:

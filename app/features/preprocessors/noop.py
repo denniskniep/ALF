@@ -14,5 +14,5 @@ class NoOp:
     def learn_post_transform(self, key: str, value: Any) -> None:
         pass
 
-    def transform(self, key: str, value: Any) -> dict[FieldInfo, float]:
-        return {FieldInfo(key, preprocessor="NoOp"): float(0.0)}
+    def transform(self, key: str, value: Any) -> dict[FieldInfo, list[float]]:
+        return {FieldInfo(key, preprocessor="NoOp"): [float(0.0)]}

@@ -123,13 +123,21 @@ class AutoencoderDetector(BaseModel):
         # Feature order fixed once at model-build time from the union of all FieldInfos
         # across the entire buffer (not just the first event).
         self._cat_fi_order: list[FieldInfo] = []
-        self._num_fi_order: list[FieldInfo] = []
+        self._vec_fi_order: list[FieldInfo] = []  # all non-categorical fields
 
         # Max observed LabelIndex per categorical field, for embedding table sizing.
         self._cat_vocab_sizes: dict[str, int] = {}
 
+        # Vector length per fi.unique_key
+        # Fixed at model-build time;
+        # Needed for zero-imputation (missing data handling) of absent vector fields
+        self._vec_lengths: dict[str, int] = {}
+
         # Contiguous slice in the AE input vector per fi.unique_key.
-        # Categorical: embedding-dim–wide. Numeric: 2-wide [value, is_present].
+        # Each feature occupies its own dedicated chunk of positions
+        # that is fed as input vector (1D array of numerical values) into the autoencoder
+        # Categorical: embedding-dim–wide.
+        # All others: (vec_len + 1)-wide [v0, ..., vN, is_present].
         self._feature_slices: dict[str, tuple[int, int]] = {}
 
         # All unique_keys in the fixed feature order — populated at model-build time.
@@ -145,7 +153,7 @@ class AutoencoderDetector(BaseModel):
     # BaseModel                                                            #
     # ------------------------------------------------------------------ #
 
-    def train(self, features: dict[FieldInfo, float], n_learned: int) -> None:
+    def train(self, features: dict[FieldInfo, list[float]], n_learned: int) -> None:
         with self._lock:
             if not features:
                 return
@@ -172,7 +180,7 @@ class AutoencoderDetector(BaseModel):
 
     def score(
         self,
-        features: dict[FieldInfo, float],
+        features: dict[FieldInfo, list[float]],
         flat: dict[str, Any],
         explain: bool,
     ) -> DetectorResult:
@@ -214,8 +222,9 @@ class AutoencoderDetector(BaseModel):
             "sorted_baseline_mses": self._sorted_baseline_mses,
             "events_since_retrain": self._events_since_retrain,
             "cat_fi_order": self._cat_fi_order,
-            "num_fi_order": self._num_fi_order,
+            "vec_fi_order": self._vec_fi_order,
             "cat_vocab_sizes": dict(self._cat_vocab_sizes),
+            "vec_lengths": dict(self._vec_lengths),
             "feature_slices": dict(self._feature_slices),
             "n_trained": self._n_trained,
             "model": self._model,
@@ -227,13 +236,14 @@ class AutoencoderDetector(BaseModel):
         self._sorted_baseline_mses = state["sorted_baseline_mses"]
         self._events_since_retrain = state["events_since_retrain"]
         self._cat_fi_order = state["cat_fi_order"]
-        self._num_fi_order = state["num_fi_order"]
+        self._vec_fi_order = state["vec_fi_order"]
         self._known_feature_keys = frozenset(
             fi.unique_key for fi in self._cat_fi_order
         ) | frozenset(
-            fi.unique_key for fi in self._num_fi_order
+            fi.unique_key for fi in self._vec_fi_order
         )
         self._cat_vocab_sizes = state["cat_vocab_sizes"]
+        self._vec_lengths = state["vec_lengths"]
         self._feature_slices = state["feature_slices"]
         self._n_trained = state["n_trained"]
         self._model = state["model"]
@@ -258,7 +268,7 @@ class AutoencoderDetector(BaseModel):
             max(1, self._cat_vocab_sizes.get(fi.original, 1))
             for fi in self._cat_fi_order
         ]
-        numeric_dim = 2 * len(self._num_fi_order)  # [value, is_present] per field
+        numeric_dim = sum(self._vec_lengths[fi.unique_key] + 1 for fi in self._vec_fi_order)
         bottleneck = self._resolve_bottleneck(vocab_sizes, numeric_dim)
 
         self._model = EntityEmbeddingAutoencoder(
@@ -348,18 +358,19 @@ class AutoencoderDetector(BaseModel):
         dropped.
         """
         seen_cat: set[str] = set()
-        seen_num: set[str] = set()
+        seen_vec: set[str] = set()
         for event_features in self._buffer:
-            for fi in event_features:
+            for fi, values in event_features.items():
                 if fi.preprocessor in _EMBEDDING_PREPROCESSORS:
                     if fi.unique_key not in seen_cat:
                         self._cat_fi_order.append(fi)
                         seen_cat.add(fi.unique_key)
                 else:
-                    if fi.unique_key not in seen_num:
-                        self._num_fi_order.append(fi)
-                        seen_num.add(fi.unique_key)
-        self._known_feature_keys = frozenset(seen_cat) | frozenset(seen_num)
+                    if fi.unique_key not in seen_vec:
+                        self._vec_fi_order.append(fi)
+                        self._vec_lengths[fi.unique_key] = len(values)
+                        seen_vec.add(fi.unique_key)
+        self._known_feature_keys = frozenset(seen_cat) | frozenset(seen_vec)
 
     def _assign_feature_slices(self) -> None:
         """Map each fi.unique_key to its contiguous slice in the AE input vector."""
@@ -368,37 +379,39 @@ class AutoencoderDetector(BaseModel):
             dim = self._model.embed_dims[i]
             self._feature_slices[fi.unique_key] = (pos, pos + dim)
             pos += dim
-        for j, fi in enumerate(self._num_fi_order):
-            start = pos + j * 2
-            self._feature_slices[fi.unique_key] = (start, start + 2)
+        for fi in self._vec_fi_order:
+            vec_len = self._vec_lengths[fi.unique_key]
+            self._feature_slices[fi.unique_key] = (pos, pos + vec_len + 1)
+            pos += vec_len + 1
 
-    def _update_cat_vocab_sizes(self, features: dict[FieldInfo, float]) -> None:
+    def _update_cat_vocab_sizes(self, features: dict[FieldInfo, list[float]]) -> None:
         """Track the max observed LabelIndex per categorical field for embedding sizing."""
-        for fi, v in features.items():
+        for fi, values in features.items():
             if fi.preprocessor in _EMBEDDING_PREPROCESSORS:
-                idx = int(v)
+                idx = int(values[0])
                 expected = int(fi.limits[1]) if fi.limits is not None else 0
                 current = self._cat_vocab_sizes.get(fi.original, 0)
                 self._cat_vocab_sizes[fi.original] = max(current, idx, expected)
 
     def _encode_features(
-        self, features: dict[FieldInfo, float]
+        self, features: dict[FieldInfo, list[float]]
     ) -> tuple[list[int], list[float]]:
         """Encode a feature dict into (cat_indices, num_floats) with missing-value imputation.
 
         Categorical missing → index 0 (LabelIndex missing sentinel): the model sees
         a distinct "absent" embedding, not any real category.
 
-        Numeric missing → [0.0, 0.0] pair: distinguishes absent from a field present
-        with a near-mean value, which contributes [v, 1.0].
+        All other fields → [v0, ..., vN, is_present]: vec_len values + presence flag.
         """
-        cat_indices = [int(features.get(fi, 0.0)) for fi in self._cat_fi_order]
+        cat_indices = [int(features.get(fi, [0.0])[0]) for fi in self._cat_fi_order]
         num_floats: list[float] = []
-        for fi in self._num_fi_order:
+        for fi in self._vec_fi_order:
             if fi in features:
-                num_floats.extend([float(features[fi]), 1.0])
+                num_floats.extend(features[fi])
+                num_floats.append(1.0)
             else:
-                num_floats.extend([0.0, 0.0])
+                num_floats.extend([0.0] * self._vec_lengths[fi.unique_key])
+                num_floats.append(0.0)
         return cat_indices, num_floats
 
     def _buffer_to_tensors(self) -> tuple[torch.Tensor, torch.Tensor]:
@@ -424,7 +437,7 @@ class AutoencoderDetector(BaseModel):
 
     def _build_explanation(
         self,
-        features: dict[FieldInfo, float],
+        features: dict[FieldInfo, list[float]],
         flat: dict[str, Any],
         reconstructed: torch.Tensor,
         original_x: torch.Tensor,

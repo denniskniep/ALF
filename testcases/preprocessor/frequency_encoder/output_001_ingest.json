@@ -9,7 +9,9 @@
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 0.0
+              "country": [
+                0.0
+              ]
             }
           }
         ]
@@ -26,7 +28,9 @@
             "field": "country",
             "value": "US",
             "preprocessed": {
-              "country": 0.0
+              "country": [
+                0.0
+              ]
             }
           }
         ]
@@ -43,7 +47,9 @@
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 0.5
+              "country": [
+                0.5
+              ]
             }
           }
         ]
@@ -60,7 +66,9 @@
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 0.6666666666666666
+              "country": [
+                0.6666666666666666
+              ]
             }
           }
         ]
@@ -77,7 +85,9 @@
             "field": "country",
             "value": "US",
             "preprocessed": {
-              "country": 0.25
+              "country": [
+                0.25
+              ]
             }
           }
         ]

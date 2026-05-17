@@ -39,7 +39,7 @@ class ModelSlice:
     def r_window(self) -> StatsWindow:
         return self._r_window
 
-    def learn_one(self, final: dict[FieldInfo, float]) -> None:
+    def learn_one(self, final: dict[FieldInfo, list[float]]) -> None:
         str_final = self._register_limits_and_flatten(final)
         for key, value in str_final.items():
             self._l_window.update(key, value)
@@ -51,24 +51,25 @@ class ModelSlice:
             self._window_counter = 0
             self._first_window = False
 
-    def score_one(self, final: dict[FieldInfo, float]) -> float:
+    def score_one(self, final: dict[FieldInfo, list[float]]) -> float:
         str_final = self._register_limits_and_flatten(final)
         return self._hst.score_one(str_final)
 
-    def _register_limits_and_flatten(self, final: dict[FieldInfo, float]) -> dict[str, float]:
-        """Convert FieldInfo keys to str, update HST limits for new keys, validate ranges."""
+    def _register_limits_and_flatten(self, final: dict[FieldInfo, list[float]]) -> dict[str, float]:
+        """Expand each FieldInfo → list[float] to indexed str keys, register HST limits."""
         result: dict[str, float] = {}
-        for fi, v in final.items():
-            key = fi.unique_key
-            if key not in self._limits_seen:
-                effective = fi.limits if fi.limits is not None else (-1.0, 1.0)
-                self._limits_seen[key] = effective
-                if fi.limits is not None:
-                    self._hst.limits[key] = fi.limits
-            lo, hi = self._limits_seen[key]
-            if not (lo <= v <= hi):
-                raise ValueError(
-                    f"feature '{key}' = {v} is outside expected range [{lo}, {hi}]"
-                )
-            result[key] = v
+        for fi, values in final.items():
+            for i, v in enumerate(values):
+                key = f"{fi.unique_key}__{i}"
+                if key not in self._limits_seen:
+                    effective = fi.limits if fi.limits is not None else (-1.0, 1.0)
+                    self._limits_seen[key] = effective
+                    if fi.limits is not None:
+                        self._hst.limits[key] = fi.limits
+                lo, hi = self._limits_seen[key]
+                if not (lo <= v <= hi):
+                    raise ValueError(
+                        f"feature '{key}' = {v} is outside expected range [{lo}, {hi}]"
+                    )
+                result[key] = v
         return result

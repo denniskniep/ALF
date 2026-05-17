@@ -9,11 +9,21 @@
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country__1": 1.0,
-              "country__2": 0.0,
-              "country__3": 0.0,
-              "country__4": 0.0,
-              "country__5": 0.0
+              "country__1": [
+                1.0
+              ],
+              "country__2": [
+                0.0
+              ],
+              "country__3": [
+                0.0
+              ],
+              "country__4": [
+                0.0
+              ],
+              "country__5": [
+                0.0
+              ]
             }
           }
         ]
@@ -30,11 +40,21 @@
             "field": "country",
             "value": "US",
             "preprocessed": {
-              "country__1": 0.0,
-              "country__2": 1.0,
-              "country__3": 0.0,
-              "country__4": 0.0,
-              "country__5": 0.0
+              "country__1": [
+                0.0
+              ],
+              "country__2": [
+                1.0
+              ],
+              "country__3": [
+                0.0
+              ],
+              "country__4": [
+                0.0
+              ],
+              "country__5": [
+                0.0
+              ]
             }
           }
         ]
@@ -51,11 +71,21 @@
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country__1": 1.0,
-              "country__2": 0.0,
-              "country__3": 0.0,
-              "country__4": 0.0,
-              "country__5": 0.0
+              "country__1": [
+                1.0
+              ],
+              "country__2": [
+                0.0
+              ],
+              "country__3": [
+                0.0
+              ],
+              "country__4": [
+                0.0
+              ],
+              "country__5": [
+                0.0
+              ]
             }
           }
         ]
@@ -72,11 +102,21 @@
             "field": "country",
             "value": "FR",
             "preprocessed": {
-              "country__1": 0.0,
-              "country__2": 0.0,
-              "country__3": 1.0,
-              "country__4": 0.0,
-              "country__5": 0.0
+              "country__1": [
+                0.0
+              ],
+              "country__2": [
+                0.0
+              ],
+              "country__3": [
+                1.0
+              ],
+              "country__4": [
+                0.0
+              ],
+              "country__5": [
+                0.0
+              ]
             }
           }
         ]
@@ -93,11 +133,21 @@
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country__1": 1.0,
-              "country__2": 0.0,
-              "country__3": 0.0,
-              "country__4": 0.0,
-              "country__5": 0.0
+              "country__1": [
+                1.0
+              ],
+              "country__2": [
+                0.0
+              ],
+              "country__3": [
+                0.0
+              ],
+              "country__4": [
+                0.0
+              ],
+              "country__5": [
+                0.0
+              ]
             }
           }
         ]
@@ -114,11 +164,21 @@
             "field": "country",
             "value": "NL",
             "preprocessed": {
-              "country__1": 0.0,
-              "country__2": 0.0,
-              "country__3": 0.0,
-              "country__4": 1.0,
-              "country__5": 0.0
+              "country__1": [
+                0.0
+              ],
+              "country__2": [
+                0.0
+              ],
+              "country__3": [
+                0.0
+              ],
+              "country__4": [
+                1.0
+              ],
+              "country__5": [
+                0.0
+              ]
             }
           }
         ]
@@ -135,11 +195,21 @@
             "field": "country",
             "value": "US",
             "preprocessed": {
-              "country__1": 0.0,
-              "country__2": 1.0,
-              "country__3": 0.0,
-              "country__4": 0.0,
-              "country__5": 0.0
+              "country__1": [
+                0.0
+              ],
+              "country__2": [
+                1.0
+              ],
+              "country__3": [
+                0.0
+              ],
+              "country__4": [
+                0.0
+              ],
+              "country__5": [
+                0.0
+              ]
             }
           }
         ]
@@ -156,11 +226,21 @@
             "field": "country",
             "value": "FR",
             "preprocessed": {
-              "country__1": 0.0,
-              "country__2": 0.0,
-              "country__3": 1.0,
-              "country__4": 0.0,
-              "country__5": 0.0
+              "country__1": [
+                0.0
+              ],
+              "country__2": [
+                0.0
+              ],
+              "country__3": [
+                1.0
+              ],
+              "country__4": [
+                0.0
+              ],
+              "country__5": [
+                0.0
+              ]
             }
           }
         ]

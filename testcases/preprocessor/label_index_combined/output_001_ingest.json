@@ -9,14 +9,18 @@
             "field": "browser",
             "value": "Chrome",
             "preprocessed": {
-              "browser": 1.0
+              "browser": [
+                1.0
+              ]
             }
           },
           {
             "field": "os",
             "value": "Windows",
             "preprocessed": {
-              "os": 1.0
+              "os": [
+                1.0
+              ]
             }
           }
         ]
@@ -33,14 +37,18 @@
             "field": "browser",
             "value": "Firefox",
             "preprocessed": {
-              "browser": 2.0
+              "browser": [
+                2.0
+              ]
             }
           },
           {
             "field": "os",
             "value": "Linux",
             "preprocessed": {
-              "os": 2.0
+              "os": [
+                2.0
+              ]
             }
           }
         ]
@@ -57,14 +65,18 @@
             "field": "browser",
             "value": "Chrome",
             "preprocessed": {
-              "browser": 1.0
+              "browser": [
+                1.0
+              ]
             }
           },
           {
             "field": "os",
             "value": "Linux",
             "preprocessed": {
-              "os": 2.0
+              "os": [
+                2.0
+              ]
             }
           }
         ]
@@ -81,14 +93,18 @@
             "field": "browser",
             "value": "Edge",
             "preprocessed": {
-              "browser": 3.0
+              "browser": [
+                3.0
+              ]
             }
           },
           {
             "field": "os",
             "value": "Windows",
             "preprocessed": {
-              "os": 1.0
+              "os": [
+                1.0
+              ]
             }
           }
         ]

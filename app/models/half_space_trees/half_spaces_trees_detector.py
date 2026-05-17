@@ -62,7 +62,7 @@ class HalfSpaceTreesDetector(BaseModel):
     # BaseModel                                                            #
     # ------------------------------------------------------------------ #
 
-    def train(self, features: dict[FieldInfo, float], n_learned: int) -> None:
+    def train(self, features: dict[FieldInfo, list[float]], n_learned: int) -> None:
         with self._lock:
             for k, slc in enumerate(self._slices):
                 if n_learned > k * self._phase_step:
@@ -70,7 +70,7 @@ class HalfSpaceTreesDetector(BaseModel):
 
     def score(
         self,
-        features: dict[FieldInfo, float],
+        features: dict[FieldInfo, list[float]],
         flat: dict[str, Any],
         explain: bool,
     ) -> DetectorResult:
@@ -104,7 +104,7 @@ class HalfSpaceTreesDetector(BaseModel):
 
     def _build_explanation(
         self,
-        features: dict[FieldInfo, float],
+        features: dict[FieldInfo, list[float]],
         flat: dict[str, Any],
         r_window: StatsWindow,
         original_score: float,
@@ -113,7 +113,10 @@ class HalfSpaceTreesDetector(BaseModel):
         for fi in features:
             groups.setdefault(fi.original, []).append(fi)
 
-        baseline: dict[FieldInfo, float] = {fi: r_window.mean(fi.unique_key) for fi in features}
+        baseline: dict[FieldInfo, list[float]] = {
+            fi: [r_window.mean(f"{fi.unique_key}__{i}") for i in range(len(values))]
+            for fi, values in features.items()
+        }
         baseline_score = self._score_features(baseline)
 
         contributors = []
@@ -131,7 +134,7 @@ class HalfSpaceTreesDetector(BaseModel):
         contributors.sort(key=lambda c: abs(c.delta), reverse=True)
         return CohortExplanation(features=contributors, baseline_score=round(baseline_score, 4))
 
-    def _score_features(self, features: dict[FieldInfo, float]) -> float:
+    def _score_features(self, features: dict[FieldInfo, list[float]]) -> float:
         with self._lock:
             raw = self._recent_model_slice().score_one(features)
         return float(np.clip(raw * 100.0, 0.0, 100.0))

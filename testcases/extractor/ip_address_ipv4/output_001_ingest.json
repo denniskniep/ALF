@@ -9,35 +9,45 @@
             "field": "ip.is_private",
             "value": 1.0,
             "preprocessed": {
-              "ip.is_private": 0.0
+              "ip.is_private": [
+                0.0
+              ]
             }
           },
           {
             "field": "ip.o1",
             "value": 192.0,
             "preprocessed": {
-              "ip.o1": 0.0
+              "ip.o1": [
+                0.0
+              ]
             }
           },
           {
             "field": "ip.o2",
             "value": 168.0,
             "preprocessed": {
-              "ip.o2": 0.0
+              "ip.o2": [
+                0.0
+              ]
             }
           },
           {
             "field": "ip.o3",
             "value": 1.0,
             "preprocessed": {
-              "ip.o3": 0.0
+              "ip.o3": [
+                0.0
+              ]
             }
           },
           {
             "field": "ip.o4",
             "value": 1.0,
             "preprocessed": {
-              "ip.o4": 0.0
+              "ip.o4": [
+                0.0
+              ]
             }
           }
         ]

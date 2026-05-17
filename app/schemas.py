@@ -17,7 +17,7 @@ class FieldContributionOut(BaseModel):
     field: str
     value: Any
     delta: float | None
-    preprocessed: dict[str, float]
+    preprocessed: dict[str, list[float]]
 
 
 class CohortExplanationOut(BaseModel):
@@ -56,7 +56,7 @@ class ScoreResponse(BaseModel):
 class IngestFeatureOut(BaseModel):
     field: str
     value: Any
-    preprocessed: dict[str, float]
+    preprocessed: dict[str, list[float]]
 
 
 class IngestCohortOut(BaseModel):

@@ -9,7 +9,9 @@
             "field": "latency",
             "value": 95.0,
             "preprocessed": {
-              "latency": 0.0
+              "latency": [
+                0.0
+              ]
             }
           }
         ]
@@ -26,7 +28,9 @@
             "field": "latency",
             "value": 100.0,
             "preprocessed": {
-              "latency": 1.0
+              "latency": [
+                1.0
+              ]
             }
           }
         ]
@@ -43,7 +47,9 @@
             "field": "latency",
             "value": 105.0,
             "preprocessed": {
-              "latency": 1.224744871391589
+              "latency": [
+                1.224744871391589
+              ]
             }
           }
         ]
@@ -60,7 +66,9 @@
             "field": "latency",
             "value": 98.0,
             "preprocessed": {
-              "latency": -0.4120816918460671
+              "latency": [
+                -0.4120816918460671
+              ]
             }
           }
         ]
@@ -77,7 +85,9 @@
             "field": "latency",
             "value": 102.0,
             "preprocessed": {
-              "latency": 0.5872202195147035
+              "latency": [
+                0.5872202195147035
+              ]
             }
           }
         ]

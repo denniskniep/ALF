@@ -28,7 +28,7 @@ class OneHotEncoder:
     def learn_post_transform(self, key: str, value: Any) -> None:
         pass
 
-    def transform(self, key: str, value: Any) -> dict[FieldInfo, float]:
+    def transform(self, key: str, value: Any) -> dict[FieldInfo, list[float]]:
         s = str(value)
         if s not in self._vocab:
             if self._next > self._n:
@@ -39,6 +39,6 @@ class OneHotEncoder:
 
         active = self._vocab.get(str(value))
         return {
-            FieldInfo(original=key, bucket=str(i), preprocessor="OneHotEncoder"): 1.0 if i == active else 0.0
+            FieldInfo(original=key, bucket=str(i), preprocessor="OneHotEncoder"): [1.0 if i == active else 0.0]
             for i in range(1, self._n + 1)
         }

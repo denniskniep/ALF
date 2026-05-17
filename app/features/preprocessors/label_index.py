@@ -21,13 +21,13 @@ class LabelIndex:
     def learn_post_transform(self, key: str, value: Any) -> None:
         pass
 
-    def transform(self, key: str, value: Any) -> dict[FieldInfo, float]:
+    def transform(self, key: str, value: Any) -> dict[FieldInfo, list[float]]:
         s = str(value)
         if s not in self._vocab:
             self._vocab[s] = self._next
             self._next += 1
         limits = (0.0, float(self._expected_categories))
-        return {FieldInfo(original=key, limits=limits, preprocessor="LabelIndex"): float(self._vocab[s])}
+        return {FieldInfo(original=key, limits=limits, preprocessor="LabelIndex"): [float(self._vocab[s])]}
 
     @property
     def vocab_size(self) -> int:

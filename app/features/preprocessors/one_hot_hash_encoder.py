@@ -25,10 +25,10 @@ class OneHotHashEncoder:
     def learn_post_transform(self, key: str, value: Any) -> None:
         pass
 
-    def transform(self, key: str, value: Any) -> dict[FieldInfo, float]:
+    def transform(self, key: str, value: Any) -> dict[FieldInfo, list[float]]:
         feature = f"{key}={value}" if isinstance(value, str) else key
         bucket = self._hash(feature)
-        return {FieldInfo(original=key, bucket=str(bucket), preprocessor="OneHotHashEncoder"): 1.0}
+        return {FieldInfo(original=key, bucket=str(bucket), preprocessor="OneHotHashEncoder"): [1.0]}
 
     def _hash(self, feature: str) -> int:
         data = self._seed_prefix + feature.encode()

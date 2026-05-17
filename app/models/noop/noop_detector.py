@@ -17,12 +17,12 @@ class NoOpDetector(BaseModel):
         "str_identifier":  "NoOp",
     }
 
-    def train(self, features: dict[FieldInfo, float], n_learned: int) -> None:
+    def train(self, features: dict[FieldInfo, list[float]], n_learned: int) -> None:
         pass
 
     def score(
         self,
-        features: dict[FieldInfo, float],
+        features: dict[FieldInfo, list[float]],
         flat: dict[str, Any],
         explain: bool,
     ) -> DetectorResult:

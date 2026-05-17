@@ -9,21 +9,27 @@
             "field": "ts.hour",
             "value": 10.0,
             "preprocessed": {
-              "ts.hour": 0.0
+              "ts.hour": [
+                0.0
+              ]
             }
           },
           {
             "field": "ts.dayofweek",
             "value": 0.0,
             "preprocessed": {
-              "ts.dayofweek": 0.0
+              "ts.dayofweek": [
+                0.0
+              ]
             }
           },
           {
             "field": "ts.is_weekend",
             "value": 0.0,
             "preprocessed": {
-              "ts.is_weekend": 0.0
+              "ts.is_weekend": [
+                0.0
+              ]
             }
           }
         ]

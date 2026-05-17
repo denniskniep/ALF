@@ -1,14 +1,14 @@
 [
   {
     "accepted": true,
-    "composite_score": 16.57142857142857,
+    "composite_score": 17.714285714285715,
     "status": "NORMAL",
     "scores": [
       {
         "name": "test",
         "key": {},
         "weight": 1.0,
-        "anomaly_score": 16.57142857142857,
+        "anomaly_score": 17.714285714285715,
         "score_label": "NORMAL",
         "properties": {
           "reference_age": 5
@@ -18,39 +18,79 @@
             {
               "field": "user_agent.os.name",
               "value": "Linux",
-              "delta": 2.7428571428571473,
+              "delta": 6.400000000000006,
               "preprocessed": {
-                "user_agent.os.name__1": 0.0,
-                "user_agent.os.name__2": 0.0,
-                "user_agent.os.name__3": 1.0,
-                "user_agent.os.name__4": 0.0,
-                "user_agent.os.name__5": 0.0,
-                "user_agent.os.name__6": 0.0,
-                "user_agent.os.name__7": 0.0,
-                "user_agent.os.name__8": 0.0,
-                "user_agent.os.name__9": 0.0,
-                "user_agent.os.name__10": 0.0
+                "user_agent.os.name__1": [
+                  0.0
+                ],
+                "user_agent.os.name__2": [
+                  0.0
+                ],
+                "user_agent.os.name__3": [
+                  1.0
+                ],
+                "user_agent.os.name__4": [
+                  0.0
+                ],
+                "user_agent.os.name__5": [
+                  0.0
+                ],
+                "user_agent.os.name__6": [
+                  0.0
+                ],
+                "user_agent.os.name__7": [
+                  0.0
+                ],
+                "user_agent.os.name__8": [
+                  0.0
+                ],
+                "user_agent.os.name__9": [
+                  0.0
+                ],
+                "user_agent.os.name__10": [
+                  0.0
+                ]
               }
             },
             {
               "field": "user_agent.agent.name",
               "value": "Firefox",
-              "delta": 1.371428571428579,
+              "delta": 1.3714285714285666,
               "preprocessed": {
-                "user_agent.agent.name__1": 0.0,
-                "user_agent.agent.name__2": 1.0,
-                "user_agent.agent.name__3": 0.0,
-                "user_agent.agent.name__4": 0.0,
-                "user_agent.agent.name__5": 0.0,
-                "user_agent.agent.name__6": 0.0,
-                "user_agent.agent.name__7": 0.0,
-                "user_agent.agent.name__8": 0.0,
-                "user_agent.agent.name__9": 0.0,
-                "user_agent.agent.name__10": 0.0
+                "user_agent.agent.name__1": [
+                  0.0
+                ],
+                "user_agent.agent.name__2": [
+                  1.0
+                ],
+                "user_agent.agent.name__3": [
+                  0.0
+                ],
+                "user_agent.agent.name__4": [
+                  0.0
+                ],
+                "user_agent.agent.name__5": [
+                  0.0
+                ],
+                "user_agent.agent.name__6": [
+                  0.0
+                ],
+                "user_agent.agent.name__7": [
+                  0.0
+                ],
+                "user_agent.agent.name__8": [
+                  0.0
+                ],
+                "user_agent.agent.name__9": [
+                  0.0
+                ],
+                "user_agent.agent.name__10": [
+                  0.0
+                ]
               }
             }
           ],
-          "baseline_score": 11.3143
+          "baseline_score": 9.9429
         }
       }
     ]
@@ -74,18 +114,38 @@
             {
               "field": "user_agent.os.name",
               "value": "Windows 10",
-              "delta": -3.4285714285714253,
+              "delta": -2.0571428571428587,
               "preprocessed": {
-                "user_agent.os.name__1": 1.0,
-                "user_agent.os.name__2": 0.0,
-                "user_agent.os.name__3": 0.0,
-                "user_agent.os.name__4": 0.0,
-                "user_agent.os.name__5": 0.0,
-                "user_agent.os.name__6": 0.0,
-                "user_agent.os.name__7": 0.0,
-                "user_agent.os.name__8": 0.0,
-                "user_agent.os.name__9": 0.0,
-                "user_agent.os.name__10": 0.0
+                "user_agent.os.name__1": [
+                  1.0
+                ],
+                "user_agent.os.name__2": [
+                  0.0
+                ],
+                "user_agent.os.name__3": [
+                  0.0
+                ],
+                "user_agent.os.name__4": [
+                  0.0
+                ],
+                "user_agent.os.name__5": [
+                  0.0
+                ],
+                "user_agent.os.name__6": [
+                  0.0
+                ],
+                "user_agent.os.name__7": [
+                  0.0
+                ],
+                "user_agent.os.name__8": [
+                  0.0
+                ],
+                "user_agent.os.name__9": [
+                  0.0
+                ],
+                "user_agent.os.name__10": [
+                  0.0
+                ]
               }
             },
             {
@@ -93,20 +153,40 @@
               "value": "Chrome",
               "delta": 0.0,
               "preprocessed": {
-                "user_agent.agent.name__1": 1.0,
-                "user_agent.agent.name__2": 0.0,
-                "user_agent.agent.name__3": 0.0,
-                "user_agent.agent.name__4": 0.0,
-                "user_agent.agent.name__5": 0.0,
-                "user_agent.agent.name__6": 0.0,
-                "user_agent.agent.name__7": 0.0,
-                "user_agent.agent.name__8": 0.0,
-                "user_agent.agent.name__9": 0.0,
-                "user_agent.agent.name__10": 0.0
+                "user_agent.agent.name__1": [
+                  1.0
+                ],
+                "user_agent.agent.name__2": [
+                  0.0
+                ],
+                "user_agent.agent.name__3": [
+                  0.0
+                ],
+                "user_agent.agent.name__4": [
+                  0.0
+                ],
+                "user_agent.agent.name__5": [
+                  0.0
+                ],
+                "user_agent.agent.name__6": [
+                  0.0
+                ],
+                "user_agent.agent.name__7": [
+                  0.0
+                ],
+                "user_agent.agent.name__8": [
+                  0.0
+                ],
+                "user_agent.agent.name__9": [
+                  0.0
+                ],
+                "user_agent.agent.name__10": [
+                  0.0
+                ]
               }
             }
           ],
-          "baseline_score": 11.3143
+          "baseline_score": 9.9429
         }
       }
     ]
@@ -130,39 +210,79 @@
             {
               "field": "user_agent.os.name",
               "value": "Windows 10",
-              "delta": -3.4285714285714253,
+              "delta": -2.0571428571428587,
               "preprocessed": {
-                "user_agent.os.name__1": 1.0,
-                "user_agent.os.name__2": 0.0,
-                "user_agent.os.name__3": 0.0,
-                "user_agent.os.name__4": 0.0,
-                "user_agent.os.name__5": 0.0,
-                "user_agent.os.name__6": 0.0,
-                "user_agent.os.name__7": 0.0,
-                "user_agent.os.name__8": 0.0,
-                "user_agent.os.name__9": 0.0,
-                "user_agent.os.name__10": 0.0
+                "user_agent.os.name__1": [
+                  1.0
+                ],
+                "user_agent.os.name__2": [
+                  0.0
+                ],
+                "user_agent.os.name__3": [
+                  0.0
+                ],
+                "user_agent.os.name__4": [
+                  0.0
+                ],
+                "user_agent.os.name__5": [
+                  0.0
+                ],
+                "user_agent.os.name__6": [
+                  0.0
+                ],
+                "user_agent.os.name__7": [
+                  0.0
+                ],
+                "user_agent.os.name__8": [
+                  0.0
+                ],
+                "user_agent.os.name__9": [
+                  0.0
+                ],
+                "user_agent.os.name__10": [
+                  0.0
+                ]
               }
             },
             {
               "field": "user_agent.agent.name",
               "value": "Edge",
-              "delta": 1.8285714285714363,
+              "delta": 1.828571428571422,
               "preprocessed": {
-                "user_agent.agent.name__1": 0.0,
-                "user_agent.agent.name__2": 0.0,
-                "user_agent.agent.name__3": 1.0,
-                "user_agent.agent.name__4": 0.0,
-                "user_agent.agent.name__5": 0.0,
-                "user_agent.agent.name__6": 0.0,
-                "user_agent.agent.name__7": 0.0,
-                "user_agent.agent.name__8": 0.0,
-                "user_agent.agent.name__9": 0.0,
-                "user_agent.agent.name__10": 0.0
+                "user_agent.agent.name__1": [
+                  0.0
+                ],
+                "user_agent.agent.name__2": [
+                  0.0
+                ],
+                "user_agent.agent.name__3": [
+                  1.0
+                ],
+                "user_agent.agent.name__4": [
+                  0.0
+                ],
+                "user_agent.agent.name__5": [
+                  0.0
+                ],
+                "user_agent.agent.name__6": [
+                  0.0
+                ],
+                "user_agent.agent.name__7": [
+                  0.0
+                ],
+                "user_agent.agent.name__8": [
+                  0.0
+                ],
+                "user_agent.agent.name__9": [
+                  0.0
+                ],
+                "user_agent.agent.name__10": [
+                  0.0
+                ]
               }
             }
           ],
-          "baseline_score": 11.3143
+          "baseline_score": 9.9429
         }
       }
     ]

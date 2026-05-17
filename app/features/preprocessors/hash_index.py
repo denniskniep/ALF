@@ -27,10 +27,10 @@ class HashIndex:
     def learn_post_transform(self, key: str, value: Any) -> None:
         pass
 
-    def transform(self, key: str, value: Any) -> dict[FieldInfo, float]:
+    def transform(self, key: str, value: Any) -> dict[FieldInfo, list[float]]:
         feature = f"{key}={value}" if isinstance(value, str) else key
         idx = self._hash(feature)
-        return {FieldInfo(original=key, limits=(0.0, float(self._n)), preprocessor="HashIndex"): float(idx)}
+        return {FieldInfo(original=key, limits=(0.0, float(self._n)), preprocessor="HashIndex"): [float(idx)]}
 
     def _hash(self, feature: str) -> int:
         data = self._seed_prefix + feature.encode()

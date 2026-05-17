@@ -21,7 +21,9 @@
               "value": "Chrome",
               "delta": 0.0,
               "preprocessed": {
-                "browser": 1.0
+                "browser": [
+                  1.0
+                ]
               }
             },
             {
@@ -29,7 +31,9 @@
               "value": "Windows",
               "delta": 0.0,
               "preprocessed": {
-                "os": 1.0
+                "os": [
+                  1.0
+                ]
               }
             }
           ],
@@ -60,7 +64,9 @@
               "value": "Chrome",
               "delta": 60.0383,
               "preprocessed": {
-                "browser": 1.0
+                "browser": [
+                  1.0
+                ]
               }
             },
             {
@@ -68,7 +74,9 @@
               "value": "Linux",
               "delta": 39.9617,
               "preprocessed": {
-                "os": 2.0
+                "os": [
+                  2.0
+                ]
               }
             }
           ],

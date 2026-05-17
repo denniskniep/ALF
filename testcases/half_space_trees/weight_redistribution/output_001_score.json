@@ -20,16 +20,36 @@
               "value": "new_user",
               "delta": 13.33333333333333,
               "preprocessed": {
-                "user__1": 0.0,
-                "user__2": 1.0,
-                "user__3": 0.0,
-                "user__4": 0.0,
-                "user__5": 0.0,
-                "user__6": 0.0,
-                "user__7": 0.0,
-                "user__8": 0.0,
-                "user__9": 0.0,
-                "user__10": 0.0
+                "user__1": [
+                  0.0
+                ],
+                "user__2": [
+                  1.0
+                ],
+                "user__3": [
+                  0.0
+                ],
+                "user__4": [
+                  0.0
+                ],
+                "user__5": [
+                  0.0
+                ],
+                "user__6": [
+                  0.0
+                ],
+                "user__7": [
+                  0.0
+                ],
+                "user__8": [
+                  0.0
+                ],
+                "user__9": [
+                  0.0
+                ],
+                "user__10": [
+                  0.0
+                ]
               }
             },
             {
@@ -37,7 +57,9 @@
               "value": 100.0,
               "delta": 0.0,
               "preprocessed": {
-                "latency": 0.1521495030471895
+                "latency": [
+                  0.1521495030471895
+                ]
               }
             },
             {
@@ -45,16 +67,36 @@
               "value": "DE",
               "delta": 0.0,
               "preprocessed": {
-                "country__1": 1.0,
-                "country__2": 0.0,
-                "country__3": 0.0,
-                "country__4": 0.0,
-                "country__5": 0.0,
-                "country__6": 0.0,
-                "country__7": 0.0,
-                "country__8": 0.0,
-                "country__9": 0.0,
-                "country__10": 0.0
+                "country__1": [
+                  1.0
+                ],
+                "country__2": [
+                  0.0
+                ],
+                "country__3": [
+                  0.0
+                ],
+                "country__4": [
+                  0.0
+                ],
+                "country__5": [
+                  0.0
+                ],
+                "country__6": [
+                  0.0
+                ],
+                "country__7": [
+                  0.0
+                ],
+                "country__8": [
+                  0.0
+                ],
+                "country__9": [
+                  0.0
+                ],
+                "country__10": [
+                  0.0
+                ]
               }
             }
           ],
@@ -79,16 +121,36 @@
               "value": "new_user",
               "delta": 13.33333333333333,
               "preprocessed": {
-                "user__1": 0.0,
-                "user__2": 1.0,
-                "user__3": 0.0,
-                "user__4": 0.0,
-                "user__5": 0.0,
-                "user__6": 0.0,
-                "user__7": 0.0,
-                "user__8": 0.0,
-                "user__9": 0.0,
-                "user__10": 0.0
+                "user__1": [
+                  0.0
+                ],
+                "user__2": [
+                  1.0
+                ],
+                "user__3": [
+                  0.0
+                ],
+                "user__4": [
+                  0.0
+                ],
+                "user__5": [
+                  0.0
+                ],
+                "user__6": [
+                  0.0
+                ],
+                "user__7": [
+                  0.0
+                ],
+                "user__8": [
+                  0.0
+                ],
+                "user__9": [
+                  0.0
+                ],
+                "user__10": [
+                  0.0
+                ]
               }
             },
             {
@@ -96,7 +158,9 @@
               "value": 100.0,
               "delta": 0.0,
               "preprocessed": {
-                "latency": 0.1521495030471895
+                "latency": [
+                  0.1521495030471895
+                ]
               }
             },
             {
@@ -104,16 +168,36 @@
               "value": "DE",
               "delta": 0.0,
               "preprocessed": {
-                "country__1": 1.0,
-                "country__2": 0.0,
-                "country__3": 0.0,
-                "country__4": 0.0,
-                "country__5": 0.0,
-                "country__6": 0.0,
-                "country__7": 0.0,
-                "country__8": 0.0,
-                "country__9": 0.0,
-                "country__10": 0.0
+                "country__1": [
+                  1.0
+                ],
+                "country__2": [
+                  0.0
+                ],
+                "country__3": [
+                  0.0
+                ],
+                "country__4": [
+                  0.0
+                ],
+                "country__5": [
+                  0.0
+                ],
+                "country__6": [
+                  0.0
+                ],
+                "country__7": [
+                  0.0
+                ],
+                "country__8": [
+                  0.0
+                ],
+                "country__9": [
+                  0.0
+                ],
+                "country__10": [
+                  0.0
+                ]
               }
             }
           ],

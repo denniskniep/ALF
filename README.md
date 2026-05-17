@@ -32,7 +32,7 @@ flowchart LR
 
 **Stage 1 — `extract()`**: Walks the nested JSON, applies per-type structural logic (parsing json from a string, expanding a timestamp into hour/weekday/etc.), and returns a flat `dict[field_name → (value, FieldConfig)]`.
 
-**Stage 2 — `Preprocessor`**: Converts each typed value to a model-ready float using a stateful per-field preprocessor (e.g. `StandardScaler`, `OneHotEncoder`). Returns `dict[FieldInfo → float]`.
+**Stage 2 — `Preprocessor`**: Converts each typed value to model-ready floats using a stateful per-field preprocessor (e.g. `StandardScaler`, `OneHotEncoder`). Returns `dict[FieldInfo → list[float]]`. Single-value preprocessors return a one-element list; vector preprocessors return a full float array.
 
 **Stage 3 — model**: Receives the preprocessed float dict. Either learns from it (`train`) or returns a score (`score`).
 
@@ -86,17 +86,17 @@ Each cohort routes to exactly one model instance per event. The `by_country` coh
 
 Extractors live in `app/features/extractors/`. To add a new extractor, create a new file there implementing the `FieldHandler` and register it in `app/features/extractor.py`.
 
-| Type | What it produces | Parameters |
-|---|---|---|
-| `numeric` | Single float | — |
-| `boolean` | `1.0` / `0.0` | — |
-| `str_categorical` | Raw string (low-cardinality) | — |
-| `str_identifier` | Raw string (high-cardinality, unbounded) | — |
-| `ip_address` | IPv4 → `.o1 .o2 .o3 .is_private`; IPv6 → `.subnet_hash .is_private` | — |
-| `semver` | `.major .minor .patch` | — |
-| `timestamp` | `.hour .dayofweek .is_weekend .is_business_hours` | — |
+| Type | What it produces                                                                                  | Parameters |
+|---|---------------------------------------------------------------------------------------------------|---|
+| `numeric` | Single float                                                                                      | — |
+| `boolean` | `1.0` / `0.0`                                                                                     | — |
+| `str_categorical` | Raw string (low-cardinality)                                                                      | — |
+| `str_identifier` | Raw string (high-cardinality, unbounded)                                                          | — |
+| `ip_address` | IPv4 → `.o1 .o2 .o3 .o4 .is_private`; IPv6 → `.subnet_hash .is_private`                           | — |
+| `semver` | `.major .minor .patch`                                                                            | — |
+| `timestamp` | `.hour .dayofweek .is_weekend`                                                  | — |
 | `json_expand` | Parses a JSON-encoded string field; recursively applies sibling field configs to the parsed object | — |
-| `ignore` | Drops the field entirely | — |
+| `ignore` | Drops the field entirely                                                                          | — |
 
 There are extractors, that expand into multiple sub-fields (**`json_expand`**, **`timestamp`** etc.). The expanded sub-fields come with sensible default types, but you can override them in the config by adding entries that name the expanded path:
 
@@ -147,16 +147,16 @@ features:
           n_categories: 50   # increase from default 10
 ```
 
-| Preprocessor | Output | Stateful | Parameters | Notes |
-|---|---|---|---|---|
-| `StandardScaler` | z-score float, clipped to `[-5, 5]` | yes | — | Default for `numeric`. Robust to outliers — a single extreme value shifts mean/std by O(1/n). |
-| `MinMaxScaler` | float in `[0, 1]` | yes | — | Correct for bounded sub-fields (timestamp parts, IP octets, semver). Avoid for unbounded numerics. |
-| `PassThrough` | raw float unchanged | no | — | Default for `boolean`. |
-| `OneHotEncoder` | N binary floats (`field__1` … `field__N`) | yes | `n_categories` (default 10) | Default for `str_categorical` in HST. Unseen values at score time produce all-zeros — a distinct novelty signal. Raises `ValueError` if vocabulary exceeds `n_categories`. |
-| `OneHotHashEncoder` | 1 float per hash bucket | no | `n_features` (default 2000) | Default for `str_identifier` in HST. Stateless, deterministic (seed=0). |
-| `LabelIndex` | integer vocab index (0 = missing) | yes | — | Default for `str_categorical` in Autoencoder. Routes to an embedding table. Captures co-occurrence patterns. |
-| `HashIndex` | integer hash index | no | `n_features` (default 2000) | Default for `str_identifier` in Autoencoder. Routes to an embedding table. Stateless. |
-| `FrequencyEncoder` | float in `[0, 1]` (how common the value is) | yes | — | Override only. Unseen values → `0.0`. |
+| Preprocessor | Output                                                      | Stateful | Parameters | Notes |
+|---|-------------------------------------------------------------|---|---|---|
+| `StandardScaler` | z-score float, clipped to `[-5, 5]`                         | yes | — | Default for `numeric`. Robust to outliers — a single extreme value shifts mean/std by O(1/n). |
+| `MinMaxScaler` | float in `[0, 1]`                                           | yes | — | Correct for bounded sub-fields (timestamp parts, IP octets, semver). Avoid for unbounded numerics. |
+| `PassThrough` | raw float unchanged                                         | no | — | Default for `boolean`. |
+| `OneHotEncoder` | N binary floats (`field__1` … `field__N`)                   | yes | `n_categories` (default 10) | Default for `str_categorical` in HST. Unseen values at score time produce all-zeros — a distinct novelty signal. Raises `ValueError` if vocabulary exceeds `n_categories`. |
+| `OneHotHashEncoder` | 1 binary float in a single hash bucket (`field__5489a3`) | no | `n_features` (default 2000) | Default for `str_identifier` in HST. Stateless, deterministic (seed=0). |
+| `LabelIndex` | integer vocab index (0 = missing)                           | yes | — | Default for `str_categorical` in Autoencoder. Routes to an embedding table. Captures co-occurrence patterns. |
+| `HashIndex` | integer hash index                                          | no | `n_features` (default 2000) | Default for `str_identifier` in Autoencoder. Routes to an embedding table. Stateless. |
+| `FrequencyEncoder` | float in `[0, 1]` (how common the value is)                 | yes | — | Override only. Unseen values → `0.0`. |
 
 ---
 
@@ -389,6 +389,10 @@ window_size / 2^height  ≥  0.1 × window_size
 
 The HST `?explain=true` response uses a **build-up from neutral baseline** approach. `baseline_score` is the score when all features equal their window mean. Each field's `delta` is `score({this field actual, all others at mean}) - baseline_score`. Fields are sorted by `|delta|` descending.
 
+#### Preprocessor result handling
+Preprocessors return list[float]. Result contains either single-element `[v]` or multi-elements (e.g. `[v0, v1, …, vN]`).
+HST expands the result list[float] to indexed keys (`field__0`, `field__1`, …) internally.
+
 ---
 
 ### Autoencoder
@@ -413,7 +417,11 @@ Embedding table size is pre-allocated as `observed_vocab + vocab_headroom`. If a
 
 #### Embedding behaviour
 
-`str_categorical` fields (via `LabelIndex`) and `str_identifier` fields (via `HashIndex`) are routed to per-field embedding tables. The autoencoder's bottleneck compresses all embedding vectors jointly, learning cross-field co-occurrence patterns. Example: a user-agent combination the model has never seen reconstructs poorly even if each individual value was common alone.
+`str_categorical` fields (via `LabelIndex`) and `str_identifier` fields (via `HashIndex`) are routed to per-field embedding tables. The autoencoder's bottleneck compresses all inputs jointly — embedding vectors and numeric values alike — learning cross-field co-occurrence patterns across every feature type. Example: a user-agent combination the model has never seen reconstructs poorly even if each individual value was common alone. Similarly, `latency=1000ms` paired with `country=NL` can be anomalous even if both values are individually common, because the model has learned that NL events normally have latency in the 100–200ms range.
+
+#### Preprocessor result handling
+Preprocessors return list[float]. Result contains either single-element `[v]` or multi-elements (e.g. `[v0, v1, …, vN]`).
+The Autoencoder adds always an `is_present` flag.
 
 #### Explanation
 

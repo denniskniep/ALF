@@ -9,7 +9,9 @@
             "field": "known",
             "value": "DE",
             "preprocessed": {
-              "known": 0.0
+              "known": [
+                0.0
+              ]
             }
           }
         ]

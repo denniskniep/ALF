@@ -9,7 +9,9 @@
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 0.0
+              "country": [
+                0.0
+              ]
             }
           }
         ]

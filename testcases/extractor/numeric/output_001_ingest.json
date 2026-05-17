@@ -9,7 +9,9 @@
             "field": "score",
             "value": 42.5,
             "preprocessed": {
-              "score": 0.0
+              "score": [
+                0.0
+              ]
             }
           }
         ]

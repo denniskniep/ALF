@@ -9,7 +9,9 @@
             "field": "kept",
             "value": 42.0,
             "preprocessed": {
-              "kept": 0.0
+              "kept": [
+                0.0
+              ]
             }
           }
         ]

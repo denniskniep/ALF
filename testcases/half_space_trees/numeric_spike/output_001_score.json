@@ -1,14 +1,14 @@
 [
   {
     "accepted": true,
-    "composite_score": 78.70709677419356,
+    "composite_score": 83.10967741935484,
     "status": "ANOMALOUS",
     "scores": [
       {
         "name": "test",
         "key": {},
         "weight": 1.0,
-        "anomaly_score": 78.70709677419356,
+        "anomaly_score": 83.10967741935484,
         "score_label": "ANOMALOUS",
         "properties": {
           "reference_age": 50
@@ -18,44 +18,66 @@
             {
               "field": "latency",
               "value": 9999.0,
-              "delta": 46.797419354838716,
+              "delta": 45.021935483870976,
               "preprocessed": {
-                "latency": 5.0
+                "latency": [
+                  5.0
+                ]
               }
             },
             {
               "field": "country",
               "value": "RU",
-              "delta": 6.405161290322582,
+              "delta": 15.452903225806455,
               "preprocessed": {
-                "country__1": 0.0,
-                "country__2": 1.0,
-                "country__3": 0.0,
-                "country__4": 0.0,
-                "country__5": 0.0,
-                "country__6": 0.0,
-                "country__7": 0.0,
-                "country__8": 0.0,
-                "country__9": 0.0,
-                "country__10": 0.0
+                "country__1": [
+                  0.0
+                ],
+                "country__2": [
+                  1.0
+                ],
+                "country__3": [
+                  0.0
+                ],
+                "country__4": [
+                  0.0
+                ],
+                "country__5": [
+                  0.0
+                ],
+                "country__6": [
+                  0.0
+                ],
+                "country__7": [
+                  0.0
+                ],
+                "country__8": [
+                  0.0
+                ],
+                "country__9": [
+                  0.0
+                ],
+                "country__10": [
+                  0.0
+                ]
               }
             }
           ],
-          "baseline_score": 28.2916
+          "baseline_score": 26.7329
         }
       }
     ]
   },
   {
     "accepted": true,
-    "composite_score": 28.446451612903225,
+    "composite_score": 26.887741935483866,
     "status": "NORMAL",
     "scores": [
       {
         "name": "test",
         "key": {},
         "weight": 1.0,
-        "anomaly_score": 28.446451612903225,
+        "anomaly_score": 26.887741935483866,
         "score_label": "NORMAL",
         "properties": {
           "reference_age": 50
@@ -65,9 +87,11 @@
             {
               "field": "latency",
               "value": 100.0,
-              "delta": 0.15483870967742064,
+              "delta": 0.15483870967741709,
               "preprocessed": {
-                "latency": 0.029666343903973515
+                "latency": [
+                  0.029666343903973515
+                ]
               }
             },
             {
@@ -75,34 +99,54 @@
               "value": "DE",
               "delta": 0.0,
               "preprocessed": {
-                "country__1": 1.0,
-                "country__2": 0.0,
-                "country__3": 0.0,
-                "country__4": 0.0,
-                "country__5": 0.0,
-                "country__6": 0.0,
-                "country__7": 0.0,
-                "country__8": 0.0,
-                "country__9": 0.0,
-                "country__10": 0.0
+                "country__1": [
+                  1.0
+                ],
+                "country__2": [
+                  0.0
+                ],
+                "country__3": [
+                  0.0
+                ],
+                "country__4": [
+                  0.0
+                ],
+                "country__5": [
+                  0.0
+                ],
+                "country__6": [
+                  0.0
+                ],
+                "country__7": [
+                  0.0
+                ],
+                "country__8": [
+                  0.0
+                ],
+                "country__9": [
+                  0.0
+                ],
+                "country__10": [
+                  0.0
+                ]
               }
             }
           ],
-          "baseline_score": 28.2916
+          "baseline_score": 26.7329
         }
       }
     ]
   },
   {
     "accepted": true,
-    "composite_score": 79.56387096774193,
+    "composite_score": 82.92387096774195,
     "status": "ANOMALOUS",
     "scores": [
       {
         "name": "test",
         "key": {},
         "weight": 1.0,
-        "anomaly_score": 79.56387096774193,
+        "anomaly_score": 82.92387096774195,
         "score_label": "ANOMALOUS",
         "properties": {
           "reference_age": 50
@@ -112,30 +156,52 @@
             {
               "field": "latency",
               "value": 150.0,
-              "delta": 46.797419354838716,
+              "delta": 45.021935483870976,
               "preprocessed": {
-                "latency": 5.0
+                "latency": [
+                  5.0
+                ]
               }
             },
             {
               "field": "country",
               "value": "FR",
-              "delta": 23.94838709677419,
+              "delta": 30.797419354838713,
               "preprocessed": {
-                "country__1": 0.0,
-                "country__2": 0.0,
-                "country__3": 1.0,
-                "country__4": 0.0,
-                "country__5": 0.0,
-                "country__6": 0.0,
-                "country__7": 0.0,
-                "country__8": 0.0,
-                "country__9": 0.0,
-                "country__10": 0.0
+                "country__1": [
+                  0.0
+                ],
+                "country__2": [
+                  0.0
+                ],
+                "country__3": [
+                  1.0
+                ],
+                "country__4": [
+                  0.0
+                ],
+                "country__5": [
+                  0.0
+                ],
+                "country__6": [
+                  0.0
+                ],
+                "country__7": [
+                  0.0
+                ],
+                "country__8": [
+                  0.0
+                ],
+                "country__9": [
+                  0.0
+                ],
+                "country__10": [
+                  0.0
+                ]
               }
             }
           ],
-          "baseline_score": 28.2916
+          "baseline_score": 26.7329
         }
       }
     ]

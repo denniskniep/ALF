@@ -9,7 +9,9 @@
             "field": "browser",
             "value": "Chrome",
             "preprocessed": {
-              "browser": 2.0
+              "browser": [
+                2.0
+              ]
             }
           }
         ]
@@ -26,7 +28,9 @@
             "field": "browser",
             "value": "Firefox",
             "preprocessed": {
-              "browser": 3.0
+              "browser": [
+                3.0
+              ]
             }
           }
         ]
@@ -43,7 +47,9 @@
             "field": "browser",
             "value": "Edge",
             "preprocessed": {
-              "browser": 0.0
+              "browser": [
+                0.0
+              ]
             }
           }
         ]
@@ -60,7 +66,9 @@
             "field": "browser",
             "value": "Safari",
             "preprocessed": {
-              "browser": 1.0
+              "browser": [
+                1.0
+              ]
             }
           }
         ]
@@ -77,7 +85,9 @@
             "field": "browser",
             "value": "Opera",
             "preprocessed": {
-              "browser": 2.0
+              "browser": [
+                2.0
+              ]
             }
           }
         ]

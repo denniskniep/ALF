@@ -36,7 +36,7 @@ class StandardScaler:
     def learn_post_transform(self, key: str, value: Any) -> None:
         pass
 
-    def transform(self, key: str, value: Any) -> dict[FieldInfo, float]:
+    def transform(self, key: str, value: Any) -> dict[FieldInfo, list[float]]:
         v = float(value)
         if self._n < 2 or self._m2 == 0.0:
             z = 0.0
@@ -44,4 +44,4 @@ class StandardScaler:
             std = math.sqrt(self._m2 / self._n)
             z = (v - self._mean) / std
         lo, hi = _CLIP
-        return {FieldInfo(original=key, limits=_CLIP, preprocessor="StandardScaler"): max(lo, min(hi, z))}
+        return {FieldInfo(original=key, limits=_CLIP, preprocessor="StandardScaler"): [max(lo, min(hi, z))]}

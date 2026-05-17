@@ -9,7 +9,9 @@
             "field": "browser",
             "value": "Chrome",
             "preprocessed": {
-              "browser__388226": 1.0
+              "browser__388226": [
+                1.0
+              ]
             }
           }
         ]
@@ -26,7 +28,9 @@
             "field": "browser",
             "value": "Firefox",
             "preprocessed": {
-              "browser__1041975": 1.0
+              "browser__1041975": [
+                1.0
+              ]
             }
           }
         ]
@@ -43,7 +47,9 @@
             "field": "browser",
             "value": "Chrome",
             "preprocessed": {
-              "browser__388226": 1.0
+              "browser__388226": [
+                1.0
+              ]
             }
           }
         ]
@@ -60,7 +66,9 @@
             "field": "browser",
             "value": "Edge",
             "preprocessed": {
-              "browser__874796": 1.0
+              "browser__874796": [
+                1.0
+              ]
             }
           }
         ]
@@ -77,7 +85,9 @@
             "field": "browser",
             "value": "Firefox",
             "preprocessed": {
-              "browser__1041975": 1.0
+              "browser__1041975": [
+                1.0
+              ]
             }
           }
         ]
@@ -94,7 +104,9 @@
             "field": "browser",
             "value": "Chrome",
             "preprocessed": {
-              "browser__388226": 1.0
+              "browser__388226": [
+                1.0
+              ]
             }
           }
         ]

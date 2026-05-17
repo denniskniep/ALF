@@ -23,8 +23,8 @@ class Preprocessor:
         self,
         extracted: dict[str, tuple[Any, FieldConfig]],
         is_learning: bool,
-    ) -> dict[FieldInfo, float]:
-        result: dict[FieldInfo, float] = {}
+    ) -> dict[FieldInfo, list[float]]:
+        result: dict[FieldInfo, list[float]] = {}
         for key, (value, field_cfg) in extracted.items():
             pp = self._get_or_create(key, field_cfg)
             if is_learning:

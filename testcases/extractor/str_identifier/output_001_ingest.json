@@ -9,7 +9,9 @@
             "field": "fingerprint",
             "value": "39afi884565g",
             "preprocessed": {
-              "fingerprint": 0.0
+              "fingerprint": [
+                0.0
+              ]
             }
           }
         ]

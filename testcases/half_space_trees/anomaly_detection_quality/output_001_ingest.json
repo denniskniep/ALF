@@ -9,21 +9,27 @@
             "field": "latency",
             "value": 95.0,
             "preprocessed": {
-              "latency": 0.0
+              "latency": [
+                0.0
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 0.0
+              "country": [
+                0.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u1",
             "preprocessed": {
-              "user": 0.0
+              "user": [
+                0.0
+              ]
             }
           }
         ]
@@ -40,21 +46,27 @@
             "field": "latency",
             "value": 96.0,
             "preprocessed": {
-              "latency": 1.0
+              "latency": [
+                1.0
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u2",
             "preprocessed": {
-              "user": 0.0
+              "user": [
+                0.0
+              ]
             }
           }
         ]
@@ -71,21 +83,27 @@
             "field": "latency",
             "value": 97.0,
             "preprocessed": {
-              "latency": 1.224744871391589
+              "latency": [
+                1.224744871391589
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u3",
             "preprocessed": {
-              "user": 0.0
+              "user": [
+                0.0
+              ]
             }
           }
         ]
@@ -102,21 +120,27 @@
             "field": "latency",
             "value": 98.0,
             "preprocessed": {
-              "latency": 1.3416407864998738
+              "latency": [
+                1.3416407864998738
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u4",
             "preprocessed": {
-              "user": 0.0
+              "user": [
+                0.0
+              ]
             }
           }
         ]
@@ -133,21 +157,27 @@
             "field": "latency",
             "value": 99.0,
             "preprocessed": {
-              "latency": 1.414213562373095
+              "latency": [
+                1.414213562373095
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u5",
             "preprocessed": {
-              "user": 0.0
+              "user": [
+                0.0
+              ]
             }
           }
         ]
@@ -164,21 +194,27 @@
             "field": "latency",
             "value": 100.0,
             "preprocessed": {
-              "latency": 1.4638501094227998
+              "latency": [
+                1.4638501094227998
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u6",
             "preprocessed": {
-              "user": 0.0
+              "user": [
+                0.0
+              ]
             }
           }
         ]
@@ -195,21 +231,27 @@
             "field": "latency",
             "value": 101.0,
             "preprocessed": {
-              "latency": 1.5
+              "latency": [
+                1.5
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u7",
             "preprocessed": {
-              "user": 0.0
+              "user": [
+                0.0
+              ]
             }
           }
         ]
@@ -226,21 +268,27 @@
             "field": "latency",
             "value": 102.0,
             "preprocessed": {
-              "latency": 1.5275252316519468
+              "latency": [
+                1.5275252316519468
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u8",
             "preprocessed": {
-              "user": 0.0
+              "user": [
+                0.0
+              ]
             }
           }
         ]
@@ -257,21 +305,27 @@
             "field": "latency",
             "value": 103.0,
             "preprocessed": {
-              "latency": 1.5491933384829668
+              "latency": [
+                1.5491933384829668
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u9",
             "preprocessed": {
-              "user": 0.0
+              "user": [
+                0.0
+              ]
             }
           }
         ]
@@ -288,21 +342,27 @@
             "field": "latency",
             "value": 104.0,
             "preprocessed": {
-              "latency": 1.5666989036012806
+              "latency": [
+                1.5666989036012806
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u10",
             "preprocessed": {
-              "user": 0.0
+              "user": [
+                0.0
+              ]
             }
           }
         ]
@@ -319,21 +379,27 @@
             "field": "latency",
             "value": 105.0,
             "preprocessed": {
-              "latency": 1.5811388300841895
+              "latency": [
+                1.5811388300841895
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u1",
             "preprocessed": {
-              "user": 0.1
+              "user": [
+                0.1
+              ]
             }
           }
         ]
@@ -350,21 +416,27 @@
             "field": "latency",
             "value": 95.0,
             "preprocessed": {
-              "latency": -1.3771534860493682
+              "latency": [
+                -1.3771534860493682
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u2",
             "preprocessed": {
-              "user": 0.09090909090909091
+              "user": [
+                0.09090909090909091
+              ]
             }
           }
         ]
@@ -381,21 +453,27 @@
             "field": "latency",
             "value": 96.0,
             "preprocessed": {
-              "latency": -0.9911939579487843
+              "latency": [
+                -0.9911939579487843
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u3",
             "preprocessed": {
-              "user": 0.08333333333333333
+              "user": [
+                0.08333333333333333
+              ]
             }
           }
         ]
@@ -412,21 +490,27 @@
             "field": "latency",
             "value": 97.0,
             "preprocessed": {
-              "latency": -0.6552780424957774
+              "latency": [
+                -0.6552780424957774
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u4",
             "preprocessed": {
-              "user": 0.07692307692307693
+              "user": [
+                0.07692307692307693
+              ]
             }
           }
         ]
@@ -443,21 +527,27 @@
             "field": "latency",
             "value": 98.0,
             "preprocessed": {
-              "latency": -0.3362650813673578
+              "latency": [
+                -0.3362650813673578
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u5",
             "preprocessed": {
-              "user": 0.07142857142857142
+              "user": [
+                0.07142857142857142
+              ]
             }
           }
         ]
@@ -474,21 +564,27 @@
             "field": "latency",
             "value": 99.0,
             "preprocessed": {
-              "latency": -0.020348923188912
+              "latency": [
+                -0.020348923188912
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u6",
             "preprocessed": {
-              "user": 0.06666666666666667
+              "user": [
+                0.06666666666666667
+              ]
             }
           }
         ]
@@ -505,21 +601,27 @@
             "field": "latency",
             "value": 100.0,
             "preprocessed": {
-              "latency": 0.29531221160930704
+              "latency": [
+                0.29531221160930704
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u7",
             "preprocessed": {
-              "user": 0.0625
+              "user": [
+                0.0625
+              ]
             }
           }
         ]
@@ -536,21 +638,27 @@
             "field": "latency",
             "value": 101.0,
             "preprocessed": {
-              "latency": 0.6056089312835697
+              "latency": [
+                0.6056089312835697
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u8",
             "preprocessed": {
-              "user": 0.058823529411764705
+              "user": [
+                0.058823529411764705
+              ]
             }
           }
         ]
@@ -567,21 +675,27 @@
             "field": "latency",
             "value": 102.0,
             "preprocessed": {
-              "latency": 0.9000612062431044
+              "latency": [
+                0.9000612062431044
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u9",
             "preprocessed": {
-              "user": 0.05555555555555555
+              "user": [
+                0.05555555555555555
+              ]
             }
           }
         ]
@@ -598,21 +712,27 @@
             "field": "latency",
             "value": 103.0,
             "preprocessed": {
-              "latency": 1.1664795233618117
+              "latency": [
+                1.1664795233618117
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u10",
             "preprocessed": {
-              "user": 0.05263157894736842
+              "user": [
+                0.05263157894736842
+              ]
             }
           }
         ]
@@ -629,21 +749,27 @@
             "field": "latency",
             "value": 104.0,
             "preprocessed": {
-              "latency": 1.3950597285391184
+              "latency": [
+                1.3950597285391184
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u1",
             "preprocessed": {
-              "user": 0.1
+              "user": [
+                0.1
+              ]
             }
           }
         ]
@@ -660,21 +786,27 @@
             "field": "latency",
             "value": 105.0,
             "preprocessed": {
-              "latency": 1.5811388300841869
+              "latency": [
+                1.5811388300841869
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u2",
             "preprocessed": {
-              "user": 0.09523809523809523
+              "user": [
+                0.09523809523809523
+              ]
             }
           }
         ]
@@ -691,21 +823,27 @@
             "field": "latency",
             "value": 95.0,
             "preprocessed": {
-              "latency": -1.4686261420450246
+              "latency": [
+                -1.4686261420450246
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u3",
             "preprocessed": {
-              "user": 0.09090909090909091
+              "user": [
+                0.09090909090909091
+              ]
             }
           }
         ]
@@ -722,21 +860,27 @@
             "field": "latency",
             "value": 96.0,
             "preprocessed": {
-              "latency": -1.1064190108889527
+              "latency": [
+                -1.1064190108889527
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u4",
             "preprocessed": {
-              "user": 0.08695652173913043
+              "user": [
+                0.08695652173913043
+              ]
             }
           }
         ]
@@ -753,21 +897,27 @@
             "field": "latency",
             "value": 97.0,
             "preprocessed": {
-              "latency": -0.7751241440518437
+              "latency": [
+                -0.7751241440518437
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u5",
             "preprocessed": {
-              "user": 0.08333333333333333
+              "user": [
+                0.08333333333333333
+              ]
             }
           }
         ]
@@ -784,21 +934,27 @@
             "field": "latency",
             "value": 98.0,
             "preprocessed": {
-              "latency": -0.4565408647656039
+              "latency": [
+                -0.4565408647656039
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u6",
             "preprocessed": {
-              "user": 0.08
+              "user": [
+                0.08
+              ]
             }
           }
         ]
@@ -815,21 +971,27 @@
             "field": "latency",
             "value": 99.0,
             "preprocessed": {
-              "latency": -0.14142135623730903
+              "latency": [
+                -0.14142135623730903
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u7",
             "preprocessed": {
-              "user": 0.07692307692307693
+              "user": [
+                0.07692307692307693
+              ]
             }
           }
         ]
@@ -846,21 +1008,27 @@
             "field": "latency",
             "value": 100.0,
             "preprocessed": {
-              "latency": 0.17349447958987407
+              "latency": [
+                0.17349447958987407
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u8",
             "preprocessed": {
-              "user": 0.07407407407407407
+              "user": [
+                0.07407407407407407
+              ]
             }
           }
         ]
@@ -877,21 +1045,27 @@
             "field": "latency",
             "value": 101.0,
             "preprocessed": {
-              "latency": 0.48662963497854056
+              "latency": [
+                0.48662963497854056
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u9",
             "preprocessed": {
-              "user": 0.07142857142857142
+              "user": [
+                0.07142857142857142
+              ]
             }
           }
         ]
@@ -908,21 +1082,27 @@
             "field": "latency",
             "value": 102.0,
             "preprocessed": {
-              "latency": 0.7924058156930633
+              "latency": [
+                0.7924058156930633
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u10",
             "preprocessed": {
-              "user": 0.06896551724137931
+              "user": [
+                0.06896551724137931
+              ]
             }
           }
         ]
@@ -939,21 +1119,27 @@
             "field": "latency",
             "value": 103.0,
             "preprocessed": {
-              "latency": 1.0825366320872345
+              "latency": [
+                1.0825366320872345
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u1",
             "preprocessed": {
-              "user": 0.1
+              "user": [
+                0.1
+              ]
             }
           }
         ]
@@ -970,21 +1156,27 @@
             "field": "latency",
             "value": 104.0,
             "preprocessed": {
-              "latency": 1.3479806655434614
+              "latency": [
+                1.3479806655434614
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u2",
             "preprocessed": {
-              "user": 0.0967741935483871
+              "user": [
+                0.0967741935483871
+              ]
             }
           }
         ]
@@ -1001,21 +1193,27 @@
             "field": "latency",
             "value": 105.0,
             "preprocessed": {
-              "latency": 1.5811388300841895
+              "latency": [
+                1.5811388300841895
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u3",
             "preprocessed": {
-              "user": 0.09375
+              "user": [
+                0.09375
+              ]
             }
           }
         ]
@@ -1032,21 +1230,27 @@
             "field": "latency",
             "value": 95.0,
             "preprocessed": {
-              "latency": -1.5034207570080786
+              "latency": [
+                -1.5034207570080786
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u4",
             "preprocessed": {
-              "user": 0.09090909090909091
+              "user": [
+                0.09090909090909091
+              ]
             }
           }
         ]
@@ -1063,21 +1267,27 @@
             "field": "latency",
             "value": 96.0,
             "preprocessed": {
-              "latency": -1.153211908600338
+              "latency": [
+                -1.153211908600338
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u5",
             "preprocessed": {
-              "user": 0.08823529411764706
+              "user": [
+                0.08823529411764706
+              ]
             }
           }
         ]
@@ -1094,21 +1304,27 @@
             "field": "latency",
             "value": 97.0,
             "preprocessed": {
-              "latency": -0.825136997007036
+              "latency": [
+                -0.825136997007036
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u6",
             "preprocessed": {
-              "user": 0.08571428571428572
+              "user": [
+                0.08571428571428572
+              ]
             }
           }
         ]
@@ -1125,21 +1341,27 @@
             "field": "latency",
             "value": 98.0,
             "preprocessed": {
-              "latency": -0.5068753670667797
+              "latency": [
+                -0.5068753670667797
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u7",
             "preprocessed": {
-              "user": 0.08333333333333333
+              "user": [
+                0.08333333333333333
+              ]
             }
           }
         ]
@@ -1156,21 +1378,27 @@
             "field": "latency",
             "value": 99.0,
             "preprocessed": {
-              "latency": -0.19163339986668315
+              "latency": [
+                -0.19163339986668315
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u8",
             "preprocessed": {
-              "user": 0.08108108108108109
+              "user": [
+                0.08108108108108109
+              ]
             }
           }
         ]
@@ -1187,21 +1415,27 @@
             "field": "latency",
             "value": 100.0,
             "preprocessed": {
-              "latency": 0.12334091674874997
+              "latency": [
+                0.12334091674874997
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u9",
             "preprocessed": {
-              "user": 0.07894736842105263
+              "user": [
+                0.07894736842105263
+              ]
             }
           }
         ]
@@ -1218,21 +1452,27 @@
             "field": "latency",
             "value": 101.0,
             "preprocessed": {
-              "latency": 0.4373652658298296
+              "latency": [
+                0.4373652658298296
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u10",
             "preprocessed": {
-              "user": 0.07692307692307693
+              "user": [
+                0.07692307692307693
+              ]
             }
           }
         ]
@@ -1249,21 +1489,27 @@
             "field": "latency",
             "value": 102.0,
             "preprocessed": {
-              "latency": 0.7467376140541895
+              "latency": [
+                0.7467376140541895
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u1",
             "preprocessed": {
-              "user": 0.1
+              "user": [
+                0.1
+              ]
             }
           }
         ]
@@ -1280,21 +1526,27 @@
             "field": "latency",
             "value": 103.0,
             "preprocessed": {
-              "latency": 1.0453814854305363
+              "latency": [
+                1.0453814854305363
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u2",
             "preprocessed": {
-              "user": 0.0975609756097561
+              "user": [
+                0.0975609756097561
+              ]
             }
           }
         ]
@@ -1311,21 +1563,27 @@
             "field": "latency",
             "value": 104.0,
             "preprocessed": {
-              "latency": 1.3259263961777097
+              "latency": [
+                1.3259263961777097
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u3",
             "preprocessed": {
-              "user": 0.09523809523809523
+              "user": [
+                0.09523809523809523
+              ]
             }
           }
         ]
@@ -1342,21 +1600,27 @@
             "field": "latency",
             "value": 105.0,
             "preprocessed": {
-              "latency": 1.581138830084189
+              "latency": [
+                1.581138830084189
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u4",
             "preprocessed": {
-              "user": 0.09302325581395349
+              "user": [
+                0.09302325581395349
+              ]
             }
           }
         ]
@@ -1373,21 +1637,27 @@
             "field": "latency",
             "value": 95.0,
             "preprocessed": {
-              "latency": -1.5217718205053625
+              "latency": [
+                -1.5217718205053625
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u5",
             "preprocessed": {
-              "user": 0.09090909090909091
+              "user": [
+                0.09090909090909091
+              ]
             }
           }
         ]
@@ -1404,21 +1674,27 @@
             "field": "latency",
             "value": 96.0,
             "preprocessed": {
-              "latency": -1.1786449427674814
+              "latency": [
+                -1.1786449427674814
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u6",
             "preprocessed": {
-              "user": 0.08888888888888889
+              "user": [
+                0.08888888888888889
+              ]
             }
           }
         ]
@@ -1435,21 +1711,27 @@
             "field": "latency",
             "value": 97.0,
             "preprocessed": {
-              "latency": -0.852716690194293
+              "latency": [
+                -0.852716690194293
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u7",
             "preprocessed": {
-              "user": 0.08695652173913043
+              "user": [
+                0.08695652173913043
+              ]
             }
           }
         ]
@@ -1466,21 +1748,27 @@
             "field": "latency",
             "value": 98.0,
             "preprocessed": {
-              "latency": -0.5347270161490149
+              "latency": [
+                -0.5347270161490149
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u8",
             "preprocessed": {
-              "user": 0.0851063829787234
+              "user": [
+                0.0851063829787234
+              ]
             }
           }
         ]
@@ -1497,21 +1785,27 @@
             "field": "latency",
             "value": 99.0,
             "preprocessed": {
-              "latency": -0.21933201658625595
+              "latency": [
+                -0.21933201658625595
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u9",
             "preprocessed": {
-              "user": 0.08333333333333333
+              "user": [
+                0.08333333333333333
+              ]
             }
           }
         ]
@@ -1528,21 +1822,27 @@
             "field": "latency",
             "value": 100.0,
             "preprocessed": {
-              "latency": 0.09578262852210967
+              "latency": [
+                0.09578262852210967
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u10",
             "preprocessed": {
-              "user": 0.08163265306122448
+              "user": [
+                0.08163265306122448
+              ]
             }
           }
         ]
@@ -1559,21 +1859,27 @@
             "field": "latency",
             "value": 101.0,
             "preprocessed": {
-              "latency": 0.4102763620135647
+              "latency": [
+                0.4102763620135647
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u1",
             "preprocessed": {
-              "user": 0.1
+              "user": [
+                0.1
+              ]
             }
           }
         ]
@@ -1590,21 +1896,27 @@
             "field": "latency",
             "value": 102.0,
             "preprocessed": {
-              "latency": 0.7214019629022359
+              "latency": [
+                0.7214019629022359
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u2",
             "preprocessed": {
-              "user": 0.09803921568627451
+              "user": [
+                0.09803921568627451
+              ]
             }
           }
         ]
@@ -1621,21 +1933,27 @@
             "field": "latency",
             "value": 103.0,
             "preprocessed": {
-              "latency": 1.0243902439024346
+              "latency": [
+                1.0243902439024346
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u3",
             "preprocessed": {
-              "user": 0.09615384615384616
+              "user": [
+                0.09615384615384616
+              ]
             }
           }
         ]
@@ -1652,21 +1970,27 @@
             "field": "latency",
             "value": 104.0,
             "preprocessed": {
-              "latency": 1.3131287633592938
+              "latency": [
+                1.3131287633592938
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u4",
             "preprocessed": {
-              "user": 0.09433962264150944
+              "user": [
+                0.09433962264150944
+              ]
             }
           }
         ]
@@ -1683,21 +2007,27 @@
             "field": "latency",
             "value": 105.0,
             "preprocessed": {
-              "latency": 1.5811388300841853
+              "latency": [
+                1.5811388300841853
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u5",
             "preprocessed": {
-              "user": 0.09259259259259259
+              "user": [
+                0.09259259259259259
+              ]
             }
           }
         ]
@@ -1714,21 +2044,27 @@
             "field": "latency",
             "value": 95.0,
             "preprocessed": {
-              "latency": -1.533110351679673
+              "latency": [
+                -1.533110351679673
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u6",
             "preprocessed": {
-              "user": 0.09090909090909091
+              "user": [
+                0.09090909090909091
+              ]
             }
           }
         ]
@@ -1745,21 +2081,27 @@
             "field": "latency",
             "value": 96.0,
             "preprocessed": {
-              "latency": -1.1946362898489733
+              "latency": [
+                -1.1946362898489733
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u7",
             "preprocessed": {
-              "user": 0.08928571428571429
+              "user": [
+                0.08928571428571429
+              ]
             }
           }
         ]
@@ -1776,21 +2118,27 @@
             "field": "latency",
             "value": 97.0,
             "preprocessed": {
-              "latency": -0.8702134612519258
+              "latency": [
+                -0.8702134612519258
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u8",
             "preprocessed": {
-              "user": 0.08771929824561403
+              "user": [
+                0.08771929824561403
+              ]
             }
           }
         ]
@@ -1807,21 +2155,27 @@
             "field": "latency",
             "value": 98.0,
             "preprocessed": {
-              "latency": -0.5524417377327407
+              "latency": [
+                -0.5524417377327407
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u9",
             "preprocessed": {
-              "user": 0.08620689655172414
+              "user": [
+                0.08620689655172414
+              ]
             }
           }
         ]
@@ -1838,21 +2192,27 @@
             "field": "latency",
             "value": 99.0,
             "preprocessed": {
-              "latency": -0.23692415692169977
+              "latency": [
+                -0.23692415692169977
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u10",
             "preprocessed": {
-              "user": 0.0847457627118644
+              "user": [
+                0.0847457627118644
+              ]
             }
           }
         ]
@@ -1869,21 +2229,27 @@
             "field": "latency",
             "value": 100.0,
             "preprocessed": {
-              "latency": 0.0783207063459566
+              "latency": [
+                0.0783207063459566
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u1",
             "preprocessed": {
-              "user": 0.1
+              "user": [
+                0.1
+              ]
             }
           }
         ]
@@ -1900,21 +2266,27 @@
             "field": "latency",
             "value": 101.0,
             "preprocessed": {
-              "latency": 0.3931127970861226
+              "latency": [
+                0.3931127970861226
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u2",
             "preprocessed": {
-              "user": 0.09836065573770492
+              "user": [
+                0.09836065573770492
+              ]
             }
           }
         ]
@@ -1931,21 +2303,27 @@
             "field": "latency",
             "value": 102.0,
             "preprocessed": {
-              "latency": 0.7052759732200607
+              "latency": [
+                0.7052759732200607
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u3",
             "preprocessed": {
-              "user": 0.0967741935483871
+              "user": [
+                0.0967741935483871
+              ]
             }
           }
         ]
@@ -1962,21 +2340,27 @@
             "field": "latency",
             "value": 103.0,
             "preprocessed": {
-              "latency": 1.0108929920901302
+              "latency": [
+                1.0108929920901302
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u4",
             "preprocessed": {
-              "user": 0.09523809523809523
+              "user": [
+                0.09523809523809523
+              ]
             }
           }
         ]
@@ -1993,21 +2377,27 @@
             "field": "latency",
             "value": 104.0,
             "preprocessed": {
-              "latency": 1.3047698043809275
+              "latency": [
+                1.3047698043809275
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u5",
             "preprocessed": {
-              "user": 0.09375
+              "user": [
+                0.09375
+              ]
             }
           }
         ]
@@ -2024,21 +2414,27 @@
             "field": "latency",
             "value": 105.0,
             "preprocessed": {
-              "latency": 1.581138830084189
+              "latency": [
+                1.581138830084189
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u6",
             "preprocessed": {
-              "user": 0.09230769230769231
+              "user": [
+                0.09230769230769231
+              ]
             }
           }
         ]
@@ -2055,21 +2451,27 @@
             "field": "latency",
             "value": 95.0,
             "preprocessed": {
-              "latency": -1.5408117079722798
+              "latency": [
+                -1.5408117079722798
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u7",
             "preprocessed": {
-              "user": 0.09090909090909091
+              "user": [
+                0.09090909090909091
+              ]
             }
           }
         ]
@@ -2086,21 +2488,27 @@
             "field": "latency",
             "value": 96.0,
             "preprocessed": {
-              "latency": -1.20562316825019
+              "latency": [
+                -1.20562316825019
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u8",
             "preprocessed": {
-              "user": 0.08955223880597014
+              "user": [
+                0.08955223880597014
+              ]
             }
           }
         ]
@@ -2117,21 +2525,27 @@
             "field": "latency",
             "value": 97.0,
             "preprocessed": {
-              "latency": -0.8823077800823006
+              "latency": [
+                -0.8823077800823006
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u9",
             "preprocessed": {
-              "user": 0.08823529411764706
+              "user": [
+                0.08823529411764706
+              ]
             }
           }
         ]
@@ -2148,21 +2562,27 @@
             "field": "latency",
             "value": 98.0,
             "preprocessed": {
-              "latency": -0.5647102246243416
+              "latency": [
+                -0.5647102246243416
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u10",
             "preprocessed": {
-              "user": 0.08695652173913043
+              "user": [
+                0.08695652173913043
+              ]
             }
           }
         ]
@@ -2179,21 +2599,27 @@
             "field": "latency",
             "value": 99.0,
             "preprocessed": {
-              "latency": -0.24909809613050862
+              "latency": [
+                -0.24909809613050862
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u1",
             "preprocessed": {
-              "user": 0.1
+              "user": [
+                0.1
+              ]
             }
           }
         ]
@@ -2210,21 +2636,27 @@
             "field": "latency",
             "value": 100.0,
             "preprocessed": {
-              "latency": 0.06625568373916332
+              "latency": [
+                0.06625568373916332
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u2",
             "preprocessed": {
-              "user": 0.09859154929577464
+              "user": [
+                0.09859154929577464
+              ]
             }
           }
         ]
@@ -2241,21 +2673,27 @@
             "field": "latency",
             "value": 101.0,
             "preprocessed": {
-              "latency": 0.3812563829748613
+              "latency": [
+                0.3812563829748613
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u3",
             "preprocessed": {
-              "user": 0.09722222222222222
+              "user": [
+                0.09722222222222222
+              ]
             }
           }
         ]
@@ -2272,21 +2710,27 @@
             "field": "latency",
             "value": 102.0,
             "preprocessed": {
-              "latency": 0.6941056083938089
+              "latency": [
+                0.6941056083938089
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u4",
             "preprocessed": {
-              "user": 0.0958904109589041
+              "user": [
+                0.0958904109589041
+              ]
             }
           }
         ]
@@ -2303,21 +2747,27 @@
             "field": "latency",
             "value": 103.0,
             "preprocessed": {
-              "latency": 1.0014825805027545
+              "latency": [
+                1.0014825805027545
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u5",
             "preprocessed": {
-              "user": 0.0945945945945946
+              "user": [
+                0.0945945945945946
+              ]
             }
           }
         ]
@@ -2334,21 +2784,27 @@
             "field": "latency",
             "value": 104.0,
             "preprocessed": {
-              "latency": 1.298881249128424
+              "latency": [
+                1.298881249128424
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u6",
             "preprocessed": {
-              "user": 0.09333333333333334
+              "user": [
+                0.09333333333333334
+              ]
             }
           }
         ]
@@ -2365,21 +2821,27 @@
             "field": "latency",
             "value": 105.0,
             "preprocessed": {
-              "latency": 1.5811388300841978
+              "latency": [
+                1.5811388300841978
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u7",
             "preprocessed": {
-              "user": 0.09210526315789473
+              "user": [
+                0.09210526315789473
+              ]
             }
           }
         ]
@@ -2396,21 +2858,27 @@
             "field": "latency",
             "value": 95.0,
             "preprocessed": {
-              "latency": -1.5463842820677054
+              "latency": [
+                -1.5463842820677054
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u8",
             "preprocessed": {
-              "user": 0.09090909090909091
+              "user": [
+                0.09090909090909091
+              ]
             }
           }
         ]
@@ -2427,21 +2895,27 @@
             "field": "latency",
             "value": 96.0,
             "preprocessed": {
-              "latency": -1.2136378359705964
+              "latency": [
+                -1.2136378359705964
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u9",
             "preprocessed": {
-              "user": 0.08974358974358974
+              "user": [
+                0.08974358974358974
+              ]
             }
           }
         ]
@@ -2458,21 +2932,27 @@
             "field": "latency",
             "value": 97.0,
             "preprocessed": {
-              "latency": -0.8911690925426448
+              "latency": [
+                -0.8911690925426448
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u10",
             "preprocessed": {
-              "user": 0.08860759493670886
+              "user": [
+                0.08860759493670886
+              ]
             }
           }
         ]
@@ -2489,21 +2969,27 @@
             "field": "latency",
             "value": 98.0,
             "preprocessed": {
-              "latency": -0.5737123666662515
+              "latency": [
+                -0.5737123666662515
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u1",
             "preprocessed": {
-              "user": 0.1
+              "user": [
+                0.1
+              ]
             }
           }
         ]
@@ -2520,21 +3006,27 @@
             "field": "latency",
             "value": 99.0,
             "preprocessed": {
-              "latency": -0.25802650813914246
+              "latency": [
+                -0.25802650813914246
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u2",
             "preprocessed": {
-              "user": 0.09876543209876543
+              "user": [
+                0.09876543209876543
+              ]
             }
           }
         ]
@@ -2551,21 +3043,27 @@
             "field": "latency",
             "value": 100.0,
             "preprocessed": {
-              "latency": 0.05741692517632951
+              "latency": [
+                0.05741692517632951
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u3",
             "preprocessed": {
-              "user": 0.0975609756097561
+              "user": [
+                0.0975609756097561
+              ]
             }
           }
         ]
@@ -2582,21 +3080,27 @@
             "field": "latency",
             "value": 101.0,
             "preprocessed": {
-              "latency": 0.37257240678865067
+              "latency": [
+                0.37257240678865067
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u4",
             "preprocessed": {
-              "user": 0.0963855421686747
+              "user": [
+                0.0963855421686747
+              ]
             }
           }
         ]
@@ -2613,21 +3117,27 @@
             "field": "latency",
             "value": 102.0,
             "preprocessed": {
-              "latency": 0.6859090804570356
+              "latency": [
+                0.6859090804570356
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u5",
             "preprocessed": {
-              "user": 0.09523809523809523
+              "user": [
+                0.09523809523809523
+              ]
             }
           }
         ]
@@ -2644,21 +3154,27 @@
             "field": "latency",
             "value": 103.0,
             "preprocessed": {
-              "latency": 0.9945461980483654
+              "latency": [
+                0.9945461980483654
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u6",
             "preprocessed": {
-              "user": 0.09411764705882353
+              "user": [
+                0.09411764705882353
+              ]
             }
           }
         ]
@@ -2675,21 +3191,27 @@
             "field": "latency",
             "value": 104.0,
             "preprocessed": {
-              "latency": 1.2945088230911366
+              "latency": [
+                1.2945088230911366
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u7",
             "preprocessed": {
-              "user": 0.09302325581395349
+              "user": [
+                0.09302325581395349
+              ]
             }
           }
         ]
@@ -2706,21 +3228,27 @@
             "field": "latency",
             "value": 105.0,
             "preprocessed": {
-              "latency": 1.5811388300841938
+              "latency": [
+                1.5811388300841938
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u8",
             "preprocessed": {
-              "user": 0.09195402298850575
+              "user": [
+                0.09195402298850575
+              ]
             }
           }
         ]
@@ -2737,21 +3265,27 @@
             "field": "latency",
             "value": 95.0,
             "preprocessed": {
-              "latency": -1.5506036194654782
+              "latency": [
+                -1.5506036194654782
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u9",
             "preprocessed": {
-              "user": 0.09090909090909091
+              "user": [
+                0.09090909090909091
+              ]
             }
           }
         ]
@@ -2768,21 +3302,27 @@
             "field": "latency",
             "value": 96.0,
             "preprocessed": {
-              "latency": -1.219743033652892
+              "latency": [
+                -1.219743033652892
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u10",
             "preprocessed": {
-              "user": 0.0898876404494382
+              "user": [
+                0.0898876404494382
+              ]
             }
           }
         ]
@@ -2799,21 +3339,27 @@
             "field": "latency",
             "value": 97.0,
             "preprocessed": {
-              "latency": -0.8979416843636634
+              "latency": [
+                -0.8979416843636634
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u1",
             "preprocessed": {
-              "user": 0.1
+              "user": [
+                0.1
+              ]
             }
           }
         ]
@@ -2830,21 +3376,27 @@
             "field": "latency",
             "value": 98.0,
             "preprocessed": {
-              "latency": -0.5806005511135308
+              "latency": [
+                -0.5806005511135308
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u2",
             "preprocessed": {
-              "user": 0.0989010989010989
+              "user": [
+                0.0989010989010989
+              ]
             }
           }
         ]
@@ -2861,21 +3413,27 @@
             "field": "latency",
             "value": 99.0,
             "preprocessed": {
-              "latency": -0.26485606933027256
+              "latency": [
+                -0.26485606933027256
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u3",
             "preprocessed": {
-              "user": 0.09782608695652174
+              "user": [
+                0.09782608695652174
+              ]
             }
           }
         ]
@@ -2892,21 +3450,27 @@
             "field": "latency",
             "value": 100.0,
             "preprocessed": {
-              "latency": 0.05066151121331965
+              "latency": [
+                0.05066151121331965
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u4",
             "preprocessed": {
-              "user": 0.0967741935483871
+              "user": [
+                0.0967741935483871
+              ]
             }
           }
         ]
@@ -2923,21 +3487,27 @@
             "field": "latency",
             "value": 101.0,
             "preprocessed": {
-              "latency": 0.3659366781360066
+              "latency": [
+                0.3659366781360066
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u5",
             "preprocessed": {
-              "user": 0.09574468085106383
+              "user": [
+                0.09574468085106383
+              ]
             }
           }
         ]
@@ -2954,21 +3524,27 @@
             "field": "latency",
             "value": 102.0,
             "preprocessed": {
-              "latency": 0.6796376232090152
+              "latency": [
+                0.6796376232090152
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u6",
             "preprocessed": {
-              "user": 0.09473684210526316
+              "user": [
+                0.09473684210526316
+              ]
             }
           }
         ]
@@ -2985,21 +3561,27 @@
             "field": "latency",
             "value": 103.0,
             "preprocessed": {
-              "latency": 0.9892212552183502
+              "latency": [
+                0.9892212552183502
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u7",
             "preprocessed": {
-              "user": 0.09375
+              "user": [
+                0.09375
+              ]
             }
           }
         ]
@@ -3016,21 +3598,27 @@
             "field": "latency",
             "value": 104.0,
             "preprocessed": {
-              "latency": 1.291133720332725
+              "latency": [
+                1.291133720332725
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u8",
             "preprocessed": {
-              "user": 0.09278350515463918
+              "user": [
+                0.09278350515463918
+              ]
             }
           }
         ]
@@ -3047,21 +3635,27 @@
             "field": "latency",
             "value": 105.0,
             "preprocessed": {
-              "latency": 1.5811388300841938
+              "latency": [
+                1.5811388300841938
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u9",
             "preprocessed": {
-              "user": 0.09183673469387756
+              "user": [
+                0.09183673469387756
+              ]
             }
           }
         ]
@@ -3078,21 +3672,27 @@
             "field": "latency",
             "value": 95.0,
             "preprocessed": {
-              "latency": -1.5539093108484328
+              "latency": [
+                -1.5539093108484328
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u10",
             "preprocessed": {
-              "user": 0.09090909090909091
+              "user": [
+                0.09090909090909091
+              ]
             }
           }
         ]
@@ -3109,21 +3709,27 @@
             "field": "latency",
             "value": 96.0,
             "preprocessed": {
-              "latency": -1.2245486767773688
+              "latency": [
+                -1.2245486767773688
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u1",
             "preprocessed": {
-              "user": 0.1
+              "user": [
+                0.1
+              ]
             }
           }
         ]
@@ -3140,21 +3746,27 @@
             "field": "latency",
             "value": 97.0,
             "preprocessed": {
-              "latency": -0.9032865531993447
+              "latency": [
+                -0.9032865531993447
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u2",
             "preprocessed": {
-              "user": 0.09900990099009901
+              "user": [
+                0.09900990099009901
+              ]
             }
           }
         ]
@@ -3171,21 +3783,27 @@
             "field": "latency",
             "value": 98.0,
             "preprocessed": {
-              "latency": -0.5860417078646663
+              "latency": [
+                -0.5860417078646663
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u3",
             "preprocessed": {
-              "user": 0.09803921568627451
+              "user": [
+                0.09803921568627451
+              ]
             }
           }
         ]
@@ -3202,21 +3820,27 @@
             "field": "latency",
             "value": 99.0,
             "preprocessed": {
-              "latency": -0.27024969799608717
+              "latency": [
+                -0.27024969799608717
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u4",
             "preprocessed": {
-              "user": 0.0970873786407767
+              "user": [
+                0.0970873786407767
+              ]
             }
           }
         ]
@@ -3233,21 +3857,27 @@
             "field": "latency",
             "value": 100.0,
             "preprocessed": {
-              "latency": 0.04532984139116567
+              "latency": [
+                0.04532984139116567
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u5",
             "preprocessed": {
-              "user": 0.09615384615384616
+              "user": [
+                0.09615384615384616
+              ]
             }
           }
         ]
@@ -3264,21 +3894,27 @@
             "field": "latency",
             "value": 101.0,
             "preprocessed": {
-              "latency": 0.3607004389376384
+              "latency": [
+                0.3607004389376384
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u6",
             "preprocessed": {
-              "user": 0.09523809523809523
+              "user": [
+                0.09523809523809523
+              ]
             }
           }
         ]
@@ -3295,21 +3931,27 @@
             "field": "latency",
             "value": 102.0,
             "preprocessed": {
-              "latency": 0.6746839810125135
+              "latency": [
+                0.6746839810125135
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u7",
             "preprocessed": {
-              "user": 0.09433962264150944
+              "user": [
+                0.09433962264150944
+              ]
             }
           }
         ]
@@ -3326,21 +3968,27 @@
             "field": "latency",
             "value": 103.0,
             "preprocessed": {
-              "latency": 0.9850045059202567
+              "latency": [
+                0.9850045059202567
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u8",
             "preprocessed": {
-              "user": 0.09345794392523364
+              "user": [
+                0.09345794392523364
+              ]
             }
           }
         ]
@@ -3357,21 +4005,27 @@
             "field": "latency",
             "value": 104.0,
             "preprocessed": {
-              "latency": 1.2884496236867393
+              "latency": [
+                1.2884496236867393
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u9",
             "preprocessed": {
-              "user": 0.09259259259259259
+              "user": [
+                0.09259259259259259
+              ]
             }
           }
         ]
@@ -3388,21 +4042,27 @@
             "field": "latency",
             "value": 105.0,
             "preprocessed": {
-              "latency": 1.5811388300841938
+              "latency": [
+                1.5811388300841938
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u10",
             "preprocessed": {
-              "user": 0.09174311926605505
+              "user": [
+                0.09174311926605505
+              ]
             }
           }
         ]
@@ -3419,21 +4079,27 @@
             "field": "latency",
             "value": 95.0,
             "preprocessed": {
-              "latency": -1.5565691404453483
+              "latency": [
+                -1.5565691404453483
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u1",
             "preprocessed": {
-              "user": 0.1
+              "user": [
+                0.1
+              ]
             }
           }
         ]
@@ -3450,21 +4116,27 @@
             "field": "latency",
             "value": 96.0,
             "preprocessed": {
-              "latency": -1.2284298684676547
+              "latency": [
+                -1.2284298684676547
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u2",
             "preprocessed": {
-              "user": 0.0990990990990991
+              "user": [
+                0.0990990990990991
+              ]
             }
           }
         ]
@@ -3481,21 +4153,27 @@
             "field": "latency",
             "value": 97.0,
             "preprocessed": {
-              "latency": -0.907612292074047
+              "latency": [
+                -0.907612292074047
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u3",
             "preprocessed": {
-              "user": 0.09821428571428571
+              "user": [
+                0.09821428571428571
+              ]
             }
           }
         ]
@@ -3512,21 +4190,27 @@
             "field": "latency",
             "value": 98.0,
             "preprocessed": {
-              "latency": -0.5904487444764662
+              "latency": [
+                -0.5904487444764662
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u4",
             "preprocessed": {
-              "user": 0.09734513274336283
+              "user": [
+                0.09734513274336283
+              ]
             }
           }
         ]
@@ -3543,21 +4227,27 @@
             "field": "latency",
             "value": 99.0,
             "preprocessed": {
-              "latency": -0.27461751819054264
+              "latency": [
+                -0.27461751819054264
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u5",
             "preprocessed": {
-              "user": 0.09649122807017543
+              "user": [
+                0.09649122807017543
+              ]
             }
           }
         ]
@@ -3574,21 +4264,27 @@
             "field": "latency",
             "value": 100.0,
             "preprocessed": {
-              "latency": 0.041014389004551136
+              "latency": [
+                0.041014389004551136
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u6",
             "preprocessed": {
-              "user": 0.09565217391304348
+              "user": [
+                0.09565217391304348
+              ]
             }
           }
         ]
@@ -3605,21 +4301,27 @@
             "field": "latency",
             "value": 101.0,
             "preprocessed": {
-              "latency": 0.35646291495495597
+              "latency": [
+                0.35646291495495597
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u7",
             "preprocessed": {
-              "user": 0.09482758620689655
+              "user": [
+                0.09482758620689655
+              ]
             }
           }
         ]
@@ -3636,21 +4338,27 @@
             "field": "latency",
             "value": 102.0,
             "preprocessed": {
-              "latency": 0.6706721080580527
+              "latency": [
+                0.6706721080580527
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u8",
             "preprocessed": {
-              "user": 0.09401709401709402
+              "user": [
+                0.09401709401709402
+              ]
             }
           }
         ]
@@ -3667,21 +4375,27 @@
             "field": "latency",
             "value": 103.0,
             "preprocessed": {
-              "latency": 0.9815825383796718
+              "latency": [
+                0.9815825383796718
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u9",
             "preprocessed": {
-              "user": 0.09322033898305085
+              "user": [
+                0.09322033898305085
+              ]
             }
           }
         ]
@@ -3698,21 +4412,27 @@
             "field": "latency",
             "value": 104.0,
             "preprocessed": {
-              "latency": 1.2862640159359806
+              "latency": [
+                1.2862640159359806
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u10",
             "preprocessed": {
-              "user": 0.09243697478991597
+              "user": [
+                0.09243697478991597
+              ]
             }
           }
         ]
@@ -3729,21 +4449,27 @@
             "field": "latency",
             "value": 105.0,
             "preprocessed": {
-              "latency": 1.5811388300841895
+              "latency": [
+                1.5811388300841895
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u1",
             "preprocessed": {
-              "user": 0.1
+              "user": [
+                0.1
+              ]
             }
           }
         ]
@@ -3760,21 +4486,27 @@
             "field": "latency",
             "value": 95.0,
             "preprocessed": {
-              "latency": -1.5587555534791235
+              "latency": [
+                -1.5587555534791235
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u2",
             "preprocessed": {
-              "user": 0.09917355371900827
+              "user": [
+                0.09917355371900827
+              ]
             }
           }
         ]
@@ -3791,21 +4523,27 @@
             "field": "latency",
             "value": 96.0,
             "preprocessed": {
-              "latency": -1.231629998491234
+              "latency": [
+                -1.231629998491234
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u3",
             "preprocessed": {
-              "user": 0.09836065573770492
+              "user": [
+                0.09836065573770492
+              ]
             }
           }
         ]
@@ -3822,21 +4560,27 @@
             "field": "latency",
             "value": 97.0,
             "preprocessed": {
-              "latency": -0.9111851088461769
+              "latency": [
+                -0.9111851088461769
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u4",
             "preprocessed": {
-              "user": 0.0975609756097561
+              "user": [
+                0.0975609756097561
+              ]
             }
           }
         ]
@@ -3853,21 +4597,27 @@
             "field": "latency",
             "value": 98.0,
             "preprocessed": {
-              "latency": -0.5940910355967834
+              "latency": [
+                -0.5940910355967834
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u5",
             "preprocessed": {
-              "user": 0.0967741935483871
+              "user": [
+                0.0967741935483871
+              ]
             }
           }
         ]
@@ -3884,21 +4634,27 @@
             "field": "latency",
             "value": 99.0,
             "preprocessed": {
-              "latency": -0.2782269481235423
+              "latency": [
+                -0.2782269481235423
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u6",
             "preprocessed": {
-              "user": 0.096
+              "user": [
+                0.096
+              ]
             }
           }
         ]
@@ -3915,21 +4671,27 @@
             "field": "latency",
             "value": 100.0,
             "preprocessed": {
-              "latency": 0.03744971071667079
+              "latency": [
+                0.03744971071667079
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u7",
             "preprocessed": {
-              "user": 0.09523809523809523
+              "user": [
+                0.09523809523809523
+              ]
             }
           }
         ]
@@ -3946,21 +4708,27 @@
             "field": "latency",
             "value": 101.0,
             "preprocessed": {
-              "latency": 0.3529631033505064
+              "latency": [
+                0.3529631033505064
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u8",
             "preprocessed": {
-              "user": 0.09448818897637795
+              "user": [
+                0.09448818897637795
+              ]
             }
           }
         ]
@@ -3977,21 +4745,27 @@
             "field": "latency",
             "value": 102.0,
             "preprocessed": {
-              "latency": 0.6673566557535205
+              "latency": [
+                0.6673566557535205
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u9",
             "preprocessed": {
-              "user": 0.09375
+              "user": [
+                0.09375
+              ]
             }
           }
         ]
@@ -4008,21 +4782,27 @@
             "field": "latency",
             "value": 103.0,
             "preprocessed": {
-              "latency": 0.9787499624354431
+              "latency": [
+                0.9787499624354431
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u10",
             "preprocessed": {
-              "user": 0.09302325581395349
+              "user": [
+                0.09302325581395349
+              ]
             }
           }
         ]
@@ -4039,21 +4819,27 @@
             "field": "latency",
             "value": 104.0,
             "preprocessed": {
-              "latency": 1.2844498211304334
+              "latency": [
+                1.2844498211304334
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u1",
             "preprocessed": {
-              "user": 0.1
+              "user": [
+                0.1
+              ]
             }
           }
         ]
@@ -4070,21 +4856,27 @@
             "field": "latency",
             "value": 105.0,
             "preprocessed": {
-              "latency": 1.5811388300841895
+              "latency": [
+                1.5811388300841895
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u2",
             "preprocessed": {
-              "user": 0.09923664122137404
+              "user": [
+                0.09923664122137404
+              ]
             }
           }
         ]
@@ -4101,21 +4893,27 @@
             "field": "latency",
             "value": 95.0,
             "preprocessed": {
-              "latency": -1.5605846193794009
+              "latency": [
+                -1.5605846193794009
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u3",
             "preprocessed": {
-              "user": 0.09848484848484848
+              "user": [
+                0.09848484848484848
+              ]
             }
           }
         ]
@@ -4132,21 +4930,27 @@
             "field": "latency",
             "value": 96.0,
             "preprocessed": {
-              "latency": -1.2343138982113062
+              "latency": [
+                -1.2343138982113062
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u4",
             "preprocessed": {
-              "user": 0.09774436090225563
+              "user": [
+                0.09774436090225563
+              ]
             }
           }
         ]
@@ -4163,21 +4967,27 @@
             "field": "latency",
             "value": 97.0,
             "preprocessed": {
-              "latency": -0.9141858961568278
+              "latency": [
+                -0.9141858961568278
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u5",
             "preprocessed": {
-              "user": 0.09701492537313433
+              "user": [
+                0.09701492537313433
+              ]
             }
           }
         ]
@@ -4194,21 +5004,27 @@
             "field": "latency",
             "value": 98.0,
             "preprocessed": {
-              "latency": -0.5971518316719935
+              "latency": [
+                -0.5971518316719935
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u6",
             "preprocessed": {
-              "user": 0.0962962962962963
+              "user": [
+                0.0962962962962963
+              ]
             }
           }
         ]
@@ -4225,21 +5041,27 @@
             "field": "latency",
             "value": 99.0,
             "preprocessed": {
-              "latency": -0.28125983609930094
+              "latency": [
+                -0.28125983609930094
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u7",
             "preprocessed": {
-              "user": 0.09558823529411764
+              "user": [
+                0.09558823529411764
+              ]
             }
           }
         ]
@@ -4256,21 +5078,27 @@
             "field": "latency",
             "value": 100.0,
             "preprocessed": {
-              "latency": 0.03445545635304947
+              "latency": [
+                0.03445545635304947
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u8",
             "preprocessed": {
-              "user": 0.0948905109489051
+              "user": [
+                0.0948905109489051
+              ]
             }
           }
         ]
@@ -4287,21 +5115,27 @@
             "field": "latency",
             "value": 101.0,
             "preprocessed": {
-              "latency": 0.35002370055741977
+              "latency": [
+                0.35002370055741977
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u9",
             "preprocessed": {
-              "user": 0.09420289855072464
+              "user": [
+                0.09420289855072464
+              ]
             }
           }
         ]
@@ -4318,21 +5152,27 @@
             "field": "latency",
             "value": 102.0,
             "preprocessed": {
-              "latency": 0.6645707148532841
+              "latency": [
+                0.6645707148532841
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u10",
             "preprocessed": {
-              "user": 0.09352517985611511
+              "user": [
+                0.09352517985611511
+              ]
             }
           }
         ]
@@ -4349,21 +5189,27 @@
             "field": "latency",
             "value": 103.0,
             "preprocessed": {
-              "latency": 0.9763665558295181
+              "latency": [
+                0.9763665558295181
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u1",
             "preprocessed": {
-              "user": 0.1
+              "user": [
+                0.1
+              ]
             }
           }
         ]
@@ -4380,21 +5226,27 @@
             "field": "latency",
             "value": 104.0,
             "preprocessed": {
-              "latency": 1.2829197750089216
+              "latency": [
+                1.2829197750089216
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u2",
             "preprocessed": {
-              "user": 0.09929078014184398
+              "user": [
+                0.09929078014184398
+              ]
             }
           }
         ]
@@ -4411,21 +5263,27 @@
             "field": "latency",
             "value": 105.0,
             "preprocessed": {
-              "latency": 1.581138830084185
+              "latency": [
+                1.581138830084185
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u3",
             "preprocessed": {
-              "user": 0.09859154929577464
+              "user": [
+                0.09859154929577464
+              ]
             }
           }
         ]
@@ -4442,21 +5300,27 @@
             "field": "latency",
             "value": 95.0,
             "preprocessed": {
-              "latency": -1.5621373299241874
+              "latency": [
+                -1.5621373299241874
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u4",
             "preprocessed": {
-              "user": 0.0979020979020979
+              "user": [
+                0.0979020979020979
+              ]
             }
           }
         ]
@@ -4473,21 +5337,27 @@
             "field": "latency",
             "value": 96.0,
             "preprocessed": {
-              "latency": -1.2365971730541285
+              "latency": [
+                -1.2365971730541285
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u5",
             "preprocessed": {
-              "user": 0.09722222222222222
+              "user": [
+                0.09722222222222222
+              ]
             }
           }
         ]
@@ -4504,21 +5374,27 @@
             "field": "latency",
             "value": 97.0,
             "preprocessed": {
-              "latency": -0.9167418822763743
+              "latency": [
+                -0.9167418822763743
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u6",
             "preprocessed": {
-              "user": 0.09655172413793103
+              "user": [
+                0.09655172413793103
+              ]
             }
           }
         ]
@@ -4535,21 +5411,27 @@
             "field": "latency",
             "value": 98.0,
             "preprocessed": {
-              "latency": -0.5997601439040738
+              "latency": [
+                -0.5997601439040738
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u7",
             "preprocessed": {
-              "user": 0.0958904109589041
+              "user": [
+                0.0958904109589041
+              ]
             }
           }
         ]
@@ -4566,21 +5448,27 @@
             "field": "latency",
             "value": 99.0,
             "preprocessed": {
-              "latency": -0.28384416773552534
+              "latency": [
+                -0.28384416773552534
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u8",
             "preprocessed": {
-              "user": 0.09523809523809523
+              "user": [
+                0.09523809523809523
+              ]
             }
           }
         ]
@@ -4597,21 +5485,27 @@
             "field": "latency",
             "value": 100.0,
             "preprocessed": {
-              "latency": 0.03190478505562537
+              "latency": [
+                0.03190478505562537
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u9",
             "preprocessed": {
-              "user": 0.0945945945945946
+              "user": [
+                0.0945945945945946
+              ]
             }
           }
         ]
@@ -4628,21 +5522,27 @@
             "field": "latency",
             "value": 101.0,
             "preprocessed": {
-              "latency": 0.34752002858949954
+              "latency": [
+                0.34752002858949954
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u10",
             "preprocessed": {
-              "user": 0.09395973154362416
+              "user": [
+                0.09395973154362416
+              ]
             }
           }
         ]
@@ -4659,21 +5559,27 @@
             "field": "latency",
             "value": 102.0,
             "preprocessed": {
-              "latency": 0.6621967807726468
+              "latency": [
+                0.6621967807726468
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u1",
             "preprocessed": {
-              "user": 0.1
+              "user": [
+                0.1
+              ]
             }
           }
         ]
@@ -4690,21 +5596,27 @@
             "field": "latency",
             "value": 103.0,
             "preprocessed": {
-              "latency": 0.9743333141715959
+              "latency": [
+                0.9743333141715959
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u2",
             "preprocessed": {
-              "user": 0.09933774834437085
+              "user": [
+                0.09933774834437085
+              ]
             }
           }
         ]
@@ -4721,21 +5633,27 @@
             "field": "latency",
             "value": 104.0,
             "preprocessed": {
-              "latency": 1.281611966066853
+              "latency": [
+                1.281611966066853
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u3",
             "preprocessed": {
-              "user": 0.09868421052631579
+              "user": [
+                0.09868421052631579
+              ]
             }
           }
         ]
@@ -4752,21 +5670,27 @@
             "field": "latency",
             "value": 105.0,
             "preprocessed": {
-              "latency": 1.5811388300841764
+              "latency": [
+                1.5811388300841764
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u4",
             "preprocessed": {
-              "user": 0.09803921568627451
+              "user": [
+                0.09803921568627451
+              ]
             }
           }
         ]
@@ -4783,21 +5707,27 @@
             "field": "latency",
             "value": 95.0,
             "preprocessed": {
-              "latency": -1.563471919941157
+              "latency": [
+                -1.563471919941157
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u5",
             "preprocessed": {
-              "user": 0.09740259740259741
+              "user": [
+                0.09740259740259741
+              ]
             }
           }
         ]
@@ -4814,21 +5744,27 @@
             "field": "latency",
             "value": 96.0,
             "preprocessed": {
-              "latency": -1.2385633040835407
+              "latency": [
+                -1.2385633040835407
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u6",
             "preprocessed": {
-              "user": 0.0967741935483871
+              "user": [
+                0.0967741935483871
+              ]
             }
           }
         ]
@@ -4845,21 +5781,27 @@
             "field": "latency",
             "value": 97.0,
             "preprocessed": {
-              "latency": -0.9189451616893034
+              "latency": [
+                -0.9189451616893034
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u7",
             "preprocessed": {
-              "user": 0.09615384615384616
+              "user": [
+                0.09615384615384616
+              ]
             }
           }
         ]
@@ -4876,21 +5818,27 @@
             "field": "latency",
             "value": 98.0,
             "preprocessed": {
-              "latency": -0.6020094356827519
+              "latency": [
+                -0.6020094356827519
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u8",
             "preprocessed": {
-              "user": 0.09554140127388536
+              "user": [
+                0.09554140127388536
+              ]
             }
           }
         ]
@@ -4907,21 +5855,27 @@
             "field": "latency",
             "value": 99.0,
             "preprocessed": {
-              "latency": -0.2860726415434542
+              "latency": [
+                -0.2860726415434542
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u9",
             "preprocessed": {
-              "user": 0.0949367088607595
+              "user": [
+                0.0949367088607595
+              ]
             }
           }
         ]
@@ -4938,21 +5892,27 @@
             "field": "latency",
             "value": 100.0,
             "preprocessed": {
-              "latency": 0.029705882495684996
+              "latency": [
+                0.029705882495684996
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u10",
             "preprocessed": {
-              "user": 0.09433962264150944
+              "user": [
+                0.09433962264150944
+              ]
             }
           }
         ]
@@ -4969,21 +5929,27 @@
             "field": "latency",
             "value": 101.0,
             "preprocessed": {
-              "latency": 0.34536185249719137
+              "latency": [
+                0.34536185249719137
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u1",
             "preprocessed": {
-              "user": 0.1
+              "user": [
+                0.1
+              ]
             }
           }
         ]
@@ -5000,21 +5966,27 @@
             "field": "latency",
             "value": 102.0,
             "preprocessed": {
-              "latency": 0.660149729508107
+              "latency": [
+                0.660149729508107
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u2",
             "preprocessed": {
-              "user": 0.09937888198757763
+              "user": [
+                0.09937888198757763
+              ]
             }
           }
         ]
@@ -5031,21 +6003,27 @@
             "field": "latency",
             "value": 103.0,
             "preprocessed": {
-              "latency": 0.9725783411897287
+              "latency": [
+                0.9725783411897287
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u3",
             "preprocessed": {
-              "user": 0.09876543209876543
+              "user": [
+                0.09876543209876543
+              ]
             }
           }
         ]
@@ -5062,21 +6040,27 @@
             "field": "latency",
             "value": 104.0,
             "preprocessed": {
-              "latency": 1.2804812515883794
+              "latency": [
+                1.2804812515883794
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u4",
             "preprocessed": {
-              "user": 0.09815950920245399
+              "user": [
+                0.09815950920245399
+              ]
             }
           }
         ]
@@ -5093,21 +6077,27 @@
             "field": "latency",
             "value": 105.0,
             "preprocessed": {
-              "latency": 1.5811388300841724
+              "latency": [
+                1.5811388300841724
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u5",
             "preprocessed": {
-              "user": 0.0975609756097561
+              "user": [
+                0.0975609756097561
+              ]
             }
           }
         ]
@@ -5124,21 +6114,27 @@
             "field": "latency",
             "value": 95.0,
             "preprocessed": {
-              "latency": -1.564631335688145
+              "latency": [
+                -1.564631335688145
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u6",
             "preprocessed": {
-              "user": 0.09696969696969697
+              "user": [
+                0.09696969696969697
+              ]
             }
           }
         ]
@@ -5155,21 +6151,27 @@
             "field": "latency",
             "value": 96.0,
             "preprocessed": {
-              "latency": -1.240274082588415
+              "latency": [
+                -1.240274082588415
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u7",
             "preprocessed": {
-              "user": 0.0963855421686747
+              "user": [
+                0.0963855421686747
+              ]
             }
           }
         ]
@@ -5186,21 +6188,27 @@
             "field": "latency",
             "value": 97.0,
             "preprocessed": {
-              "latency": -0.92086404180395
+              "latency": [
+                -0.92086404180395
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u8",
             "preprocessed": {
-              "user": 0.09580838323353294
+              "user": [
+                0.09580838323353294
+              ]
             }
           }
         ]
@@ -5217,21 +6225,27 @@
             "field": "latency",
             "value": 98.0,
             "preprocessed": {
-              "latency": -0.6039690806307327
+              "latency": [
+                -0.6039690806307327
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u9",
             "preprocessed": {
-              "user": 0.09523809523809523
+              "user": [
+                0.09523809523809523
+              ]
             }
           }
         ]
@@ -5248,21 +6262,27 @@
             "field": "latency",
             "value": 99.0,
             "preprocessed": {
-              "latency": -0.2880140503933896
+              "latency": [
+                -0.2880140503933896
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u10",
             "preprocessed": {
-              "user": 0.09467455621301775
+              "user": [
+                0.09467455621301775
+              ]
             }
           }
         ]
@@ -5279,21 +6299,27 @@
             "field": "latency",
             "value": 100.0,
             "preprocessed": {
-              "latency": 0.027790646797574287
+              "latency": [
+                0.027790646797574287
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u1",
             "preprocessed": {
-              "user": 0.1
+              "user": [
+                0.1
+              ]
             }
           }
         ]
@@ -5310,21 +6336,27 @@
             "field": "latency",
             "value": 101.0,
             "preprocessed": {
-              "latency": 0.34348225138849553
+              "latency": [
+                0.34348225138849553
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u2",
             "preprocessed": {
-              "user": 0.09941520467836257
+              "user": [
+                0.09941520467836257
+              ]
             }
           }
         ]
@@ -5341,21 +6373,27 @@
             "field": "latency",
             "value": 102.0,
             "preprocessed": {
-              "latency": 0.6583663805191322
+              "latency": [
+                0.6583663805191322
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u3",
             "preprocessed": {
-              "user": 0.09883720930232558
+              "user": [
+                0.09883720930232558
+              ]
             }
           }
         ]
@@ -5372,21 +6410,27 @@
             "field": "latency",
             "value": 103.0,
             "preprocessed": {
-              "latency": 0.9710481642256588
+              "latency": [
+                0.9710481642256588
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u4",
             "preprocessed": {
-              "user": 0.09826589595375723
+              "user": [
+                0.09826589595375723
+              ]
             }
           }
         ]
@@ -5403,21 +6447,27 @@
             "field": "latency",
             "value": 104.0,
             "preprocessed": {
-              "latency": 1.279493940229092
+              "latency": [
+                1.279493940229092
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u5",
             "preprocessed": {
-              "user": 0.09770114942528736
+              "user": [
+                0.09770114942528736
+              ]
             }
           }
         ]
@@ -5434,21 +6484,27 @@
             "field": "latency",
             "value": 105.0,
             "preprocessed": {
-              "latency": 1.5811388300841767
+              "latency": [
+                1.5811388300841767
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u6",
             "preprocessed": {
-              "user": 0.09714285714285714
+              "user": [
+                0.09714285714285714
+              ]
             }
           }
         ]
@@ -5465,21 +6521,27 @@
             "field": "latency",
             "value": 95.0,
             "preprocessed": {
-              "latency": -1.5656479431513965
+              "latency": [
+                -1.5656479431513965
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u7",
             "preprocessed": {
-              "user": 0.09659090909090909
+              "user": [
+                0.09659090909090909
+              ]
             }
           }
         ]
@@ -5496,21 +6558,27 @@
             "field": "latency",
             "value": 96.0,
             "preprocessed": {
-              "latency": -1.241776225221142
+              "latency": [
+                -1.241776225221142
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u8",
             "preprocessed": {
-              "user": 0.096045197740113
+              "user": [
+                0.096045197740113
+              ]
             }
           }
         ]
@@ -5527,21 +6595,27 @@
             "field": "latency",
             "value": 97.0,
             "preprocessed": {
-              "latency": -0.9225502583298304
+              "latency": [
+                -0.9225502583298304
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u9",
             "preprocessed": {
-              "user": 0.09550561797752809
+              "user": [
+                0.09550561797752809
+              ]
             }
           }
         ]
@@ -5558,21 +6632,27 @@
             "field": "latency",
             "value": 98.0,
             "preprocessed": {
-              "latency": -0.6056916560200737
+              "latency": [
+                -0.6056916560200737
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u10",
             "preprocessed": {
-              "user": 0.09497206703910614
+              "user": [
+                0.09497206703910614
+              ]
             }
           }
         ]
@@ -5589,21 +6669,27 @@
             "field": "latency",
             "value": 99.0,
             "preprocessed": {
-              "latency": -0.2897205233713422
+              "latency": [
+                -0.2897205233713422
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u1",
             "preprocessed": {
-              "user": 0.1
+              "user": [
+                0.1
+              ]
             }
           }
         ]
@@ -5620,21 +6706,27 @@
             "field": "latency",
             "value": 100.0,
             "preprocessed": {
-              "latency": 0.026107495258521345
+              "latency": [
+                0.026107495258521345
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u2",
             "preprocessed": {
-              "user": 0.09944751381215469
+              "user": [
+                0.09944751381215469
+              ]
             }
           }
         ]
@@ -5651,21 +6743,27 @@
             "field": "latency",
             "value": 101.0,
             "preprocessed": {
-              "latency": 0.34183054372997085
+              "latency": [
+                0.34183054372997085
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u3",
             "preprocessed": {
-              "user": 0.0989010989010989
+              "user": [
+                0.0989010989010989
+              ]
             }
           }
         ]
@@ -5682,21 +6780,27 @@
             "field": "latency",
             "value": 102.0,
             "preprocessed": {
-              "latency": 0.656798852802998
+              "latency": [
+                0.656798852802998
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u4",
             "preprocessed": {
-              "user": 0.09836065573770492
+              "user": [
+                0.09836065573770492
+              ]
             }
           }
         ]
@@ -5713,21 +6817,27 @@
             "field": "latency",
             "value": 103.0,
             "preprocessed": {
-              "latency": 0.9697021876403596
+              "latency": [
+                0.9697021876403596
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u5",
             "preprocessed": {
-              "user": 0.09782608695652174
+              "user": [
+                0.09782608695652174
+              ]
             }
           }
         ]
@@ -5744,21 +6854,27 @@
             "field": "latency",
             "value": 104.0,
             "preprocessed": {
-              "latency": 1.2786243773744073
+              "latency": [
+                1.2786243773744073
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u6",
             "preprocessed": {
-              "user": 0.0972972972972973
+              "user": [
+                0.0972972972972973
+              ]
             }
           }
         ]
@@ -5775,21 +6891,27 @@
             "field": "latency",
             "value": 105.0,
             "preprocessed": {
-              "latency": 1.5811388300841764
+              "latency": [
+                1.5811388300841764
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u7",
             "preprocessed": {
-              "user": 0.0967741935483871
+              "user": [
+                0.0967741935483871
+              ]
             }
           }
         ]
@@ -5806,21 +6928,27 @@
             "field": "latency",
             "value": 95.0,
             "preprocessed": {
-              "latency": -1.5665465972864843
+              "latency": [
+                -1.5665465972864843
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u8",
             "preprocessed": {
-              "user": 0.0962566844919786
+              "user": [
+                0.0962566844919786
+              ]
             }
           }
         ]
@@ -5837,21 +6965,27 @@
             "field": "latency",
             "value": 96.0,
             "preprocessed": {
-              "latency": -1.2431057070953544
+              "latency": [
+                -1.2431057070953544
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u9",
             "preprocessed": {
-              "user": 0.09574468085106383
+              "user": [
+                0.09574468085106383
+              ]
             }
           }
         ]
@@ -5868,21 +7002,27 @@
             "field": "latency",
             "value": 97.0,
             "preprocessed": {
-              "latency": -0.9240437141030043
+              "latency": [
+                -0.9240437141030043
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u10",
             "preprocessed": {
-              "user": 0.09523809523809523
+              "user": [
+                0.09523809523809523
+              ]
             }
           }
         ]
@@ -5899,21 +7039,27 @@
             "field": "latency",
             "value": 98.0,
             "preprocessed": {
-              "latency": -0.6072177370891654
+              "latency": [
+                -0.6072177370891654
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u1",
             "preprocessed": {
-              "user": 0.1
+              "user": [
+                0.1
+              ]
             }
           }
         ]
@@ -5930,21 +7076,27 @@
             "field": "latency",
             "value": 99.0,
             "preprocessed": {
-              "latency": -0.29123228470557233
+              "latency": [
+                -0.29123228470557233
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u2",
             "preprocessed": {
-              "user": 0.09947643979057591
+              "user": [
+                0.09947643979057591
+              ]
             }
           }
         ]
@@ -5961,21 +7113,27 @@
             "field": "latency",
             "value": 100.0,
             "preprocessed": {
-              "latency": 0.024616640565435985
+              "latency": [
+                0.024616640565435985
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u3",
             "preprocessed": {
-              "user": 0.09895833333333333
+              "user": [
+                0.09895833333333333
+              ]
             }
           }
         ]
@@ -5992,21 +7150,27 @@
             "field": "latency",
             "value": 101.0,
             "preprocessed": {
-              "latency": 0.3403676420361456
+              "latency": [
+                0.3403676420361456
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u4",
             "preprocessed": {
-              "user": 0.09844559585492228
+              "user": [
+                0.09844559585492228
+              ]
             }
           }
         ]
@@ -6023,21 +7187,27 @@
             "field": "latency",
             "value": 102.0,
             "preprocessed": {
-              "latency": 0.6554101974438911
+              "latency": [
+                0.6554101974438911
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u5",
             "preprocessed": {
-              "user": 0.0979381443298969
+              "user": [
+                0.0979381443298969
+              ]
             }
           }
         ]
@@ -6054,21 +7224,27 @@
             "field": "latency",
             "value": 103.0,
             "preprocessed": {
-              "latency": 0.9685090363962864
+              "latency": [
+                0.9685090363962864
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u6",
             "preprocessed": {
-              "user": 0.09743589743589744
+              "user": [
+                0.09743589743589744
+              ]
             }
           }
         ]
@@ -6085,21 +7261,27 @@
             "field": "latency",
             "value": 104.0,
             "preprocessed": {
-              "latency": 1.2778526835983293
+              "latency": [
+                1.2778526835983293
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u7",
             "preprocessed": {
-              "user": 0.09693877551020408
+              "user": [
+                0.09693877551020408
+              ]
             }
           }
         ]
@@ -6116,21 +7298,27 @@
             "field": "latency",
             "value": 105.0,
             "preprocessed": {
-              "latency": 1.581138830084185
+              "latency": [
+                1.581138830084185
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u8",
             "preprocessed": {
-              "user": 0.09644670050761421
+              "user": [
+                0.09644670050761421
+              ]
             }
           }
         ]
@@ -6147,21 +7335,27 @@
             "field": "latency",
             "value": 95.0,
             "preprocessed": {
-              "latency": -1.5673467013976683
+              "latency": [
+                -1.5673467013976683
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u9",
             "preprocessed": {
-              "user": 0.09595959595959595
+              "user": [
+                0.09595959595959595
+              ]
             }
           }
         ]
@@ -6178,21 +7372,27 @@
             "field": "latency",
             "value": 96.0,
             "preprocessed": {
-              "latency": -1.244290681416406
+              "latency": [
+                -1.244290681416406
+              ]
             }
           },
           {
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 1.0
+              "country": [
+                1.0
+              ]
             }
           },
           {
             "field": "user",
             "value": "u10",
             "preprocessed": {
-              "user": 0.09547738693467336
+              "user": [
+                0.09547738693467336
+              ]
             }
           }
         ]

@@ -13,7 +13,9 @@
             "field": "latency",
             "value": 100.0,
             "preprocessed": {
-              "latency": 0.0
+              "latency": [
+                0.0
+              ]
             }
           }
         ]
@@ -34,7 +36,9 @@
             "field": "latency",
             "value": 110.0,
             "preprocessed": {
-              "latency": 0.0
+              "latency": [
+                0.0
+              ]
             }
           }
         ]

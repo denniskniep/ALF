@@ -23,14 +23,14 @@ class FrequencyEncoder:
         s = str(value)
         self._counts[s] = self._counts.get(s, 0) + 1
 
-    def transform(self, key: str, value: Any) -> dict[FieldInfo, float]:
+    def transform(self, key: str, value: Any) -> dict[FieldInfo, list[float]]:
         s = str(value)
         value = self._counts.get(s, 0)
         if value == 0:
-            return {FieldInfo(key, preprocessor="FrequencyEncoder"): float(0)}
+            return {FieldInfo(key, preprocessor="FrequencyEncoder"): [float(0)]}
 
         total = sum(self._counts.values())
         if total == 0:
             raise ValueError(f"Total can not be 0 (devide by 0)")
 
-        return {FieldInfo(key, preprocessor="FrequencyEncoder"): float(value / total)}
+        return {FieldInfo(key, preprocessor="FrequencyEncoder"): [float(value / total)]}

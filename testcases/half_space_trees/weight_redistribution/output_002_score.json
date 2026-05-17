@@ -20,7 +20,9 @@
               "value": 9999.0,
               "delta": 0.0,
               "preprocessed": {
-                "latency": 5.0
+                "latency": [
+                  5.0
+                ]
               }
             },
             {
@@ -28,16 +30,36 @@
               "value": "DE",
               "delta": 0.0,
               "preprocessed": {
-                "country__1": 1.0,
-                "country__2": 0.0,
-                "country__3": 0.0,
-                "country__4": 0.0,
-                "country__5": 0.0,
-                "country__6": 0.0,
-                "country__7": 0.0,
-                "country__8": 0.0,
-                "country__9": 0.0,
-                "country__10": 0.0
+                "country__1": [
+                  1.0
+                ],
+                "country__2": [
+                  0.0
+                ],
+                "country__3": [
+                  0.0
+                ],
+                "country__4": [
+                  0.0
+                ],
+                "country__5": [
+                  0.0
+                ],
+                "country__6": [
+                  0.0
+                ],
+                "country__7": [
+                  0.0
+                ],
+                "country__8": [
+                  0.0
+                ],
+                "country__9": [
+                  0.0
+                ],
+                "country__10": [
+                  0.0
+                ]
               }
             },
             {
@@ -45,16 +67,36 @@
               "value": "new_user",
               "delta": 0.0,
               "preprocessed": {
-                "user__1": 0.0,
-                "user__2": 1.0,
-                "user__3": 0.0,
-                "user__4": 0.0,
-                "user__5": 0.0,
-                "user__6": 0.0,
-                "user__7": 0.0,
-                "user__8": 0.0,
-                "user__9": 0.0,
-                "user__10": 0.0
+                "user__1": [
+                  0.0
+                ],
+                "user__2": [
+                  1.0
+                ],
+                "user__3": [
+                  0.0
+                ],
+                "user__4": [
+                  0.0
+                ],
+                "user__5": [
+                  0.0
+                ],
+                "user__6": [
+                  0.0
+                ],
+                "user__7": [
+                  0.0
+                ],
+                "user__8": [
+                  0.0
+                ],
+                "user__9": [
+                  0.0
+                ],
+                "user__10": [
+                  0.0
+                ]
               }
             }
           ],
@@ -79,7 +121,9 @@
               "value": 9999.0,
               "delta": 0.0,
               "preprocessed": {
-                "latency": 5.0
+                "latency": [
+                  5.0
+                ]
               }
             },
             {
@@ -87,16 +131,36 @@
               "value": "DE",
               "delta": 0.0,
               "preprocessed": {
-                "country__1": 1.0,
-                "country__2": 0.0,
-                "country__3": 0.0,
-                "country__4": 0.0,
-                "country__5": 0.0,
-                "country__6": 0.0,
-                "country__7": 0.0,
-                "country__8": 0.0,
-                "country__9": 0.0,
-                "country__10": 0.0
+                "country__1": [
+                  1.0
+                ],
+                "country__2": [
+                  0.0
+                ],
+                "country__3": [
+                  0.0
+                ],
+                "country__4": [
+                  0.0
+                ],
+                "country__5": [
+                  0.0
+                ],
+                "country__6": [
+                  0.0
+                ],
+                "country__7": [
+                  0.0
+                ],
+                "country__8": [
+                  0.0
+                ],
+                "country__9": [
+                  0.0
+                ],
+                "country__10": [
+                  0.0
+                ]
               }
             },
             {
@@ -104,16 +168,36 @@
               "value": "new_user",
               "delta": 0.0,
               "preprocessed": {
-                "user__1": 0.0,
-                "user__2": 1.0,
-                "user__3": 0.0,
-                "user__4": 0.0,
-                "user__5": 0.0,
-                "user__6": 0.0,
-                "user__7": 0.0,
-                "user__8": 0.0,
-                "user__9": 0.0,
-                "user__10": 0.0
+                "user__1": [
+                  0.0
+                ],
+                "user__2": [
+                  1.0
+                ],
+                "user__3": [
+                  0.0
+                ],
+                "user__4": [
+                  0.0
+                ],
+                "user__5": [
+                  0.0
+                ],
+                "user__6": [
+                  0.0
+                ],
+                "user__7": [
+                  0.0
+                ],
+                "user__8": [
+                  0.0
+                ],
+                "user__9": [
+                  0.0
+                ],
+                "user__10": [
+                  0.0
+                ]
               }
             }
           ],
@@ -138,7 +222,9 @@
               "value": 9999.0,
               "delta": 0.0,
               "preprocessed": {
-                "latency": 5.0
+                "latency": [
+                  5.0
+                ]
               }
             },
             {
@@ -146,16 +232,36 @@
               "value": "DE",
               "delta": 0.0,
               "preprocessed": {
-                "country__1": 1.0,
-                "country__2": 0.0,
-                "country__3": 0.0,
-                "country__4": 0.0,
-                "country__5": 0.0,
-                "country__6": 0.0,
-                "country__7": 0.0,
-                "country__8": 0.0,
-                "country__9": 0.0,
-                "country__10": 0.0
+                "country__1": [
+                  1.0
+                ],
+                "country__2": [
+                  0.0
+                ],
+                "country__3": [
+                  0.0
+                ],
+                "country__4": [
+                  0.0
+                ],
+                "country__5": [
+                  0.0
+                ],
+                "country__6": [
+                  0.0
+                ],
+                "country__7": [
+                  0.0
+                ],
+                "country__8": [
+                  0.0
+                ],
+                "country__9": [
+                  0.0
+                ],
+                "country__10": [
+                  0.0
+                ]
               }
             },
             {
@@ -163,16 +269,36 @@
               "value": "new_user",
               "delta": 0.0,
               "preprocessed": {
-                "user__1": 1.0,
-                "user__2": 0.0,
-                "user__3": 0.0,
-                "user__4": 0.0,
-                "user__5": 0.0,
-                "user__6": 0.0,
-                "user__7": 0.0,
-                "user__8": 0.0,
-                "user__9": 0.0,
-                "user__10": 0.0
+                "user__1": [
+                  1.0
+                ],
+                "user__2": [
+                  0.0
+                ],
+                "user__3": [
+                  0.0
+                ],
+                "user__4": [
+                  0.0
+                ],
+                "user__5": [
+                  0.0
+                ],
+                "user__6": [
+                  0.0
+                ],
+                "user__7": [
+                  0.0
+                ],
+                "user__8": [
+                  0.0
+                ],
+                "user__9": [
+                  0.0
+                ],
+                "user__10": [
+                  0.0
+                ]
               }
             }
           ],

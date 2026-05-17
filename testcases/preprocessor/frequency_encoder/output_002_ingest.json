@@ -9,7 +9,9 @@
             "field": "country",
             "value": "US",
             "preprocessed": {
-              "country": 0.4
+              "country": [
+                0.4
+              ]
             }
           }
         ]
@@ -26,7 +28,9 @@
             "field": "country",
             "value": "US",
             "preprocessed": {
-              "country": 0.5
+              "country": [
+                0.5
+              ]
             }
           }
         ]
@@ -43,7 +47,9 @@
             "field": "country",
             "value": "DE",
             "preprocessed": {
-              "country": 0.42857142857142855
+              "country": [
+                0.42857142857142855
+              ]
             }
           }
         ]

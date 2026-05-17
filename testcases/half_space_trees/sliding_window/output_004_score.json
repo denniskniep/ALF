@@ -20,7 +20,9 @@
               "value": 100.0,
               "delta": 0.0,
               "preprocessed": {
-                "latency": 0.0
+                "latency": [
+                  0.0
+                ]
               }
             }
           ],

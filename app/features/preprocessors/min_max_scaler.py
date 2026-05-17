@@ -36,10 +36,10 @@ class MinMaxScaler:
     def learn_post_transform(self, key: str, value: Any) -> None:
         pass
 
-    def transform(self, key: str, value: Any) -> dict[FieldInfo, float]:
+    def transform(self, key: str, value: Any) -> dict[FieldInfo, list[float]]:
         v = float(value)
         if self._min is None:
-            return {FieldInfo(original=key, preprocessor="MinMaxScaler"): float("nan")}
+            return {FieldInfo(original=key, preprocessor="MinMaxScaler"): [float("nan")]}
         if self._max == self._min:
-            return {FieldInfo(original=key, preprocessor="MinMaxScaler"): 0.0}
-        return {FieldInfo(original=key, preprocessor="MinMaxScaler"): (v - self._min) / (self._max - self._min)}
+            return {FieldInfo(original=key, preprocessor="MinMaxScaler"): [0.0]}
+        return {FieldInfo(original=key, preprocessor="MinMaxScaler"): [(v - self._min) / (self._max - self._min)]}

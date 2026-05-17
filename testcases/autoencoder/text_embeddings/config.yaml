@@ -1,0 +1,25 @@
+cohorts:
+- name: test
+  features_config: default
+  fields: []
+  weight: 1.0
+  model:
+    name: Autoencoder
+    params:
+      buffer_size: 200
+      min_buffer_size: 20
+      retrain_every: 20
+      epochs_per_retrain: 2
+      embed_dim: 16
+
+database:
+  type: memory
+
+features:
+  default:
+    message:
+      type: str_text
+      preprocessor:
+        name: SentenceTransformerEncoder
+        params:
+          embed_dim: 16

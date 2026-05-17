@@ -145,18 +145,25 @@ features:
         name: OneHotEncoder
         params:
           n_categories: 50   # increase from default 10
+    event.description:
+      type: str_identifier
+      preprocessor:
+        name: SentenceTransformerEncoder
+        params:
+          embed_dim: 8          # keep comparable (e.g. to AutoEncoders embed_dim to avoid dominating input)
 ```
 
-| Preprocessor | Output                                                      | Stateful | Parameters | Notes |
-|---|-------------------------------------------------------------|---|---|---|
-| `StandardScaler` | z-score float, clipped to `[-5, 5]`                         | yes | — | Default for `numeric`. Robust to outliers — a single extreme value shifts mean/std by O(1/n). |
-| `MinMaxScaler` | float in `[0, 1]`                                           | yes | — | Correct for bounded sub-fields (timestamp parts, IP octets, semver). Avoid for unbounded numerics. |
-| `PassThrough` | raw float unchanged                                         | no | — | Default for `boolean`. |
-| `OneHotEncoder` | N binary floats (`field__1` … `field__N`)                   | yes | `n_categories` (default 10) | Default for `str_categorical` in HST. Unseen values at score time produce all-zeros — a distinct novelty signal. Raises `ValueError` if vocabulary exceeds `n_categories`. |
-| `OneHotHashEncoder` | 1 binary float in a single hash bucket (`field__5489a3`) | no | `n_features` (default 2000) | Default for `str_identifier` in HST. Stateless, deterministic (seed=0). |
-| `LabelIndex` | integer vocab index (0 = missing)                           | yes | — | Default for `str_categorical` in Autoencoder. Routes to an embedding table. Captures co-occurrence patterns. |
-| `HashIndex` | integer hash index                                          | no | `n_features` (default 2000) | Default for `str_identifier` in Autoencoder. Routes to an embedding table. Stateless. |
-| `FrequencyEncoder` | float in `[0, 1]` (how common the value is)                 | yes | — | Override only. Unseen values → `0.0`. |
+| Preprocessor | Output (list[float]) | Stateful | Parameters | Notes                                                                                                                                       |
+|---|---|---|---|---------------------------------------------------------------------------------------------------------------------------------------------|
+| `StandardScaler` | `[z]` clipped to `[-5, 5]` | yes | — | Default for `numeric`. Robust to outliers — a single extreme value shifts mean/std by O(1/n).                                               |
+| `MinMaxScaler` | `[v]` in `[0, 1]` | yes | — | Correct for bounded sub-fields (timestamp parts, IP octets, semver). Avoid for unbounded numerics.                                          |
+| `PassThrough` | `[v]` unchanged | no | — | Default for `boolean`.                                                                                                                      |
+| `OneHotEncoder` | `[0/1]` per bucket × N entries | yes | `n_categories` (default 10) | Default for `str_categorical` in HST. Unseen values → all-zeros (novelty signal). Raises `ValueError` if vocabulary exceeds `n_categories`. |
+| `OneHotHashEncoder` | `[1.0]` at the active hash bucket | no | `n_features` (default 2000) | Default for `str_identifier` in HST. Stateless, deterministic (seed=0).                                                                     |
+| `LabelIndex` | `[integer index]` (0 = missing) | yes | — | Default for `str_categorical` in Autoencoder. Routes to an embedding table. Captures co-occurrence patterns.                                |
+| `HashIndex` | `[integer hash index]` | no | `n_features` (default 2000) | Default for `str_identifier` in Autoencoder. Routes to an embedding table. Stateless.                                                       |
+| `FrequencyEncoder` | `[v]` in `[0, 1]` (how common the value is) | yes | — | Override only. Unseen values → `0.0`.                                                                                                       |
+| `SentenceTransformerEncoder` | `[v₀, …, vₙ]` — `embed_dim` floats | no | `model` (default `all-MiniLM-L6-v2`), `embed_dim` (default 8), `cache_dir` (default `.local/modelcache`), `seed` (default 42) | Text fields. Pre-trained sentence transformer + fixed random projection to `embed_dim` dims (GPU used automatically if available)           |
 
 ---
 
@@ -186,7 +193,7 @@ Streaming isolation-forest algorithm ([River library](https://riverml.xyz/)). Ma
 
 #### Autoencoder (AE)
 
-PyTorch autoencoder with entity embeddings. Scores events by their reconstruction error relative to a percentile baseline. Supports categorical co-occurrence learning via embedding tables.
+PyTorch autoencoder with entity embeddings. Scores events by their reconstruction error relative to a percentile baseline. Supports co-occurrence learning across all feature types — categorical embeddings, numeric vectors are all compressed through the same bottleneck. Uses GPU automatically if available, falls back to CPU otherwise.
 
 | Parameter | Default | Effect                                                                                                                                                                   |
 |---|---|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -559,3 +566,15 @@ uv sync --all-packages
 ```
 
 Config is read from `CONFIG_PATH` env var, defaulting to `config.yml` at the repo root. Always use `uv run` — the `.venv` Python symlinks are broken.
+
+## Checkout GPU usage
+```
+nvidia-smi dmon -s u
+```
+
+sm% = x % of the GPU's parallel compute capacity was doing work at that moment
+mem% = how much VRAM is occupied
+
+```
+watch -n 0.1 nvidia-smi
+```

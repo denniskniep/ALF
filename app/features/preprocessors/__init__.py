@@ -13,17 +13,19 @@ from app.features.preprocessors.noop import NoOp
 from app.features.preprocessors.pass_through import PassThrough
 from app.features.preprocessors.standard_scaler import StandardScaler
 from app.features.preprocessors.one_hot_encoder import OneHotEncoder
+from app.features.preprocessors.sentence_transformer_encoder import SentenceTransformerEncoder
 
 _FACTORIES: dict[str, Callable[[dict], FieldPreprocessor]] = {
-    "NoOp":                    lambda p: NoOp(),
-    "PassThrough":             lambda p: PassThrough(),
-    "FrequencyEncoder":        lambda p: FrequencyEncoder(),
-    "HashIndex":               lambda p: HashIndex(**{"seed": 0, **p}),
-    "LabelIndex":              lambda p: LabelIndex(**p),
-    "MinMaxScaler":            lambda p: MinMaxScaler(),
-    "StandardScaler":          lambda p: StandardScaler(),
-    "OneHotEncoder":           lambda p: OneHotEncoder(**p),
-    "OneHotHashEncoder":       lambda p: OneHotHashEncoder(**{"seed": 0, **p}),
+    "NoOp":                         lambda p: NoOp(),
+    "PassThrough":                  lambda p: PassThrough(),
+    "FrequencyEncoder":             lambda p: FrequencyEncoder(),
+    "HashIndex":                    lambda p: HashIndex(**{"seed": 0, **p}),
+    "LabelIndex":                   lambda p: LabelIndex(**p),
+    "MinMaxScaler":                 lambda p: MinMaxScaler(),
+    "StandardScaler":               lambda p: StandardScaler(),
+    "OneHotEncoder":                lambda p: OneHotEncoder(**p),
+    "OneHotHashEncoder":            lambda p: OneHotHashEncoder(**{"seed": 0, **p}),
+    "SentenceTransformerEncoder":   lambda p: SentenceTransformerEncoder(**p),
 }
 
 

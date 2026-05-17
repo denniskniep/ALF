@@ -1,0 +1,242 @@
+[
+  {
+    "accepted": true,
+    "composite_score": 19.5,
+    "status": "NORMAL",
+    "scores": [
+      {
+        "name": "test",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 19.5,
+        "score_label": "NORMAL",
+        "properties": {
+          "buffer_size": 200,
+          "events_since_retrain": 10
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "message",
+              "value": "The quick brown fox jumps over the lazy dog",
+              "delta": 19.5,
+              "preprocessed": {
+                "message": [
+                  -0.00997747478070319,
+                  0.04776224685377063,
+                  -0.06994667170213408,
+                  0.0006342819090350777,
+                  -0.06422447397058774,
+                  0.06271364297717229,
+                  0.026318697881827263,
+                  -0.08498201956376072,
+                  -0.06511830554070233,
+                  0.026047370194812104,
+                  -0.07497453030985256,
+                  -0.04396122353831357,
+                  0.06751319503084319,
+                  0.15698298124019272,
+                  -0.0012938646690573794,
+                  -0.01727035843402714
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 17.0625,
+    "status": "NORMAL",
+    "scores": [
+      {
+        "name": "test",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 17.0625,
+        "score_label": "NORMAL",
+        "properties": {
+          "buffer_size": 200,
+          "events_since_retrain": 10
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "message",
+              "value": "The quick yellow lion jumps over the lazy cat",
+              "delta": 17.0625,
+              "preprocessed": {
+                "message": [
+                  -0.020136674787185258,
+                  0.05224373214527105,
+                  -0.07149913978213249,
+                  0.023544562819591983,
+                  -0.13219267116266695,
+                  0.015940170679433298,
+                  0.09896602905581578,
+                  -0.03912772957835693,
+                  -0.023001598125664657,
+                  -0.03434747016470234,
+                  -0.08598745654462386,
+                  0.008401687707495817,
+                  0.05584002560830424,
+                  0.08113930389004037,
+                  0.021534684036121948,
+                  -0.053068573329310705
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 29.0625,
+    "status": "NORMAL",
+    "scores": [
+      {
+        "name": "test",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 29.0625,
+        "score_label": "NORMAL",
+        "properties": {
+          "buffer_size": 200,
+          "events_since_retrain": 10
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "message",
+              "value": "The quick purple elephant jumps over the lazy snake",
+              "delta": 29.0625,
+              "preprocessed": {
+                "message": [
+                  0.016588620615763813,
+                  0.0950342014928943,
+                  -0.042573468882275416,
+                  -0.012682397662352048,
+                  -0.10867447276097464,
+                  -0.02625663097608715,
+                  0.04724622535379975,
+                  -0.023182853269381607,
+                  0.035161456401004834,
+                  0.029245090822488516,
+                  0.002854387508392321,
+                  0.0019882619029863878,
+                  0.05311652725055208,
+                  0.038062715483705586,
+                  0.016351078811852483,
+                  -0.0667230815897625
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 24.9375,
+    "status": "NORMAL",
+    "scores": [
+      {
+        "name": "test",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 24.9375,
+        "score_label": "NORMAL",
+        "properties": {
+          "buffer_size": 200,
+          "events_since_retrain": 10
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "message",
+              "value": "The quick pink unicorn jumps over the lazy dragon",
+              "delta": 24.9375,
+              "preprocessed": {
+                "message": [
+                  0.06376880944866373,
+                  0.037791619026389695,
+                  -0.04898533288884265,
+                  0.03331227013755155,
+                  -0.08740035252305342,
+                  0.00854337348198258,
+                  0.06266465291758105,
+                  -0.01579057410354031,
+                  -0.004593762824397607,
+                  0.06692294563693343,
+                  -0.0029013170903134816,
+                  0.04009301142846229,
+                  0.037166484468340776,
+                  0.08642553685706364,
+                  0.06986014768289764,
+                  -0.04567247695941533
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 12.9375,
+    "status": "NORMAL",
+    "scores": [
+      {
+        "name": "test",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 12.9375,
+        "score_label": "NORMAL",
+        "properties": {
+          "buffer_size": 200,
+          "events_since_retrain": 10
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "message",
+              "value": "The slow green deer walks below the lazy rabbit",
+              "delta": 12.9375,
+              "preprocessed": {
+                "message": [
+                  0.024163301195856628,
+                  0.04549503679138417,
+                  -0.021937173125680033,
+                  0.012305314546653779,
+                  -0.0463016140464492,
+                  -0.01647168709355349,
+                  0.029620772546231026,
+                  -0.029393097495768853,
+                  0.004171115275641024,
+                  -0.010986224952451506,
+                  -0.0690181117473404,
+                  -0.052057952796385754,
+                  -0.0028890256541249815,
+                  0.11115192782895499,
+                  0.007558110003971657,
+                  -0.029450494555264772
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  }
+]

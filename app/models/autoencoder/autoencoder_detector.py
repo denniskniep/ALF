@@ -86,6 +86,7 @@ class AutoencoderDetector(BaseModel):
         "boolean":         "PassThrough",
         "str_categorical": "LabelIndex",
         "str_identifier":  "HashIndex",
+        "str_text":        "SentenceTransformerEncoder"
     }
 
     def __init__(
@@ -144,6 +145,7 @@ class AutoencoderDetector(BaseModel):
         # Used for O(1) unknown-feature detection at train/score time.
         self._known_feature_keys: frozenset[str] = frozenset()
 
+        self._device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         self._model: EntityEmbeddingAutoencoder | None = None
         self._optimizer: torch.optim.Adam | None = None
         self._n_trained: int = 0
@@ -192,8 +194,8 @@ class AutoencoderDetector(BaseModel):
             cat_indices, num_floats = self._encode_features(features)
             self._assert_cat_indices_in_bounds(cat_indices)
 
-            cat_tensor = torch.tensor([cat_indices], dtype=torch.long)
-            num_tensor = torch.tensor([num_floats], dtype=torch.float32)
+            cat_tensor = torch.tensor([cat_indices], dtype=torch.long, device=self._device)
+            num_tensor = torch.tensor([num_floats], dtype=torch.float32, device=self._device)
             self._model.eval()
             with torch.no_grad():
                 reconstructed, original_x = self._model(cat_tensor, num_tensor)  # calls forward() via nn.Module.__call__
@@ -247,6 +249,8 @@ class AutoencoderDetector(BaseModel):
         self._feature_slices = state["feature_slices"]
         self._n_trained = state["n_trained"]
         self._model = state["model"]
+        if self._model is not None:
+            self._model.to(self._device)
         self._optimizer = state["optimizer"]
 
     # ------------------------------------------------------------------ #
@@ -277,7 +281,7 @@ class AutoencoderDetector(BaseModel):
             embed_dim=self._embed_dim,
             bottleneck=bottleneck,
             vocab_headroom=self._vocab_headroom,
-        )
+        ).to(self._device)
         self._optimizer = torch.optim.Adam(self._model.parameters(), lr=self._lr)
         self._assign_feature_slices()
 
@@ -418,8 +422,8 @@ class AutoencoderDetector(BaseModel):
         """Convert all buffered events to batched (cat_tensor, num_tensor) for training."""
         rows = [self._encode_features(d) for d in self._buffer]
         return (
-            torch.tensor([r[0] for r in rows], dtype=torch.long),
-            torch.tensor([r[1] for r in rows], dtype=torch.float32),
+            torch.tensor([r[0] for r in rows], dtype=torch.long, device=self._device),
+            torch.tensor([r[1] for r in rows], dtype=torch.float32, device=self._device),
         )
 
     # ------------------------------------------------------------------ #

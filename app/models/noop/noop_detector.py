@@ -15,6 +15,7 @@ class NoOpDetector(BaseModel):
         "boolean":         "NoOp",
         "str_categorical": "NoOp",
         "str_identifier":  "NoOp",
+        "str_text":        "SentenceTransformerEncoder",
     }
 
     def train(self, features: dict[FieldInfo, list[float]], n_learned: int) -> None:

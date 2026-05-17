@@ -1,0 +1,80 @@
+[
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "message",
+            "value": "The quick brown fox jumps over the lazy dog",
+            "preprocessed": {
+              "message": [
+                0.04549660083029905,
+                -0.01691104184552779,
+                -0.00955238964752286,
+                0.07790889606258262,
+                0.023870581047056437,
+                -0.08178029700732671,
+                0.014977689417130218,
+                -0.054163852220940424
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "message",
+            "value": "The quick yellow lion jumps over the elephant",
+            "preprocessed": {
+              "message": [
+                0.051871157597148866,
+                -0.03905695865513316,
+                0.033723754786367924,
+                0.08061173687799776,
+                0.009974562491062407,
+                -0.001748033083355637,
+                0.040557756666074474,
+                -0.016214671816463813
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "message",
+            "value": "The quick brown fox jumps over the lazy dog",
+            "preprocessed": {
+              "message": [
+                0.04549660083029905,
+                -0.01691104184552779,
+                -0.00955238964752286,
+                0.07790889606258262,
+                0.023870581047056437,
+                -0.08178029700732671,
+                0.014977689417130218,
+                -0.054163852220940424
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

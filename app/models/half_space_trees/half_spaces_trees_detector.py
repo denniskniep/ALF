@@ -34,6 +34,7 @@ class HalfSpaceTreesDetector(BaseModel):
         "boolean":         "PassThrough",
         "str_categorical": "OneHotEncoder",
         "str_identifier":  "OneHotHashEncoder",
+        "str_text":        "NotSupported"
     }
 
     def __init__(

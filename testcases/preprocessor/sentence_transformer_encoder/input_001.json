@@ -1,0 +1,8 @@
+{
+  "ingest": [
+    {"message": "The quick brown fox jumps over the lazy dog"},
+    {"message": "The quick yellow lion jumps over the elephant"},
+    {"message": "The quick brown fox jumps over the lazy dog"}
+  ],
+  "scores": []
+}

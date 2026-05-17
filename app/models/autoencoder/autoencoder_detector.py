@@ -8,6 +8,8 @@ from typing import Any
 import torch
 import torch.nn as nn
 
+from app.utils import get_device
+
 from app.features.preprocessors.base import FieldInfo
 from app.models.autoencoder.network import EntityEmbeddingAutoencoder
 
@@ -145,7 +147,7 @@ class AutoencoderDetector(BaseModel):
         # Used for O(1) unknown-feature detection at train/score time.
         self._known_feature_keys: frozenset[str] = frozenset()
 
-        self._device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        self._device = torch.device(get_device())
         self._model: EntityEmbeddingAutoencoder | None = None
         self._optimizer: torch.optim.Adam | None = None
         self._n_trained: int = 0

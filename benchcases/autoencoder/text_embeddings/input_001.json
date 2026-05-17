@@ -252,10 +252,10 @@
     {"message": "The quick black cat jumps over the lazy fox"}
   ],
   "scores": [
-    {"message": "The quick brown fox jumps over the lazy dog"},
-    {"message": "The quick yellow lion jumps over the lazy cat"},
-    {"message": "The quick purple elephant jumps over the lazy snake"},
-    {"message": "The quick pink unicorn jumps over the lazy dragon"},
-    {"message": "The slow green deer walks below the lazy rabbit"}
+    { "description": "NORMAL", "message": "The quick brown fox jumps over the lazy dog"},
+    { "description": "NORMAL", "message": "The quick yellow lion jumps over the lazy cat"},
+    { "description": "NORMAL", "message": "The quick purple elephant jumps over the lazy snake"},
+    { "description": "NORMAL", "message": "The quick pink unicorn jumps over the lazy dragon"},
+    { "description": "ANOMALY", "message": "The slow green deer walks next to the lazy rabbit"}
   ]
 }

@@ -59,6 +59,14 @@ class AppConfig:
     features: dict[str, FeatureConfig]
     identifiers: list[str] = field(default_factory=list)
     debug: DebugConfig = field(default_factory=DebugConfig)
+    allow_gpu: bool = False
+
+
+_allow_gpu: bool = False
+
+
+def is_gpu_allowed() -> bool:
+    return _allow_gpu
 
 
 
@@ -84,6 +92,7 @@ def _parse_field_cfgs(raw_fields: dict) -> FeatureConfig:
 
 
 def load_config(path: str | None = None) -> AppConfig:
+    global _allow_gpu
     _default = Path(__file__).parent.parent / "config.yml"
     config_path = path or os.environ.get("CONFIG_PATH", str(_default))
     with open(config_path) as f:
@@ -120,6 +129,7 @@ def load_config(path: str | None = None) -> AppConfig:
 
     debug = DebugConfig(**raw.get("debug", {}))
     identifiers = raw.get("identifiers", [])
+    _allow_gpu = bool(raw.get("allowGPU", False))
 
     return AppConfig(
         cohorts=cohorts,
@@ -127,4 +137,5 @@ def load_config(path: str | None = None) -> AppConfig:
         features=features,
         identifiers=identifiers,
         debug=debug,
+        allow_gpu=_allow_gpu,
     )

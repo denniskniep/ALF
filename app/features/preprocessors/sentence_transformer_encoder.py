@@ -1,7 +1,12 @@
 from __future__ import annotations
 
+import contextlib
+import logging
+import os
 from pathlib import Path
 from typing import TYPE_CHECKING, Any
+
+from app.utils import get_device
 
 if TYPE_CHECKING:
     from sentence_transformers import SentenceTransformer
@@ -11,6 +16,14 @@ import numpy as np
 from app.features.preprocessors.base import FieldInfo
 
 _REPO_ROOT = Path(__file__).parent.parent.parent.parent
+
+@contextlib.contextmanager
+def _silence_stderr():
+    """Redirect stderr to devnull — suppresses tqdm bars regardless of tqdm version."""
+    with open(os.devnull, "w") as devnull:
+        with contextlib.redirect_stderr(devnull):
+            yield
+
 
 # Shared model cache — keyed by (repo_id, resolved_cache_dir).
 # SentenceTransformer inference is read-only, so one instance is safe to share
@@ -81,13 +94,16 @@ class SentenceTransformerEncoder:
         if model_repo_id not in _MODEL_CACHE:
             cached = try_to_load_from_cache(repo_id=model_repo_id, filename="modules.json", cache_dir=str(resolved))
             local_files_only = isinstance(cached, str)
-            device = "cuda" if torch.cuda.is_available() else "cpu"
-            _MODEL_CACHE[model_repo_id] = SentenceTransformer(
-                model,
-                cache_folder=str(resolved),
-                local_files_only=local_files_only,
-                device=device,
-            )
+            device = get_device()
+            for _noisy_logger in ("sentence_transformers", "transformers", "huggingface_hub"):
+                logging.getLogger(_noisy_logger).setLevel(logging.WARNING)
+            with _silence_stderr():
+                _MODEL_CACHE[model_repo_id] = SentenceTransformer(
+                    model,
+                    cache_folder=str(resolved),
+                    local_files_only=local_files_only,
+                    device=device,
+                )
         self._st_model = _MODEL_CACHE[model_repo_id]
         self._embed_dim = embed_dim
 
@@ -106,6 +122,6 @@ class SentenceTransformerEncoder:
     def transform(self, key: str, value: Any) -> dict[FieldInfo, list[float]]:
         if not value or not str(value).strip():
             return {}
-        embedding = self._st_model.encode(str(value), convert_to_numpy=True)
+        embedding = self._st_model.encode(str(value), convert_to_numpy=True, show_progress_bar=False)
         projected: list[float] = (embedding @ self._projection).tolist()
         return {FieldInfo(original=key, preprocessor="SentenceTransformerEncoder"): projected}

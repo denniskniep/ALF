@@ -163,7 +163,7 @@ features:
 | `LabelIndex` | `[integer index]` (0 = missing) | yes | — | Default for `str_categorical` in Autoencoder. Routes to an embedding table. Captures co-occurrence patterns.                                |
 | `HashIndex` | `[integer hash index]` | no | `n_features` (default 2000) | Default for `str_identifier` in Autoencoder. Routes to an embedding table. Stateless.                                                       |
 | `FrequencyEncoder` | `[v]` in `[0, 1]` (how common the value is) | yes | — | Override only. Unseen values → `0.0`.                                                                                                       |
-| `SentenceTransformerEncoder` | `[v₀, …, vₙ]` — `embed_dim` floats | no | `model` (default `all-MiniLM-L6-v2`), `embed_dim` (default 8), `cache_dir` (default `.local/modelcache`), `seed` (default 42) | Text fields. Pre-trained sentence transformer + fixed random projection to `embed_dim` dims (GPU used automatically if available)           |
+| `SentenceTransformerEncoder` | `[v₀, …, vₙ]` — `embed_dim` floats | no | `model` (default `all-MiniLM-L6-v2`), `embed_dim` (default 8), `cache_dir` (default `.local/modelcache`), `seed` (default 42) | Text fields. Pre-trained sentence transformer + fixed random projection to `embed_dim` dims. |
 
 ---
 
@@ -193,7 +193,7 @@ Streaming isolation-forest algorithm ([River library](https://riverml.xyz/)). Ma
 
 #### Autoencoder (AE)
 
-PyTorch autoencoder with entity embeddings. Scores events by their reconstruction error relative to a percentile baseline. Supports co-occurrence learning across all feature types — categorical embeddings, numeric vectors are all compressed through the same bottleneck. Uses GPU automatically if available, falls back to CPU otherwise.
+PyTorch autoencoder with entity embeddings. Scores events by their reconstruction error relative to a percentile baseline. Supports co-occurrence learning across all feature types — categorical embeddings, numeric vectors are all compressed through the same bottleneck.
 
 | Parameter | Default | Effect                                                                                                                                                                   |
 |---|---|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -438,53 +438,69 @@ AE `?explain=true` uses **proportional field attribution**: `delta = (field squa
 
 ## Testcase Structure
 
-All testcases live under `testcases/`. They are organised into subdirectories by category:
+Test cases live under two root folders:
+
+| Folder | Purpose                                          |
+|---|--------------------------------------------------|
+| `testcases/` | Fast unit-style cases — quick feedback           |
+| `benchcases/` | Larger, time-intensive datasets — run separately |
+
+Both folders share the same layout and tooling.
 
 ```
 testcases/
-  half_space_trees/      # HST model behaviour testcases
+  half_space_trees/
     cold_start/
     known_pattern/
-    numeric_spike/
-    sliding_window/
-    useragent_os_shift/
     ...
-  autoencoder/           # Autoencoder model behaviour testcases
+  autoencoder/
     cold_start/
-    multivariate_combo/
+    text_embeddings/
     ...
-  extractor/             # Feature extraction testcases (no model)
-    timestamp/
-    ip_address_ipv4/
-    json_expand/
-    source_alias/
-    ...
-  preprocessor/          # Preprocessor-specific testcases
-    standard_scaler/
-    one_hot_encoder/
-    label_index/
+  extractor/
+  preprocessor/
+  
+benchcases/
+  autoencoder/
+    signin-logs-scenario-001/
     ...
 ```
 
 ### Testcase layout
 
-Each subdirectory is one parametrized test case run by `tests/test_detector_cases.py`. A case may have one or more numbered steps (`input_001.json`, `input_002.json`, …). Steps run sequentially within a single app instance — model state accumulated during `input_001.json` carries over into `input_002.json`. Use multiple steps to test behaviour across training phases (e.g. before and after a pivot).
+Each subdirectory is one parametrized test case. A case may have one or more numbered steps (`input_001.json`, `input_002.json`, …). Steps run sequentially within a single app instance — model state accumulated during `input_001.json` carries over into `input_002.json`.
 
 | File | Purpose |
 |---|---|
-| `config.yaml` | Full app config for this testcase (`database: type: memory`) |
+| `config.yaml` | Full app config for this case (`database: type: memory`) |
+| `config.testcase.yaml` | Optional — controls which outputs are generated/checked (see below) |
 | `input_NNN.json` | `{ "ingest": [...], "scores": [...] }` |
 | `output_NNN_ingest.json` | Golden `/ingest?include_features=true` responses |
 | `output_NNN_score.json` | Golden `/score?explain=true` responses |
+
+### Controlling output generation (`config.testcase.yaml`)
+
+For large cases where checking every ingest response is impractical, add an optional `config.testcase.yaml`:
+
+```yaml
+output-ingest: []       # don't generate or check ingest output for any step
+output-score:
+  - "001"               # only generate and check score output for step 001
+```
+
+When the file or a list inside the file is absent the default behaviour applies (generate and check everything). An empty list `[]` means skip entirely — ingest requests are still sent so the model trains, but no golden file is written or compared.
 
 ### Running tests
 
 ```bash
 # Run all testcases
-uv run pytest tests/ -v
+uv run pytest tests/test_cases.py -v
 
-# Run a single testcase
-uv run pytest tests/test_detector_cases.py::test_detector_case[half_space_trees/cold_start] -v
+# Run a single testcase by name
+uv run pytest "tests/test_cases.py::test_case[autoencoder/cold_start]" -v
+
+# Run all benchcases
+uv run pytest tests/bench_cases.py -v
 ```
 
 ### Regenerating golden outputs
@@ -492,8 +508,65 @@ uv run pytest tests/test_detector_cases.py::test_detector_case[half_space_trees/
 After any change to model logic, feature extraction, or testcase inputs:
 
 ```bash
+# All testcases
 uv run python scripts/regen_testcase_outputs.py
+
+# One specific testcase by name
+uv run python scripts/regen_testcase_outputs.py cold_start
+
+# All benchcases
+uv run python scripts/regen_benchcase_outputs.py
+
+# One specific benchcase by name
+uv run python scripts/regen_benchcase_outputs.py signin-logs-scenario-001
 ```
+
+### Benchcase metrics
+
+After running `regen_benchcase_outputs.py`, each benchcase's `config.yaml` is updated with a `results` block containing accuracy metrics.
+
+**Ground truth** comes from the `description` field on each score event in `input_NNN.json`:
+
+| Value | Ground truth |
+|---|---|
+| `"NORMAL"` | negative |
+| `"ANOMALY"` | positive |
+
+**Predicted positive**: response `status` is `ANOMALOUS` or `HIGHLY_ANOMALOUS`. 
+```yaml
+results:
+  f1: 1.0         # overall detection quality
+  recall: 1.0     # how many of the actual positive cases were correctly identified by the model
+  precision: 1.0  # how many of the positive predictions made by the model are actually correct.
+  tp: 3           # correctly flagged anomalies
+  fp: 0           # normal events incorrectly flagged
+  tn: 5           # normal events correctly passed
+  fn: 0           # missed anomalies
+```
+---
+
+### Generating synthetic sign-in events
+
+`scripts/gen_signin_events.py` generates synthetic authentication log events and appends them to an existing `input_NNN.json` file, creating it with an empty skeleton if it does not exist. All four arguments are required.
+
+```bash
+uv run python scripts/gen_signin_events.py <input_path> <n_ingest> <n_score> <n_score_anomalies>
+
+# Example: 4000 ingest events, 50 normal score events, 20 anomaly score events
+uv run python scripts/gen_signin_events.py benchcases/autoencoder/signin-logs-scenario-001/input_001.json 4000 50 20
+```
+
+**Normal ingest events** carry `"description": "NORMAL"` 
+**Anomaly score events** carry `"description": "ANOMALY:<type>"` where one of four types is injected per event:
+
+| Type | What is changed |
+|---|---|
+| `ANOMALY:country` | Login originates from a different country; latency matches the anomalous country |
+| `ANOMALY:os_browser` | OS/Browser combination the persona does not normally use |
+| `ANOMALY:time` | Login at night (22:00–05:59 local time) |
+| `ANOMALY:weekend` | Login on a Saturday or Sunday during normal hours |
+
+Both score and ingest lists are sorted chronologically after generation.
 
 ---
 
@@ -567,14 +640,20 @@ uv sync --all-packages
 
 Config is read from `CONFIG_PATH` env var, defaulting to `config.yml` at the repo root. Always use `uv run` — the `.venv` Python symlinks are broken.
 
-## Checkout GPU usage
-```
-nvidia-smi dmon -s u
+## GPU
+
+By default the service runs entirely on **CPU**. GPU is only used when explicitly enabled in `config.yaml`:
+
+```yaml
+allowGPU: true
 ```
 
-sm% = x % of the GPU's parallel compute capacity was doing work at that moment
-mem% = how much VRAM is occupied
+> **Note — single-event inference**: GPU is slower than CPU when scoring one event at a time (the common case here) because the PCIe transfer and CUDA kernel launch overhead exceeds the actual compute time. 
 
-```
+
+Monitor GPU utilisation:
+
+```bash
+nvidia-smi dmon -s u      # sm% = compute, mem% = VRAM
 watch -n 0.1 nvidia-smi
 ```

@@ -1,14 +1,14 @@
 [
   {
     "accepted": true,
-    "composite_score": 0.0,
+    "composite_score": 18.75,
     "status": "NORMAL",
     "scores": [
       {
         "name": "test",
         "key": {},
         "weight": 1.0,
-        "anomaly_score": 0.0,
+        "anomaly_score": 18.75,
         "score_label": "NORMAL",
         "properties": {
           "buffer_size": 100,
@@ -19,7 +19,7 @@
             {
               "field": "browser",
               "value": "Chrome",
-              "delta": 0.0,
+              "delta": 12.2051,
               "preprocessed": {
                 "browser": [
                   1.0
@@ -29,7 +29,7 @@
             {
               "field": "os",
               "value": "Windows",
-              "delta": 0.0,
+              "delta": 6.5449,
               "preprocessed": {
                 "os": [
                   1.0
@@ -62,7 +62,7 @@
             {
               "field": "browser",
               "value": "Chrome",
-              "delta": 60.0383,
+              "delta": 60.8246,
               "preprocessed": {
                 "browser": [
                   1.0
@@ -72,7 +72,7 @@
             {
               "field": "os",
               "value": "Linux",
-              "delta": 39.9617,
+              "delta": 39.1754,
               "preprocessed": {
                 "os": [
                   2.0

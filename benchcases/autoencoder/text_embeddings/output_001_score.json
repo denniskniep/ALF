@@ -1,7 +1,7 @@
 [
   {
     "accepted": true,
-    "composite_score": 17.25,
+    "composite_score": 2.25,
     "status": "NORMAL",
     "identifiers": {
       "description": "NORMAL"
@@ -11,7 +11,7 @@
         "name": "test",
         "key": {},
         "weight": 1.0,
-        "anomaly_score": 17.25,
+        "anomaly_score": 2.25,
         "score_label": "NORMAL",
         "properties": {
           "buffer_size": 200,
@@ -22,7 +22,7 @@
             {
               "field": "message",
               "value": "The quick brown fox jumps over the lazy dog",
-              "delta": 17.25,
+              "delta": 2.25,
               "preprocessed": {
                 "message": [
                   0.01921858317956952,
@@ -68,7 +68,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 14.0625,
+    "composite_score": 25.125,
     "status": "NORMAL",
     "identifiers": {
       "description": "NORMAL"
@@ -78,7 +78,7 @@
         "name": "test",
         "key": {},
         "weight": 1.0,
-        "anomaly_score": 14.0625,
+        "anomaly_score": 25.125,
         "score_label": "NORMAL",
         "properties": {
           "buffer_size": 200,
@@ -89,7 +89,7 @@
             {
               "field": "message",
               "value": "The quick yellow lion jumps over the lazy cat",
-              "delta": 14.0625,
+              "delta": 25.125,
               "preprocessed": {
                 "message": [
                   -0.016442668826283265,
@@ -135,8 +135,8 @@
   },
   {
     "accepted": true,
-    "composite_score": 24.75,
-    "status": "NORMAL",
+    "composite_score": 92.5,
+    "status": "HIGHLY_ANOMALOUS",
     "identifiers": {
       "description": "NORMAL"
     },
@@ -145,8 +145,8 @@
         "name": "test",
         "key": {},
         "weight": 1.0,
-        "anomaly_score": 24.75,
-        "score_label": "NORMAL",
+        "anomaly_score": 92.5,
+        "score_label": "HIGHLY_ANOMALOUS",
         "properties": {
           "buffer_size": 200,
           "events_since_retrain": 10
@@ -156,7 +156,7 @@
             {
               "field": "message",
               "value": "The quick purple elephant jumps over the lazy snake",
-              "delta": 24.75,
+              "delta": 92.5,
               "preprocessed": {
                 "message": [
                   0.0410832399542044,
@@ -202,8 +202,8 @@
   },
   {
     "accepted": true,
-    "composite_score": 26.625,
-    "status": "NORMAL",
+    "composite_score": 100.0,
+    "status": "HIGHLY_ANOMALOUS",
     "identifiers": {
       "description": "NORMAL"
     },
@@ -212,8 +212,8 @@
         "name": "test",
         "key": {},
         "weight": 1.0,
-        "anomaly_score": 26.625,
-        "score_label": "NORMAL",
+        "anomaly_score": 100.0,
+        "score_label": "HIGHLY_ANOMALOUS",
         "properties": {
           "buffer_size": 200,
           "events_since_retrain": 10
@@ -223,7 +223,7 @@
             {
               "field": "message",
               "value": "The quick pink unicorn jumps over the lazy dragon",
-              "delta": 26.625,
+              "delta": 100.0,
               "preprocessed": {
                 "message": [
                   -0.02557800217945325,
@@ -269,8 +269,8 @@
   },
   {
     "accepted": true,
-    "composite_score": 17.25,
-    "status": "NORMAL",
+    "composite_score": 62.0,
+    "status": "ELEVATED",
     "identifiers": {
       "description": "ANOMALY"
     },
@@ -279,8 +279,8 @@
         "name": "test",
         "key": {},
         "weight": 1.0,
-        "anomaly_score": 17.25,
-        "score_label": "NORMAL",
+        "anomaly_score": 62.0,
+        "score_label": "ELEVATED",
         "properties": {
           "buffer_size": 200,
           "events_since_retrain": 10
@@ -290,7 +290,7 @@
             {
               "field": "message",
               "value": "The slow green deer walks next to the lazy rabbit",
-              "delta": 17.25,
+              "delta": 62.0,
               "preprocessed": {
                 "message": [
                   0.015304465409907831,

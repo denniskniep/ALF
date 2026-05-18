@@ -74,6 +74,12 @@ class AutoencoderDetector(BaseModel):
         more than 14 expected categories gets exactly 8 dims.
     bottleneck
         Latent dimension. None auto-derives as max(total_input_dim // 2, 2).
+    batch_size
+        Number of events per mini-batch during training. The buffer is shuffled
+        before each epoch and split into chunks of this size, giving multiple
+        gradient steps per epoch and better optimization for large buffers.
+        If batch_size >= len(buffer) the epoch degrades to a single full-batch
+        step.
     vocab_headroom
         Extra rows pre-allocated in each embedding table beyond the vocabulary
         observed at model-build time. Growing a table resets Adam momentum.
@@ -96,7 +102,8 @@ class AutoencoderDetector(BaseModel):
         buffer_size: int = 500,
         retrain_every: int = 50,
         epochs_per_retrain: int = 2,
-        min_buffer_size: int = 64,
+        min_buffer_size: int = 100,
+        batch_size: int = 50,
         embed_dim: int = 8,
         bottleneck: int | None = None,
         vocab_headroom: int = 50,
@@ -107,6 +114,7 @@ class AutoencoderDetector(BaseModel):
         self._retrain_every = retrain_every
         self._epochs_per_retrain = epochs_per_retrain
         self._min_buffer_size = min_buffer_size
+        self._batch_size = batch_size
         self._embed_dim = embed_dim
         self._bottleneck = bottleneck
         self._vocab_headroom = vocab_headroom
@@ -303,20 +311,26 @@ class AutoencoderDetector(BaseModel):
     def _run_warm_start_training_epochs(
         self, cat_tensor: torch.Tensor, num_tensor: torch.Tensor
     ) -> None:
-        """Run exactly epochs_per_retrain gradient passes over the entire buffer.
+        """Run exactly epochs_per_retrain passes over the buffer using mini-batches.
 
-        Warm-start: weights are NOT reset between retrains. They carry weight-level
-        memory of long-term normal behaviour across all previous retrains — far
-        beyond the hard data boundary of the rolling buffer.
+        Each epoch shuffles the buffer independently so batch boundaries vary,
+        giving the optimizer a different gradient sequence every pass. When
+        batch_size >= len(buffer) the inner loop produces a single full-batch
+        step.
 
-        Fixed epochs ensure every event receivesequal gradient exposure over the model's lifetime.
+        Warm-start: weights are NOT reset between retrains.
+        Fixed epochs ensure every event receives equal gradient exposure.
         """
+        n = cat_tensor.shape[0]
         self._model.train()
         for _ in range(self._epochs_per_retrain):
-            self._optimizer.zero_grad()
-            reconstructed, original = self._model(cat_tensor, num_tensor)  # calls forward() via nn.Module.__call__
-            nn.functional.mse_loss(reconstructed, original).backward()
-            self._optimizer.step()
+            perm = torch.randperm(n, device=self._device)
+            for start in range(0, n, self._batch_size):
+                idx = perm[start : start + self._batch_size]
+                self._optimizer.zero_grad()
+                reconstructed, original = self._model(cat_tensor[idx], num_tensor[idx]) # calls forward() via nn.Module.__call__
+                nn.functional.mse_loss(reconstructed, original).backward()
+                self._optimizer.step()
         self._model.eval()  # restore eval mode — train() affects Dropout/BatchNorm behaviour
 
     def _evaluate_buffer_mses(

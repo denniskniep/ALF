@@ -201,6 +201,7 @@ PyTorch autoencoder with entity embeddings. Scores events by their reconstructio
 | `min_buffer_size` | 64 | Model is not built until this many events have been buffered.                                                                                                            |
 | `retrain_every` | 50 | Retrain after every N ingest events.                                                                                                                                     |
 | `epochs_per_retrain` | 2 | Iterations over the event buffer (limited by `buffer_size`) used for training per retrain cycle. Keep low (1–5) — warm-start weights already encode historical baseline. |
+| `batch_size` | 50 | Events per mini-batch within each epoch. The buffer is shuffled before each epoch and split into chunks of this size, giving multiple gradient steps per epoch. If `batch_size >= len(buffer)` it degrades gracefully to a single full-batch step. |
 | `embed_dim` | 8 | Embedding dimension cap per categorical field. Actual dim = `min(embed_dim, vocab_size // 2 + 1)`.                                                                       |
 | `bottleneck` | auto | Latent dimension. Auto = `max(total_input_dim // 2, 2)`.                                                                                                                 |
 | `vocab_headroom` | 50 | Extra embedding table rows pre-allocated beyond vocabulary observed or expected at model-build time.                                                                     |
@@ -415,6 +416,14 @@ Example: with `buffer_size=5000` and `retrain_every=50`, the buffer covers the l
 #### Why fixed epochs?
 
 Loss-based early stopping would run more epochs when anomalous events are in the buffer (harder to fit), giving those events disproportionate gradient influence. Fixed `epochs_per_retrain` guarantees every event receives equal gradient exposure over the model's lifetime.
+
+#### Mini-batch training with per-epoch shuffle
+
+Each retrain cycle runs `epochs_per_retrain` passes over the buffer. Within each pass the buffer is shuffled with a fresh random permutation, then split into chunks of `batch_size` events. Each chunk gets its own forward pass and gradient step, so a single epoch produces `ceil(len(buffer) / batch_size)` optimizer updates instead of one.
+
+This matters for larger buffers: a global model with `buffer_size=5000` and `batch_size=50` gets 100 gradient steps per epoch rather than 1, which means the optimizer can follow the loss surface more precisely and converges to a better reconstruction baseline in fewer retrain cycles.
+
+If `batch_size >= len(buffer)` the loop produces a single full-batch step — no special handling.
 
 #### Feature order and vocabulary
 

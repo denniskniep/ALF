@@ -3,7 +3,7 @@
 
 Run from the repo root:
     uv run python scripts/regen_benchcase_outputs.py                     # all bench cases
-    uv run python scripts/regen_benchcase_outputs.py signin-logs-001     # one bench case by name
+    uv run python scripts/regen_benchcase_outputs.py signin-logs-scenario-001     # one bench case by name
 """
 from __future__ import annotations
 

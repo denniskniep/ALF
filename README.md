@@ -407,6 +407,21 @@ HST expands the result list[float] to indexed keys (`field__0`, `field__1`, …)
 
 The Autoencoder learns to reconstruct **normal events**. Events the model struggles to reconstruct (high MSE) score high. It uses **entity embeddings** for categorical fields — the model learns that certain value combinations (e.g. "Chrome + Linux") are normal, even if each individual value is common on its own.
 
+#### Network architecture
+Layers and corresponding Activation functions
+
+```
+[embeddings] + [numeric floats]
+        ↓
+  Linear → ReLU          (hidden layer)
+        ↓
+  Linear → Tanh         (bottleneck — symmetric [-1,1], soft regularisation)
+        ↓
+  Linear → ReLU          (hidden layer)
+        ↓
+  Linear                (reconstruction — no activation)
+```
+
 #### Warm-start retraining
 
 Every `retrain_every` ingest events, the model retrains on its rolling buffer of `buffer_size` events. Critically, **weights are not reset between retrains**. They carry weight-level memory of long-term normal behaviour far beyond the hard data boundary of the rolling buffer.

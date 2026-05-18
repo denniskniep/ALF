@@ -11,15 +11,15 @@
         "anomaly_score": 18.75,
         "score_label": "NORMAL",
         "properties": {
-          "buffer_size": 100,
-          "events_since_retrain": 4
+          "buffer_size": 200,
+          "events_since_retrain": 0
         },
         "explanation": {
           "features": [
             {
               "field": "browser",
               "value": "Chrome",
-              "delta": 12.2051,
+              "delta": 10.8428,
               "preprocessed": {
                 "browser": [
                   1.0
@@ -29,7 +29,7 @@
             {
               "field": "os",
               "value": "Windows",
-              "delta": 6.5449,
+              "delta": 7.9072,
               "preprocessed": {
                 "os": [
                   1.0
@@ -54,15 +54,15 @@
         "anomaly_score": 100.0,
         "score_label": "HIGHLY_ANOMALOUS",
         "properties": {
-          "buffer_size": 100,
-          "events_since_retrain": 4
+          "buffer_size": 200,
+          "events_since_retrain": 0
         },
         "explanation": {
           "features": [
             {
               "field": "browser",
               "value": "Chrome",
-              "delta": 60.8246,
+              "delta": 52.3321,
               "preprocessed": {
                 "browser": [
                   1.0
@@ -72,7 +72,7 @@
             {
               "field": "os",
               "value": "Linux",
-              "delta": 39.1754,
+              "delta": 47.6679,
               "preprocessed": {
                 "os": [
                   2.0

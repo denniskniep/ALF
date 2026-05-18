@@ -48,13 +48,18 @@ class EntityEmbeddingAutoencoder(nn.Module):
         # the input has would be expansion, not compression.
         actual_bottleneck = min(bottleneck, total_input_dim)
 
+        # ReLU on hidden layers: sparsity makes reconstructions brittle for out-of-distribution
+        # inputs — normal events learn a consistent active subset; anomalous events activate a
+        # different subset, producing higher MSE.
+        # Tanh on bottleneck: symmetric [-1,1] output gives the decoder the full ± latent space
+        # and acts as soft regularisation so normal events cluster tightly.
         self.encoder = nn.Sequential(
             nn.Linear(total_input_dim, hidden), nn.ReLU(),
-            nn.Linear(hidden, actual_bottleneck), nn.ReLU(),
+            nn.Linear(hidden, actual_bottleneck), nn.Tanh(),
         )
         self.decoder = nn.Sequential(
             nn.Linear(actual_bottleneck, hidden), nn.ReLU(),
-            nn.Linear(hidden, total_input_dim),
+            nn.Linear(hidden, total_input_dim),  # no activation: must reconstruct arbitrary floats
         )
 
     def forward(

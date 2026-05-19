@@ -1,7 +1,7 @@
 [
   {
     "accepted": true,
-    "composite_score": 83.10967741935484,
+    "composite_score": 83.11,
     "status": "ANOMALOUS",
     "scores": [
       {
@@ -70,7 +70,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 26.887741935483866,
+    "composite_score": 26.89,
     "status": "NORMAL",
     "scores": [
       {
@@ -139,7 +139,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 82.92387096774195,
+    "composite_score": 82.92,
     "status": "ANOMALOUS",
     "scores": [
       {

@@ -111,7 +111,7 @@ def score(
         result = _registry.score(request.payload, explain=explain)
         response = ScoreResponse(
             accepted=True,
-            composite_score=result.composite_score,
+            composite_score=round(result.composite_score, 2) if result.composite_score is not None else None,
             status=result.status,
             identifiers=identifiers,
             scores=[

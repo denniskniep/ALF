@@ -1,7 +1,7 @@
 [
   {
     "accepted": true,
-    "composite_score": 42.639999999999986,
+    "composite_score": 42.64,
     "status": "SLIGHTLY_ELEVATED",
     "identifiers": {
       "description": "NORMAL"
@@ -117,7 +117,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 27.075000000000003,
+    "composite_score": 27.08,
     "status": "NORMAL",
     "identifiers": {
       "description": "NORMAL"
@@ -349,7 +349,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 24.299999999999997,
+    "composite_score": 24.3,
     "status": "NORMAL",
     "identifiers": {
       "description": "NORMAL"
@@ -581,7 +581,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 28.125,
+    "composite_score": 28.12,
     "status": "NORMAL",
     "identifiers": {
       "description": "NORMAL"
@@ -1277,7 +1277,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 29.775000000000002,
+    "composite_score": 29.78,
     "status": "NORMAL",
     "identifiers": {
       "description": "NORMAL"
@@ -1393,7 +1393,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 75.99999999999997,
+    "composite_score": 76.0,
     "status": "ANOMALOUS",
     "identifiers": {
       "description": "NORMAL"
@@ -1973,7 +1973,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 21.119999999999997,
+    "composite_score": 21.12,
     "status": "NORMAL",
     "identifiers": {
       "description": "NORMAL"
@@ -2553,7 +2553,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 25.365000000000002,
+    "composite_score": 25.37,
     "status": "NORMAL",
     "identifiers": {
       "description": "NORMAL"
@@ -2669,7 +2669,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 9.090000000000002,
+    "composite_score": 9.09,
     "status": "NORMAL",
     "identifiers": {
       "description": "NORMAL"
@@ -2901,7 +2901,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 30.640000000000015,
+    "composite_score": 30.64,
     "status": "SLIGHTLY_ELEVATED",
     "identifiers": {
       "description": "NORMAL"
@@ -3017,7 +3017,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 14.819999999999999,
+    "composite_score": 14.82,
     "status": "NORMAL",
     "identifiers": {
       "description": "NORMAL"
@@ -3249,7 +3249,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 99.40000000000012,
+    "composite_score": 99.4,
     "status": "HIGHLY_ANOMALOUS",
     "identifiers": {
       "description": "ANOMALY:os_browser"
@@ -3597,7 +3597,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 4.079999999999999,
+    "composite_score": 4.08,
     "status": "NORMAL",
     "identifiers": {
       "description": "NORMAL"
@@ -3713,7 +3713,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 22.154999999999998,
+    "composite_score": 22.15,
     "status": "NORMAL",
     "identifiers": {
       "description": "NORMAL"
@@ -4177,7 +4177,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 19.259999999999998,
+    "composite_score": 19.26,
     "status": "NORMAL",
     "identifiers": {
       "description": "NORMAL"
@@ -4293,7 +4293,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 10.845,
+    "composite_score": 10.85,
     "status": "NORMAL",
     "identifiers": {
       "description": "NORMAL"
@@ -4409,7 +4409,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 19.875,
+    "composite_score": 19.88,
     "status": "NORMAL",
     "identifiers": {
       "description": "ANOMALY:time"
@@ -4641,7 +4641,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 16.245,
+    "composite_score": 16.25,
     "status": "NORMAL",
     "identifiers": {
       "description": "NORMAL"
@@ -4989,7 +4989,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 75.55000000000001,
+    "composite_score": 75.55,
     "status": "ANOMALOUS",
     "identifiers": {
       "description": "ANOMALY:time"
@@ -5105,7 +5105,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 24.375,
+    "composite_score": 24.38,
     "status": "NORMAL",
     "identifiers": {
       "description": "NORMAL"
@@ -5221,7 +5221,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 5.415,
+    "composite_score": 5.42,
     "status": "NORMAL",
     "identifiers": {
       "description": "NORMAL"

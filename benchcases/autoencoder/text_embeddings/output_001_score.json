@@ -1,7 +1,7 @@
 [
   {
     "accepted": true,
-    "composite_score": 3.1875,
+    "composite_score": 3.19,
     "status": "NORMAL",
     "identifiers": {
       "description": "NORMAL"
@@ -68,7 +68,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 24.5625,
+    "composite_score": 24.56,
     "status": "NORMAL",
     "identifiers": {
       "description": "NORMAL"
@@ -135,7 +135,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 71.875,
+    "composite_score": 71.88,
     "status": "ANOMALOUS",
     "identifiers": {
       "description": "NORMAL"

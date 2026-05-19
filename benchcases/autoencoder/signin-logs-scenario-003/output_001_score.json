@@ -1,0 +1,6962 @@
+[
+  {
+    "accepted": true,
+    "composite_score": 100.0,
+    "status": "HIGHLY_ANOMALOUS",
+    "identifiers": {
+      "description": "ANOMALY:os_browser"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 100.0,
+        "score_label": "HIGHLY_ANOMALOUS",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "user.id",
+              "value": "user_029",
+              "delta": 54.7206,
+              "preprocessed": {
+                "user.id": [
+                  8.0
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "Research-and-Development",
+              "delta": 23.1763,
+              "preprocessed": {
+                "user.department": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Safari",
+              "delta": 9.8081,
+              "preprocessed": {
+                "client.browser": [
+                  2.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 0.0,
+              "delta": 3.713,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  -1.4234201249138287
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 128.0,
+              "delta": 2.591,
+              "preprocessed": {
+                "latency": [
+                  0.860085302333169
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 2.1803,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09120651668968052
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "Mac",
+              "delta": 2.0007,
+              "preprocessed": {
+                "client.os": [
+                  5.0
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "US",
+              "delta": 1.6697,
+              "preprocessed": {
+                "ip.country_iso": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 14.0,
+              "delta": 0.1403,
+              "preprocessed": {
+                "timestamp.hour": [
+                  0.4241734787589633
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 100.0,
+    "status": "HIGHLY_ANOMALOUS",
+    "identifiers": {
+      "description": "ANOMALY:os_browser"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 100.0,
+        "score_label": "HIGHLY_ANOMALOUS",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "user.id",
+              "value": "user_025",
+              "delta": 43.2431,
+              "preprocessed": {
+                "user.id": [
+                  19.0
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Chrome",
+              "delta": 20.5161,
+              "preprocessed": {
+                "client.browser": [
+                  1.0
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "Research-and-Development",
+              "delta": 13.2642,
+              "preprocessed": {
+                "user.department": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "DE",
+              "delta": 12.379,
+              "preprocessed": {
+                "ip.country_iso": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "Mac",
+              "delta": 7.2747,
+              "preprocessed": {
+                "client.os": [
+                  5.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 2.1564,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09120651668968052
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 0.0,
+              "delta": 0.6013,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  -1.4234201249138287
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 10.0,
+              "delta": 0.4092,
+              "preprocessed": {
+                "timestamp.hour": [
+                  -0.3926246509971399
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 50.0,
+              "delta": 0.156,
+              "preprocessed": {
+                "latency": [
+                  -0.5967208904766158
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 6.5,
+    "status": "NORMAL",
+    "identifiers": {
+      "description": "NORMAL"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 6.495,
+        "score_label": "NORMAL",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "client.browser",
+              "value": "Firefox",
+              "delta": 2.6191,
+              "preprocessed": {
+                "client.browser": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 5.0,
+              "delta": 1.0657,
+              "preprocessed": {
+                "timestamp.hour": [
+                  -1.413622313192269
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "Product-B",
+              "delta": 0.9341,
+              "preprocessed": {
+                "user.department": [
+                  1.0
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 185.0,
+              "delta": 0.66,
+              "preprocessed": {
+                "latency": [
+                  1.9246744432326273
+                ]
+              }
+            },
+            {
+              "field": "user.id",
+              "value": "user_041",
+              "delta": 0.5102,
+              "preprocessed": {
+                "user.id": [
+                  33.0
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "Mac",
+              "delta": 0.3512,
+              "preprocessed": {
+                "client.os": [
+                  5.0
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "CN",
+              "delta": 0.266,
+              "preprocessed": {
+                "ip.country_iso": [
+                  1.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 0.0766,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09120651668968052
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 1.0,
+              "delta": 0.0123,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  -0.7293227825201544
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 100.0,
+    "status": "HIGHLY_ANOMALOUS",
+    "identifiers": {
+      "description": "ANOMALY:weekend"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 100.0,
+        "score_label": "HIGHLY_ANOMALOUS",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "user.id",
+              "value": "user_018",
+              "delta": 29.7727,
+              "preprocessed": {
+                "user.id": [
+                  41.0
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "US",
+              "delta": 17.0496,
+              "preprocessed": {
+                "ip.country_iso": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 1.0,
+              "delta": 16.3656,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  5.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 6.0,
+              "delta": 13.6295,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  2.741163929448217
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "Linux",
+              "delta": 10.2299,
+              "preprocessed": {
+                "client.os": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "Aftersales",
+              "delta": 8.8606,
+              "preprocessed": {
+                "user.department": [
+                  5.0
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Chrome",
+              "delta": 3.6884,
+              "preprocessed": {
+                "client.browser": [
+                  1.0
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 113.0,
+              "delta": 0.3396,
+              "preprocessed": {
+                "latency": [
+                  0.5799302652543643
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 17.0,
+              "delta": 0.0642,
+              "preprocessed": {
+                "timestamp.hour": [
+                  1.0367720760760406
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 32.0,
+    "status": "SLIGHTLY_ELEVATED",
+    "identifiers": {
+      "description": "NORMAL"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 32.0,
+        "score_label": "SLIGHTLY_ELEVATED",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "timestamp.hour",
+              "value": 14.0,
+              "delta": 13.7972,
+              "preprocessed": {
+                "timestamp.hour": [
+                  0.4241734787589633
+                ]
+              }
+            },
+            {
+              "field": "user.id",
+              "value": "user_046",
+              "delta": 7.3,
+              "preprocessed": {
+                "user.id": [
+                  42.0
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 137.0,
+              "delta": 3.5712,
+              "preprocessed": {
+                "latency": [
+                  1.0281783245804519
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "Product-C",
+              "delta": 1.8629,
+              "preprocessed": {
+                "user.department": [
+                  7.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 0.0,
+              "delta": 1.7576,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  -1.4234201249138287
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Chrome",
+              "delta": 1.4599,
+              "preprocessed": {
+                "client.browser": [
+                  1.0
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "US",
+              "delta": 1.0277,
+              "preprocessed": {
+                "ip.country_iso": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "Linux",
+              "delta": 0.7576,
+              "preprocessed": {
+                "client.os": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 0.4659,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09120651668968052
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 59.76,
+    "status": "ELEVATED",
+    "identifiers": {
+      "description": "NORMAL"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 59.75999999999999,
+        "score_label": "ELEVATED",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "client.browser",
+              "value": "Chrome",
+              "delta": 35.0861,
+              "preprocessed": {
+                "client.browser": [
+                  1.0
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "Mac",
+              "delta": 7.2477,
+              "preprocessed": {
+                "client.os": [
+                  5.0
+                ]
+              }
+            },
+            {
+              "field": "user.id",
+              "value": "user_038",
+              "delta": 7.1997,
+              "preprocessed": {
+                "user.id": [
+                  25.0
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "Product-B",
+              "delta": 4.7322,
+              "preprocessed": {
+                "user.department": [
+                  1.0
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "CN",
+              "delta": 4.2073,
+              "preprocessed": {
+                "ip.country_iso": [
+                  1.0
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 179.0,
+              "delta": 0.929,
+              "preprocessed": {
+                "latency": [
+                  1.8126124284011054
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 0.139,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09120651668968052
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 2.0,
+              "delta": 0.1194,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  -0.0352254401264801
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 7.0,
+              "delta": 0.0996,
+              "preprocessed": {
+                "timestamp.hour": [
+                  -1.0052232483142172
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 100.0,
+    "status": "HIGHLY_ANOMALOUS",
+    "identifiers": {
+      "description": "ANOMALY:os_browser"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 100.0,
+        "score_label": "HIGHLY_ANOMALOUS",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "user.department",
+              "value": "Sales",
+              "delta": 23.3768,
+              "preprocessed": {
+                "user.department": [
+                  6.0
+                ]
+              }
+            },
+            {
+              "field": "user.id",
+              "value": "user_009",
+              "delta": 23.1609,
+              "preprocessed": {
+                "user.id": [
+                  28.0
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "Linux",
+              "delta": 17.7024,
+              "preprocessed": {
+                "client.os": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "DE",
+              "delta": 11.7981,
+              "preprocessed": {
+                "ip.country_iso": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Firefox",
+              "delta": 10.2641,
+              "preprocessed": {
+                "client.browser": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 7.5797,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09120651668968052
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 8.0,
+              "delta": 3.1791,
+              "preprocessed": {
+                "timestamp.hour": [
+                  -0.8010237158751915
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 43.0,
+              "delta": 2.909,
+              "preprocessed": {
+                "latency": [
+                  -0.7274599077800581
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 2.0,
+              "delta": 0.0299,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  -0.0352254401264801
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 67.76,
+    "status": "ELEVATED",
+    "identifiers": {
+      "description": "NORMAL"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 67.75999999999999,
+        "score_label": "ELEVATED",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "client.os",
+              "value": "iOS",
+              "delta": 19.3796,
+              "preprocessed": {
+                "client.os": [
+                  2.0
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "Product-A",
+              "delta": 16.3019,
+              "preprocessed": {
+                "user.department": [
+                  2.0
+                ]
+              }
+            },
+            {
+              "field": "user.id",
+              "value": "user_033",
+              "delta": 14.9443,
+              "preprocessed": {
+                "user.id": [
+                  30.0
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 31.0,
+              "delta": 7.1712,
+              "preprocessed": {
+                "latency": [
+                  -0.9515839374431019
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 5.1595,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09120651668968052
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Chrome",
+              "delta": 1.9215,
+              "preprocessed": {
+                "client.browser": [
+                  1.0
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "ES",
+              "delta": 1.7054,
+              "preprocessed": {
+                "ip.country_iso": [
+                  2.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 0.0,
+              "delta": 0.7918,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  -1.4234201249138287
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 12.0,
+              "delta": 0.3847,
+              "preprocessed": {
+                "timestamp.hour": [
+                  0.015774413880911713
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 100.0,
+    "status": "HIGHLY_ANOMALOUS",
+    "identifiers": {
+      "description": "ANOMALY:weekend"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 100.0,
+        "score_label": "HIGHLY_ANOMALOUS",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "user.id",
+              "value": "user_009",
+              "delta": 53.0662,
+              "preprocessed": {
+                "user.id": [
+                  28.0
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "Sales",
+              "delta": 15.925,
+              "preprocessed": {
+                "user.department": [
+                  6.0
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "Windows",
+              "delta": 11.9248,
+              "preprocessed": {
+                "client.os": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Chrome",
+              "delta": 6.4586,
+              "preprocessed": {
+                "client.browser": [
+                  1.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 1.0,
+              "delta": 4.6145,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  5.0
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "DE",
+              "delta": 3.5256,
+              "preprocessed": {
+                "ip.country_iso": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 5.0,
+              "delta": 2.9389,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  2.047066587054543
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 15.0,
+              "delta": 1.3768,
+              "preprocessed": {
+                "timestamp.hour": [
+                  0.628373011197989
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 35.0,
+              "delta": 0.1697,
+              "preprocessed": {
+                "latency": [
+                  -0.8768759275554207
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 100.0,
+    "status": "HIGHLY_ANOMALOUS",
+    "identifiers": {
+      "description": "ANOMALY:country"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 100.0,
+        "score_label": "HIGHLY_ANOMALOUS",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "user.department",
+              "value": "Aftersales",
+              "delta": 33.5306,
+              "preprocessed": {
+                "user.department": [
+                  5.0
+                ]
+              }
+            },
+            {
+              "field": "user.id",
+              "value": "user_022",
+              "delta": 27.1747,
+              "preprocessed": {
+                "user.id": [
+                  14.0
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "DE",
+              "delta": 16.1677,
+              "preprocessed": {
+                "ip.country_iso": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Firefox",
+              "delta": 13.2625,
+              "preprocessed": {
+                "client.browser": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 32.0,
+              "delta": 5.1147,
+              "preprocessed": {
+                "latency": [
+                  -0.9329069349711816
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 15.0,
+              "delta": 3.104,
+              "preprocessed": {
+                "timestamp.hour": [
+                  0.628373011197989
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "Linux",
+              "delta": 0.6102,
+              "preprocessed": {
+                "client.os": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 0.6038,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09120651668968052
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 1.0,
+              "delta": 0.4318,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  -0.7293227825201544
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 100.0,
+    "status": "HIGHLY_ANOMALOUS",
+    "identifiers": {
+      "description": "ANOMALY:country"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 100.0,
+        "score_label": "HIGHLY_ANOMALOUS",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "user.department",
+              "value": "Product-B",
+              "delta": 34.1013,
+              "preprocessed": {
+                "user.department": [
+                  1.0
+                ]
+              }
+            },
+            {
+              "field": "user.id",
+              "value": "user_037",
+              "delta": 32.4716,
+              "preprocessed": {
+                "user.id": [
+                  1.0
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "ES",
+              "delta": 16.7421,
+              "preprocessed": {
+                "ip.country_iso": [
+                  2.0
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Chrome",
+              "delta": 7.1025,
+              "preprocessed": {
+                "client.browser": [
+                  1.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 10.0,
+              "delta": 4.5193,
+              "preprocessed": {
+                "timestamp.hour": [
+                  -0.3926246509971399
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 2.5978,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09120651668968052
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "Windows",
+              "delta": 2.453,
+              "preprocessed": {
+                "client.os": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 2.0,
+              "delta": 0.0062,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  -0.0352254401264801
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 39.0,
+              "delta": 0.0061,
+              "preprocessed": {
+                "latency": [
+                  -0.8021679176677393
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 28.06,
+    "status": "NORMAL",
+    "identifiers": {
+      "description": "NORMAL"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 28.064999999999998,
+        "score_label": "NORMAL",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "user.id",
+              "value": "user_004",
+              "delta": 8.8252,
+              "preprocessed": {
+                "user.id": [
+                  20.0
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "Windows",
+              "delta": 6.9222,
+              "preprocessed": {
+                "client.os": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 40.0,
+              "delta": 5.0346,
+              "preprocessed": {
+                "latency": [
+                  -0.783490915195819
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 4.0,
+              "delta": 3.3263,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  1.3529692446608685
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "DE",
+              "delta": 1.7215,
+              "preprocessed": {
+                "ip.country_iso": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "IT",
+              "delta": 1.404,
+              "preprocessed": {
+                "user.department": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Edge",
+              "delta": 0.5039,
+              "preprocessed": {
+                "client.browser": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 9.0,
+              "delta": 0.203,
+              "preprocessed": {
+                "timestamp.hour": [
+                  -0.5968241834361656
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 0.1243,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09120651668968052
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 100.0,
+    "status": "HIGHLY_ANOMALOUS",
+    "identifiers": {
+      "description": "ANOMALY:weekend"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 100.0,
+        "score_label": "HIGHLY_ANOMALOUS",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "timestamp.is_weekend",
+              "value": 1.0,
+              "delta": 35.5061,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  5.0
+                ]
+              }
+            },
+            {
+              "field": "user.id",
+              "value": "user_037",
+              "delta": 18.3897,
+              "preprocessed": {
+                "user.id": [
+                  1.0
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "Product-B",
+              "delta": 17.1207,
+              "preprocessed": {
+                "user.department": [
+                  1.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 1.0,
+              "delta": 10.2865,
+              "preprocessed": {
+                "timestamp.hour": [
+                  -2.230420442948372
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "CN",
+              "delta": 8.2972,
+              "preprocessed": {
+                "ip.country_iso": [
+                  1.0
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "Windows",
+              "delta": 6.4395,
+              "preprocessed": {
+                "client.os": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Chrome",
+              "delta": 3.8596,
+              "preprocessed": {
+                "client.browser": [
+                  1.0
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 162.0,
+              "delta": 0.0675,
+              "preprocessed": {
+                "latency": [
+                  1.49510338637846
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 6.0,
+              "delta": 0.0332,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  2.741163929448217
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 6.51,
+    "status": "NORMAL",
+    "identifiers": {
+      "description": "NORMAL"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 6.51,
+        "score_label": "NORMAL",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "client.os",
+              "value": "Mac",
+              "delta": 2.2799,
+              "preprocessed": {
+                "client.os": [
+                  5.0
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 150.0,
+              "delta": 1.2967,
+              "preprocessed": {
+                "latency": [
+                  1.270979356715416
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 6.0,
+              "delta": 0.771,
+              "preprocessed": {
+                "timestamp.hour": [
+                  -1.209422780753243
+                ]
+              }
+            },
+            {
+              "field": "user.id",
+              "value": "user_041",
+              "delta": 0.7426,
+              "preprocessed": {
+                "user.id": [
+                  33.0
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Firefox",
+              "delta": 0.576,
+              "preprocessed": {
+                "client.browser": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 0.0,
+              "delta": 0.2904,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  -1.4234201249138287
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "Product-B",
+              "delta": 0.2508,
+              "preprocessed": {
+                "user.department": [
+                  1.0
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "CN",
+              "delta": 0.1681,
+              "preprocessed": {
+                "ip.country_iso": [
+                  1.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 0.1345,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09120651668968052
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 21.22,
+    "status": "NORMAL",
+    "identifiers": {
+      "description": "NORMAL"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 21.224999999999998,
+        "score_label": "NORMAL",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "user.id",
+              "value": "user_033",
+              "delta": 6.3263,
+              "preprocessed": {
+                "user.id": [
+                  30.0
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Edge",
+              "delta": 4.5043,
+              "preprocessed": {
+                "client.browser": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "Windows",
+              "delta": 3.7568,
+              "preprocessed": {
+                "client.os": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "ES",
+              "delta": 3.4637,
+              "preprocessed": {
+                "ip.country_iso": [
+                  2.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 2.0,
+              "delta": 1.2123,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  -0.0352254401264801
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "Product-A",
+              "delta": 0.9814,
+              "preprocessed": {
+                "user.department": [
+                  2.0
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 41.0,
+              "delta": 0.4175,
+              "preprocessed": {
+                "latency": [
+                  -0.7648139127238988
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 0.3787,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09120651668968052
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 12.0,
+              "delta": 0.184,
+              "preprocessed": {
+                "timestamp.hour": [
+                  0.015774413880911713
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 27.06,
+    "status": "NORMAL",
+    "identifiers": {
+      "description": "NORMAL"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 27.06,
+        "score_label": "NORMAL",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "user.id",
+              "value": "user_004",
+              "delta": 8.2216,
+              "preprocessed": {
+                "user.id": [
+                  20.0
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "Windows",
+              "delta": 6.9645,
+              "preprocessed": {
+                "client.os": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 45.0,
+              "delta": 5.8941,
+              "preprocessed": {
+                "latency": [
+                  -0.6901059028362174
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 4.0,
+              "delta": 1.9201,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  1.3529692446608685
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "IT",
+              "delta": 1.7372,
+              "preprocessed": {
+                "user.department": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "DE",
+              "delta": 1.7239,
+              "preprocessed": {
+                "ip.country_iso": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Edge",
+              "delta": 0.4257,
+              "preprocessed": {
+                "client.browser": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 0.0977,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09120651668968052
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 10.0,
+              "delta": 0.0751,
+              "preprocessed": {
+                "timestamp.hour": [
+                  -0.3926246509971399
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 17.67,
+    "status": "NORMAL",
+    "identifiers": {
+      "description": "NORMAL"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 17.669999999999998,
+        "score_label": "NORMAL",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "user.id",
+              "value": "user_009",
+              "delta": 8.1761,
+              "preprocessed": {
+                "user.id": [
+                  28.0
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "DE",
+              "delta": 3.0554,
+              "preprocessed": {
+                "ip.country_iso": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "Android",
+              "delta": 2.3024,
+              "preprocessed": {
+                "client.os": [
+                  1.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 13.0,
+              "delta": 1.533,
+              "preprocessed": {
+                "timestamp.hour": [
+                  0.2199739463199375
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "Sales",
+              "delta": 0.751,
+              "preprocessed": {
+                "user.department": [
+                  6.0
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Chrome",
+              "delta": 0.7503,
+              "preprocessed": {
+                "client.browser": [
+                  1.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 0.0,
+              "delta": 0.5255,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  -1.4234201249138287
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 0.3231,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09120651668968052
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 48.0,
+              "delta": 0.2532,
+              "preprocessed": {
+                "latency": [
+                  -0.6340748954204565
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 13.29,
+    "status": "NORMAL",
+    "identifiers": {
+      "description": "NORMAL"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 13.29,
+        "score_label": "NORMAL",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "user.id",
+              "value": "user_029",
+              "delta": 4.1421,
+              "preprocessed": {
+                "user.id": [
+                  8.0
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "Windows",
+              "delta": 3.3918,
+              "preprocessed": {
+                "client.os": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "Research-and-Development",
+              "delta": 3.2633,
+              "preprocessed": {
+                "user.department": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Firefox",
+              "delta": 1.4535,
+              "preprocessed": {
+                "client.browser": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "US",
+              "delta": 0.5479,
+              "preprocessed": {
+                "ip.country_iso": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 20.0,
+              "delta": 0.3725,
+              "preprocessed": {
+                "timestamp.hour": [
+                  1.6493706733931182
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 2.0,
+              "delta": 0.0666,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  -0.0352254401264801
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 132.0,
+              "delta": 0.0501,
+              "preprocessed": {
+                "latency": [
+                  0.9347933122208503
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 0.0022,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09120651668968052
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 11.25,
+    "status": "NORMAL",
+    "identifiers": {
+      "description": "NORMAL"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 11.25,
+        "score_label": "NORMAL",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "user.id",
+              "value": "user_029",
+              "delta": 3.1616,
+              "preprocessed": {
+                "user.id": [
+                  8.0
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Firefox",
+              "delta": 2.9607,
+              "preprocessed": {
+                "client.browser": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "Windows",
+              "delta": 1.8309,
+              "preprocessed": {
+                "client.os": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 125.0,
+              "delta": 1.4607,
+              "preprocessed": {
+                "latency": [
+                  0.8040542949174081
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "Research-and-Development",
+              "delta": 1.0256,
+              "preprocessed": {
+                "user.department": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "US",
+              "delta": 0.4281,
+              "preprocessed": {
+                "ip.country_iso": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 1.0,
+              "delta": 0.3084,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  -0.7293227825201544
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 0.0551,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09120651668968052
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 13.0,
+              "delta": 0.0189,
+              "preprocessed": {
+                "timestamp.hour": [
+                  0.2199739463199375
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 100.0,
+    "status": "HIGHLY_ANOMALOUS",
+    "identifiers": {
+      "description": "ANOMALY:time"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 100.0,
+        "score_label": "HIGHLY_ANOMALOUS",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "timestamp.hour",
+              "value": 23.0,
+              "delta": 50.9231,
+              "preprocessed": {
+                "timestamp.hour": [
+                  2.2619692707101953
+                ]
+              }
+            },
+            {
+              "field": "user.id",
+              "value": "user_022",
+              "delta": 24.8724,
+              "preprocessed": {
+                "user.id": [
+                  14.0
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "Linux",
+              "delta": 8.2255,
+              "preprocessed": {
+                "client.os": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 44.0,
+              "delta": 6.616,
+              "preprocessed": {
+                "latency": [
+                  -0.7087829053081378
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "ES",
+              "delta": 3.4644,
+              "preprocessed": {
+                "ip.country_iso": [
+                  2.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 1.0,
+              "delta": 3.1241,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  -0.7293227825201544
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 1.2346,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09120651668968052
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Firefox",
+              "delta": 0.9261,
+              "preprocessed": {
+                "client.browser": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "Aftersales",
+              "delta": 0.6138,
+              "preprocessed": {
+                "user.department": [
+                  5.0
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 96.4,
+    "status": "HIGHLY_ANOMALOUS",
+    "identifiers": {
+      "description": "ANOMALY:time"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 96.40000000000008,
+        "score_label": "HIGHLY_ANOMALOUS",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "user.id",
+              "value": "user_018",
+              "delta": 31.7082,
+              "preprocessed": {
+                "user.id": [
+                  41.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 6.0,
+              "delta": 29.3666,
+              "preprocessed": {
+                "timestamp.hour": [
+                  -1.209422780753243
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "Aftersales",
+              "delta": 18.1819,
+              "preprocessed": {
+                "user.department": [
+                  5.0
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Firefox",
+              "delta": 4.0547,
+              "preprocessed": {
+                "client.browser": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "US",
+              "delta": 3.9564,
+              "preprocessed": {
+                "ip.country_iso": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "iOS",
+              "delta": 2.9415,
+              "preprocessed": {
+                "client.os": [
+                  2.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 2.5377,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09120651668968052
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 1.0,
+              "delta": 2.1281,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  -0.7293227825201544
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 122.0,
+              "delta": 1.525,
+              "preprocessed": {
+                "latency": [
+                  0.7480232875016471
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 33.12,
+    "status": "SLIGHTLY_ELEVATED",
+    "identifiers": {
+      "description": "NORMAL"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 33.120000000000005,
+        "score_label": "SLIGHTLY_ELEVATED",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "client.os",
+              "value": "iOS",
+              "delta": 14.2466,
+              "preprocessed": {
+                "client.os": [
+                  2.0
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "Research-and-Development",
+              "delta": 4.7257,
+              "preprocessed": {
+                "user.department": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Safari",
+              "delta": 4.3789,
+              "preprocessed": {
+                "client.browser": [
+                  2.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 3.1545,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09120651668968052
+                ]
+              }
+            },
+            {
+              "field": "user.id",
+              "value": "user_029",
+              "delta": 2.8665,
+              "preprocessed": {
+                "user.id": [
+                  8.0
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "US",
+              "delta": 2.3149,
+              "preprocessed": {
+                "ip.country_iso": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 16.0,
+              "delta": 0.6257,
+              "preprocessed": {
+                "timestamp.hour": [
+                  0.8325725436370149
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 4.0,
+              "delta": 0.4218,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  1.3529692446608685
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 121.0,
+              "delta": 0.3855,
+              "preprocessed": {
+                "latency": [
+                  0.7293462850297268
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 46.24,
+    "status": "SLIGHTLY_ELEVATED",
+    "identifiers": {
+      "description": "ANOMALY:time"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 46.24000000000001,
+        "score_label": "SLIGHTLY_ELEVATED",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "user.id",
+              "value": "user_036",
+              "delta": 18.7924,
+              "preprocessed": {
+                "user.id": [
+                  22.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 3.0,
+              "delta": 10.8604,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  0.6588719022671942
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "Product-A",
+              "delta": 8.1341,
+              "preprocessed": {
+                "user.department": [
+                  2.0
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "Android",
+              "delta": 2.6127,
+              "preprocessed": {
+                "client.os": [
+                  1.0
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "US",
+              "delta": 2.3813,
+              "preprocessed": {
+                "ip.country_iso": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Firefox",
+              "delta": 2.0347,
+              "preprocessed": {
+                "client.browser": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 8.0,
+              "delta": 0.8596,
+              "preprocessed": {
+                "timestamp.hour": [
+                  -0.8010237158751915
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 0.4047,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09120651668968052
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 113.0,
+              "delta": 0.1601,
+              "preprocessed": {
+                "latency": [
+                  0.5799302652543643
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 100.0,
+    "status": "HIGHLY_ANOMALOUS",
+    "identifiers": {
+      "description": "ANOMALY:weekend"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 100.0,
+        "score_label": "HIGHLY_ANOMALOUS",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "timestamp.is_weekend",
+              "value": 1.0,
+              "delta": 42.0037,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  5.0
+                ]
+              }
+            },
+            {
+              "field": "user.id",
+              "value": "user_045",
+              "delta": 18.5567,
+              "preprocessed": {
+                "user.id": [
+                  48.0
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "Product-C",
+              "delta": 14.1653,
+              "preprocessed": {
+                "user.department": [
+                  7.0
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Chrome",
+              "delta": 7.8283,
+              "preprocessed": {
+                "client.browser": [
+                  1.0
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 137.0,
+              "delta": 5.9045,
+              "preprocessed": {
+                "latency": [
+                  1.0281783245804519
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "Windows",
+              "delta": 5.5894,
+              "preprocessed": {
+                "client.os": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "US",
+              "delta": 4.7482,
+              "preprocessed": {
+                "ip.country_iso": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 13.0,
+              "delta": 1.0441,
+              "preprocessed": {
+                "timestamp.hour": [
+                  0.2199739463199375
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 5.0,
+              "delta": 0.1599,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  2.047066587054543
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 12.66,
+    "status": "NORMAL",
+    "identifiers": {
+      "description": "NORMAL"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 12.66,
+        "score_label": "NORMAL",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "user.id",
+              "value": "user_021",
+              "delta": 3.9226,
+              "preprocessed": {
+                "user.id": [
+                  6.0
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "Windows",
+              "delta": 2.6885,
+              "preprocessed": {
+                "client.os": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "DE",
+              "delta": 2.158,
+              "preprocessed": {
+                "ip.country_iso": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 23.0,
+              "delta": 1.6861,
+              "preprocessed": {
+                "latency": [
+                  -1.1009999572184646
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Firefox",
+              "delta": 1.1741,
+              "preprocessed": {
+                "client.browser": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "Aftersales",
+              "delta": 0.8911,
+              "preprocessed": {
+                "user.department": [
+                  5.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 3.0,
+              "delta": 0.0772,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  0.6588719022671942
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 0.0617,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09120651668968052
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 13.0,
+              "delta": 0.0007,
+              "preprocessed": {
+                "timestamp.hour": [
+                  0.2199739463199375
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 37.68,
+    "status": "SLIGHTLY_ELEVATED",
+    "identifiers": {
+      "description": "NORMAL"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 37.68000000000001,
+        "score_label": "SLIGHTLY_ELEVATED",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "client.browser",
+              "value": "Edge",
+              "delta": 8.1376,
+              "preprocessed": {
+                "client.browser": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "user.id",
+              "value": "user_026",
+              "delta": 6.9847,
+              "preprocessed": {
+                "user.id": [
+                  40.0
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "Windows",
+              "delta": 6.7815,
+              "preprocessed": {
+                "client.os": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "DE",
+              "delta": 4.7312,
+              "preprocessed": {
+                "ip.country_iso": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 46.0,
+              "delta": 3.5548,
+              "preprocessed": {
+                "latency": [
+                  -0.6714289003642971
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 3.0,
+              "delta": 2.5489,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  0.6588719022671942
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 7.0,
+              "delta": 2.3644,
+              "preprocessed": {
+                "timestamp.hour": [
+                  -1.0052232483142172
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "Research-and-Development",
+              "delta": 2.2816,
+              "preprocessed": {
+                "user.department": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 0.2954,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09120651668968052
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 40.96,
+    "status": "SLIGHTLY_ELEVATED",
+    "identifiers": {
+      "description": "NORMAL"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 40.96000000000001,
+        "score_label": "SLIGHTLY_ELEVATED",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "user.id",
+              "value": "user_025",
+              "delta": 13.1353,
+              "preprocessed": {
+                "user.id": [
+                  19.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 15.0,
+              "delta": 10.1373,
+              "preprocessed": {
+                "timestamp.hour": [
+                  0.628373011197989
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "DE",
+              "delta": 5.8805,
+              "preprocessed": {
+                "ip.country_iso": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "Research-and-Development",
+              "delta": 4.2206,
+              "preprocessed": {
+                "user.department": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 4.0,
+              "delta": 3.5106,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  1.3529692446608685
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Firefox",
+              "delta": 2.0124,
+              "preprocessed": {
+                "client.browser": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "iOS",
+              "delta": 1.8355,
+              "preprocessed": {
+                "client.os": [
+                  2.0
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 36.0,
+              "delta": 0.1682,
+              "preprocessed": {
+                "latency": [
+                  -0.8581989250835004
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 0.0597,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09120651668968052
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 100.0,
+    "status": "HIGHLY_ANOMALOUS",
+    "identifiers": {
+      "description": "ANOMALY:os_browser"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 100.0,
+        "score_label": "HIGHLY_ANOMALOUS",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "user.id",
+              "value": "user_047",
+              "delta": 39.2387,
+              "preprocessed": {
+                "user.id": [
+                  12.0
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Chrome",
+              "delta": 23.48,
+              "preprocessed": {
+                "client.browser": [
+                  1.0
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "Mac",
+              "delta": 13.1956,
+              "preprocessed": {
+                "client.os": [
+                  5.0
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "US",
+              "delta": 12.1508,
+              "preprocessed": {
+                "ip.country_iso": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 16.0,
+              "delta": 7.9969,
+              "preprocessed": {
+                "timestamp.hour": [
+                  0.8325725436370149
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "Product-C",
+              "delta": 3.0939,
+              "preprocessed": {
+                "user.department": [
+                  7.0
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 101.0,
+              "delta": 0.7593,
+              "preprocessed": {
+                "latency": [
+                  0.3558062355913204
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 0.0,
+              "delta": 0.0519,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  -1.4234201249138287
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 0.0329,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09120651668968052
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 14.48,
+    "status": "NORMAL",
+    "identifiers": {
+      "description": "NORMAL"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 14.475000000000001,
+        "score_label": "NORMAL",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "client.browser",
+              "value": "Firefox",
+              "delta": 4.3312,
+              "preprocessed": {
+                "client.browser": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 6.0,
+              "delta": 3.7291,
+              "preprocessed": {
+                "timestamp.hour": [
+                  -1.209422780753243
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "Product-B",
+              "delta": 2.2702,
+              "preprocessed": {
+                "user.department": [
+                  1.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 3.0,
+              "delta": 1.2185,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  0.6588719022671942
+                ]
+              }
+            },
+            {
+              "field": "user.id",
+              "value": "user_041",
+              "delta": 1.1415,
+              "preprocessed": {
+                "user.id": [
+                  33.0
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 151.0,
+              "delta": 0.5673,
+              "preprocessed": {
+                "latency": [
+                  1.2896563591873365
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "CN",
+              "delta": 0.5426,
+              "preprocessed": {
+                "ip.country_iso": [
+                  1.0
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "Mac",
+              "delta": 0.3925,
+              "preprocessed": {
+                "client.os": [
+                  5.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 0.2822,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09120651668968052
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 100.0,
+    "status": "HIGHLY_ANOMALOUS",
+    "identifiers": {
+      "description": "ANOMALY:weekend"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 100.0,
+        "score_label": "HIGHLY_ANOMALOUS",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "user.id",
+              "value": "user_005",
+              "delta": 37.2791,
+              "preprocessed": {
+                "user.id": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "IT",
+              "delta": 34.7044,
+              "preprocessed": {
+                "user.department": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Firefox",
+              "delta": 10.5362,
+              "preprocessed": {
+                "client.browser": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 1.0,
+              "delta": 6.8345,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  5.0
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "DE",
+              "delta": 4.3408,
+              "preprocessed": {
+                "ip.country_iso": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "Linux",
+              "delta": 4.038,
+              "preprocessed": {
+                "client.os": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 29.0,
+              "delta": 1.8479,
+              "preprocessed": {
+                "latency": [
+                  -0.9889379423869425
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 5.0,
+              "delta": 0.2835,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  2.047066587054543
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 12.0,
+              "delta": 0.1356,
+              "preprocessed": {
+                "timestamp.hour": [
+                  0.015774413880911713
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 7.5,
+    "status": "NORMAL",
+    "identifiers": {
+      "description": "ANOMALY:time"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 7.5,
+        "score_label": "NORMAL",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "timestamp.hour",
+              "value": 9.0,
+              "delta": 1.6929,
+              "preprocessed": {
+                "timestamp.hour": [
+                  -0.5968241834361656
+                ]
+              }
+            },
+            {
+              "field": "user.id",
+              "value": "user_018",
+              "delta": 1.4317,
+              "preprocessed": {
+                "user.id": [
+                  41.0
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "US",
+              "delta": 0.9611,
+              "preprocessed": {
+                "ip.country_iso": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "Linux",
+              "delta": 0.8682,
+              "preprocessed": {
+                "client.os": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Chrome",
+              "delta": 0.8355,
+              "preprocessed": {
+                "client.browser": [
+                  1.0
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "Aftersales",
+              "delta": 0.8043,
+              "preprocessed": {
+                "user.department": [
+                  5.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 2.0,
+              "delta": 0.6527,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  -0.0352254401264801
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 111.0,
+              "delta": 0.2357,
+              "preprocessed": {
+                "latency": [
+                  0.5425762603105236
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 0.0179,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09120651668968052
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 24.49,
+    "status": "NORMAL",
+    "identifiers": {
+      "description": "NORMAL"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 24.494999999999997,
+        "score_label": "NORMAL",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "client.os",
+              "value": "Mac",
+              "delta": 5.4859,
+              "preprocessed": {
+                "client.os": [
+                  5.0
+                ]
+              }
+            },
+            {
+              "field": "user.id",
+              "value": "user_027",
+              "delta": 5.0748,
+              "preprocessed": {
+                "user.id": [
+                  50.0
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Firefox",
+              "delta": 3.6754,
+              "preprocessed": {
+                "client.browser": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 2.0,
+              "delta": 2.5002,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  -0.0352254401264801
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 7.0,
+              "delta": 2.3685,
+              "preprocessed": {
+                "timestamp.hour": [
+                  -1.0052232483142172
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "DE",
+              "delta": 2.3337,
+              "preprocessed": {
+                "ip.country_iso": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "Research-and-Development",
+              "delta": 1.9697,
+              "preprocessed": {
+                "user.department": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 27.0,
+              "delta": 0.8654,
+              "preprocessed": {
+                "latency": [
+                  -1.0262919473307832
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 0.2214,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09120651668968052
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 7.75,
+    "status": "NORMAL",
+    "identifiers": {
+      "description": "NORMAL"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 7.755,
+        "score_label": "NORMAL",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "user.id",
+              "value": "user_030",
+              "delta": 3.9343,
+              "preprocessed": {
+                "user.id": [
+                  29.0
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "Mac",
+              "delta": 1.0466,
+              "preprocessed": {
+                "client.os": [
+                  5.0
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "Product-A",
+              "delta": 0.9287,
+              "preprocessed": {
+                "user.department": [
+                  2.0
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "DE",
+              "delta": 0.8124,
+              "preprocessed": {
+                "ip.country_iso": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 0.0,
+              "delta": 0.5749,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  -1.4234201249138287
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Safari",
+              "delta": 0.329,
+              "preprocessed": {
+                "client.browser": [
+                  2.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 11.0,
+              "delta": 0.0656,
+              "preprocessed": {
+                "timestamp.hour": [
+                  -0.18842511855811409
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 0.0516,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09120651668968052
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 47.0,
+              "delta": 0.0118,
+              "preprocessed": {
+                "latency": [
+                  -0.6527518978923769
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 100.0,
+    "status": "HIGHLY_ANOMALOUS",
+    "identifiers": {
+      "description": "ANOMALY:country"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 100.0,
+        "score_label": "HIGHLY_ANOMALOUS",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "user.id",
+              "value": "user_040",
+              "delta": 40.0229,
+              "preprocessed": {
+                "user.id": [
+                  16.0
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "Product-B",
+              "delta": 26.8929,
+              "preprocessed": {
+                "user.department": [
+                  1.0
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "US",
+              "delta": 21.3859,
+              "preprocessed": {
+                "ip.country_iso": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 17.0,
+              "delta": 3.1802,
+              "preprocessed": {
+                "timestamp.hour": [
+                  1.0367720760760406
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Edge",
+              "delta": 2.8712,
+              "preprocessed": {
+                "client.browser": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 2.0,
+              "delta": 2.3532,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  -0.0352254401264801
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "Windows",
+              "delta": 1.9139,
+              "preprocessed": {
+                "client.os": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 0.823,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09120651668968052
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 107.0,
+              "delta": 0.5569,
+              "preprocessed": {
+                "latency": [
+                  0.46786825042284236
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 4.72,
+    "status": "NORMAL",
+    "identifiers": {
+      "description": "NORMAL"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 4.725,
+        "score_label": "NORMAL",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "user.id",
+              "value": "user_007",
+              "delta": 1.3362,
+              "preprocessed": {
+                "user.id": [
+                  31.0
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "IT",
+              "delta": 1.1205,
+              "preprocessed": {
+                "user.department": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 0.5997,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09120651668968052
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "Windows",
+              "delta": 0.5221,
+              "preprocessed": {
+                "client.os": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Firefox",
+              "delta": 0.4626,
+              "preprocessed": {
+                "client.browser": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 14.0,
+              "delta": 0.4133,
+              "preprocessed": {
+                "timestamp.hour": [
+                  0.4241734787589633
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "US",
+              "delta": 0.1491,
+              "preprocessed": {
+                "ip.country_iso": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 130.0,
+              "delta": 0.1133,
+              "preprocessed": {
+                "latency": [
+                  0.8974393072770097
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 1.0,
+              "delta": 0.0082,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  -0.7293227825201544
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 3.56,
+    "status": "NORMAL",
+    "identifiers": {
+      "description": "NORMAL"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 3.555,
+        "score_label": "NORMAL",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "timestamp.dayofweek",
+              "value": 1.0,
+              "delta": 1.0592,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  -0.7293227825201544
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "Linux",
+              "delta": 0.7447,
+              "preprocessed": {
+                "client.os": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "Aftersales",
+              "delta": 0.6537,
+              "preprocessed": {
+                "user.department": [
+                  5.0
+                ]
+              }
+            },
+            {
+              "field": "user.id",
+              "value": "user_018",
+              "delta": 0.3946,
+              "preprocessed": {
+                "user.id": [
+                  41.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 18.0,
+              "delta": 0.3686,
+              "preprocessed": {
+                "timestamp.hour": [
+                  1.2409716085150664
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "US",
+              "delta": 0.1432,
+              "preprocessed": {
+                "ip.country_iso": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 113.0,
+              "delta": 0.0896,
+              "preprocessed": {
+                "latency": [
+                  0.5799302652543643
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 0.0578,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09120651668968052
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Chrome",
+              "delta": 0.0434,
+              "preprocessed": {
+                "client.browser": [
+                  1.0
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 20.7,
+    "status": "NORMAL",
+    "identifiers": {
+      "description": "NORMAL"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 20.700000000000003,
+        "score_label": "NORMAL",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "user.id",
+              "value": "user_003",
+              "delta": 11.1286,
+              "preprocessed": {
+                "user.id": [
+                  11.0
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "DE",
+              "delta": 2.6528,
+              "preprocessed": {
+                "ip.country_iso": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "IT",
+              "delta": 2.5325,
+              "preprocessed": {
+                "user.department": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Firefox",
+              "delta": 1.7002,
+              "preprocessed": {
+                "client.browser": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "iOS",
+              "delta": 1.1942,
+              "preprocessed": {
+                "client.os": [
+                  2.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 7.0,
+              "delta": 0.7734,
+              "preprocessed": {
+                "timestamp.hour": [
+                  -1.0052232483142172
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 3.0,
+              "delta": 0.337,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  0.6588719022671942
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 30.0,
+              "delta": 0.2503,
+              "preprocessed": {
+                "latency": [
+                  -0.9702609399150223
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 0.1309,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09120651668968052
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 23.23,
+    "status": "NORMAL",
+    "identifiers": {
+      "description": "NORMAL"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 23.235,
+        "score_label": "NORMAL",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "user.id",
+              "value": "user_022",
+              "delta": 9.7963,
+              "preprocessed": {
+                "user.id": [
+                  14.0
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "Linux",
+              "delta": 4.3858,
+              "preprocessed": {
+                "client.os": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Firefox",
+              "delta": 2.6194,
+              "preprocessed": {
+                "client.browser": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 14.0,
+              "delta": 1.7049,
+              "preprocessed": {
+                "timestamp.hour": [
+                  0.4241734787589633
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 31.0,
+              "delta": 1.574,
+              "preprocessed": {
+                "latency": [
+                  -0.9515839374431019
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "ES",
+              "delta": 1.4218,
+              "preprocessed": {
+                "ip.country_iso": [
+                  2.0
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "Aftersales",
+              "delta": 0.9626,
+              "preprocessed": {
+                "user.department": [
+                  5.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 0.5174,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09120651668968052
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 4.0,
+              "delta": 0.2528,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  1.3529692446608685
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 77.35,
+    "status": "ANOMALOUS",
+    "identifiers": {
+      "description": "NORMAL"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 77.35000000000002,
+        "score_label": "ANOMALOUS",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "timestamp.dayofweek",
+              "value": 0.0,
+              "delta": 36.4404,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  -1.4234201249138287
+                ]
+              }
+            },
+            {
+              "field": "user.id",
+              "value": "user_028",
+              "delta": 17.7974,
+              "preprocessed": {
+                "user.id": [
+                  21.0
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "Research-and-Development",
+              "delta": 8.6854,
+              "preprocessed": {
+                "user.department": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "Android",
+              "delta": 5.0518,
+              "preprocessed": {
+                "client.os": [
+                  1.0
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Chrome",
+              "delta": 4.1886,
+              "preprocessed": {
+                "client.browser": [
+                  1.0
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "ES",
+              "delta": 3.4846,
+              "preprocessed": {
+                "ip.country_iso": [
+                  2.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 1.0786,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09120651668968052
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 14.0,
+              "delta": 0.322,
+              "preprocessed": {
+                "timestamp.hour": [
+                  0.4241734787589633
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 45.0,
+              "delta": 0.3012,
+              "preprocessed": {
+                "latency": [
+                  -0.6901059028362174
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 12.49,
+    "status": "NORMAL",
+    "identifiers": {
+      "description": "NORMAL"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 12.495,
+        "score_label": "NORMAL",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "user.id",
+              "value": "user_015",
+              "delta": 3.356,
+              "preprocessed": {
+                "user.id": [
+                  26.0
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "Mac",
+              "delta": 2.7888,
+              "preprocessed": {
+                "client.os": [
+                  5.0
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Firefox",
+              "delta": 1.6698,
+              "preprocessed": {
+                "client.browser": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 7.0,
+              "delta": 1.4871,
+              "preprocessed": {
+                "timestamp.hour": [
+                  -1.0052232483142172
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "Sales",
+              "delta": 1.2866,
+              "preprocessed": {
+                "user.department": [
+                  6.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 0.9474,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09120651668968052
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "CN",
+              "delta": 0.5924,
+              "preprocessed": {
+                "ip.country_iso": [
+                  1.0
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 181.0,
+              "delta": 0.3312,
+              "preprocessed": {
+                "latency": [
+                  1.849966433344946
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 3.0,
+              "delta": 0.0357,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  0.6588719022671942
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 23.07,
+    "status": "NORMAL",
+    "identifiers": {
+      "description": "NORMAL"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 23.069999999999997,
+        "score_label": "NORMAL",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "client.browser",
+              "value": "Chrome",
+              "delta": 7.2115,
+              "preprocessed": {
+                "client.browser": [
+                  1.0
+                ]
+              }
+            },
+            {
+              "field": "user.id",
+              "value": "user_050",
+              "delta": 6.0227,
+              "preprocessed": {
+                "user.id": [
+                  46.0
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "Mac",
+              "delta": 4.2118,
+              "preprocessed": {
+                "client.os": [
+                  5.0
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "CN",
+              "delta": 2.6422,
+              "preprocessed": {
+                "ip.country_iso": [
+                  1.0
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "Product-C",
+              "delta": 1.6335,
+              "preprocessed": {
+                "user.department": [
+                  7.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 1.2514,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09120651668968052
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 6.0,
+              "delta": 0.0598,
+              "preprocessed": {
+                "timestamp.hour": [
+                  -1.209422780753243
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 166.0,
+              "delta": 0.0247,
+              "preprocessed": {
+                "latency": [
+                  1.569811396266141
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 4.0,
+              "delta": 0.0124,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  1.3529692446608685
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 100.0,
+    "status": "HIGHLY_ANOMALOUS",
+    "identifiers": {
+      "description": "ANOMALY:os_browser"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 100.0,
+        "score_label": "HIGHLY_ANOMALOUS",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "user.id",
+              "value": "user_049",
+              "delta": 32.5734,
+              "preprocessed": {
+                "user.id": [
+                  35.0
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Edge",
+              "delta": 21.2971,
+              "preprocessed": {
+                "client.browser": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "DE",
+              "delta": 17.3368,
+              "preprocessed": {
+                "ip.country_iso": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 4.0,
+              "delta": 13.6747,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  1.3529692446608685
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 13.0,
+              "delta": 7.2274,
+              "preprocessed": {
+                "timestamp.hour": [
+                  0.2199739463199375
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "Product-C",
+              "delta": 5.5732,
+              "preprocessed": {
+                "user.department": [
+                  7.0
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "Windows",
+              "delta": 1.3359,
+              "preprocessed": {
+                "client.os": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 40.0,
+              "delta": 0.9706,
+              "preprocessed": {
+                "latency": [
+                  -0.783490915195819
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 0.0108,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09120651668968052
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 62.48,
+    "status": "ELEVATED",
+    "identifiers": {
+      "description": "NORMAL"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 62.48000000000002,
+        "score_label": "ELEVATED",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "timestamp.hour",
+              "value": 21.0,
+              "delta": 29.8319,
+              "preprocessed": {
+                "timestamp.hour": [
+                  1.853570205832144
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "Mac",
+              "delta": 8.0325,
+              "preprocessed": {
+                "client.os": [
+                  5.0
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 105.0,
+              "delta": 5.9215,
+              "preprocessed": {
+                "latency": [
+                  0.4305142454790017
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Firefox",
+              "delta": 5.6048,
+              "preprocessed": {
+                "client.browser": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "Product-C",
+              "delta": 3.6949,
+              "preprocessed": {
+                "user.department": [
+                  7.0
+                ]
+              }
+            },
+            {
+              "field": "user.id",
+              "value": "user_048",
+              "delta": 3.0787,
+              "preprocessed": {
+                "user.id": [
+                  45.0
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "US",
+              "delta": 2.8388,
+              "preprocessed": {
+                "ip.country_iso": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 4.0,
+              "delta": 2.273,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  1.3529692446608685
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 1.2039,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09120651668968052
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 0.92,
+    "status": "NORMAL",
+    "identifiers": {
+      "description": "NORMAL"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 0.915,
+        "score_label": "NORMAL",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "user.id",
+              "value": "user_006",
+              "delta": 0.493,
+              "preprocessed": {
+                "user.id": [
+                  44.0
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "IT",
+              "delta": 0.1531,
+              "preprocessed": {
+                "user.department": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 0.0973,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09120651668968052
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 56.0,
+              "delta": 0.0448,
+              "preprocessed": {
+                "latency": [
+                  -0.48465887564509397
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 11.0,
+              "delta": 0.0428,
+              "preprocessed": {
+                "timestamp.hour": [
+                  -0.18842511855811409
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Chrome",
+              "delta": 0.0365,
+              "preprocessed": {
+                "client.browser": [
+                  1.0
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "ES",
+              "delta": 0.0287,
+              "preprocessed": {
+                "ip.country_iso": [
+                  2.0
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "Mac",
+              "delta": 0.0111,
+              "preprocessed": {
+                "client.os": [
+                  5.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 0.0,
+              "delta": 0.0077,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  -1.4234201249138287
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 25.9,
+    "status": "NORMAL",
+    "identifiers": {
+      "description": "NORMAL"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 25.904999999999998,
+        "score_label": "NORMAL",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "client.os",
+              "value": "Windows",
+              "delta": 8.2147,
+              "preprocessed": {
+                "client.os": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "user.id",
+              "value": "user_036",
+              "delta": 5.585,
+              "preprocessed": {
+                "user.id": [
+                  22.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 1.0,
+              "delta": 3.758,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  -0.7293227825201544
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 140.0,
+              "delta": 2.9425,
+              "preprocessed": {
+                "latency": [
+                  1.084209331996213
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "US",
+              "delta": 2.392,
+              "preprocessed": {
+                "ip.country_iso": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "Product-A",
+              "delta": 1.3407,
+              "preprocessed": {
+                "user.department": [
+                  2.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 21.0,
+              "delta": 0.63,
+              "preprocessed": {
+                "timestamp.hour": [
+                  1.853570205832144
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 0.5752,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09120651668968052
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Firefox",
+              "delta": 0.4669,
+              "preprocessed": {
+                "client.browser": [
+                  3.0
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 25.77,
+    "status": "NORMAL",
+    "identifiers": {
+      "description": "NORMAL"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 25.77,
+        "score_label": "NORMAL",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "client.os",
+              "value": "Android",
+              "delta": 6.6885,
+              "preprocessed": {
+                "client.os": [
+                  1.0
+                ]
+              }
+            },
+            {
+              "field": "user.id",
+              "value": "user_015",
+              "delta": 6.065,
+              "preprocessed": {
+                "user.id": [
+                  26.0
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "Sales",
+              "delta": 5.8966,
+              "preprocessed": {
+                "user.department": [
+                  6.0
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Firefox",
+              "delta": 3.8423,
+              "preprocessed": {
+                "client.browser": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 5.0,
+              "delta": 1.67,
+              "preprocessed": {
+                "timestamp.hour": [
+                  -1.413622313192269
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "CN",
+              "delta": 0.6526,
+              "preprocessed": {
+                "ip.country_iso": [
+                  1.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 4.0,
+              "delta": 0.5022,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  1.3529692446608685
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 0.4516,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09120651668968052
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 172.0,
+              "delta": 0.0011,
+              "preprocessed": {
+                "latency": [
+                  1.6818734110976632
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 100.0,
+    "status": "HIGHLY_ANOMALOUS",
+    "identifiers": {
+      "description": "ANOMALY:os_browser"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 100.0,
+        "score_label": "HIGHLY_ANOMALOUS",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "user.id",
+              "value": "user_027",
+              "delta": 56.5085,
+              "preprocessed": {
+                "user.id": [
+                  50.0
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Edge",
+              "delta": 19.4972,
+              "preprocessed": {
+                "client.browser": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "Windows",
+              "delta": 8.8837,
+              "preprocessed": {
+                "client.os": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "DE",
+              "delta": 5.8586,
+              "preprocessed": {
+                "ip.country_iso": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "Research-and-Development",
+              "delta": 5.6955,
+              "preprocessed": {
+                "user.department": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 13.0,
+              "delta": 2.3151,
+              "preprocessed": {
+                "timestamp.hour": [
+                  0.2199739463199375
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 0.6672,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09120651668968052
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 0.0,
+              "delta": 0.3605,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  -1.4234201249138287
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 50.0,
+              "delta": 0.2137,
+              "preprocessed": {
+                "latency": [
+                  -0.5967208904766158
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 68.24,
+    "status": "ELEVATED",
+    "identifiers": {
+      "description": "NORMAL"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 68.24000000000001,
+        "score_label": "ELEVATED",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "user.id",
+              "value": "user_035",
+              "delta": 28.0604,
+              "preprocessed": {
+                "user.id": [
+                  2.0
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "Product-A",
+              "delta": 12.1642,
+              "preprocessed": {
+                "user.department": [
+                  2.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 8.0,
+              "delta": 10.8753,
+              "preprocessed": {
+                "timestamp.hour": [
+                  -0.8010237158751915
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 0.0,
+              "delta": 4.3726,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  -1.4234201249138287
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 34.0,
+              "delta": 3.941,
+              "preprocessed": {
+                "latency": [
+                  -0.8955529300273409
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 2.6696,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09120651668968052
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Safari",
+              "delta": 2.59,
+              "preprocessed": {
+                "client.browser": [
+                  2.0
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "ES",
+              "delta": 2.2598,
+              "preprocessed": {
+                "ip.country_iso": [
+                  2.0
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "iOS",
+              "delta": 1.307,
+              "preprocessed": {
+                "client.os": [
+                  2.0
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 13.86,
+    "status": "NORMAL",
+    "identifiers": {
+      "description": "NORMAL"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 13.860000000000001,
+        "score_label": "NORMAL",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "user.id",
+              "value": "user_031",
+              "delta": 5.9601,
+              "preprocessed": {
+                "user.id": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 9.0,
+              "delta": 3.6242,
+              "preprocessed": {
+                "timestamp.hour": [
+                  -0.5968241834361656
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "Product-A",
+              "delta": 1.4107,
+              "preprocessed": {
+                "user.department": [
+                  2.0
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "Windows",
+              "delta": 0.975,
+              "preprocessed": {
+                "client.os": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Chrome",
+              "delta": 0.8515,
+              "preprocessed": {
+                "client.browser": [
+                  1.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 0.458,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09120651668968052
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "DE",
+              "delta": 0.2242,
+              "preprocessed": {
+                "ip.country_iso": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 1.0,
+              "delta": 0.199,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  -0.7293227825201544
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 31.0,
+              "delta": 0.1573,
+              "preprocessed": {
+                "latency": [
+                  -0.9515839374431019
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 7.25,
+    "status": "NORMAL",
+    "identifiers": {
+      "description": "NORMAL"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 7.245,
+        "score_label": "NORMAL",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "user.id",
+              "value": "user_021",
+              "delta": 3.9308,
+              "preprocessed": {
+                "user.id": [
+                  6.0
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Firefox",
+              "delta": 1.0366,
+              "preprocessed": {
+                "client.browser": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "Windows",
+              "delta": 0.6334,
+              "preprocessed": {
+                "client.os": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "DE",
+              "delta": 0.584,
+              "preprocessed": {
+                "ip.country_iso": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "Aftersales",
+              "delta": 0.4862,
+              "preprocessed": {
+                "user.department": [
+                  5.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 3.0,
+              "delta": 0.1847,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  0.6588719022671942
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 15.0,
+              "delta": 0.1703,
+              "preprocessed": {
+                "timestamp.hour": [
+                  0.628373011197989
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 43.0,
+              "delta": 0.1103,
+              "preprocessed": {
+                "latency": [
+                  -0.7274599077800581
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 0.1086,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09120651668968052
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 100.0,
+    "status": "HIGHLY_ANOMALOUS",
+    "identifiers": {
+      "description": "ANOMALY:country"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 100.0,
+        "score_label": "HIGHLY_ANOMALOUS",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "user.id",
+              "value": "user_005",
+              "delta": 52.9039,
+              "preprocessed": {
+                "user.id": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "US",
+              "delta": 28.1934,
+              "preprocessed": {
+                "ip.country_iso": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Chrome",
+              "delta": 6.0148,
+              "preprocessed": {
+                "client.browser": [
+                  1.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 16.0,
+              "delta": 4.3411,
+              "preprocessed": {
+                "timestamp.hour": [
+                  0.8325725436370149
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "IT",
+              "delta": 3.0146,
+              "preprocessed": {
+                "user.department": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 3.0,
+              "delta": 2.2552,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  0.6588719022671942
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "iOS",
+              "delta": 2.233,
+              "preprocessed": {
+                "client.os": [
+                  2.0
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 102.0,
+              "delta": 0.9763,
+              "preprocessed": {
+                "latency": [
+                  0.37448323806324074
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 0.0677,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09120651668968052
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 100.0,
+    "status": "HIGHLY_ANOMALOUS",
+    "identifiers": {
+      "description": "ANOMALY:weekend"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 100.0,
+        "score_label": "HIGHLY_ANOMALOUS",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "user.id",
+              "value": "user_010",
+              "delta": 38.5962,
+              "preprocessed": {
+                "user.id": [
+                  47.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 1.0,
+              "delta": 32.4715,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  5.0
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "Sales",
+              "delta": 11.9451,
+              "preprocessed": {
+                "user.department": [
+                  6.0
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "DE",
+              "delta": 6.7577,
+              "preprocessed": {
+                "ip.country_iso": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "Linux",
+              "delta": 3.8741,
+              "preprocessed": {
+                "client.os": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 6.0,
+              "delta": 3.6631,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  2.741163929448217
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 20.0,
+              "delta": 1.5728,
+              "preprocessed": {
+                "latency": [
+                  -1.1570309646342254
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Firefox",
+              "delta": 1.0019,
+              "preprocessed": {
+                "client.browser": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 12.0,
+              "delta": 0.1175,
+              "preprocessed": {
+                "timestamp.hour": [
+                  0.015774413880911713
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 55.44,
+    "status": "ELEVATED",
+    "identifiers": {
+      "description": "NORMAL"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 55.44,
+        "score_label": "ELEVATED",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "user.id",
+              "value": "user_006",
+              "delta": 20.929,
+              "preprocessed": {
+                "user.id": [
+                  44.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 8.0,
+              "delta": 12.3621,
+              "preprocessed": {
+                "timestamp.hour": [
+                  -0.8010237158751915
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Chrome",
+              "delta": 7.4086,
+              "preprocessed": {
+                "client.browser": [
+                  1.0
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "Android",
+              "delta": 4.6979,
+              "preprocessed": {
+                "client.os": [
+                  1.0
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "IT",
+              "delta": 3.1964,
+              "preprocessed": {
+                "user.department": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 59.0,
+              "delta": 2.8958,
+              "preprocessed": {
+                "latency": [
+                  -0.42862786822933296
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "ES",
+              "delta": 2.278,
+              "preprocessed": {
+                "ip.country_iso": [
+                  2.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 1.0978,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09120651668968052
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 1.0,
+              "delta": 0.5745,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  -0.7293227825201544
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 26.16,
+    "status": "NORMAL",
+    "identifiers": {
+      "description": "NORMAL"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 26.160000000000004,
+        "score_label": "NORMAL",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "user.id",
+              "value": "user_030",
+              "delta": 9.137,
+              "preprocessed": {
+                "user.id": [
+                  29.0
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "Mac",
+              "delta": 7.0468,
+              "preprocessed": {
+                "client.os": [
+                  5.0
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "Product-A",
+              "delta": 2.9923,
+              "preprocessed": {
+                "user.department": [
+                  2.0
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Safari",
+              "delta": 2.9825,
+              "preprocessed": {
+                "client.browser": [
+                  2.0
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "DE",
+              "delta": 2.5311,
+              "preprocessed": {
+                "ip.country_iso": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 47.0,
+              "delta": 1.0679,
+              "preprocessed": {
+                "latency": [
+                  -0.6527518978923769
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 15.0,
+              "delta": 0.1789,
+              "preprocessed": {
+                "timestamp.hour": [
+                  0.628373011197989
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 3.0,
+              "delta": 0.1149,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  0.6588719022671942
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 0.1087,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09120651668968052
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 3.44,
+    "status": "NORMAL",
+    "identifiers": {
+      "description": "NORMAL"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 3.435,
+        "score_label": "NORMAL",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "timestamp.hour",
+              "value": 7.0,
+              "delta": 1.1736,
+              "preprocessed": {
+                "timestamp.hour": [
+                  -1.0052232483142172
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Firefox",
+              "delta": 0.9581,
+              "preprocessed": {
+                "client.browser": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "Product-B",
+              "delta": 0.5108,
+              "preprocessed": {
+                "user.department": [
+                  1.0
+                ]
+              }
+            },
+            {
+              "field": "user.id",
+              "value": "user_041",
+              "delta": 0.3374,
+              "preprocessed": {
+                "user.id": [
+                  33.0
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "Mac",
+              "delta": 0.1727,
+              "preprocessed": {
+                "client.os": [
+                  5.0
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 162.0,
+              "delta": 0.1279,
+              "preprocessed": {
+                "latency": [
+                  1.49510338637846
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "CN",
+              "delta": 0.0892,
+              "preprocessed": {
+                "ip.country_iso": [
+                  1.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 0.0546,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09120651668968052
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 2.0,
+              "delta": 0.0108,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  -0.0352254401264801
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 29.09,
+    "status": "NORMAL",
+    "identifiers": {
+      "description": "NORMAL"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 29.085,
+        "score_label": "NORMAL",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "user.id",
+              "value": "user_050",
+              "delta": 9.0758,
+              "preprocessed": {
+                "user.id": [
+                  46.0
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Chrome",
+              "delta": 6.9322,
+              "preprocessed": {
+                "client.browser": [
+                  1.0
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "Product-C",
+              "delta": 3.1749,
+              "preprocessed": {
+                "user.department": [
+                  7.0
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 154.0,
+              "delta": 2.4025,
+              "preprocessed": {
+                "latency": [
+                  1.3456873666030973
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "CN",
+              "delta": 2.0168,
+              "preprocessed": {
+                "ip.country_iso": [
+                  1.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 0.0,
+              "delta": 1.9757,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  -1.4234201249138287
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "Mac",
+              "delta": 1.4675,
+              "preprocessed": {
+                "client.os": [
+                  5.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 1.0269,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09120651668968052
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 4.0,
+              "delta": 1.0126,
+              "preprocessed": {
+                "timestamp.hour": [
+                  -1.6178218456312947
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 48.4,
+    "status": "SLIGHTLY_ELEVATED",
+    "identifiers": {
+      "description": "NORMAL"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 48.400000000000006,
+        "score_label": "SLIGHTLY_ELEVATED",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "client.os",
+              "value": "Android",
+              "delta": 10.5832,
+              "preprocessed": {
+                "client.os": [
+                  1.0
+                ]
+              }
+            },
+            {
+              "field": "user.id",
+              "value": "user_015",
+              "delta": 8.1342,
+              "preprocessed": {
+                "user.id": [
+                  26.0
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "CN",
+              "delta": 6.8383,
+              "preprocessed": {
+                "ip.country_iso": [
+                  1.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 0.0,
+              "delta": 6.2103,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  -1.4234201249138287
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "Sales",
+              "delta": 5.6917,
+              "preprocessed": {
+                "user.department": [
+                  6.0
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Firefox",
+              "delta": 5.3683,
+              "preprocessed": {
+                "client.browser": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 4.0,
+              "delta": 4.5526,
+              "preprocessed": {
+                "timestamp.hour": [
+                  -1.6178218456312947
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 179.0,
+              "delta": 0.8784,
+              "preprocessed": {
+                "latency": [
+                  1.8126124284011054
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 0.1429,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09120651668968052
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 22.27,
+    "status": "NORMAL",
+    "identifiers": {
+      "description": "NORMAL"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 22.275,
+        "score_label": "NORMAL",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "user.id",
+              "value": "user_003",
+              "delta": 10.5029,
+              "preprocessed": {
+                "user.id": [
+                  11.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 14.0,
+              "delta": 5.8511,
+              "preprocessed": {
+                "timestamp.hour": [
+                  0.4241734787589633
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 1.0,
+              "delta": 2.6134,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  -0.7293227825201544
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Chrome",
+              "delta": 1.0563,
+              "preprocessed": {
+                "client.browser": [
+                  1.0
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "Linux",
+              "delta": 0.8861,
+              "preprocessed": {
+                "client.os": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "IT",
+              "delta": 0.753,
+              "preprocessed": {
+                "user.department": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 37.0,
+              "delta": 0.2822,
+              "preprocessed": {
+                "latency": [
+                  -0.83952192261158
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "DE",
+              "delta": 0.27,
+              "preprocessed": {
+                "ip.country_iso": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 0.0599,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09120651668968052
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 47.84,
+    "status": "SLIGHTLY_ELEVATED",
+    "identifiers": {
+      "description": "NORMAL"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 47.84,
+        "score_label": "SLIGHTLY_ELEVATED",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "client.os",
+              "value": "iOS",
+              "delta": 14.1378,
+              "preprocessed": {
+                "client.os": [
+                  2.0
+                ]
+              }
+            },
+            {
+              "field": "user.id",
+              "value": "user_023",
+              "delta": 10.9189,
+              "preprocessed": {
+                "user.id": [
+                  34.0
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Safari",
+              "delta": 9.1971,
+              "preprocessed": {
+                "client.browser": [
+                  2.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 1.0,
+              "delta": 5.3545,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  -0.7293227825201544
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "Research-and-Development",
+              "delta": 2.8131,
+              "preprocessed": {
+                "user.department": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 2.6612,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09120651668968052
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 10.0,
+              "delta": 1.3572,
+              "preprocessed": {
+                "timestamp.hour": [
+                  -0.3926246509971399
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "DE",
+              "delta": 1.0028,
+              "preprocessed": {
+                "ip.country_iso": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 42.0,
+              "delta": 0.3973,
+              "preprocessed": {
+                "latency": [
+                  -0.7461369102519784
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 7.97,
+    "status": "NORMAL",
+    "identifiers": {
+      "description": "NORMAL"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 7.965000000000001,
+        "score_label": "NORMAL",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 0
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "user.id",
+              "value": "user_002",
+              "delta": 3.6303,
+              "preprocessed": {
+                "user.id": [
+                  39.0
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "Mac",
+              "delta": 1.0686,
+              "preprocessed": {
+                "client.os": [
+                  5.0
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Firefox",
+              "delta": 0.9605,
+              "preprocessed": {
+                "client.browser": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 2.0,
+              "delta": 0.7848,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  -0.0352254401264801
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "IT",
+              "delta": 0.6112,
+              "preprocessed": {
+                "user.department": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "DE",
+              "delta": 0.3708,
+              "preprocessed": {
+                "ip.country_iso": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 32.0,
+              "delta": 0.2441,
+              "preprocessed": {
+                "latency": [
+                  -0.9329069349711816
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 0.1558,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09120651668968052
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 7.0,
+              "delta": 0.139,
+              "preprocessed": {
+                "timestamp.hour": [
+                  -1.0052232483142172
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  }
+]

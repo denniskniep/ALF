@@ -1,7 +1,7 @@
 [
   {
     "accepted": true,
-    "composite_score": 12.105,
+    "composite_score": 12.11,
     "status": "NORMAL",
     "identifiers": {
       "description": "NORMAL"
@@ -465,7 +465,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 27.450000000000003,
+    "composite_score": 27.45,
     "status": "NORMAL",
     "identifiers": {
       "description": "NORMAL"
@@ -581,7 +581,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 17.055,
+    "composite_score": 17.05,
     "status": "NORMAL",
     "identifiers": {
       "description": "NORMAL"
@@ -813,7 +813,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 0.16499999999999998,
+    "composite_score": 0.16,
     "status": "NORMAL",
     "identifiers": {
       "description": "NORMAL"
@@ -929,7 +929,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 84.10000000000002,
+    "composite_score": 84.1,
     "status": "ANOMALOUS",
     "identifiers": {
       "description": "NORMAL"
@@ -1045,7 +1045,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 11.145000000000001,
+    "composite_score": 11.15,
     "status": "NORMAL",
     "identifiers": {
       "description": "NORMAL"
@@ -1277,7 +1277,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 30.319999999999993,
+    "composite_score": 30.32,
     "status": "SLIGHTLY_ELEVATED",
     "identifiers": {
       "description": "NORMAL"
@@ -1509,7 +1509,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 61.839999999999975,
+    "composite_score": 61.84,
     "status": "ELEVATED",
     "identifiers": {
       "description": "NORMAL"
@@ -1741,7 +1741,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 82.15000000000003,
+    "composite_score": 82.15,
     "status": "ANOMALOUS",
     "identifiers": {
       "description": "NORMAL"
@@ -2089,7 +2089,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 30.319999999999993,
+    "composite_score": 30.32,
     "status": "SLIGHTLY_ELEVATED",
     "identifiers": {
       "description": "NORMAL"
@@ -2437,7 +2437,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 96.99999999999996,
+    "composite_score": 97.0,
     "status": "HIGHLY_ANOMALOUS",
     "identifiers": {
       "description": "NORMAL"
@@ -2785,7 +2785,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 1.9500000000000002,
+    "composite_score": 1.95,
     "status": "NORMAL",
     "identifiers": {
       "description": "NORMAL"
@@ -3133,7 +3133,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 13.575,
+    "composite_score": 13.57,
     "status": "NORMAL",
     "identifiers": {
       "description": "NORMAL"
@@ -3249,7 +3249,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 18.465,
+    "composite_score": 18.46,
     "status": "NORMAL",
     "identifiers": {
       "description": "NORMAL"
@@ -3365,7 +3365,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 67.59999999999997,
+    "composite_score": 67.6,
     "status": "ELEVATED",
     "identifiers": {
       "description": "NORMAL"
@@ -3713,7 +3713,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 96.40000000000008,
+    "composite_score": 96.4,
     "status": "HIGHLY_ANOMALOUS",
     "identifiers": {
       "description": "ANOMALY:time"
@@ -4061,7 +4061,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 82.15000000000003,
+    "composite_score": 82.15,
     "status": "ANOMALOUS",
     "identifiers": {
       "description": "NORMAL"
@@ -4525,7 +4525,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 92.20000000000006,
+    "composite_score": 92.2,
     "status": "HIGHLY_ANOMALOUS",
     "identifiers": {
       "description": "ANOMALY:time"

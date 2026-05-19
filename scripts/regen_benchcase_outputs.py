@@ -21,6 +21,8 @@ def _write_metrics(case_dir: Path) -> None:
     cfg = load_testcase_config(case_dir)
 
     tp_total = fp_total = tn_total = fn_total = 0
+    fp_scores: list[float] = []
+    fn_scores: list[float] = []
     has_any = False
 
     for step_input in sorted(case_dir.glob("input_*.json")):
@@ -37,14 +39,19 @@ def _write_metrics(case_dir: Path) -> None:
         for doc, resp in zip(score_docs, score_outputs):
             gt_positive = doc.get("description", "NORMAL").upper().startswith("ANOMALY")
             pred_positive = resp.get("status", "") in ("ANOMALOUS", "HIGHLY_ANOMALOUS")
+            score = resp.get("composite_score")
             if gt_positive and pred_positive:
                 tp_total += 1
             elif not gt_positive and pred_positive:
                 fp_total += 1
+                if score is not None:
+                    fp_scores.append(score)
             elif not gt_positive and not pred_positive:
                 tn_total += 1
             else:
                 fn_total += 1
+                if score is not None:
+                    fn_scores.append(score)
         has_any = True
 
     if not has_any:
@@ -57,6 +64,12 @@ def _write_metrics(case_dir: Path) -> None:
     def _fmt(v: float | None) -> str:
         return "null" if v is None else str(round(v, 6))
 
+    def _fmt_scores(scores: list[float]) -> str:
+        if not scores:
+            return "[]"
+        items = ", ".join(str(s) for s in scores)
+        return f"[{items}]"
+
     results_block = (
         "results:\n"
         f"  f1: {_fmt(f1)}\n"
@@ -66,6 +79,8 @@ def _write_metrics(case_dir: Path) -> None:
         f"  fp: {fp_total}\n"
         f"  tn: {tn_total}\n"
         f"  fn: {fn_total}\n"
+        f"  fp_scores: {_fmt_scores(fp_scores)}\n"
+        f"  fn_scores: {_fmt_scores(fn_scores)}\n"
     )
 
     config_path = case_dir / "config.yaml"

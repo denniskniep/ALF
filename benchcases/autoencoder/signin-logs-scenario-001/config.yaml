@@ -36,3 +36,5 @@ results:
   fp: 1
   tn: 24
   fn: 2
+  fp_scores: [76.0]
+  fn_scores: [26.25, 19.88]

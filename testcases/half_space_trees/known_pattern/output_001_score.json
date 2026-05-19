@@ -1,7 +1,7 @@
 [
   {
     "accepted": true,
-    "composite_score": 67.31182795698925,
+    "composite_score": 67.31,
     "status": "ELEVATED",
     "scores": [
       {
@@ -70,7 +70,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 42.50752688172042,
+    "composite_score": 42.51,
     "status": "SLIGHTLY_ELEVATED",
     "scores": [
       {
@@ -139,7 +139,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 52.35698924731182,
+    "composite_score": 52.36,
     "status": "ELEVATED",
     "scores": [
       {
@@ -208,7 +208,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 17.78494623655914,
+    "composite_score": 17.78,
     "status": "NORMAL",
     "scores": [
       {
@@ -277,7 +277,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 63.79354838709678,
+    "composite_score": 63.79,
     "status": "ELEVATED",
     "scores": [
       {

@@ -3,11 +3,11 @@ cohorts:
     features_config: "default"
     fields: []
     weight: 1
+    warmup_count: 100
     model:
       name: Autoencoder
       params:
         buffer_size: 2500
-        min_buffer_size: 100
         retrain_every: 25
         epochs_per_retrain: 2
         seed: 42
@@ -29,12 +29,12 @@ features:
     latency: numeric
 
 results:
-  f1: 0.933333
-  recall: 0.913043
-  precision: 0.954545
-  tp: 21
-  fp: 1
-  tn: 24
-  fn: 2
-  fp_scores: [76.0]
-  fn_scores: [26.25, 19.88]
+  f1: 0.930233
+  recall: 0.869565
+  precision: 1.0
+  tp: 20
+  fp: 0
+  tn: 25
+  fn: 3
+  fp_scores: []
+  fn_scores: [20.04, 15.55, 28.3]

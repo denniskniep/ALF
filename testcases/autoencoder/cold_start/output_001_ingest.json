@@ -8,11 +8,7 @@
           {
             "field": "browser",
             "value": "Chrome",
-            "preprocessed": {
-              "browser": [
-                1.0
-              ]
-            }
+            "preprocessed": {}
           }
         ]
       }
@@ -27,11 +23,7 @@
           {
             "field": "browser",
             "value": "Firefox",
-            "preprocessed": {
-              "browser": [
-                2.0
-              ]
-            }
+            "preprocessed": {}
           }
         ]
       }
@@ -46,11 +38,7 @@
           {
             "field": "browser",
             "value": "Chrome",
-            "preprocessed": {
-              "browser": [
-                1.0
-              ]
-            }
+            "preprocessed": {}
           }
         ]
       }
@@ -65,11 +53,7 @@
           {
             "field": "browser",
             "value": "Firefox",
-            "preprocessed": {
-              "browser": [
-                2.0
-              ]
-            }
+            "preprocessed": {}
           }
         ]
       }
@@ -84,11 +68,7 @@
           {
             "field": "browser",
             "value": "Chrome",
-            "preprocessed": {
-              "browser": [
-                1.0
-              ]
-            }
+            "preprocessed": {}
           }
         ]
       }

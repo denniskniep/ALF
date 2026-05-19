@@ -1,14 +1,14 @@
 [
   {
     "accepted": true,
-    "composite_score": 4.69,
+    "composite_score": 2.81,
     "status": "NORMAL",
     "scores": [
       {
         "name": "test",
         "key": {},
         "weight": 1.0,
-        "anomaly_score": 4.6875,
+        "anomaly_score": 2.8125,
         "score_label": "NORMAL",
         "properties": {
           "buffer_size": 40,
@@ -19,7 +19,7 @@
             {
               "field": "country",
               "value": "DE",
-              "delta": 4.1607,
+              "delta": 2.4925,
               "preprocessed": {
                 "country": [
                   1.0
@@ -29,7 +29,7 @@
             {
               "field": "latency",
               "value": 100.0,
-              "delta": 0.5268,
+              "delta": 0.32,
               "preprocessed": {
                 "latency": [
                   0.17407765595569788
@@ -62,7 +62,7 @@
             {
               "field": "latency",
               "value": 9999.0,
-              "delta": 78.5996,
+              "delta": 78.6166,
               "preprocessed": {
                 "latency": [
                   5.0
@@ -72,7 +72,7 @@
             {
               "field": "country",
               "value": "RU",
-              "delta": 21.4004,
+              "delta": 21.3834,
               "preprocessed": {
                 "country": [
                   3.0

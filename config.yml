@@ -3,11 +3,11 @@ cohorts:
     features_config: "default"
     fields: []
     weight: 0.2
+    warmup_count: 100
     model:
       name: Autoencoder
       params:
         buffer_size: 5000
-        min_buffer_size: 100
         retrain_every: 50
         epochs_per_retrain: 2
 
@@ -15,11 +15,11 @@ cohorts:
     features_config: "default"
     fields: ["user.department"]
     weight: 0.3
+    warmup_count: 100
     model:
       name: Autoencoder
       params:
         buffer_size: 5000
-        min_buffer_size: 100
         retrain_every: 50
         epochs_per_retrain: 2
 
@@ -28,11 +28,11 @@ cohorts:
     fields: ["user.id"]
     weight: 0.5
     lru_size: 1000
+    warmup_count: 20
     model:
       name: Autoencoder
       params:
         buffer_size: 150
-        min_buffer_size: 20
         retrain_every: 10
         epochs_per_retrain: 2
 

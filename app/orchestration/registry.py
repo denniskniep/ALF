@@ -175,7 +175,12 @@ class ModelRegistry:
         feature_cfg = self._config.features.get(cohort_cfg.features_config)
         if feature_cfg is None:
             raise ValueError(f"Unknown features_config: {cohort_cfg.features_config!r}")
-        return factory.create_model(cohort_cfg.model, feature_cfg, name=cohort_cfg.name)
+        return factory.create_model(
+            cohort_cfg.model,
+            feature_cfg,
+            name=cohort_cfg.name,
+            warmup_count=cohort_cfg.warmup_count,
+        )
 
     def _load_or_create(self, cohort_cfg: CohortConfig, key: str) -> Detector:
         model = self._make_model(cohort_cfg)

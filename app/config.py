@@ -27,6 +27,7 @@ class CohortConfig:
     model: ModelConfig
     features_config: str
     lru_size: int | None = None
+    warmup_count: int | None = None
 
 
 @dataclass
@@ -116,6 +117,7 @@ def load_config(path: str | None = None) -> AppConfig:
             ),
             lru_size=c.get("lru_size"),
             features_config=c.get("features_config"),
+            warmup_count=c.get("warmup_count"),
         )
         for c in raw["cohorts"]
     ]

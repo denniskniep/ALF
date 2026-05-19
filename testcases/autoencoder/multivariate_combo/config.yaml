@@ -3,11 +3,11 @@ cohorts:
   features_config: default
   fields: []
   weight: 1.0
+  warmup_count: 8
   model:
     name: Autoencoder
     params:
       buffer_size: 200
-      min_buffer_size: 8
       retrain_every: 8
       epochs_per_retrain: 2
       seed: 42

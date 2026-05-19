@@ -43,6 +43,7 @@ class HalfSpaceTreesDetector(BaseModel):
         height: int | None = None,
         window_size: int = 250,
         sliding_steps: int = 1,
+        warmup_count: int = 0,
     ) -> None:
         if sliding_steps < 1 or sliding_steps > window_size:
             raise ValueError(f"sliding_steps must be between 1 and window_size ({window_size})")

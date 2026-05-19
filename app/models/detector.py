@@ -4,7 +4,7 @@ import pickle
 import threading
 from typing import Any
 
-from app.config import FeatureConfig
+from app.config import FeatureConfig, FieldConfig
 from app.features.extractor import extract
 from app.features.preprocessor import Preprocessor
 from app.models.base import (
@@ -23,7 +23,11 @@ class Detector:
     Owns the preprocessing pipeline and delegates model-specific train/score
     logic to a BaseModel instance.
 
-    Threading: self._lock protects the Preprocessor and n_learned counter.
+    Warmup phase (when warmup_count > 0): raw payloads are buffered without any
+    preprocessing or model training. Once warmup_count events have been collected,
+    the buffer is flushed via preprocessor.process_batch.
+
+    Threading: self._lock protects the Preprocessor, counters, and warmup buffer.
     The BaseModel manages its own locking for model-internal state.
     """
 
@@ -32,6 +36,7 @@ class Detector:
         model: BaseModel,
         name: str = "",
         feature_cfg: FeatureConfig | None = None,
+        warmup_count: int = 0,
     ) -> None:
         self._model = model
         self.name = name
@@ -39,24 +44,46 @@ class Detector:
         self._preprocessor = Preprocessor(model.PREPROCESSOR_TYPE_DEFAULTS)
         self._n_learned: int = 0
         self._lock = threading.Lock()
+        self._warmup_count: int = warmup_count
+        self._warmup_buffer: list[dict[str, tuple[Any, FieldConfig]]] = []
+        self._warmed_up: bool = warmup_count == 0
 
     @property
     def sample_count(self) -> int:
+        if not self._warmed_up:
+            return len(self._warmup_buffer)
         return self._n_learned
 
     def learn_one(self, payload: dict[str, Any]) -> list[FeatureResult]:
         extracted = extract(payload, self.feature_cfg)
         with self._lock:
-            final = self._preprocessor.process(extracted, is_learning=True)
+            if not self._warmed_up:
+                self._warmup_buffer.append(extracted)
+                if len(self._warmup_buffer) < self._warmup_count:
+                    return [
+                        FeatureResult(field=field, value=value, preprocessed={})
+                        for field, (value, _) in extracted.items()
+                    ]
+                extracted_to_process = list(self._warmup_buffer)
+                self._warmup_buffer.clear()
+                self._warmed_up = True
+            else:
+                extracted_to_process = [extracted]
+
+        with self._lock:
+            preprocessed = self._preprocessor.process_batch(extracted_to_process, is_learning=True)
+
+
+        for i, final in enumerate(preprocessed):
             self._n_learned += 1
-            n_learned = self._n_learned
-        if final:
-            self._model.train(final, n_learned)
+            self._model.train(final, self._n_learned)
+
+        last_preprocessed = preprocessed[-1]
         return [
             FeatureResult(
                 field=field,
                 value=value,
-                preprocessed={fi.unique_key: final[fi] for fi in final if fi.original == field},
+                preprocessed={fi.unique_key: last_preprocessed[fi] for fi in last_preprocessed if fi.original == field},
             )
             for field, (value, _) in extracted.items()
         ]
@@ -65,7 +92,16 @@ class Detector:
         extracted = extract(payload, self.feature_cfg)
         flat = {k: v for k, (v, _) in extracted.items()}
         with self._lock:
-            final = self._preprocessor.process(extracted, is_learning=False)
+            if not self._warmed_up:
+                return DetectorResult(
+                    score=None,
+                    score_label=labels.INSUFFICIENT_DATA,
+                    explanation=CohortExplanation(
+                        features=[FieldContribution(field=k, value=v, delta=None, preprocessed={}) for k, v in flat.items()],
+                        baseline_score=None,
+                    ),
+                )
+            final = self._preprocessor.process_batch([extracted], is_learning=False)[0]
         result = self._model.score(final, flat, explain)
         result.score_label = labels.score_label(result.score)
         if result.explanation is None:
@@ -79,6 +115,9 @@ class Detector:
         return pickle.dumps({
             "preprocessor": self._preprocessor,
             "n_learned": self._n_learned,
+            "warmup_count": self._warmup_count,
+            "warmup_buffer": self._warmup_buffer,
+            "warmed_up": self._warmed_up,
             "model_state": self._model.get_state(),
         })
 
@@ -86,4 +125,8 @@ class Detector:
         state = pickle.loads(blob)
         self._preprocessor = state["preprocessor"]
         self._n_learned = state["n_learned"]
+        self._warmup_count = state.get("warmup_count", 0)
+        self._warmup_buffer = state.get("warmup_buffer", [])
+        self._warmed_up = state.get("warmed_up", True)
         self._model.set_state(state["model_state"])
+

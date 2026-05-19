@@ -62,7 +62,7 @@ class AutoencoderDetector(BaseModel):
         Fixed number of full buffer passes per retrain cycle. Keep this low (1–5)
         rather than chasing convergence — warm-start weights already encode
         historical normal behaviour; each cycle should be a gentle nudge.
-    min_buffer_size
+    warmup_count
         Model is not built until this many events have been buffered.
     embed_dim
         Global cap on embedding dimensions per categorical field. Actual dim per field
@@ -102,7 +102,7 @@ class AutoencoderDetector(BaseModel):
         buffer_size: int = 500,
         retrain_every: int = 50,
         epochs_per_retrain: int = 2,
-        min_buffer_size: int = 100,
+        warmup_count: int = 100,
         batch_size: int = 50,
         embed_dim: int = 8,
         bottleneck: int | None = None,
@@ -113,7 +113,7 @@ class AutoencoderDetector(BaseModel):
         self._buffer_size = buffer_size
         self._retrain_every = retrain_every
         self._epochs_per_retrain = epochs_per_retrain
-        self._min_buffer_size = min_buffer_size
+        self._warmup_count = warmup_count
         self._batch_size = batch_size
         self._embed_dim = embed_dim
         self._bottleneck = bottleneck
@@ -179,7 +179,7 @@ class AutoencoderDetector(BaseModel):
             self._update_cat_vocab_sizes(features)
             self._n_trained += 1
 
-            if len(self._buffer) < self._min_buffer_size:
+            if len(self._buffer) < self._warmup_count:
                 return
 
             self._events_since_retrain += 1

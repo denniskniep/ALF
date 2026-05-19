@@ -19,21 +19,35 @@ class Preprocessor:
         self._type_defaults = type_defaults
         self._preprocessors: dict[str, FieldPreprocessor] = {}
 
-    def process(
+    def process_batch(
         self,
-        extracted: dict[str, tuple[Any, FieldConfig]],
+        extracted_list: list[dict[str, tuple[Any, FieldConfig]]],
         is_learning: bool,
-    ) -> dict[FieldInfo, list[float]]:
-        result: dict[FieldInfo, list[float]] = {}
-        for key, (value, field_cfg) in extracted.items():
-            pp = self._get_or_create(key, field_cfg)
-            if is_learning:
-                pp.learn_pre_transform(key, value)
-            field_result = pp.transform(key, value)
-            if is_learning:
-                pp.learn_post_transform(key, value)
-            result.update(field_result)
-        return result
+    ) -> list[dict[FieldInfo, list[float]]]:
+        """Process a batch of extracted events for learning.
+
+        Pass 1: learn_pre_transform for every event before any transform — ensures
+        vocabularies and stats are primed across the full batch before encoding begins.
+        Pass 2: transform + learn_post_transform for each event.
+
+        Used for both warmup flush (many events) and normal ingestion (one event),
+        giving a single code path in Detector.
+        """
+        if is_learning:
+            for extracted in extracted_list:
+                for key, (value, field_cfg) in extracted.items():
+                    pp = self._get_or_create(key, field_cfg)
+                    pp.learn_pre_transform(key, value)
+        results = []
+        for extracted in extracted_list:
+            result: dict[FieldInfo, list[float]] = {}
+            for key, (value, field_cfg) in extracted.items():
+                pp = self._get_or_create(key, field_cfg)
+                result.update(pp.transform(key, value))
+                if is_learning:
+                    pp.learn_post_transform(key, value)
+            results.append(result)
+        return results
 
     def _get_or_create(self, flat_key: str, field_cfg: FieldConfig) -> FieldPreprocessor:
         if flat_key not in self._preprocessors:

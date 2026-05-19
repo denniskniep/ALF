@@ -8,20 +8,12 @@
           {
             "field": "latency",
             "value": 95.0,
-            "preprocessed": {
-              "latency": [
-                0.0
-              ]
-            }
+            "preprocessed": {}
           },
           {
             "field": "country",
             "value": "DE",
-            "preprocessed": {
-              "country": [
-                1.0
-              ]
-            }
+            "preprocessed": {}
           }
         ]
       }
@@ -36,20 +28,12 @@
           {
             "field": "latency",
             "value": 100.0,
-            "preprocessed": {
-              "latency": [
-                1.0
-              ]
-            }
+            "preprocessed": {}
           },
           {
             "field": "country",
             "value": "FR",
-            "preprocessed": {
-              "country": [
-                2.0
-              ]
-            }
+            "preprocessed": {}
           }
         ]
       }
@@ -64,20 +48,12 @@
           {
             "field": "latency",
             "value": 98.0,
-            "preprocessed": {
-              "latency": [
-                0.16222142113076027
-              ]
-            }
+            "preprocessed": {}
           },
           {
             "field": "country",
             "value": "DE",
-            "preprocessed": {
-              "country": [
-                1.0
-              ]
-            }
+            "preprocessed": {}
           }
         ]
       }
@@ -92,20 +68,12 @@
           {
             "field": "latency",
             "value": 102.0,
-            "preprocessed": {
-              "latency": [
-                1.256757435759363
-              ]
-            }
+            "preprocessed": {}
           },
           {
             "field": "country",
             "value": "FR",
-            "preprocessed": {
-              "country": [
-                2.0
-              ]
-            }
+            "preprocessed": {}
           }
         ]
       }
@@ -120,20 +88,12 @@
           {
             "field": "latency",
             "value": 97.0,
-            "preprocessed": {
-              "latency": [
-                -0.57932412202166
-              ]
-            }
+            "preprocessed": {}
           },
           {
             "field": "country",
             "value": "DE",
-            "preprocessed": {
-              "country": [
-                1.0
-              ]
-            }
+            "preprocessed": {}
           }
         ]
       }
@@ -148,20 +108,12 @@
           {
             "field": "latency",
             "value": 103.0,
-            "preprocessed": {
-              "latency": [
-                1.3720649684253543
-              ]
-            }
+            "preprocessed": {}
           },
           {
             "field": "country",
             "value": "DE",
-            "preprocessed": {
-              "country": [
-                1.0
-              ]
-            }
+            "preprocessed": {}
           }
         ]
       }
@@ -176,20 +128,12 @@
           {
             "field": "latency",
             "value": 96.0,
-            "preprocessed": {
-              "latency": [
-                -0.9645788568769411
-              ]
-            }
+            "preprocessed": {}
           },
           {
             "field": "country",
             "value": "DE",
-            "preprocessed": {
-              "country": [
-                1.0
-              ]
-            }
+            "preprocessed": {}
           }
         ]
       }

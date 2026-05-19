@@ -1,8 +1,8 @@
 [
   {
     "accepted": true,
-    "composite_score": 42.64,
-    "status": "SLIGHTLY_ELEVATED",
+    "composite_score": 19.89,
+    "status": "NORMAL",
     "identifiers": {
       "description": "NORMAL"
     },
@@ -11,8 +11,8 @@
         "name": "global",
         "key": {},
         "weight": 1.0,
-        "anomaly_score": 42.639999999999986,
-        "score_label": "SLIGHTLY_ELEVATED",
+        "anomaly_score": 19.89,
+        "score_label": "NORMAL",
         "properties": {
           "buffer_size": 2500,
           "events_since_retrain": 21
@@ -22,7 +22,7 @@
             {
               "field": "timestamp.dayofweek",
               "value": 0.0,
-              "delta": 21.0384,
+              "delta": 12.7385,
               "preprocessed": {
                 "timestamp.dayofweek": [
                   -1.4227443634778605
@@ -30,49 +30,9 @@
               }
             },
             {
-              "field": "latency",
-              "value": 171.0,
-              "delta": 7.1594,
-              "preprocessed": {
-                "latency": [
-                  1.6630372261248914
-                ]
-              }
-            },
-            {
-              "field": "client.os",
-              "value": "Mac",
-              "delta": 4.9405,
-              "preprocessed": {
-                "client.os": [
-                  5.0
-                ]
-              }
-            },
-            {
-              "field": "user.department",
-              "value": "Product-B",
-              "delta": 3.6998,
-              "preprocessed": {
-                "user.department": [
-                  1.0
-                ]
-              }
-            },
-            {
-              "field": "user.id",
-              "value": "user_038",
-              "delta": 3.1319,
-              "preprocessed": {
-                "user.id": [
-                  25.0
-                ]
-              }
-            },
-            {
               "field": "client.browser",
               "value": "Chrome",
-              "delta": 0.9433,
+              "delta": 3.0629,
               "preprocessed": {
                 "client.browser": [
                   1.0
@@ -80,9 +40,29 @@
               }
             },
             {
+              "field": "user.id",
+              "value": "user_038",
+              "delta": 1.5967,
+              "preprocessed": {
+                "user.id": [
+                  25.0
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "Mac",
+              "delta": 0.7716,
+              "preprocessed": {
+                "client.os": [
+                  5.0
+                ]
+              }
+            },
+            {
               "field": "ip.country_iso",
               "value": "CN",
-              "delta": 0.8381,
+              "delta": 0.5804,
               "preprocessed": {
                 "ip.country_iso": [
                   1.0
@@ -90,9 +70,29 @@
               }
             },
             {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 0.5078,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09125253410768894
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "Product-B",
+              "delta": 0.4463,
+              "preprocessed": {
+                "user.department": [
+                  1.0
+                ]
+              }
+            },
+            {
               "field": "timestamp.hour",
               "value": 2.0,
-              "delta": 0.4671,
+              "delta": 0.0938,
               "preprocessed": {
                 "timestamp.hour": [
                   -2.025024729682706
@@ -100,12 +100,12 @@
               }
             },
             {
-              "field": "timestamp.is_weekend",
-              "value": 0.0,
-              "delta": 0.4214,
+              "field": "latency",
+              "value": 171.0,
+              "delta": 0.092,
               "preprocessed": {
-                "timestamp.is_weekend": [
-                  -0.09125253410768894
+                "latency": [
+                  1.6630372261248914
                 ]
               }
             }
@@ -117,7 +117,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 27.08,
+    "composite_score": 21.42,
     "status": "NORMAL",
     "identifiers": {
       "description": "NORMAL"
@@ -127,7 +127,7 @@
         "name": "global",
         "key": {},
         "weight": 1.0,
-        "anomaly_score": 27.075000000000003,
+        "anomaly_score": 21.42,
         "score_label": "NORMAL",
         "properties": {
           "buffer_size": 2500,
@@ -136,29 +136,9 @@
         "explanation": {
           "features": [
             {
-              "field": "client.os",
-              "value": "Mac",
-              "delta": 10.3544,
-              "preprocessed": {
-                "client.os": [
-                  5.0
-                ]
-              }
-            },
-            {
-              "field": "ip.country_iso",
-              "value": "ES",
-              "delta": 5.7502,
-              "preprocessed": {
-                "ip.country_iso": [
-                  2.0
-                ]
-              }
-            },
-            {
               "field": "timestamp.dayofweek",
               "value": 2.0,
-              "delta": 3.1024,
+              "delta": 6.6712,
               "preprocessed": {
                 "timestamp.dayofweek": [
                   -0.03524308795436442
@@ -166,9 +146,19 @@
               }
             },
             {
+              "field": "client.os",
+              "value": "Mac",
+              "delta": 3.3269,
+              "preprocessed": {
+                "client.os": [
+                  5.0
+                ]
+              }
+            },
+            {
               "field": "user.id",
               "value": "user_034",
-              "delta": 2.533,
+              "delta": 3.2202,
               "preprocessed": {
                 "user.id": [
                   38.0
@@ -176,9 +166,19 @@
               }
             },
             {
+              "field": "ip.country_iso",
+              "value": "ES",
+              "delta": 2.7036,
+              "preprocessed": {
+                "ip.country_iso": [
+                  2.0
+                ]
+              }
+            },
+            {
               "field": "timestamp.hour",
               "value": 8.0,
-              "delta": 1.9777,
+              "delta": 2.6525,
               "preprocessed": {
                 "timestamp.hour": [
                   -0.8001396971666233
@@ -188,7 +188,7 @@
             {
               "field": "user.department",
               "value": "Product-A",
-              "delta": 1.9716,
+              "delta": 2.077,
               "preprocessed": {
                 "user.department": [
                   2.0
@@ -196,19 +196,19 @@
               }
             },
             {
-              "field": "latency",
-              "value": 47.0,
-              "delta": 0.9933,
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 0.454,
               "preprocessed": {
-                "latency": [
-                  -0.6522651885062578
+                "timestamp.is_weekend": [
+                  -0.09125253410768894
                 ]
               }
             },
             {
               "field": "client.browser",
               "value": "Chrome",
-              "delta": 0.298,
+              "delta": 0.2522,
               "preprocessed": {
                 "client.browser": [
                   1.0
@@ -216,12 +216,12 @@
               }
             },
             {
-              "field": "timestamp.is_weekend",
-              "value": 0.0,
-              "delta": 0.0944,
+              "field": "latency",
+              "value": 47.0,
+              "delta": 0.0624,
               "preprocessed": {
-                "timestamp.is_weekend": [
-                  -0.09125253410768894
+                "latency": [
+                  -0.6522651885062578
                 ]
               }
             }
@@ -254,7 +254,7 @@
             {
               "field": "user.id",
               "value": "user_035",
-              "delta": 42.3907,
+              "delta": 45.0451,
               "preprocessed": {
                 "user.id": [
                   2.0
@@ -262,19 +262,9 @@
               }
             },
             {
-              "field": "user.department",
-              "value": "Product-A",
-              "delta": 19.2319,
-              "preprocessed": {
-                "user.department": [
-                  2.0
-                ]
-              }
-            },
-            {
               "field": "client.browser",
               "value": "Firefox",
-              "delta": 14.5517,
+              "delta": 26.8593,
               "preprocessed": {
                 "client.browser": [
                   3.0
@@ -282,19 +272,19 @@
               }
             },
             {
-              "field": "timestamp.is_weekend",
-              "value": 0.0,
-              "delta": 9.0675,
+              "field": "user.department",
+              "value": "Product-A",
+              "delta": 9.3423,
               "preprocessed": {
-                "timestamp.is_weekend": [
-                  -0.09125253410768894
+                "user.department": [
+                  2.0
                 ]
               }
             },
             {
               "field": "ip.country_iso",
               "value": "US",
-              "delta": 8.7531,
+              "delta": 8.7374,
               "preprocessed": {
                 "ip.country_iso": [
                   4.0
@@ -304,7 +294,7 @@
             {
               "field": "client.os",
               "value": "Linux",
-              "delta": 4.4296,
+              "delta": 4.7427,
               "preprocessed": {
                 "client.os": [
                   3.0
@@ -312,19 +302,19 @@
               }
             },
             {
-              "field": "timestamp.dayofweek",
-              "value": 1.0,
-              "delta": 0.6723,
+              "field": "timestamp.hour",
+              "value": 14.0,
+              "delta": 3.514,
               "preprocessed": {
-                "timestamp.dayofweek": [
-                  -0.7289937257161124
+                "timestamp.hour": [
+                  0.4247453353494595
                 ]
               }
             },
             {
               "field": "latency",
               "value": 119.0,
-              "delta": 0.6462,
+              "delta": 0.865,
               "preprocessed": {
                 "latency": [
                   0.6921039554731192
@@ -332,12 +322,22 @@
               }
             },
             {
-              "field": "timestamp.hour",
-              "value": 14.0,
-              "delta": 0.2571,
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 0.5808,
               "preprocessed": {
-                "timestamp.hour": [
-                  0.4247453353494595
+                "timestamp.is_weekend": [
+                  -0.09125253410768894
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 1.0,
+              "delta": 0.3135,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  -0.7289937257161124
                 ]
               }
             }
@@ -349,7 +349,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 24.3,
+    "composite_score": 23.28,
     "status": "NORMAL",
     "identifiers": {
       "description": "NORMAL"
@@ -359,7 +359,7 @@
         "name": "global",
         "key": {},
         "weight": 1.0,
-        "anomaly_score": 24.299999999999997,
+        "anomaly_score": 23.28,
         "score_label": "NORMAL",
         "properties": {
           "buffer_size": 2500,
@@ -368,19 +368,9 @@
         "explanation": {
           "features": [
             {
-              "field": "client.os",
-              "value": "Android",
-              "delta": 5.323,
-              "preprocessed": {
-                "client.os": [
-                  1.0
-                ]
-              }
-            },
-            {
               "field": "timestamp.hour",
               "value": 12.0,
-              "delta": 4.5338,
+              "delta": 4.4998,
               "preprocessed": {
                 "timestamp.hour": [
                   0.01645032451076527
@@ -390,7 +380,7 @@
             {
               "field": "timestamp.dayofweek",
               "value": 3.0,
-              "delta": 4.4022,
+              "delta": 3.8271,
               "preprocessed": {
                 "timestamp.dayofweek": [
                   0.6585075498073836
@@ -398,19 +388,9 @@
               }
             },
             {
-              "field": "ip.country_iso",
-              "value": "DE",
-              "delta": 4.3535,
-              "preprocessed": {
-                "ip.country_iso": [
-                  3.0
-                ]
-              }
-            },
-            {
               "field": "user.id",
               "value": "user_004",
-              "delta": 2.9775,
+              "delta": 3.4208,
               "preprocessed": {
                 "user.id": [
                   20.0
@@ -418,19 +398,9 @@
               }
             },
             {
-              "field": "user.department",
-              "value": "IT",
-              "delta": 1.6076,
-              "preprocessed": {
-                "user.department": [
-                  3.0
-                ]
-              }
-            },
-            {
               "field": "client.browser",
               "value": "Firefox",
-              "delta": 0.4753,
+              "delta": 2.5869,
               "preprocessed": {
                 "client.browser": [
                   3.0
@@ -438,9 +408,29 @@
               }
             },
             {
+              "field": "ip.country_iso",
+              "value": "DE",
+              "delta": 2.5744,
+              "preprocessed": {
+                "ip.country_iso": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "IT",
+              "delta": 2.267,
+              "preprocessed": {
+                "user.department": [
+                  3.0
+                ]
+              }
+            },
+            {
               "field": "timestamp.is_weekend",
               "value": 0.0,
-              "delta": 0.4439,
+              "delta": 1.8722,
               "preprocessed": {
                 "timestamp.is_weekend": [
                   -0.09125253410768894
@@ -448,9 +438,19 @@
               }
             },
             {
+              "field": "client.os",
+              "value": "Android",
+              "delta": 1.3445,
+              "preprocessed": {
+                "client.os": [
+                  1.0
+                ]
+              }
+            },
+            {
               "field": "latency",
               "value": 22.0,
-              "delta": 0.1832,
+              "delta": 0.8874,
               "preprocessed": {
                 "latency": [
                   -1.1190600301657636
@@ -465,7 +465,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 26.28,
+    "composite_score": 28.35,
     "status": "NORMAL",
     "identifiers": {
       "description": "NORMAL"
@@ -475,7 +475,7 @@
         "name": "global",
         "key": {},
         "weight": 1.0,
-        "anomaly_score": 26.28,
+        "anomaly_score": 28.349999999999998,
         "score_label": "NORMAL",
         "properties": {
           "buffer_size": 2500,
@@ -484,29 +484,19 @@
         "explanation": {
           "features": [
             {
-              "field": "timestamp.dayofweek",
-              "value": 4.0,
-              "delta": 6.3921,
+              "field": "ip.country_iso",
+              "value": "DE",
+              "delta": 14.7387,
               "preprocessed": {
-                "timestamp.dayofweek": [
-                  1.3522581875691317
-                ]
-              }
-            },
-            {
-              "field": "client.os",
-              "value": "Windows",
-              "delta": 5.9936,
-              "preprocessed": {
-                "client.os": [
-                  4.0
+                "ip.country_iso": [
+                  3.0
                 ]
               }
             },
             {
               "field": "user.id",
               "value": "user_023",
-              "delta": 5.5784,
+              "delta": 5.0807,
               "preprocessed": {
                 "user.id": [
                   34.0
@@ -516,7 +506,7 @@
             {
               "field": "timestamp.hour",
               "value": 14.0,
-              "delta": 3.8106,
+              "delta": 2.6285,
               "preprocessed": {
                 "timestamp.hour": [
                   0.4247453353494595
@@ -524,9 +514,19 @@
               }
             },
             {
+              "field": "timestamp.dayofweek",
+              "value": 4.0,
+              "delta": 1.4378,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  1.3522581875691317
+                ]
+              }
+            },
+            {
               "field": "user.department",
               "value": "Research-and-Development",
-              "delta": 1.1069,
+              "delta": 1.3593,
               "preprocessed": {
                 "user.department": [
                   4.0
@@ -534,9 +534,29 @@
               }
             },
             {
+              "field": "client.os",
+              "value": "Windows",
+              "delta": 0.9266,
+              "preprocessed": {
+                "client.os": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 49.0,
+              "delta": 0.8343,
+              "preprocessed": {
+                "latency": [
+                  -0.6149216011734973
+                ]
+              }
+            },
+            {
               "field": "client.browser",
               "value": "Chrome",
-              "delta": 1.0961,
+              "delta": 0.7232,
               "preprocessed": {
                 "client.browser": [
                   1.0
@@ -546,30 +566,10 @@
             {
               "field": "timestamp.is_weekend",
               "value": 0.0,
-              "delta": 0.9063,
+              "delta": 0.6209,
               "preprocessed": {
                 "timestamp.is_weekend": [
                   -0.09125253410768894
-                ]
-              }
-            },
-            {
-              "field": "ip.country_iso",
-              "value": "DE",
-              "delta": 0.7762,
-              "preprocessed": {
-                "ip.country_iso": [
-                  3.0
-                ]
-              }
-            },
-            {
-              "field": "latency",
-              "value": 49.0,
-              "delta": 0.6198,
-              "preprocessed": {
-                "latency": [
-                  -0.6149216011734973
                 ]
               }
             }
@@ -581,7 +581,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 28.12,
+    "composite_score": 25.86,
     "status": "NORMAL",
     "identifiers": {
       "description": "NORMAL"
@@ -591,7 +591,7 @@
         "name": "global",
         "key": {},
         "weight": 1.0,
-        "anomaly_score": 28.125,
+        "anomaly_score": 25.859999999999996,
         "score_label": "NORMAL",
         "properties": {
           "buffer_size": 2500,
@@ -602,7 +602,7 @@
             {
               "field": "timestamp.dayofweek",
               "value": 1.0,
-              "delta": 13.7696,
+              "delta": 10.5535,
               "preprocessed": {
                 "timestamp.dayofweek": [
                   -0.7289937257161124
@@ -610,39 +610,9 @@
               }
             },
             {
-              "field": "user.id",
-              "value": "user_033",
-              "delta": 4.3375,
-              "preprocessed": {
-                "user.id": [
-                  30.0
-                ]
-              }
-            },
-            {
-              "field": "user.department",
-              "value": "Product-A",
-              "delta": 3.3907,
-              "preprocessed": {
-                "user.department": [
-                  2.0
-                ]
-              }
-            },
-            {
-              "field": "client.os",
-              "value": "Windows",
-              "delta": 2.8103,
-              "preprocessed": {
-                "client.os": [
-                  4.0
-                ]
-              }
-            },
-            {
               "field": "ip.country_iso",
               "value": "ES",
-              "delta": 1.8219,
+              "delta": 6.3692,
               "preprocessed": {
                 "ip.country_iso": [
                   2.0
@@ -650,19 +620,39 @@
               }
             },
             {
-              "field": "client.browser",
-              "value": "Edge",
-              "delta": 0.9432,
+              "field": "client.os",
+              "value": "Windows",
+              "delta": 3.3001,
               "preprocessed": {
-                "client.browser": [
+                "client.os": [
                   4.0
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "Product-A",
+              "delta": 1.8855,
+              "preprocessed": {
+                "user.department": [
+                  2.0
+                ]
+              }
+            },
+            {
+              "field": "user.id",
+              "value": "user_033",
+              "delta": 1.568,
+              "preprocessed": {
+                "user.id": [
+                  30.0
                 ]
               }
             },
             {
               "field": "timestamp.is_weekend",
               "value": 0.0,
-              "delta": 0.3696,
+              "delta": 1.1667,
               "preprocessed": {
                 "timestamp.is_weekend": [
                   -0.09125253410768894
@@ -670,22 +660,32 @@
               }
             },
             {
-              "field": "latency",
-              "value": 35.0,
-              "delta": 0.3538,
+              "field": "client.browser",
+              "value": "Edge",
+              "delta": 0.698,
               "preprocessed": {
-                "latency": [
-                  -0.8763267125028206
+                "client.browser": [
+                  4.0
                 ]
               }
             },
             {
               "field": "timestamp.hour",
               "value": 8.0,
-              "delta": 0.3284,
+              "delta": 0.2882,
               "preprocessed": {
                 "timestamp.hour": [
                   -0.8001396971666233
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 35.0,
+              "delta": 0.0308,
+              "preprocessed": {
+                "latency": [
+                  -0.8763267125028206
                 ]
               }
             }
@@ -697,7 +697,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 3.0,
+    "composite_score": 7.33,
     "status": "NORMAL",
     "identifiers": {
       "description": "NORMAL"
@@ -707,7 +707,7 @@
         "name": "global",
         "key": {},
         "weight": 1.0,
-        "anomaly_score": 3.0,
+        "anomaly_score": 7.335,
         "score_label": "NORMAL",
         "properties": {
           "buffer_size": 2500,
@@ -716,9 +716,19 @@
         "explanation": {
           "features": [
             {
+              "field": "ip.country_iso",
+              "value": "US",
+              "delta": 2.4948,
+              "preprocessed": {
+                "ip.country_iso": [
+                  4.0
+                ]
+              }
+            },
+            {
               "field": "client.os",
               "value": "Mac",
-              "delta": 0.7116,
+              "delta": 1.0675,
               "preprocessed": {
                 "client.os": [
                   5.0
@@ -726,9 +736,29 @@
               }
             },
             {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 0.7657,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09125253410768894
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 129.0,
+              "delta": 0.723,
+              "preprocessed": {
+                "latency": [
+                  0.8788218921369215
+                ]
+              }
+            },
+            {
               "field": "timestamp.hour",
               "value": 19.0,
-              "delta": 0.635,
+              "delta": 0.6869,
               "preprocessed": {
                 "timestamp.hour": [
                   1.445482862446195
@@ -736,9 +766,29 @@
               }
             },
             {
+              "field": "client.browser",
+              "value": "Safari",
+              "delta": 0.6183,
+              "preprocessed": {
+                "client.browser": [
+                  2.0
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "Product-C",
+              "delta": 0.6101,
+              "preprocessed": {
+                "user.department": [
+                  7.0
+                ]
+              }
+            },
+            {
               "field": "user.id",
               "value": "user_044",
-              "delta": 0.491,
+              "delta": 0.2836,
               "preprocessed": {
                 "user.id": [
                   15.0
@@ -748,60 +798,10 @@
             {
               "field": "timestamp.dayofweek",
               "value": 4.0,
-              "delta": 0.4476,
+              "delta": 0.0851,
               "preprocessed": {
                 "timestamp.dayofweek": [
                   1.3522581875691317
-                ]
-              }
-            },
-            {
-              "field": "ip.country_iso",
-              "value": "US",
-              "delta": 0.2909,
-              "preprocessed": {
-                "ip.country_iso": [
-                  4.0
-                ]
-              }
-            },
-            {
-              "field": "client.browser",
-              "value": "Safari",
-              "delta": 0.2343,
-              "preprocessed": {
-                "client.browser": [
-                  2.0
-                ]
-              }
-            },
-            {
-              "field": "latency",
-              "value": 129.0,
-              "delta": 0.1324,
-              "preprocessed": {
-                "latency": [
-                  0.8788218921369215
-                ]
-              }
-            },
-            {
-              "field": "user.department",
-              "value": "Product-C",
-              "delta": 0.0496,
-              "preprocessed": {
-                "user.department": [
-                  7.0
-                ]
-              }
-            },
-            {
-              "field": "timestamp.is_weekend",
-              "value": 0.0,
-              "delta": 0.0076,
-              "preprocessed": {
-                "timestamp.is_weekend": [
-                  -0.09125253410768894
                 ]
               }
             }
@@ -834,7 +834,7 @@
             {
               "field": "ip.country_iso",
               "value": "CN",
-              "delta": 29.2577,
+              "delta": 31.5329,
               "preprocessed": {
                 "ip.country_iso": [
                   1.0
@@ -844,7 +844,7 @@
             {
               "field": "user.id",
               "value": "user_046",
-              "delta": 19.6196,
+              "delta": 30.7857,
               "preprocessed": {
                 "user.id": [
                   42.0
@@ -852,9 +852,39 @@
               }
             },
             {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 26.5852,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09125253410768894
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "iOS",
+              "delta": 4.9826,
+              "preprocessed": {
+                "client.os": [
+                  2.0
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "Product-C",
+              "delta": 2.7029,
+              "preprocessed": {
+                "user.department": [
+                  7.0
+                ]
+              }
+            },
+            {
               "field": "client.browser",
               "value": "Firefox",
-              "delta": 15.6692,
+              "delta": 1.9575,
               "preprocessed": {
                 "client.browser": [
                   3.0
@@ -864,7 +894,7 @@
             {
               "field": "timestamp.hour",
               "value": 16.0,
-              "delta": 14.8609,
+              "delta": 1.0846,
               "preprocessed": {
                 "timestamp.hour": [
                   0.8330403461881537
@@ -872,52 +902,22 @@
               }
             },
             {
-              "field": "timestamp.is_weekend",
-              "value": 0.0,
-              "delta": 14.3182,
+              "field": "timestamp.dayofweek",
+              "value": 2.0,
+              "delta": 0.3038,
               "preprocessed": {
-                "timestamp.is_weekend": [
-                  -0.09125253410768894
-                ]
-              }
-            },
-            {
-              "field": "user.department",
-              "value": "Product-C",
-              "delta": 4.4934,
-              "preprocessed": {
-                "user.department": [
-                  7.0
-                ]
-              }
-            },
-            {
-              "field": "client.os",
-              "value": "iOS",
-              "delta": 1.5621,
-              "preprocessed": {
-                "client.os": [
-                  2.0
+                "timestamp.dayofweek": [
+                  -0.03524308795436442
                 ]
               }
             },
             {
               "field": "latency",
               "value": 180.0,
-              "delta": 0.172,
+              "delta": 0.0648,
               "preprocessed": {
                 "latency": [
                   1.8310833691223136
-                ]
-              }
-            },
-            {
-              "field": "timestamp.dayofweek",
-              "value": 2.0,
-              "delta": 0.0468,
-              "preprocessed": {
-                "timestamp.dayofweek": [
-                  -0.03524308795436442
                 ]
               }
             }
@@ -948,19 +948,9 @@
         "explanation": {
           "features": [
             {
-              "field": "user.id",
-              "value": "user_038",
-              "delta": 26.3442,
-              "preprocessed": {
-                "user.id": [
-                  25.0
-                ]
-              }
-            },
-            {
               "field": "client.os",
               "value": "Windows",
-              "delta": 24.8607,
+              "delta": 41.947,
               "preprocessed": {
                 "client.os": [
                   4.0
@@ -970,7 +960,7 @@
             {
               "field": "ip.country_iso",
               "value": "CN",
-              "delta": 16.1646,
+              "delta": 24.5964,
               "preprocessed": {
                 "ip.country_iso": [
                   1.0
@@ -978,19 +968,19 @@
               }
             },
             {
-              "field": "client.browser",
-              "value": "Chrome",
-              "delta": 15.8885,
+              "field": "user.id",
+              "value": "user_038",
+              "delta": 14.6205,
               "preprocessed": {
-                "client.browser": [
-                  1.0
+                "user.id": [
+                  25.0
                 ]
               }
             },
             {
               "field": "user.department",
               "value": "Product-B",
-              "delta": 6.4605,
+              "delta": 6.2155,
               "preprocessed": {
                 "user.department": [
                   1.0
@@ -998,9 +988,29 @@
               }
             },
             {
+              "field": "client.browser",
+              "value": "Chrome",
+              "delta": 5.7855,
+              "preprocessed": {
+                "client.browser": [
+                  1.0
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 152.0,
+              "delta": 4.2198,
+              "preprocessed": {
+                "latency": [
+                  1.308273146463667
+                ]
+              }
+            },
+            {
               "field": "timestamp.is_weekend",
               "value": 0.0,
-              "delta": 4.8325,
+              "delta": 2.2639,
               "preprocessed": {
                 "timestamp.is_weekend": [
                   -0.09125253410768894
@@ -1010,7 +1020,7 @@
             {
               "field": "timestamp.hour",
               "value": 0.0,
-              "delta": 4.3713,
+              "delta": 0.238,
               "preprocessed": {
                 "timestamp.hour": [
                   -2.4333197405214
@@ -1018,19 +1028,9 @@
               }
             },
             {
-              "field": "latency",
-              "value": 152.0,
-              "delta": 1.0328,
-              "preprocessed": {
-                "latency": [
-                  1.308273146463667
-                ]
-              }
-            },
-            {
               "field": "timestamp.dayofweek",
               "value": 3.0,
-              "delta": 0.0449,
+              "delta": 0.1134,
               "preprocessed": {
                 "timestamp.dayofweek": [
                   0.6585075498073836
@@ -1045,7 +1045,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 0.78,
+    "composite_score": 14.06,
     "status": "NORMAL",
     "identifiers": {
       "description": "NORMAL"
@@ -1055,7 +1055,7 @@
         "name": "global",
         "key": {},
         "weight": 1.0,
-        "anomaly_score": 0.78,
+        "anomaly_score": 14.055000000000001,
         "score_label": "NORMAL",
         "properties": {
           "buffer_size": 2500,
@@ -1064,29 +1064,9 @@
         "explanation": {
           "features": [
             {
-              "field": "user.id",
-              "value": "user_043",
-              "delta": 0.2204,
-              "preprocessed": {
-                "user.id": [
-                  13.0
-                ]
-              }
-            },
-            {
-              "field": "client.os",
-              "value": "Windows",
-              "delta": 0.1549,
-              "preprocessed": {
-                "client.os": [
-                  4.0
-                ]
-              }
-            },
-            {
               "field": "ip.country_iso",
               "value": "US",
-              "delta": 0.1181,
+              "delta": 4.0772,
               "preprocessed": {
                 "ip.country_iso": [
                   4.0
@@ -1094,19 +1074,9 @@
               }
             },
             {
-              "field": "timestamp.dayofweek",
-              "value": 3.0,
-              "delta": 0.091,
-              "preprocessed": {
-                "timestamp.dayofweek": [
-                  0.6585075498073836
-                ]
-              }
-            },
-            {
               "field": "timestamp.hour",
               "value": 15.0,
-              "delta": 0.0731,
+              "delta": 2.4655,
               "preprocessed": {
                 "timestamp.hour": [
                   0.6288928407688066
@@ -1114,29 +1084,19 @@
               }
             },
             {
-              "field": "client.browser",
-              "value": "Firefox",
-              "delta": 0.0703,
+              "field": "user.id",
+              "value": "user_043",
+              "delta": 2.2353,
               "preprocessed": {
-                "client.browser": [
-                  3.0
-                ]
-              }
-            },
-            {
-              "field": "latency",
-              "value": 115.0,
-              "delta": 0.0336,
-              "preprocessed": {
-                "latency": [
-                  0.6174167808075982
+                "user.id": [
+                  13.0
                 ]
               }
             },
             {
               "field": "user.department",
               "value": "Product-B",
-              "delta": 0.0156,
+              "delta": 1.8733,
               "preprocessed": {
                 "user.department": [
                   1.0
@@ -1144,9 +1104,49 @@
               }
             },
             {
+              "field": "client.browser",
+              "value": "Firefox",
+              "delta": 1.3921,
+              "preprocessed": {
+                "client.browser": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 3.0,
+              "delta": 0.8485,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  0.6585075498073836
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 115.0,
+              "delta": 0.8288,
+              "preprocessed": {
+                "latency": [
+                  0.6174167808075982
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "Windows",
+              "delta": 0.3198,
+              "preprocessed": {
+                "client.os": [
+                  4.0
+                ]
+              }
+            },
+            {
               "field": "timestamp.is_weekend",
               "value": 0.0,
-              "delta": 0.003,
+              "delta": 0.0144,
               "preprocessed": {
                 "timestamp.is_weekend": [
                   -0.09125253410768894
@@ -1180,19 +1180,9 @@
         "explanation": {
           "features": [
             {
-              "field": "user.department",
-              "value": "Aftersales",
-              "delta": 31.5954,
-              "preprocessed": {
-                "user.department": [
-                  5.0
-                ]
-              }
-            },
-            {
               "field": "user.id",
               "value": "user_016",
-              "delta": 26.9906,
+              "delta": 29.5683,
               "preprocessed": {
                 "user.id": [
                   9.0
@@ -1200,9 +1190,19 @@
               }
             },
             {
+              "field": "user.department",
+              "value": "Aftersales",
+              "delta": 29.3828,
+              "preprocessed": {
+                "user.department": [
+                  5.0
+                ]
+              }
+            },
+            {
               "field": "ip.country_iso",
               "value": "CN",
-              "delta": 17.7295,
+              "delta": 22.9117,
               "preprocessed": {
                 "ip.country_iso": [
                   1.0
@@ -1210,9 +1210,39 @@
               }
             },
             {
+              "field": "latency",
+              "value": 154.0,
+              "delta": 8.092,
+              "preprocessed": {
+                "latency": [
+                  1.3456167337964273
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Safari",
+              "delta": 6.237,
+              "preprocessed": {
+                "client.browser": [
+                  2.0
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "iOS",
+              "delta": 2.3587,
+              "preprocessed": {
+                "client.os": [
+                  2.0
+                ]
+              }
+            },
+            {
               "field": "timestamp.hour",
               "value": 1.0,
-              "delta": 14.6011,
+              "delta": 1.1304,
               "preprocessed": {
                 "timestamp.hour": [
                   -2.229172235102053
@@ -1222,7 +1252,7 @@
             {
               "field": "timestamp.is_weekend",
               "value": 0.0,
-              "delta": 5.27,
+              "delta": 0.2729,
               "preprocessed": {
                 "timestamp.is_weekend": [
                   -0.09125253410768894
@@ -1230,42 +1260,12 @@
               }
             },
             {
-              "field": "client.os",
-              "value": "iOS",
-              "delta": 2.0812,
-              "preprocessed": {
-                "client.os": [
-                  2.0
-                ]
-              }
-            },
-            {
-              "field": "client.browser",
-              "value": "Safari",
-              "delta": 1.2292,
-              "preprocessed": {
-                "client.browser": [
-                  2.0
-                ]
-              }
-            },
-            {
               "field": "timestamp.dayofweek",
               "value": 2.0,
-              "delta": 0.4644,
+              "delta": 0.0462,
               "preprocessed": {
                 "timestamp.dayofweek": [
                   -0.03524308795436442
-                ]
-              }
-            },
-            {
-              "field": "latency",
-              "value": 154.0,
-              "delta": 0.0386,
-              "preprocessed": {
-                "latency": [
-                  1.3456167337964273
                 ]
               }
             }
@@ -1277,8 +1277,8 @@
   },
   {
     "accepted": true,
-    "composite_score": 29.78,
-    "status": "NORMAL",
+    "composite_score": 33.84,
+    "status": "SLIGHTLY_ELEVATED",
     "identifiers": {
       "description": "NORMAL"
     },
@@ -1287,8 +1287,8 @@
         "name": "global",
         "key": {},
         "weight": 1.0,
-        "anomaly_score": 29.775000000000002,
-        "score_label": "NORMAL",
+        "anomaly_score": 33.84,
+        "score_label": "SLIGHTLY_ELEVATED",
         "properties": {
           "buffer_size": 2500,
           "events_since_retrain": 21
@@ -1296,39 +1296,9 @@
         "explanation": {
           "features": [
             {
-              "field": "client.os",
-              "value": "Windows",
-              "delta": 8.0176,
-              "preprocessed": {
-                "client.os": [
-                  4.0
-                ]
-              }
-            },
-            {
-              "field": "ip.country_iso",
-              "value": "US",
-              "delta": 6.5521,
-              "preprocessed": {
-                "ip.country_iso": [
-                  4.0
-                ]
-              }
-            },
-            {
-              "field": "timestamp.dayofweek",
-              "value": 1.0,
-              "delta": 5.4091,
-              "preprocessed": {
-                "timestamp.dayofweek": [
-                  -0.7289937257161124
-                ]
-              }
-            },
-            {
               "field": "timestamp.hour",
               "value": 19.0,
-              "delta": 4.0089,
+              "delta": 11.7999,
               "preprocessed": {
                 "timestamp.hour": [
                   1.445482862446195
@@ -1336,29 +1306,29 @@
               }
             },
             {
-              "field": "user.department",
-              "value": "IT",
-              "delta": 2.1399,
+              "field": "ip.country_iso",
+              "value": "US",
+              "delta": 7.7588,
               "preprocessed": {
-                "user.department": [
-                  3.0
+                "ip.country_iso": [
+                  4.0
                 ]
               }
             },
             {
-              "field": "user.id",
-              "value": "user_007",
-              "delta": 1.1472,
+              "field": "client.os",
+              "value": "Windows",
+              "delta": 6.1866,
               "preprocessed": {
-                "user.id": [
-                  31.0
+                "client.os": [
+                  4.0
                 ]
               }
             },
             {
               "field": "client.browser",
               "value": "Firefox",
-              "delta": 1.0371,
+              "delta": 3.8214,
               "preprocessed": {
                 "client.browser": [
                   3.0
@@ -1366,22 +1336,52 @@
               }
             },
             {
-              "field": "latency",
-              "value": 105.0,
-              "delta": 0.8314,
+              "field": "user.id",
+              "value": "user_007",
+              "delta": 1.4816,
               "preprocessed": {
-                "latency": [
-                  0.4306988441437959
+                "user.id": [
+                  31.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 1.0,
+              "delta": 1.4117,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  -0.7289937257161124
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "IT",
+              "delta": 1.0563,
+              "preprocessed": {
+                "user.department": [
+                  3.0
                 ]
               }
             },
             {
               "field": "timestamp.is_weekend",
               "value": 0.0,
-              "delta": 0.6318,
+              "delta": 0.2151,
               "preprocessed": {
                 "timestamp.is_weekend": [
                   -0.09125253410768894
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 105.0,
+              "delta": 0.1086,
+              "preprocessed": {
+                "latency": [
+                  0.4306988441437959
                 ]
               }
             }
@@ -1393,8 +1393,8 @@
   },
   {
     "accepted": true,
-    "composite_score": 76.0,
-    "status": "ANOMALOUS",
+    "composite_score": 54.32,
+    "status": "ELEVATED",
     "identifiers": {
       "description": "NORMAL"
     },
@@ -1403,8 +1403,8 @@
         "name": "global",
         "key": {},
         "weight": 1.0,
-        "anomaly_score": 75.99999999999997,
-        "score_label": "ANOMALOUS",
+        "anomaly_score": 54.32000000000005,
+        "score_label": "ELEVATED",
         "properties": {
           "buffer_size": 2500,
           "events_since_retrain": 21
@@ -1412,29 +1412,9 @@
         "explanation": {
           "features": [
             {
-              "field": "timestamp.dayofweek",
-              "value": 2.0,
-              "delta": 21.9476,
-              "preprocessed": {
-                "timestamp.dayofweek": [
-                  -0.03524308795436442
-                ]
-              }
-            },
-            {
-              "field": "latency",
-              "value": 179.0,
-              "delta": 16.273,
-              "preprocessed": {
-                "latency": [
-                  1.8124115754559333
-                ]
-              }
-            },
-            {
               "field": "timestamp.hour",
               "value": 5.0,
-              "delta": 14.4884,
+              "delta": 18.6862,
               "preprocessed": {
                 "timestamp.hour": [
                   -1.4125822134246646
@@ -1442,19 +1422,19 @@
               }
             },
             {
-              "field": "user.id",
-              "value": "user_038",
-              "delta": 10.945,
+              "field": "timestamp.dayofweek",
+              "value": 2.0,
+              "delta": 13.3597,
               "preprocessed": {
-                "user.id": [
-                  25.0
+                "timestamp.dayofweek": [
+                  -0.03524308795436442
                 ]
               }
             },
             {
               "field": "client.os",
               "value": "iOS",
-              "delta": 3.1855,
+              "delta": 7.6177,
               "preprocessed": {
                 "client.os": [
                   2.0
@@ -1462,19 +1442,9 @@
               }
             },
             {
-              "field": "user.department",
-              "value": "Product-B",
-              "delta": 3.0011,
-              "preprocessed": {
-                "user.department": [
-                  1.0
-                ]
-              }
-            },
-            {
               "field": "client.browser",
               "value": "Safari",
-              "delta": 2.9937,
+              "delta": 5.1108,
               "preprocessed": {
                 "client.browser": [
                   2.0
@@ -1484,7 +1454,7 @@
             {
               "field": "ip.country_iso",
               "value": "CN",
-              "delta": 2.888,
+              "delta": 3.5816,
               "preprocessed": {
                 "ip.country_iso": [
                   1.0
@@ -1492,12 +1462,42 @@
               }
             },
             {
+              "field": "user.id",
+              "value": "user_038",
+              "delta": 2.7915,
+              "preprocessed": {
+                "user.id": [
+                  25.0
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "Product-B",
+              "delta": 2.4991,
+              "preprocessed": {
+                "user.department": [
+                  1.0
+                ]
+              }
+            },
+            {
               "field": "timestamp.is_weekend",
               "value": 0.0,
-              "delta": 0.2778,
+              "delta": 0.3722,
               "preprocessed": {
                 "timestamp.is_weekend": [
                   -0.09125253410768894
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 179.0,
+              "delta": 0.3013,
+              "preprocessed": {
+                "latency": [
+                  1.8124115754559333
                 ]
               }
             }
@@ -1528,19 +1528,9 @@
         "explanation": {
           "features": [
             {
-              "field": "timestamp.is_weekend",
-              "value": 1.0,
-              "delta": 41.4096,
-              "preprocessed": {
-                "timestamp.is_weekend": [
-                  5.0
-                ]
-              }
-            },
-            {
               "field": "user.id",
               "value": "user_035",
-              "delta": 30.9343,
+              "delta": 31.3965,
               "preprocessed": {
                 "user.id": [
                   2.0
@@ -1548,9 +1538,29 @@
               }
             },
             {
+              "field": "timestamp.is_weekend",
+              "value": 1.0,
+              "delta": 24.8946,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  5.0
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "iOS",
+              "delta": 15.249,
+              "preprocessed": {
+                "client.os": [
+                  2.0
+                ]
+              }
+            },
+            {
               "field": "user.department",
               "value": "Product-A",
-              "delta": 7.3063,
+              "delta": 7.4666,
               "preprocessed": {
                 "user.department": [
                   2.0
@@ -1558,9 +1568,29 @@
               }
             },
             {
+              "field": "timestamp.hour",
+              "value": 11.0,
+              "delta": 6.2132,
+              "preprocessed": {
+                "timestamp.hour": [
+                  -0.18769718090858184
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Safari",
+              "delta": 5.1097,
+              "preprocessed": {
+                "client.browser": [
+                  2.0
+                ]
+              }
+            },
+            {
               "field": "ip.country_iso",
               "value": "ES",
-              "delta": 6.466,
+              "delta": 4.3257,
               "preprocessed": {
                 "ip.country_iso": [
                   2.0
@@ -1570,7 +1600,7 @@
             {
               "field": "latency",
               "value": 57.0,
-              "delta": 5.754,
+              "delta": 2.9608,
               "preprocessed": {
                 "latency": [
                   -0.46554725184245543
@@ -1580,40 +1610,10 @@
             {
               "field": "timestamp.dayofweek",
               "value": 6.0,
-              "delta": 3.8027,
+              "delta": 2.384,
               "preprocessed": {
                 "timestamp.dayofweek": [
                   2.7397594630926276
-                ]
-              }
-            },
-            {
-              "field": "client.os",
-              "value": "iOS",
-              "delta": 3.1192,
-              "preprocessed": {
-                "client.os": [
-                  2.0
-                ]
-              }
-            },
-            {
-              "field": "client.browser",
-              "value": "Safari",
-              "delta": 1.074,
-              "preprocessed": {
-                "client.browser": [
-                  2.0
-                ]
-              }
-            },
-            {
-              "field": "timestamp.hour",
-              "value": 11.0,
-              "delta": 0.1339,
-              "preprocessed": {
-                "timestamp.hour": [
-                  -0.18769718090858184
                 ]
               }
             }
@@ -1646,7 +1646,7 @@
             {
               "field": "user.id",
               "value": "user_049",
-              "delta": 47.1936,
+              "delta": 55.8764,
               "preprocessed": {
                 "user.id": [
                   35.0
@@ -1654,19 +1654,9 @@
               }
             },
             {
-              "field": "timestamp.is_weekend",
-              "value": 0.0,
-              "delta": 19.9289,
-              "preprocessed": {
-                "timestamp.is_weekend": [
-                  -0.09125253410768894
-                ]
-              }
-            },
-            {
               "field": "user.department",
               "value": "Product-C",
-              "delta": 15.834,
+              "delta": 13.3982,
               "preprocessed": {
                 "user.department": [
                   7.0
@@ -1676,7 +1666,7 @@
             {
               "field": "client.os",
               "value": "iOS",
-              "delta": 7.1715,
+              "delta": 8.496,
               "preprocessed": {
                 "client.os": [
                   2.0
@@ -1684,19 +1674,19 @@
               }
             },
             {
-              "field": "ip.country_iso",
-              "value": "DE",
-              "delta": 4.6613,
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 7.8863,
               "preprocessed": {
-                "ip.country_iso": [
-                  3.0
+                "timestamp.is_weekend": [
+                  -0.09125253410768894
                 ]
               }
             },
             {
               "field": "client.browser",
               "value": "Chrome",
-              "delta": 3.2835,
+              "delta": 6.6203,
               "preprocessed": {
                 "client.browser": [
                   1.0
@@ -1704,9 +1694,19 @@
               }
             },
             {
+              "field": "ip.country_iso",
+              "value": "DE",
+              "delta": 4.6212,
+              "preprocessed": {
+                "ip.country_iso": [
+                  3.0
+                ]
+              }
+            },
+            {
               "field": "timestamp.hour",
               "value": 11.0,
-              "delta": 1.2554,
+              "delta": 2.2596,
               "preprocessed": {
                 "timestamp.hour": [
                   -0.18769718090858184
@@ -1716,7 +1716,7 @@
             {
               "field": "latency",
               "value": 39.0,
-              "delta": 0.6118,
+              "delta": 0.7614,
               "preprocessed": {
                 "latency": [
                   -0.8016395378372997
@@ -1726,7 +1726,7 @@
             {
               "field": "timestamp.dayofweek",
               "value": 1.0,
-              "delta": 0.06,
+              "delta": 0.0804,
               "preprocessed": {
                 "timestamp.dayofweek": [
                   -0.7289937257161124
@@ -1760,19 +1760,9 @@
         "explanation": {
           "features": [
             {
-              "field": "ip.country_iso",
-              "value": "ES",
-              "delta": 28.3912,
-              "preprocessed": {
-                "ip.country_iso": [
-                  2.0
-                ]
-              }
-            },
-            {
               "field": "user.id",
               "value": "user_001",
-              "delta": 26.0179,
+              "delta": 44.4542,
               "preprocessed": {
                 "user.id": [
                   43.0
@@ -1780,29 +1770,9 @@
               }
             },
             {
-              "field": "user.department",
-              "value": "IT",
-              "delta": 16.5937,
-              "preprocessed": {
-                "user.department": [
-                  3.0
-                ]
-              }
-            },
-            {
-              "field": "client.os",
-              "value": "Windows",
-              "delta": 8.1797,
-              "preprocessed": {
-                "client.os": [
-                  4.0
-                ]
-              }
-            },
-            {
               "field": "client.browser",
               "value": "Chrome",
-              "delta": 8.0888,
+              "delta": 21.1528,
               "preprocessed": {
                 "client.browser": [
                   1.0
@@ -1810,29 +1780,29 @@
               }
             },
             {
-              "field": "timestamp.dayofweek",
-              "value": 2.0,
-              "delta": 4.9058,
+              "field": "ip.country_iso",
+              "value": "ES",
+              "delta": 15.3839,
               "preprocessed": {
-                "timestamp.dayofweek": [
-                  -0.03524308795436442
+                "ip.country_iso": [
+                  2.0
                 ]
               }
             },
             {
-              "field": "timestamp.hour",
-              "value": 13.0,
-              "delta": 4.5769,
+              "field": "user.department",
+              "value": "IT",
+              "delta": 9.4413,
               "preprocessed": {
-                "timestamp.hour": [
-                  0.2205978299301124
+                "user.department": [
+                  3.0
                 ]
               }
             },
             {
               "field": "timestamp.is_weekend",
               "value": 0.0,
-              "delta": 3.0953,
+              "delta": 3.9895,
               "preprocessed": {
                 "timestamp.is_weekend": [
                   -0.09125253410768894
@@ -1840,9 +1810,39 @@
               }
             },
             {
+              "field": "timestamp.dayofweek",
+              "value": 2.0,
+              "delta": 2.6447,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  -0.03524308795436442
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "Windows",
+              "delta": 1.7642,
+              "preprocessed": {
+                "client.os": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 13.0,
+              "delta": 1.0632,
+              "preprocessed": {
+                "timestamp.hour": [
+                  0.2205978299301124
+                ]
+              }
+            },
+            {
               "field": "latency",
               "value": 36.0,
-              "delta": 0.1507,
+              "delta": 0.1062,
               "preprocessed": {
                 "latency": [
                   -0.8576549188364404
@@ -1878,7 +1878,7 @@
             {
               "field": "timestamp.is_weekend",
               "value": 1.0,
-              "delta": 39.5346,
+              "delta": 42.077,
               "preprocessed": {
                 "timestamp.is_weekend": [
                   5.0
@@ -1888,7 +1888,7 @@
             {
               "field": "user.id",
               "value": "user_047",
-              "delta": 19.1468,
+              "delta": 24.1576,
               "preprocessed": {
                 "user.id": [
                   12.0
@@ -1896,49 +1896,9 @@
               }
             },
             {
-              "field": "client.os",
-              "value": "Android",
-              "delta": 12.6677,
-              "preprocessed": {
-                "client.os": [
-                  1.0
-                ]
-              }
-            },
-            {
-              "field": "timestamp.dayofweek",
-              "value": 6.0,
-              "delta": 11.5305,
-              "preprocessed": {
-                "timestamp.dayofweek": [
-                  2.7397594630926276
-                ]
-              }
-            },
-            {
-              "field": "timestamp.hour",
-              "value": 16.0,
-              "delta": 5.6188,
-              "preprocessed": {
-                "timestamp.hour": [
-                  0.8330403461881537
-                ]
-              }
-            },
-            {
-              "field": "user.department",
-              "value": "Product-C",
-              "delta": 4.9615,
-              "preprocessed": {
-                "user.department": [
-                  7.0
-                ]
-              }
-            },
-            {
               "field": "ip.country_iso",
               "value": "US",
-              "delta": 4.2147,
+              "delta": 10.7725,
               "preprocessed": {
                 "ip.country_iso": [
                   4.0
@@ -1946,9 +1906,39 @@
               }
             },
             {
+              "field": "user.department",
+              "value": "Product-C",
+              "delta": 10.0107,
+              "preprocessed": {
+                "user.department": [
+                  7.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 6.0,
+              "delta": 9.2366,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  2.7397594630926276
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "Android",
+              "delta": 1.7266,
+              "preprocessed": {
+                "client.os": [
+                  1.0
+                ]
+              }
+            },
+            {
               "field": "client.browser",
               "value": "Firefox",
-              "delta": 2.1227,
+              "delta": 1.3525,
               "preprocessed": {
                 "client.browser": [
                   3.0
@@ -1956,9 +1946,19 @@
               }
             },
             {
+              "field": "timestamp.hour",
+              "value": 16.0,
+              "delta": 0.6067,
+              "preprocessed": {
+                "timestamp.hour": [
+                  0.8330403461881537
+                ]
+              }
+            },
+            {
               "field": "latency",
               "value": 134.0,
-              "delta": 0.2027,
+              "delta": 0.0599,
               "preprocessed": {
                 "latency": [
                   0.9721808604688227
@@ -1973,7 +1973,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 21.12,
+    "composite_score": 29.19,
     "status": "NORMAL",
     "identifiers": {
       "description": "NORMAL"
@@ -1983,7 +1983,7 @@
         "name": "global",
         "key": {},
         "weight": 1.0,
-        "anomaly_score": 21.119999999999997,
+        "anomaly_score": 29.19,
         "score_label": "NORMAL",
         "properties": {
           "buffer_size": 2500,
@@ -1992,39 +1992,9 @@
         "explanation": {
           "features": [
             {
-              "field": "client.os",
-              "value": "iOS",
-              "delta": 4.0743,
-              "preprocessed": {
-                "client.os": [
-                  2.0
-                ]
-              }
-            },
-            {
-              "field": "user.id",
-              "value": "user_014",
-              "delta": 3.9304,
-              "preprocessed": {
-                "user.id": [
-                  32.0
-                ]
-              }
-            },
-            {
-              "field": "latency",
-              "value": 128.0,
-              "delta": 2.9457,
-              "preprocessed": {
-                "latency": [
-                  0.8601500984705414
-                ]
-              }
-            },
-            {
               "field": "timestamp.hour",
               "value": 21.0,
-              "delta": 2.7643,
+              "delta": 5.9271,
               "preprocessed": {
                 "timestamp.hour": [
                   1.8537778732848893
@@ -2032,39 +2002,9 @@
               }
             },
             {
-              "field": "user.department",
-              "value": "Sales",
-              "delta": 2.2982,
-              "preprocessed": {
-                "user.department": [
-                  6.0
-                ]
-              }
-            },
-            {
-              "field": "ip.country_iso",
-              "value": "US",
-              "delta": 2.1602,
-              "preprocessed": {
-                "ip.country_iso": [
-                  4.0
-                ]
-              }
-            },
-            {
-              "field": "timestamp.dayofweek",
-              "value": 3.0,
-              "delta": 1.758,
-              "preprocessed": {
-                "timestamp.dayofweek": [
-                  0.6585075498073836
-                ]
-              }
-            },
-            {
               "field": "client.browser",
               "value": "Safari",
-              "delta": 0.7956,
+              "delta": 5.502,
               "preprocessed": {
                 "client.browser": [
                   2.0
@@ -2072,9 +2012,69 @@
               }
             },
             {
+              "field": "ip.country_iso",
+              "value": "US",
+              "delta": 4.709,
+              "preprocessed": {
+                "ip.country_iso": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 128.0,
+              "delta": 4.3127,
+              "preprocessed": {
+                "latency": [
+                  0.8601500984705414
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 3.0,
+              "delta": 3.9701,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  0.6585075498073836
+                ]
+              }
+            },
+            {
+              "field": "user.id",
+              "value": "user_014",
+              "delta": 2.3228,
+              "preprocessed": {
+                "user.id": [
+                  32.0
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "iOS",
+              "delta": 1.3325,
+              "preprocessed": {
+                "client.os": [
+                  2.0
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "Sales",
+              "delta": 1.0678,
+              "preprocessed": {
+                "user.department": [
+                  6.0
+                ]
+              }
+            },
+            {
               "field": "timestamp.is_weekend",
               "value": 0.0,
-              "delta": 0.3933,
+              "delta": 0.0459,
               "preprocessed": {
                 "timestamp.is_weekend": [
                   -0.09125253410768894
@@ -2089,7 +2089,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 4.17,
+    "composite_score": 0.7,
     "status": "NORMAL",
     "identifiers": {
       "description": "NORMAL"
@@ -2099,7 +2099,7 @@
         "name": "global",
         "key": {},
         "weight": 1.0,
-        "anomaly_score": 4.17,
+        "anomaly_score": 0.705,
         "score_label": "NORMAL",
         "properties": {
           "buffer_size": 2500,
@@ -2108,29 +2108,9 @@
         "explanation": {
           "features": [
             {
-              "field": "user.id",
-              "value": "user_011",
-              "delta": 1.0792,
-              "preprocessed": {
-                "user.id": [
-                  49.0
-                ]
-              }
-            },
-            {
-              "field": "client.os",
-              "value": "Windows",
-              "delta": 1.0741,
-              "preprocessed": {
-                "client.os": [
-                  4.0
-                ]
-              }
-            },
-            {
               "field": "user.department",
               "value": "Sales",
-              "delta": 0.5544,
+              "delta": 0.2022,
               "preprocessed": {
                 "user.department": [
                   6.0
@@ -2138,19 +2118,19 @@
               }
             },
             {
-              "field": "client.browser",
-              "value": "Edge",
-              "delta": 0.427,
+              "field": "user.id",
+              "value": "user_011",
+              "delta": 0.143,
               "preprocessed": {
-                "client.browser": [
-                  4.0
+                "user.id": [
+                  49.0
                 ]
               }
             },
             {
               "field": "ip.country_iso",
               "value": "ES",
-              "delta": 0.4102,
+              "delta": 0.1159,
               "preprocessed": {
                 "ip.country_iso": [
                   2.0
@@ -2160,7 +2140,7 @@
             {
               "field": "timestamp.hour",
               "value": 12.0,
-              "delta": 0.2931,
+              "delta": 0.0756,
               "preprocessed": {
                 "timestamp.hour": [
                   0.01645032451076527
@@ -2168,9 +2148,19 @@
               }
             },
             {
+              "field": "client.os",
+              "value": "Windows",
+              "delta": 0.0612,
+              "preprocessed": {
+                "client.os": [
+                  4.0
+                ]
+              }
+            },
+            {
               "field": "timestamp.dayofweek",
               "value": 4.0,
-              "delta": 0.2815,
+              "delta": 0.0579,
               "preprocessed": {
                 "timestamp.dayofweek": [
                   1.3522581875691317
@@ -2178,9 +2168,19 @@
               }
             },
             {
+              "field": "client.browser",
+              "value": "Edge",
+              "delta": 0.0259,
+              "preprocessed": {
+                "client.browser": [
+                  4.0
+                ]
+              }
+            },
+            {
               "field": "timestamp.is_weekend",
               "value": 0.0,
-              "delta": 0.0287,
+              "delta": 0.0229,
               "preprocessed": {
                 "timestamp.is_weekend": [
                   -0.09125253410768894
@@ -2190,7 +2190,7 @@
             {
               "field": "latency",
               "value": 54.0,
-              "delta": 0.0217,
+              "delta": 0.0003,
               "preprocessed": {
                 "latency": [
                   -0.5215626328415961
@@ -2224,9 +2224,19 @@
         "explanation": {
           "features": [
             {
+              "field": "client.browser",
+              "value": "Firefox",
+              "delta": 41.4877,
+              "preprocessed": {
+                "client.browser": [
+                  3.0
+                ]
+              }
+            },
+            {
               "field": "user.id",
               "value": "user_024",
-              "delta": 33.0959,
+              "delta": 27.7405,
               "preprocessed": {
                 "user.id": [
                   5.0
@@ -2236,7 +2246,7 @@
             {
               "field": "client.os",
               "value": "Linux",
-              "delta": 30.533,
+              "delta": 18.1168,
               "preprocessed": {
                 "client.os": [
                   3.0
@@ -2244,29 +2254,9 @@
               }
             },
             {
-              "field": "client.browser",
-              "value": "Firefox",
-              "delta": 13.1378,
-              "preprocessed": {
-                "client.browser": [
-                  3.0
-                ]
-              }
-            },
-            {
-              "field": "timestamp.hour",
-              "value": 14.0,
-              "delta": 12.138,
-              "preprocessed": {
-                "timestamp.hour": [
-                  0.4247453353494595
-                ]
-              }
-            },
-            {
               "field": "user.department",
               "value": "Research-and-Development",
-              "delta": 8.3708,
+              "delta": 4.8525,
               "preprocessed": {
                 "user.department": [
                   4.0
@@ -2276,7 +2266,7 @@
             {
               "field": "ip.country_iso",
               "value": "DE",
-              "delta": 1.5789,
+              "delta": 4.592,
               "preprocessed": {
                 "ip.country_iso": [
                   3.0
@@ -2284,19 +2274,9 @@
               }
             },
             {
-              "field": "timestamp.dayofweek",
-              "value": 1.0,
-              "delta": 0.6736,
-              "preprocessed": {
-                "timestamp.dayofweek": [
-                  -0.7289937257161124
-                ]
-              }
-            },
-            {
               "field": "timestamp.is_weekend",
               "value": 0.0,
-              "delta": 0.4201,
+              "delta": 1.9853,
               "preprocessed": {
                 "timestamp.is_weekend": [
                   -0.09125253410768894
@@ -2306,10 +2286,30 @@
             {
               "field": "latency",
               "value": 39.0,
-              "delta": 0.052,
+              "delta": 0.6591,
               "preprocessed": {
                 "latency": [
                   -0.8016395378372997
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 1.0,
+              "delta": 0.5572,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  -0.7289937257161124
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 14.0,
+              "delta": 0.0089,
+              "preprocessed": {
+                "timestamp.hour": [
+                  0.4247453353494595
                 ]
               }
             }
@@ -2321,7 +2321,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 26.25,
+    "composite_score": 20.04,
     "status": "NORMAL",
     "identifiers": {
       "description": "ANOMALY:time"
@@ -2331,7 +2331,7 @@
         "name": "global",
         "key": {},
         "weight": 1.0,
-        "anomaly_score": 26.25,
+        "anomaly_score": 20.04,
         "score_label": "NORMAL",
         "properties": {
           "buffer_size": 2500,
@@ -2340,19 +2340,9 @@
         "explanation": {
           "features": [
             {
-              "field": "user.department",
-              "value": "Research-and-Development",
-              "delta": 13.5199,
-              "preprocessed": {
-                "user.department": [
-                  4.0
-                ]
-              }
-            },
-            {
               "field": "ip.country_iso",
               "value": "US",
-              "delta": 3.2584,
+              "delta": 7.9632,
               "preprocessed": {
                 "ip.country_iso": [
                   4.0
@@ -2360,9 +2350,29 @@
               }
             },
             {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 3.7424,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09125253410768894
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "Windows",
+              "delta": 2.5492,
+              "preprocessed": {
+                "client.os": [
+                  4.0
+                ]
+              }
+            },
+            {
               "field": "user.id",
               "value": "user_029",
-              "delta": 3.2245,
+              "delta": 1.7316,
               "preprocessed": {
                 "user.id": [
                   8.0
@@ -2370,9 +2380,19 @@
               }
             },
             {
+              "field": "user.department",
+              "value": "Research-and-Development",
+              "delta": 1.6922,
+              "preprocessed": {
+                "user.department": [
+                  4.0
+                ]
+              }
+            },
+            {
               "field": "timestamp.hour",
               "value": 6.0,
-              "delta": 2.3437,
+              "delta": 1.3153,
               "preprocessed": {
                 "timestamp.hour": [
                   -1.2084347080053175
@@ -2382,7 +2402,7 @@
             {
               "field": "client.browser",
               "value": "Firefox",
-              "delta": 2.1431,
+              "delta": 0.5267,
               "preprocessed": {
                 "client.browser": [
                   3.0
@@ -2390,42 +2410,22 @@
               }
             },
             {
-              "field": "client.os",
-              "value": "Windows",
-              "delta": 1.1013,
+              "field": "timestamp.dayofweek",
+              "value": 3.0,
+              "delta": 0.4208,
               "preprocessed": {
-                "client.os": [
-                  4.0
+                "timestamp.dayofweek": [
+                  0.6585075498073836
                 ]
               }
             },
             {
               "field": "latency",
               "value": 101.0,
-              "delta": 0.4555,
+              "delta": 0.0986,
               "preprocessed": {
                 "latency": [
                   0.35601166947827495
-                ]
-              }
-            },
-            {
-              "field": "timestamp.is_weekend",
-              "value": 0.0,
-              "delta": 0.1509,
-              "preprocessed": {
-                "timestamp.is_weekend": [
-                  -0.09125253410768894
-                ]
-              }
-            },
-            {
-              "field": "timestamp.dayofweek",
-              "value": 3.0,
-              "delta": 0.0528,
-              "preprocessed": {
-                "timestamp.dayofweek": [
-                  0.6585075498073836
                 ]
               }
             }
@@ -2458,7 +2458,7 @@
             {
               "field": "timestamp.is_weekend",
               "value": 1.0,
-              "delta": 42.6868,
+              "delta": 55.7369,
               "preprocessed": {
                 "timestamp.is_weekend": [
                   5.0
@@ -2466,29 +2466,9 @@
               }
             },
             {
-              "field": "user.department",
-              "value": "Product-B",
-              "delta": 22.9597,
-              "preprocessed": {
-                "user.department": [
-                  1.0
-                ]
-              }
-            },
-            {
-              "field": "timestamp.hour",
-              "value": 20.0,
-              "delta": 12.2071,
-              "preprocessed": {
-                "timestamp.hour": [
-                  1.6496303678655422
-                ]
-              }
-            },
-            {
               "field": "user.id",
               "value": "user_043",
-              "delta": 7.3865,
+              "delta": 16.3813,
               "preprocessed": {
                 "user.id": [
                   13.0
@@ -2496,9 +2476,49 @@
               }
             },
             {
+              "field": "user.department",
+              "value": "Product-B",
+              "delta": 11.6414,
+              "preprocessed": {
+                "user.department": [
+                  1.0
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Firefox",
+              "delta": 5.7886,
+              "preprocessed": {
+                "client.browser": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 20.0,
+              "delta": 5.122,
+              "preprocessed": {
+                "timestamp.hour": [
+                  1.6496303678655422
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "US",
+              "delta": 2.7044,
+              "preprocessed": {
+                "ip.country_iso": [
+                  4.0
+                ]
+              }
+            },
+            {
               "field": "client.os",
               "value": "Windows",
-              "delta": 4.2936,
+              "delta": 2.1218,
               "preprocessed": {
                 "client.os": [
                   4.0
@@ -2508,7 +2528,7 @@
             {
               "field": "latency",
               "value": 103.0,
-              "delta": 4.0371,
+              "delta": 0.3577,
               "preprocessed": {
                 "latency": [
                   0.3933552568110354
@@ -2516,32 +2536,12 @@
               }
             },
             {
-              "field": "ip.country_iso",
-              "value": "US",
-              "delta": 2.9867,
-              "preprocessed": {
-                "ip.country_iso": [
-                  4.0
-                ]
-              }
-            },
-            {
               "field": "timestamp.dayofweek",
               "value": 5.0,
-              "delta": 1.8142,
+              "delta": 0.1458,
               "preprocessed": {
                 "timestamp.dayofweek": [
                   2.0460088253308797
-                ]
-              }
-            },
-            {
-              "field": "client.browser",
-              "value": "Firefox",
-              "delta": 1.6283,
-              "preprocessed": {
-                "client.browser": [
-                  3.0
                 ]
               }
             }
@@ -2553,7 +2553,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 25.37,
+    "composite_score": 28.59,
     "status": "NORMAL",
     "identifiers": {
       "description": "NORMAL"
@@ -2563,7 +2563,7 @@
         "name": "global",
         "key": {},
         "weight": 1.0,
-        "anomaly_score": 25.365000000000002,
+        "anomaly_score": 28.59,
         "score_label": "NORMAL",
         "properties": {
           "buffer_size": 2500,
@@ -2574,7 +2574,7 @@
             {
               "field": "timestamp.dayofweek",
               "value": 1.0,
-              "delta": 10.9624,
+              "delta": 10.6437,
               "preprocessed": {
                 "timestamp.dayofweek": [
                   -0.7289937257161124
@@ -2584,7 +2584,7 @@
             {
               "field": "user.id",
               "value": "user_030",
-              "delta": 4.9046,
+              "delta": 4.8401,
               "preprocessed": {
                 "user.id": [
                   29.0
@@ -2594,7 +2594,7 @@
             {
               "field": "ip.country_iso",
               "value": "DE",
-              "delta": 3.2876,
+              "delta": 4.8057,
               "preprocessed": {
                 "ip.country_iso": [
                   3.0
@@ -2602,19 +2602,9 @@
               }
             },
             {
-              "field": "client.os",
-              "value": "Android",
-              "delta": 2.7773,
-              "preprocessed": {
-                "client.os": [
-                  1.0
-                ]
-              }
-            },
-            {
               "field": "user.department",
               "value": "Product-A",
-              "delta": 1.7107,
+              "delta": 2.4323,
               "preprocessed": {
                 "user.department": [
                   2.0
@@ -2622,19 +2612,9 @@
               }
             },
             {
-              "field": "client.browser",
-              "value": "Chrome",
-              "delta": 0.9887,
-              "preprocessed": {
-                "client.browser": [
-                  1.0
-                ]
-              }
-            },
-            {
               "field": "timestamp.hour",
               "value": 15.0,
-              "delta": 0.3209,
+              "delta": 2.2559,
               "preprocessed": {
                 "timestamp.hour": [
                   0.6288928407688066
@@ -2642,9 +2622,29 @@
               }
             },
             {
+              "field": "client.os",
+              "value": "Android",
+              "delta": 2.1827,
+              "preprocessed": {
+                "client.os": [
+                  1.0
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Chrome",
+              "delta": 0.7489,
+              "preprocessed": {
+                "client.browser": [
+                  1.0
+                ]
+              }
+            },
+            {
               "field": "timestamp.is_weekend",
               "value": 0.0,
-              "delta": 0.2447,
+              "delta": 0.5553,
               "preprocessed": {
                 "timestamp.is_weekend": [
                   -0.09125253410768894
@@ -2654,7 +2654,7 @@
             {
               "field": "latency",
               "value": 36.0,
-              "delta": 0.168,
+              "delta": 0.1254,
               "preprocessed": {
                 "latency": [
                   -0.8576549188364404
@@ -2669,7 +2669,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 9.09,
+    "composite_score": 3.84,
     "status": "NORMAL",
     "identifiers": {
       "description": "NORMAL"
@@ -2679,7 +2679,7 @@
         "name": "global",
         "key": {},
         "weight": 1.0,
-        "anomaly_score": 9.090000000000002,
+        "anomaly_score": 3.84,
         "score_label": "NORMAL",
         "properties": {
           "buffer_size": 2500,
@@ -2688,59 +2688,9 @@
         "explanation": {
           "features": [
             {
-              "field": "client.os",
-              "value": "Linux",
-              "delta": 3.4834,
-              "preprocessed": {
-                "client.os": [
-                  3.0
-                ]
-              }
-            },
-            {
-              "field": "user.id",
-              "value": "user_042",
-              "delta": 2.1733,
-              "preprocessed": {
-                "user.id": [
-                  36.0
-                ]
-              }
-            },
-            {
-              "field": "latency",
-              "value": 37.0,
-              "delta": 1.1066,
-              "preprocessed": {
-                "latency": [
-                  -0.8389831251700601
-                ]
-              }
-            },
-            {
-              "field": "timestamp.hour",
-              "value": 9.0,
-              "delta": 0.7228,
-              "preprocessed": {
-                "timestamp.hour": [
-                  -0.5959921917472761
-                ]
-              }
-            },
-            {
-              "field": "client.browser",
-              "value": "Chrome",
-              "delta": 0.4636,
-              "preprocessed": {
-                "client.browser": [
-                  1.0
-                ]
-              }
-            },
-            {
               "field": "user.department",
               "value": "Product-B",
-              "delta": 0.4168,
+              "delta": 1.0863,
               "preprocessed": {
                 "user.department": [
                   1.0
@@ -2748,9 +2698,49 @@
               }
             },
             {
+              "field": "client.browser",
+              "value": "Chrome",
+              "delta": 0.896,
+              "preprocessed": {
+                "client.browser": [
+                  1.0
+                ]
+              }
+            },
+            {
+              "field": "user.id",
+              "value": "user_042",
+              "delta": 0.6309,
+              "preprocessed": {
+                "user.id": [
+                  36.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 9.0,
+              "delta": 0.3966,
+              "preprocessed": {
+                "timestamp.hour": [
+                  -0.5959921917472761
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "Linux",
+              "delta": 0.3693,
+              "preprocessed": {
+                "client.os": [
+                  3.0
+                ]
+              }
+            },
+            {
               "field": "ip.country_iso",
               "value": "DE",
-              "delta": 0.3673,
+              "delta": 0.2527,
               "preprocessed": {
                 "ip.country_iso": [
                   3.0
@@ -2760,7 +2750,7 @@
             {
               "field": "timestamp.is_weekend",
               "value": 0.0,
-              "delta": 0.2577,
+              "delta": 0.1263,
               "preprocessed": {
                 "timestamp.is_weekend": [
                   -0.09125253410768894
@@ -2770,10 +2760,20 @@
             {
               "field": "timestamp.dayofweek",
               "value": 2.0,
-              "delta": 0.0984,
+              "delta": 0.0466,
               "preprocessed": {
                 "timestamp.dayofweek": [
                   -0.03524308795436442
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 37.0,
+              "delta": 0.0354,
+              "preprocessed": {
+                "latency": [
+                  -0.8389831251700601
                 ]
               }
             }
@@ -2804,19 +2804,9 @@
         "explanation": {
           "features": [
             {
-              "field": "timestamp.dayofweek",
-              "value": 2.0,
-              "delta": 25.0804,
-              "preprocessed": {
-                "timestamp.dayofweek": [
-                  -0.03524308795436442
-                ]
-              }
-            },
-            {
               "field": "user.id",
               "value": "user_026",
-              "delta": 22.5208,
+              "delta": 26.1245,
               "preprocessed": {
                 "user.id": [
                   40.0
@@ -2824,9 +2814,19 @@
               }
             },
             {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 23.7267,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09125253410768894
+                ]
+              }
+            },
+            {
               "field": "ip.country_iso",
               "value": "ES",
-              "delta": 19.0672,
+              "delta": 16.0103,
               "preprocessed": {
                 "ip.country_iso": [
                   2.0
@@ -2836,7 +2836,7 @@
             {
               "field": "user.department",
               "value": "Research-and-Development",
-              "delta": 12.5591,
+              "delta": 13.4209,
               "preprocessed": {
                 "user.department": [
                   4.0
@@ -2844,39 +2844,19 @@
               }
             },
             {
-              "field": "client.browser",
-              "value": "Firefox",
-              "delta": 12.3647,
+              "field": "timestamp.dayofweek",
+              "value": 2.0,
+              "delta": 10.3164,
               "preprocessed": {
-                "client.browser": [
-                  3.0
-                ]
-              }
-            },
-            {
-              "field": "client.os",
-              "value": "Android",
-              "delta": 5.373,
-              "preprocessed": {
-                "client.os": [
-                  1.0
-                ]
-              }
-            },
-            {
-              "field": "timestamp.is_weekend",
-              "value": 0.0,
-              "delta": 2.8223,
-              "preprocessed": {
-                "timestamp.is_weekend": [
-                  -0.09125253410768894
+                "timestamp.dayofweek": [
+                  -0.03524308795436442
                 ]
               }
             },
             {
               "field": "timestamp.hour",
               "value": 14.0,
-              "delta": 0.1402,
+              "delta": 3.6463,
               "preprocessed": {
                 "timestamp.hour": [
                   0.4247453353494595
@@ -2884,12 +2864,32 @@
               }
             },
             {
+              "field": "client.os",
+              "value": "Android",
+              "delta": 2.4468,
+              "preprocessed": {
+                "client.os": [
+                  1.0
+                ]
+              }
+            },
+            {
               "field": "latency",
               "value": 52.0,
-              "delta": 0.0722,
+              "delta": 2.3355,
               "preprocessed": {
                 "latency": [
                   -0.5589062201743566
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Firefox",
+              "delta": 1.9725,
+              "preprocessed": {
+                "client.browser": [
+                  3.0
                 ]
               }
             }
@@ -2901,7 +2901,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 30.64,
+    "composite_score": 35.28,
     "status": "SLIGHTLY_ELEVATED",
     "identifiers": {
       "description": "NORMAL"
@@ -2911,7 +2911,7 @@
         "name": "global",
         "key": {},
         "weight": 1.0,
-        "anomaly_score": 30.640000000000015,
+        "anomaly_score": 35.28,
         "score_label": "SLIGHTLY_ELEVATED",
         "properties": {
           "buffer_size": 2500,
@@ -2922,7 +2922,7 @@
             {
               "field": "timestamp.dayofweek",
               "value": 2.0,
-              "delta": 12.0599,
+              "delta": 11.0032,
               "preprocessed": {
                 "timestamp.dayofweek": [
                   -0.03524308795436442
@@ -2932,7 +2932,7 @@
             {
               "field": "client.os",
               "value": "Android",
-              "delta": 6.0399,
+              "delta": 7.9941,
               "preprocessed": {
                 "client.os": [
                   1.0
@@ -2940,19 +2940,9 @@
               }
             },
             {
-              "field": "user.id",
-              "value": "user_041",
-              "delta": 5.6493,
-              "preprocessed": {
-                "user.id": [
-                  33.0
-                ]
-              }
-            },
-            {
               "field": "timestamp.hour",
               "value": 3.0,
-              "delta": 1.858,
+              "delta": 4.6927,
               "preprocessed": {
                 "timestamp.hour": [
                   -1.8208772242633589
@@ -2960,39 +2950,9 @@
               }
             },
             {
-              "field": "client.browser",
-              "value": "Chrome",
-              "delta": 1.2823,
-              "preprocessed": {
-                "client.browser": [
-                  1.0
-                ]
-              }
-            },
-            {
-              "field": "latency",
-              "value": 197.0,
-              "delta": 1.2496,
-              "preprocessed": {
-                "latency": [
-                  2.1485038614507777
-                ]
-              }
-            },
-            {
-              "field": "timestamp.is_weekend",
-              "value": 0.0,
-              "delta": 0.9619,
-              "preprocessed": {
-                "timestamp.is_weekend": [
-                  -0.09125253410768894
-                ]
-              }
-            },
-            {
               "field": "user.department",
               "value": "Product-B",
-              "delta": 0.7872,
+              "delta": 3.6841,
               "preprocessed": {
                 "user.department": [
                   1.0
@@ -3000,12 +2960,52 @@
               }
             },
             {
+              "field": "client.browser",
+              "value": "Chrome",
+              "delta": 3.4067,
+              "preprocessed": {
+                "client.browser": [
+                  1.0
+                ]
+              }
+            },
+            {
+              "field": "user.id",
+              "value": "user_041",
+              "delta": 2.1711,
+              "preprocessed": {
+                "user.id": [
+                  33.0
+                ]
+              }
+            },
+            {
               "field": "ip.country_iso",
               "value": "CN",
-              "delta": 0.7518,
+              "delta": 2.0143,
               "preprocessed": {
                 "ip.country_iso": [
                   1.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 0.2888,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09125253410768894
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 197.0,
+              "delta": 0.025,
+              "preprocessed": {
+                "latency": [
+                  2.1485038614507777
                 ]
               }
             }
@@ -3017,7 +3017,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 14.82,
+    "composite_score": 16.14,
     "status": "NORMAL",
     "identifiers": {
       "description": "NORMAL"
@@ -3027,7 +3027,7 @@
         "name": "global",
         "key": {},
         "weight": 1.0,
-        "anomaly_score": 14.819999999999999,
+        "anomaly_score": 16.14,
         "score_label": "NORMAL",
         "properties": {
           "buffer_size": 2500,
@@ -3036,29 +3036,19 @@
         "explanation": {
           "features": [
             {
-              "field": "client.os",
-              "value": "Android",
-              "delta": 4.4908,
+              "field": "user.department",
+              "value": "Product-B",
+              "delta": 9.1868,
               "preprocessed": {
-                "client.os": [
+                "user.department": [
                   1.0
-                ]
-              }
-            },
-            {
-              "field": "client.browser",
-              "value": "Firefox",
-              "delta": 3.4571,
-              "preprocessed": {
-                "client.browser": [
-                  3.0
                 ]
               }
             },
             {
               "field": "user.id",
               "value": "user_043",
-              "delta": 2.0568,
+              "delta": 2.3,
               "preprocessed": {
                 "user.id": [
                   13.0
@@ -3068,7 +3058,7 @@
             {
               "field": "ip.country_iso",
               "value": "US",
-              "delta": 1.4011,
+              "delta": 1.507,
               "preprocessed": {
                 "ip.country_iso": [
                   4.0
@@ -3076,29 +3066,19 @@
               }
             },
             {
-              "field": "user.department",
-              "value": "Product-B",
-              "delta": 1.3574,
+              "field": "client.os",
+              "value": "Android",
+              "delta": 0.9152,
               "preprocessed": {
-                "user.department": [
+                "client.os": [
                   1.0
-                ]
-              }
-            },
-            {
-              "field": "latency",
-              "value": 106.0,
-              "delta": 1.1874,
-              "preprocessed": {
-                "latency": [
-                  0.4493706378101761
                 ]
               }
             },
             {
               "field": "timestamp.dayofweek",
               "value": 0.0,
-              "delta": 0.6715,
+              "delta": 0.8182,
               "preprocessed": {
                 "timestamp.dayofweek": [
                   -1.4227443634778605
@@ -3106,22 +3086,42 @@
               }
             },
             {
-              "field": "timestamp.hour",
-              "value": 14.0,
-              "delta": 0.1436,
+              "field": "latency",
+              "value": 106.0,
+              "delta": 0.7708,
               "preprocessed": {
-                "timestamp.hour": [
-                  0.4247453353494595
+                "latency": [
+                  0.4493706378101761
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Firefox",
+              "delta": 0.4468,
+              "preprocessed": {
+                "client.browser": [
+                  3.0
                 ]
               }
             },
             {
               "field": "timestamp.is_weekend",
               "value": 0.0,
-              "delta": 0.0542,
+              "delta": 0.1055,
               "preprocessed": {
                 "timestamp.is_weekend": [
                   -0.09125253410768894
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 14.0,
+              "delta": 0.0897,
+              "preprocessed": {
+                "timestamp.hour": [
+                  0.4247453353494595
                 ]
               }
             }
@@ -3154,7 +3154,7 @@
             {
               "field": "timestamp.is_weekend",
               "value": 1.0,
-              "delta": 47.0818,
+              "delta": 68.0892,
               "preprocessed": {
                 "timestamp.is_weekend": [
                   5.0
@@ -3164,7 +3164,7 @@
             {
               "field": "user.id",
               "value": "user_037",
-              "delta": 24.5571,
+              "delta": 13.3474,
               "preprocessed": {
                 "user.id": [
                   1.0
@@ -3172,9 +3172,19 @@
               }
             },
             {
+              "field": "client.browser",
+              "value": "Chrome",
+              "delta": 9.1183,
+              "preprocessed": {
+                "client.browser": [
+                  1.0
+                ]
+              }
+            },
+            {
               "field": "user.department",
               "value": "Product-B",
-              "delta": 11.978,
+              "delta": 5.0725,
               "preprocessed": {
                 "user.department": [
                   1.0
@@ -3184,7 +3194,7 @@
             {
               "field": "ip.country_iso",
               "value": "CN",
-              "delta": 7.4364,
+              "delta": 2.3717,
               "preprocessed": {
                 "ip.country_iso": [
                   1.0
@@ -3192,19 +3202,19 @@
               }
             },
             {
-              "field": "client.browser",
-              "value": "Chrome",
-              "delta": 5.0143,
+              "field": "timestamp.dayofweek",
+              "value": 5.0,
+              "delta": 1.4883,
               "preprocessed": {
-                "client.browser": [
-                  1.0
+                "timestamp.dayofweek": [
+                  2.0460088253308797
                 ]
               }
             },
             {
               "field": "client.os",
               "value": "Android",
-              "delta": 1.7663,
+              "delta": 0.4245,
               "preprocessed": {
                 "client.os": [
                   1.0
@@ -3212,19 +3222,9 @@
               }
             },
             {
-              "field": "timestamp.hour",
-              "value": 6.0,
-              "delta": 1.1878,
-              "preprocessed": {
-                "timestamp.hour": [
-                  -1.2084347080053175
-                ]
-              }
-            },
-            {
               "field": "latency",
               "value": 156.0,
-              "delta": 0.6625,
+              "delta": 0.0769,
               "preprocessed": {
                 "latency": [
                   1.3829603211291879
@@ -3232,12 +3232,12 @@
               }
             },
             {
-              "field": "timestamp.dayofweek",
-              "value": 5.0,
-              "delta": 0.3158,
+              "field": "timestamp.hour",
+              "value": 6.0,
+              "delta": 0.0112,
               "preprocessed": {
-                "timestamp.dayofweek": [
-                  2.0460088253308797
+                "timestamp.hour": [
+                  -1.2084347080053175
                 ]
               }
             }
@@ -3249,7 +3249,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 99.4,
+    "composite_score": 98.8,
     "status": "HIGHLY_ANOMALOUS",
     "identifiers": {
       "description": "ANOMALY:os_browser"
@@ -3259,7 +3259,7 @@
         "name": "global",
         "key": {},
         "weight": 1.0,
-        "anomaly_score": 99.40000000000012,
+        "anomaly_score": 98.80000000000003,
         "score_label": "HIGHLY_ANOMALOUS",
         "properties": {
           "buffer_size": 2500,
@@ -3268,29 +3268,9 @@
         "explanation": {
           "features": [
             {
-              "field": "client.os",
-              "value": "Linux",
-              "delta": 21.8795,
-              "preprocessed": {
-                "client.os": [
-                  3.0
-                ]
-              }
-            },
-            {
-              "field": "client.browser",
-              "value": "Chrome",
-              "delta": 20.4753,
-              "preprocessed": {
-                "client.browser": [
-                  1.0
-                ]
-              }
-            },
-            {
               "field": "user.id",
               "value": "user_021",
-              "delta": 18.2796,
+              "delta": 29.4523,
               "preprocessed": {
                 "user.id": [
                   6.0
@@ -3298,19 +3278,19 @@
               }
             },
             {
-              "field": "timestamp.is_weekend",
-              "value": 0.0,
-              "delta": 15.5597,
+              "field": "client.browser",
+              "value": "Chrome",
+              "delta": 28.4269,
               "preprocessed": {
-                "timestamp.is_weekend": [
-                  -0.09125253410768894
+                "client.browser": [
+                  1.0
                 ]
               }
             },
             {
               "field": "ip.country_iso",
               "value": "DE",
-              "delta": 7.7693,
+              "delta": 17.9511,
               "preprocessed": {
                 "ip.country_iso": [
                   3.0
@@ -3318,19 +3298,9 @@
               }
             },
             {
-              "field": "user.department",
-              "value": "Aftersales",
-              "delta": 6.7084,
-              "preprocessed": {
-                "user.department": [
-                  5.0
-                ]
-              }
-            },
-            {
               "field": "timestamp.dayofweek",
               "value": 0.0,
-              "delta": 3.9788,
+              "delta": 9.7454,
               "preprocessed": {
                 "timestamp.dayofweek": [
                   -1.4227443634778605
@@ -3338,22 +3308,52 @@
               }
             },
             {
-              "field": "timestamp.hour",
-              "value": 14.0,
-              "delta": 3.0168,
+              "field": "client.os",
+              "value": "Linux",
+              "delta": 6.2395,
               "preprocessed": {
-                "timestamp.hour": [
-                  0.4247453353494595
+                "client.os": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "Aftersales",
+              "delta": 4.5425,
+              "preprocessed": {
+                "user.department": [
+                  5.0
                 ]
               }
             },
             {
               "field": "latency",
               "value": 44.0,
-              "delta": 1.7324,
+              "delta": 1.5212,
               "preprocessed": {
                 "latency": [
                   -0.7082805695053985
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 0.5074,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09125253410768894
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 14.0,
+              "delta": 0.4136,
+              "preprocessed": {
+                "timestamp.hour": [
+                  0.4247453353494595
                 ]
               }
             }
@@ -3384,19 +3384,9 @@
         "explanation": {
           "features": [
             {
-              "field": "ip.country_iso",
-              "value": "CN",
-              "delta": 38.0176,
-              "preprocessed": {
-                "ip.country_iso": [
-                  1.0
-                ]
-              }
-            },
-            {
               "field": "user.id",
               "value": "user_028",
-              "delta": 30.5946,
+              "delta": 41.5696,
               "preprocessed": {
                 "user.id": [
                   21.0
@@ -3404,9 +3394,19 @@
               }
             },
             {
+              "field": "ip.country_iso",
+              "value": "CN",
+              "delta": 15.3939,
+              "preprocessed": {
+                "ip.country_iso": [
+                  1.0
+                ]
+              }
+            },
+            {
               "field": "user.department",
               "value": "Research-and-Development",
-              "delta": 10.3559,
+              "delta": 15.3147,
               "preprocessed": {
                 "user.department": [
                   4.0
@@ -3414,19 +3414,9 @@
               }
             },
             {
-              "field": "timestamp.is_weekend",
-              "value": 0.0,
-              "delta": 6.8115,
-              "preprocessed": {
-                "timestamp.is_weekend": [
-                  -0.09125253410768894
-                ]
-              }
-            },
-            {
               "field": "client.os",
               "value": "Linux",
-              "delta": 6.7203,
+              "delta": 12.0939,
               "preprocessed": {
                 "client.os": [
                   3.0
@@ -3434,19 +3424,9 @@
               }
             },
             {
-              "field": "latency",
-              "value": 173.0,
-              "delta": 4.5034,
-              "preprocessed": {
-                "latency": [
-                  1.700380813457652
-                ]
-              }
-            },
-            {
               "field": "client.browser",
               "value": "Chrome",
-              "delta": 2.247,
+              "delta": 9.9906,
               "preprocessed": {
                 "client.browser": [
                   1.0
@@ -3456,7 +3436,7 @@
             {
               "field": "timestamp.hour",
               "value": 6.0,
-              "delta": 0.7392,
+              "delta": 4.5646,
               "preprocessed": {
                 "timestamp.hour": [
                   -1.2084347080053175
@@ -3466,10 +3446,30 @@
             {
               "field": "timestamp.dayofweek",
               "value": 1.0,
-              "delta": 0.0107,
+              "delta": 0.6966,
               "preprocessed": {
                 "timestamp.dayofweek": [
                   -0.7289937257161124
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 0.2921,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09125253410768894
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 173.0,
+              "delta": 0.084,
+              "preprocessed": {
+                "latency": [
+                  1.700380813457652
                 ]
               }
             }
@@ -3500,9 +3500,19 @@
         "explanation": {
           "features": [
             {
+              "field": "client.browser",
+              "value": "Chrome",
+              "delta": 35.9324,
+              "preprocessed": {
+                "client.browser": [
+                  1.0
+                ]
+              }
+            },
+            {
               "field": "user.id",
               "value": "user_038",
-              "delta": 33.5903,
+              "delta": 31.6996,
               "preprocessed": {
                 "user.id": [
                   25.0
@@ -3512,7 +3522,7 @@
             {
               "field": "user.department",
               "value": "Product-B",
-              "delta": 24.0272,
+              "delta": 14.1768,
               "preprocessed": {
                 "user.department": [
                   1.0
@@ -3522,7 +3532,7 @@
             {
               "field": "ip.country_iso",
               "value": "ES",
-              "delta": 23.9459,
+              "delta": 8.3482,
               "preprocessed": {
                 "ip.country_iso": [
                   2.0
@@ -3530,39 +3540,19 @@
               }
             },
             {
-              "field": "client.browser",
-              "value": "Chrome",
-              "delta": 8.9948,
+              "field": "timestamp.hour",
+              "value": 11.0,
+              "delta": 4.851,
               "preprocessed": {
-                "client.browser": [
-                  1.0
-                ]
-              }
-            },
-            {
-              "field": "client.os",
-              "value": "Mac",
-              "delta": 5.9082,
-              "preprocessed": {
-                "client.os": [
-                  5.0
-                ]
-              }
-            },
-            {
-              "field": "timestamp.is_weekend",
-              "value": 0.0,
-              "delta": 1.9925,
-              "preprocessed": {
-                "timestamp.is_weekend": [
-                  -0.09125253410768894
+                "timestamp.hour": [
+                  -0.18769718090858184
                 ]
               }
             },
             {
               "field": "latency",
               "value": 52.0,
-              "delta": 0.8576,
+              "delta": 2.1848,
               "preprocessed": {
                 "latency": [
                   -0.5589062201743566
@@ -3570,22 +3560,32 @@
               }
             },
             {
-              "field": "timestamp.dayofweek",
-              "value": 3.0,
-              "delta": 0.6498,
+              "field": "client.os",
+              "value": "Mac",
+              "delta": 2.1061,
               "preprocessed": {
-                "timestamp.dayofweek": [
-                  0.6585075498073836
+                "client.os": [
+                  5.0
                 ]
               }
             },
             {
-              "field": "timestamp.hour",
-              "value": 11.0,
-              "delta": 0.0337,
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 0.3774,
               "preprocessed": {
-                "timestamp.hour": [
-                  -0.18769718090858184
+                "timestamp.is_weekend": [
+                  -0.09125253410768894
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 3.0,
+              "delta": 0.3237,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  0.6585075498073836
                 ]
               }
             }
@@ -3597,7 +3597,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 4.08,
+    "composite_score": 25.56,
     "status": "NORMAL",
     "identifiers": {
       "description": "NORMAL"
@@ -3607,7 +3607,7 @@
         "name": "global",
         "key": {},
         "weight": 1.0,
-        "anomaly_score": 4.079999999999999,
+        "anomaly_score": 25.56,
         "score_label": "NORMAL",
         "properties": {
           "buffer_size": 2500,
@@ -3616,19 +3616,9 @@
         "explanation": {
           "features": [
             {
-              "field": "timestamp.dayofweek",
-              "value": 3.0,
-              "delta": 1.4433,
-              "preprocessed": {
-                "timestamp.dayofweek": [
-                  0.6585075498073836
-                ]
-              }
-            },
-            {
               "field": "ip.country_iso",
               "value": "US",
-              "delta": 0.6639,
+              "delta": 7.7038,
               "preprocessed": {
                 "ip.country_iso": [
                   4.0
@@ -3636,39 +3626,19 @@
               }
             },
             {
-              "field": "client.os",
-              "value": "Windows",
-              "delta": 0.5916,
+              "field": "timestamp.dayofweek",
+              "value": 3.0,
+              "delta": 4.4258,
               "preprocessed": {
-                "client.os": [
-                  4.0
-                ]
-              }
-            },
-            {
-              "field": "user.id",
-              "value": "user_014",
-              "delta": 0.5851,
-              "preprocessed": {
-                "user.id": [
-                  32.0
-                ]
-              }
-            },
-            {
-              "field": "user.department",
-              "value": "Sales",
-              "delta": 0.4171,
-              "preprocessed": {
-                "user.department": [
-                  6.0
+                "timestamp.dayofweek": [
+                  0.6585075498073836
                 ]
               }
             },
             {
               "field": "timestamp.hour",
               "value": 16.0,
-              "delta": 0.3077,
+              "delta": 4.0978,
               "preprocessed": {
                 "timestamp.hour": [
                   0.8330403461881537
@@ -3676,19 +3646,29 @@
               }
             },
             {
-              "field": "client.browser",
-              "value": "Firefox",
-              "delta": 0.059,
+              "field": "user.department",
+              "value": "Sales",
+              "delta": 2.5609,
               "preprocessed": {
-                "client.browser": [
-                  3.0
+                "user.department": [
+                  6.0
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "Windows",
+              "delta": 1.758,
+              "preprocessed": {
+                "client.os": [
+                  4.0
                 ]
               }
             },
             {
               "field": "latency",
               "value": 125.0,
-              "delta": 0.0105,
+              "delta": 1.7519,
               "preprocessed": {
                 "latency": [
                   0.8041347174714006
@@ -3696,9 +3676,29 @@
               }
             },
             {
+              "field": "user.id",
+              "value": "user_014",
+              "delta": 1.3505,
+              "preprocessed": {
+                "user.id": [
+                  32.0
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Firefox",
+              "delta": 1.1288,
+              "preprocessed": {
+                "client.browser": [
+                  3.0
+                ]
+              }
+            },
+            {
               "field": "timestamp.is_weekend",
               "value": 0.0,
-              "delta": 0.0018,
+              "delta": 0.7824,
               "preprocessed": {
                 "timestamp.is_weekend": [
                   -0.09125253410768894
@@ -3713,7 +3713,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 22.15,
+    "composite_score": 23.84,
     "status": "NORMAL",
     "identifiers": {
       "description": "NORMAL"
@@ -3723,7 +3723,7 @@
         "name": "global",
         "key": {},
         "weight": 1.0,
-        "anomaly_score": 22.154999999999998,
+        "anomaly_score": 23.835,
         "score_label": "NORMAL",
         "properties": {
           "buffer_size": 2500,
@@ -3732,19 +3732,29 @@
         "explanation": {
           "features": [
             {
-              "field": "user.department",
-              "value": "Aftersales",
-              "delta": 6.0345,
+              "field": "timestamp.hour",
+              "value": 14.0,
+              "delta": 7.6446,
               "preprocessed": {
-                "user.department": [
-                  5.0
+                "timestamp.hour": [
+                  0.4247453353494595
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Firefox",
+              "delta": 5.2859,
+              "preprocessed": {
+                "client.browser": [
+                  3.0
                 ]
               }
             },
             {
               "field": "user.id",
               "value": "user_018",
-              "delta": 4.1377,
+              "delta": 3.2595,
               "preprocessed": {
                 "user.id": [
                   41.0
@@ -3752,9 +3762,49 @@
               }
             },
             {
+              "field": "client.os",
+              "value": "iOS",
+              "delta": 2.4011,
+              "preprocessed": {
+                "client.os": [
+                  2.0
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "Aftersales",
+              "delta": 1.4773,
+              "preprocessed": {
+                "user.department": [
+                  5.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 1.3982,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09125253410768894
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "US",
+              "delta": 1.3633,
+              "preprocessed": {
+                "ip.country_iso": [
+                  4.0
+                ]
+              }
+            },
+            {
               "field": "latency",
               "value": 106.0,
-              "delta": 3.8938,
+              "delta": 0.764,
               "preprocessed": {
                 "latency": [
                   0.4493706378101761
@@ -3764,60 +3814,10 @@
             {
               "field": "timestamp.dayofweek",
               "value": 4.0,
-              "delta": 3.0137,
+              "delta": 0.241,
               "preprocessed": {
                 "timestamp.dayofweek": [
                   1.3522581875691317
-                ]
-              }
-            },
-            {
-              "field": "client.os",
-              "value": "iOS",
-              "delta": 1.8031,
-              "preprocessed": {
-                "client.os": [
-                  2.0
-                ]
-              }
-            },
-            {
-              "field": "timestamp.hour",
-              "value": 14.0,
-              "delta": 1.4467,
-              "preprocessed": {
-                "timestamp.hour": [
-                  0.4247453353494595
-                ]
-              }
-            },
-            {
-              "field": "ip.country_iso",
-              "value": "US",
-              "delta": 0.9517,
-              "preprocessed": {
-                "ip.country_iso": [
-                  4.0
-                ]
-              }
-            },
-            {
-              "field": "client.browser",
-              "value": "Firefox",
-              "delta": 0.8318,
-              "preprocessed": {
-                "client.browser": [
-                  3.0
-                ]
-              }
-            },
-            {
-              "field": "timestamp.is_weekend",
-              "value": 0.0,
-              "delta": 0.0422,
-              "preprocessed": {
-                "timestamp.is_weekend": [
-                  -0.09125253410768894
                 ]
               }
             }
@@ -3850,7 +3850,7 @@
             {
               "field": "user.id",
               "value": "user_044",
-              "delta": 48.9935,
+              "delta": 34.476,
               "preprocessed": {
                 "user.id": [
                   15.0
@@ -3858,19 +3858,9 @@
               }
             },
             {
-              "field": "user.department",
-              "value": "Product-C",
-              "delta": 13.6628,
-              "preprocessed": {
-                "user.department": [
-                  7.0
-                ]
-              }
-            },
-            {
               "field": "ip.country_iso",
               "value": "CN",
-              "delta": 13.6416,
+              "delta": 21.4424,
               "preprocessed": {
                 "ip.country_iso": [
                   1.0
@@ -3880,7 +3870,7 @@
             {
               "field": "timestamp.is_weekend",
               "value": 0.0,
-              "delta": 9.5332,
+              "delta": 17.0041,
               "preprocessed": {
                 "timestamp.is_weekend": [
                   -0.09125253410768894
@@ -3888,9 +3878,19 @@
               }
             },
             {
+              "field": "user.department",
+              "value": "Product-C",
+              "delta": 13.7083,
+              "preprocessed": {
+                "user.department": [
+                  7.0
+                ]
+              }
+            },
+            {
               "field": "client.browser",
               "value": "Safari",
-              "delta": 6.085,
+              "delta": 6.0488,
               "preprocessed": {
                 "client.browser": [
                   2.0
@@ -3898,19 +3898,9 @@
               }
             },
             {
-              "field": "timestamp.hour",
-              "value": 1.0,
-              "delta": 5.9405,
-              "preprocessed": {
-                "timestamp.hour": [
-                  -2.229172235102053
-                ]
-              }
-            },
-            {
               "field": "client.os",
               "value": "iOS",
-              "delta": 1.8537,
+              "delta": 3.338,
               "preprocessed": {
                 "client.os": [
                   2.0
@@ -3920,7 +3910,7 @@
             {
               "field": "timestamp.dayofweek",
               "value": 0.0,
-              "delta": 0.2586,
+              "delta": 1.7104,
               "preprocessed": {
                 "timestamp.dayofweek": [
                   -1.4227443634778605
@@ -3928,9 +3918,19 @@
               }
             },
             {
+              "field": "timestamp.hour",
+              "value": 1.0,
+              "delta": 1.4029,
+              "preprocessed": {
+                "timestamp.hour": [
+                  -2.229172235102053
+                ]
+              }
+            },
+            {
               "field": "latency",
               "value": 162.0,
-              "delta": 0.0311,
+              "delta": 0.8691,
               "preprocessed": {
                 "latency": [
                   1.4949910831274693
@@ -3945,8 +3945,8 @@
   },
   {
     "accepted": true,
-    "composite_score": 45.44,
-    "status": "SLIGHTLY_ELEVATED",
+    "composite_score": 16.96,
+    "status": "NORMAL",
     "identifiers": {
       "description": "NORMAL"
     },
@@ -3955,8 +3955,8 @@
         "name": "global",
         "key": {},
         "weight": 1.0,
-        "anomaly_score": 45.44,
-        "score_label": "SLIGHTLY_ELEVATED",
+        "anomaly_score": 16.965,
+        "score_label": "NORMAL",
         "properties": {
           "buffer_size": 2500,
           "events_since_retrain": 21
@@ -3966,7 +3966,7 @@
             {
               "field": "timestamp.dayofweek",
               "value": 1.0,
-              "delta": 20.3341,
+              "delta": 6.5728,
               "preprocessed": {
                 "timestamp.dayofweek": [
                   -0.7289937257161124
@@ -3974,29 +3974,9 @@
               }
             },
             {
-              "field": "client.os",
-              "value": "Windows",
-              "delta": 9.9565,
-              "preprocessed": {
-                "client.os": [
-                  4.0
-                ]
-              }
-            },
-            {
-              "field": "ip.country_iso",
-              "value": "DE",
-              "delta": 4.3954,
-              "preprocessed": {
-                "ip.country_iso": [
-                  3.0
-                ]
-              }
-            },
-            {
               "field": "user.id",
               "value": "user_049",
-              "delta": 3.8087,
+              "delta": 3.3613,
               "preprocessed": {
                 "user.id": [
                   35.0
@@ -4004,29 +3984,19 @@
               }
             },
             {
-              "field": "timestamp.hour",
-              "value": 8.0,
-              "delta": 3.2451,
+              "field": "ip.country_iso",
+              "value": "DE",
+              "delta": 3.107,
               "preprocessed": {
-                "timestamp.hour": [
-                  -0.8001396971666233
-                ]
-              }
-            },
-            {
-              "field": "timestamp.is_weekend",
-              "value": 0.0,
-              "delta": 1.9068,
-              "preprocessed": {
-                "timestamp.is_weekend": [
-                  -0.09125253410768894
+                "ip.country_iso": [
+                  3.0
                 ]
               }
             },
             {
               "field": "user.department",
               "value": "Product-C",
-              "delta": 1.044,
+              "delta": 1.9195,
               "preprocessed": {
                 "user.department": [
                   7.0
@@ -4036,7 +4006,7 @@
             {
               "field": "client.browser",
               "value": "Firefox",
-              "delta": 0.7334,
+              "delta": 0.6518,
               "preprocessed": {
                 "client.browser": [
                   3.0
@@ -4044,12 +4014,42 @@
               }
             },
             {
+              "field": "client.os",
+              "value": "Windows",
+              "delta": 0.5472,
+              "preprocessed": {
+                "client.os": [
+                  4.0
+                ]
+              }
+            },
+            {
               "field": "latency",
               "value": 25.0,
-              "delta": 0.0161,
+              "delta": 0.4423,
               "preprocessed": {
                 "latency": [
                   -1.063044649166623
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 0.2404,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09125253410768894
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 8.0,
+              "delta": 0.1229,
+              "preprocessed": {
+                "timestamp.hour": [
+                  -0.8001396971666233
                 ]
               }
             }
@@ -4080,9 +4080,29 @@
         "explanation": {
           "features": [
             {
+              "field": "ip.country_iso",
+              "value": "DE",
+              "delta": 24.4013,
+              "preprocessed": {
+                "ip.country_iso": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 1.0,
+              "delta": 24.2045,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  5.0
+                ]
+              }
+            },
+            {
               "field": "user.department",
               "value": "IT",
-              "delta": 38.5714,
+              "delta": 21.9026,
               "preprocessed": {
                 "user.department": [
                   3.0
@@ -4092,7 +4112,7 @@
             {
               "field": "user.id",
               "value": "user_005",
-              "delta": 32.3529,
+              "delta": 14.9073,
               "preprocessed": {
                 "user.id": [
                   3.0
@@ -4100,19 +4120,19 @@
               }
             },
             {
-              "field": "timestamp.is_weekend",
-              "value": 1.0,
-              "delta": 7.6435,
+              "field": "timestamp.hour",
+              "value": 8.0,
+              "delta": 7.3023,
               "preprocessed": {
-                "timestamp.is_weekend": [
-                  5.0
+                "timestamp.hour": [
+                  -0.8001396971666233
                 ]
               }
             },
             {
               "field": "client.browser",
               "value": "Firefox",
-              "delta": 6.5539,
+              "delta": 3.2891,
               "preprocessed": {
                 "client.browser": [
                   3.0
@@ -4120,31 +4140,11 @@
               }
             },
             {
-              "field": "timestamp.dayofweek",
-              "value": 5.0,
-              "delta": 5.0569,
-              "preprocessed": {
-                "timestamp.dayofweek": [
-                  2.0460088253308797
-                ]
-              }
-            },
-            {
               "field": "client.os",
               "value": "Linux",
-              "delta": 4.6638,
+              "delta": 1.5371,
               "preprocessed": {
                 "client.os": [
-                  3.0
-                ]
-              }
-            },
-            {
-              "field": "ip.country_iso",
-              "value": "DE",
-              "delta": 3.6138,
-              "preprocessed": {
-                "ip.country_iso": [
                   3.0
                 ]
               }
@@ -4152,7 +4152,7 @@
             {
               "field": "latency",
               "value": 37.0,
-              "delta": 0.9944,
+              "delta": 1.4024,
               "preprocessed": {
                 "latency": [
                   -0.8389831251700601
@@ -4160,12 +4160,12 @@
               }
             },
             {
-              "field": "timestamp.hour",
-              "value": 8.0,
-              "delta": 0.5494,
+              "field": "timestamp.dayofweek",
+              "value": 5.0,
+              "delta": 1.0534,
               "preprocessed": {
-                "timestamp.hour": [
-                  -0.8001396971666233
+                "timestamp.dayofweek": [
+                  2.0460088253308797
                 ]
               }
             }
@@ -4177,7 +4177,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 19.26,
+    "composite_score": 21.99,
     "status": "NORMAL",
     "identifiers": {
       "description": "NORMAL"
@@ -4187,7 +4187,7 @@
         "name": "global",
         "key": {},
         "weight": 1.0,
-        "anomaly_score": 19.259999999999998,
+        "anomaly_score": 21.99,
         "score_label": "NORMAL",
         "properties": {
           "buffer_size": 2500,
@@ -4198,7 +4198,7 @@
             {
               "field": "user.id",
               "value": "user_025",
-              "delta": 5.6795,
+              "delta": 5.5483,
               "preprocessed": {
                 "user.id": [
                   19.0
@@ -4206,39 +4206,9 @@
               }
             },
             {
-              "field": "timestamp.dayofweek",
-              "value": 2.0,
-              "delta": 4.5467,
-              "preprocessed": {
-                "timestamp.dayofweek": [
-                  -0.03524308795436442
-                ]
-              }
-            },
-            {
-              "field": "user.department",
-              "value": "Research-and-Development",
-              "delta": 3.4625,
-              "preprocessed": {
-                "user.department": [
-                  4.0
-                ]
-              }
-            },
-            {
-              "field": "client.os",
-              "value": "iOS",
-              "delta": 1.91,
-              "preprocessed": {
-                "client.os": [
-                  2.0
-                ]
-              }
-            },
-            {
               "field": "ip.country_iso",
               "value": "DE",
-              "delta": 1.1228,
+              "delta": 4.0931,
               "preprocessed": {
                 "ip.country_iso": [
                   3.0
@@ -4246,29 +4216,9 @@
               }
             },
             {
-              "field": "client.browser",
-              "value": "Firefox",
-              "delta": 0.9164,
-              "preprocessed": {
-                "client.browser": [
-                  3.0
-                ]
-              }
-            },
-            {
-              "field": "timestamp.is_weekend",
-              "value": 0.0,
-              "delta": 0.8918,
-              "preprocessed": {
-                "timestamp.is_weekend": [
-                  -0.09125253410768894
-                ]
-              }
-            },
-            {
               "field": "timestamp.hour",
               "value": 10.0,
-              "delta": 0.6877,
+              "delta": 3.7577,
               "preprocessed": {
                 "timestamp.hour": [
                   -0.39184468632792896
@@ -4276,55 +4226,49 @@
               }
             },
             {
+              "field": "client.browser",
+              "value": "Firefox",
+              "delta": 2.5099,
+              "preprocessed": {
+                "client.browser": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 2.0,
+              "delta": 2.3686,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  -0.03524308795436442
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "iOS",
+              "delta": 1.5118,
+              "preprocessed": {
+                "client.os": [
+                  2.0
+                ]
+              }
+            },
+            {
               "field": "latency",
               "value": 21.0,
-              "delta": 0.0426,
+              "delta": 1.1669,
               "preprocessed": {
                 "latency": [
                   -1.1377318238321439
-                ]
-              }
-            }
-          ],
-          "baseline_score": 0.0
-        }
-      }
-    ]
-  },
-  {
-    "accepted": true,
-    "composite_score": 10.85,
-    "status": "NORMAL",
-    "identifiers": {
-      "description": "NORMAL"
-    },
-    "scores": [
-      {
-        "name": "global",
-        "key": {},
-        "weight": 1.0,
-        "anomaly_score": 10.845,
-        "score_label": "NORMAL",
-        "properties": {
-          "buffer_size": 2500,
-          "events_since_retrain": 21
-        },
-        "explanation": {
-          "features": [
-            {
-              "field": "ip.country_iso",
-              "value": "DE",
-              "delta": 2.4653,
-              "preprocessed": {
-                "ip.country_iso": [
-                  3.0
                 ]
               }
             },
             {
               "field": "user.department",
               "value": "Research-and-Development",
-              "delta": 2.1032,
+              "delta": 0.8504,
               "preprocessed": {
                 "user.department": [
                   4.0
@@ -4334,70 +4278,10 @@
             {
               "field": "timestamp.is_weekend",
               "value": 0.0,
-              "delta": 1.7791,
+              "delta": 0.1834,
               "preprocessed": {
                 "timestamp.is_weekend": [
                   -0.09125253410768894
-                ]
-              }
-            },
-            {
-              "field": "timestamp.dayofweek",
-              "value": 3.0,
-              "delta": 1.7178,
-              "preprocessed": {
-                "timestamp.dayofweek": [
-                  0.6585075498073836
-                ]
-              }
-            },
-            {
-              "field": "client.os",
-              "value": "Linux",
-              "delta": 0.9412,
-              "preprocessed": {
-                "client.os": [
-                  3.0
-                ]
-              }
-            },
-            {
-              "field": "client.browser",
-              "value": "Firefox",
-              "delta": 0.7608,
-              "preprocessed": {
-                "client.browser": [
-                  3.0
-                ]
-              }
-            },
-            {
-              "field": "user.id",
-              "value": "user_025",
-              "delta": 0.5122,
-              "preprocessed": {
-                "user.id": [
-                  19.0
-                ]
-              }
-            },
-            {
-              "field": "timestamp.hour",
-              "value": 9.0,
-              "delta": 0.3524,
-              "preprocessed": {
-                "timestamp.hour": [
-                  -0.5959921917472761
-                ]
-              }
-            },
-            {
-              "field": "latency",
-              "value": 26.0,
-              "delta": 0.213,
-              "preprocessed": {
-                "latency": [
-                  -1.0443728555002427
                 ]
               }
             }
@@ -4409,7 +4293,123 @@
   },
   {
     "accepted": true,
-    "composite_score": 19.88,
+    "composite_score": 8.4,
+    "status": "NORMAL",
+    "identifiers": {
+      "description": "NORMAL"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 8.4,
+        "score_label": "NORMAL",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 21
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "timestamp.hour",
+              "value": 9.0,
+              "delta": 2.6504,
+              "preprocessed": {
+                "timestamp.hour": [
+                  -0.5959921917472761
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "DE",
+              "delta": 2.1864,
+              "preprocessed": {
+                "ip.country_iso": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "user.id",
+              "value": "user_025",
+              "delta": 1.068,
+              "preprocessed": {
+                "user.id": [
+                  19.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 3.0,
+              "delta": 0.7713,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  0.6585075498073836
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Firefox",
+              "delta": 0.6923,
+              "preprocessed": {
+                "client.browser": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "Linux",
+              "delta": 0.3992,
+              "preprocessed": {
+                "client.os": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "Research-and-Development",
+              "delta": 0.3793,
+              "preprocessed": {
+                "user.department": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 26.0,
+              "delta": 0.1929,
+              "preprocessed": {
+                "latency": [
+                  -1.0443728555002427
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 0.06,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09125253410768894
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 15.55,
     "status": "NORMAL",
     "identifiers": {
       "description": "ANOMALY:time"
@@ -4419,7 +4419,7 @@
         "name": "global",
         "key": {},
         "weight": 1.0,
-        "anomaly_score": 19.875,
+        "anomaly_score": 15.555,
         "score_label": "NORMAL",
         "properties": {
           "buffer_size": 2500,
@@ -4428,19 +4428,9 @@
         "explanation": {
           "features": [
             {
-              "field": "client.os",
-              "value": "Windows",
-              "delta": 7.5027,
-              "preprocessed": {
-                "client.os": [
-                  4.0
-                ]
-              }
-            },
-            {
               "field": "timestamp.dayofweek",
               "value": 1.0,
-              "delta": 5.3335,
+              "delta": 7.0074,
               "preprocessed": {
                 "timestamp.dayofweek": [
                   -0.7289937257161124
@@ -4450,7 +4440,7 @@
             {
               "field": "ip.country_iso",
               "value": "US",
-              "delta": 2.1693,
+              "delta": 2.1609,
               "preprocessed": {
                 "ip.country_iso": [
                   4.0
@@ -4458,19 +4448,9 @@
               }
             },
             {
-              "field": "user.department",
-              "value": "IT",
-              "delta": 1.8826,
-              "preprocessed": {
-                "user.department": [
-                  3.0
-                ]
-              }
-            },
-            {
               "field": "user.id",
               "value": "user_007",
-              "delta": 1.089,
+              "delta": 1.8575,
               "preprocessed": {
                 "user.id": [
                   31.0
@@ -4478,9 +4458,19 @@
               }
             },
             {
+              "field": "client.os",
+              "value": "Windows",
+              "delta": 1.7548,
+              "preprocessed": {
+                "client.os": [
+                  4.0
+                ]
+              }
+            },
+            {
               "field": "client.browser",
               "value": "Firefox",
-              "delta": 0.746,
+              "delta": 0.9567,
               "preprocessed": {
                 "client.browser": [
                   3.0
@@ -4488,9 +4478,19 @@
               }
             },
             {
+              "field": "user.department",
+              "value": "IT",
+              "delta": 0.9544,
+              "preprocessed": {
+                "user.department": [
+                  3.0
+                ]
+              }
+            },
+            {
               "field": "latency",
               "value": 125.0,
-              "delta": 0.6489,
+              "delta": 0.7424,
               "preprocessed": {
                 "latency": [
                   0.8041347174714006
@@ -4500,7 +4500,7 @@
             {
               "field": "timestamp.hour",
               "value": 9.0,
-              "delta": 0.3912,
+              "delta": 0.0842,
               "preprocessed": {
                 "timestamp.hour": [
                   -0.5959921917472761
@@ -4510,7 +4510,7 @@
             {
               "field": "timestamp.is_weekend",
               "value": 0.0,
-              "delta": 0.1118,
+              "delta": 0.0368,
               "preprocessed": {
                 "timestamp.is_weekend": [
                   -0.09125253410768894
@@ -4544,19 +4544,9 @@
         "explanation": {
           "features": [
             {
-              "field": "ip.country_iso",
-              "value": "CN",
-              "delta": 37.1192,
-              "preprocessed": {
-                "ip.country_iso": [
-                  1.0
-                ]
-              }
-            },
-            {
               "field": "user.id",
               "value": "user_012",
-              "delta": 34.289,
+              "delta": 33.4335,
               "preprocessed": {
                 "user.id": [
                   18.0
@@ -4564,19 +4554,19 @@
               }
             },
             {
-              "field": "user.department",
-              "value": "Sales",
-              "delta": 12.6121,
+              "field": "ip.country_iso",
+              "value": "CN",
+              "delta": 33.3798,
               "preprocessed": {
-                "user.department": [
-                  6.0
+                "ip.country_iso": [
+                  1.0
                 ]
               }
             },
             {
               "field": "client.browser",
               "value": "Chrome",
-              "delta": 11.2431,
+              "delta": 14.3483,
               "preprocessed": {
                 "client.browser": [
                   1.0
@@ -4584,9 +4574,19 @@
               }
             },
             {
+              "field": "user.department",
+              "value": "Sales",
+              "delta": 11.3575,
+              "preprocessed": {
+                "user.department": [
+                  6.0
+                ]
+              }
+            },
+            {
               "field": "timestamp.is_weekend",
               "value": 0.0,
-              "delta": 1.9924,
+              "delta": 4.3461,
               "preprocessed": {
                 "timestamp.is_weekend": [
                   -0.09125253410768894
@@ -4594,29 +4594,9 @@
               }
             },
             {
-              "field": "latency",
-              "value": 165.0,
-              "delta": 1.6862,
-              "preprocessed": {
-                "latency": [
-                  1.55100646412661
-                ]
-              }
-            },
-            {
-              "field": "timestamp.hour",
-              "value": 1.0,
-              "delta": 0.5964,
-              "preprocessed": {
-                "timestamp.hour": [
-                  -2.229172235102053
-                ]
-              }
-            },
-            {
               "field": "client.os",
               "value": "Mac",
-              "delta": 0.2722,
+              "delta": 1.1917,
               "preprocessed": {
                 "client.os": [
                   5.0
@@ -4624,9 +4604,29 @@
               }
             },
             {
+              "field": "timestamp.hour",
+              "value": 1.0,
+              "delta": 1.0553,
+              "preprocessed": {
+                "timestamp.hour": [
+                  -2.229172235102053
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 165.0,
+              "delta": 0.7329,
+              "preprocessed": {
+                "latency": [
+                  1.55100646412661
+                ]
+              }
+            },
+            {
               "field": "timestamp.dayofweek",
               "value": 3.0,
-              "delta": 0.1894,
+              "delta": 0.155,
               "preprocessed": {
                 "timestamp.dayofweek": [
                   0.6585075498073836
@@ -4641,7 +4641,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 16.25,
+    "composite_score": 10.71,
     "status": "NORMAL",
     "identifiers": {
       "description": "NORMAL"
@@ -4651,7 +4651,7 @@
         "name": "global",
         "key": {},
         "weight": 1.0,
-        "anomaly_score": 16.245,
+        "anomaly_score": 10.71,
         "score_label": "NORMAL",
         "properties": {
           "buffer_size": 2500,
@@ -4660,9 +4660,19 @@
         "explanation": {
           "features": [
             {
+              "field": "user.id",
+              "value": "user_035",
+              "delta": 4.0704,
+              "preprocessed": {
+                "user.id": [
+                  2.0
+                ]
+              }
+            },
+            {
               "field": "timestamp.dayofweek",
               "value": 1.0,
-              "delta": 8.3227,
+              "delta": 3.5585,
               "preprocessed": {
                 "timestamp.dayofweek": [
                   -0.7289937257161124
@@ -4672,7 +4682,7 @@
             {
               "field": "ip.country_iso",
               "value": "ES",
-              "delta": 2.0778,
+              "delta": 1.0252,
               "preprocessed": {
                 "ip.country_iso": [
                   2.0
@@ -4680,59 +4690,9 @@
               }
             },
             {
-              "field": "user.id",
-              "value": "user_035",
-              "delta": 1.928,
-              "preprocessed": {
-                "user.id": [
-                  2.0
-                ]
-              }
-            },
-            {
-              "field": "user.department",
-              "value": "Product-A",
-              "delta": 1.5715,
-              "preprocessed": {
-                "user.department": [
-                  2.0
-                ]
-              }
-            },
-            {
-              "field": "latency",
-              "value": 34.0,
-              "delta": 1.2671,
-              "preprocessed": {
-                "latency": [
-                  -0.8949985061692008
-                ]
-              }
-            },
-            {
-              "field": "client.os",
-              "value": "Linux",
-              "delta": 0.8408,
-              "preprocessed": {
-                "client.os": [
-                  3.0
-                ]
-              }
-            },
-            {
-              "field": "client.browser",
-              "value": "Firefox",
-              "delta": 0.1875,
-              "preprocessed": {
-                "client.browser": [
-                  3.0
-                ]
-              }
-            },
-            {
               "field": "timestamp.hour",
               "value": 13.0,
-              "delta": 0.0466,
+              "delta": 0.721,
               "preprocessed": {
                 "timestamp.hour": [
                   0.2205978299301124
@@ -4740,12 +4700,52 @@
               }
             },
             {
+              "field": "user.department",
+              "value": "Product-A",
+              "delta": 0.6967,
+              "preprocessed": {
+                "user.department": [
+                  2.0
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Firefox",
+              "delta": 0.3378,
+              "preprocessed": {
+                "client.browser": [
+                  3.0
+                ]
+              }
+            },
+            {
               "field": "timestamp.is_weekend",
               "value": 0.0,
-              "delta": 0.0031,
+              "delta": 0.1863,
               "preprocessed": {
                 "timestamp.is_weekend": [
                   -0.09125253410768894
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "Linux",
+              "delta": 0.0974,
+              "preprocessed": {
+                "client.os": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 34.0,
+              "delta": 0.0167,
+              "preprocessed": {
+                "latency": [
+                  -0.8949985061692008
                 ]
               }
             }
@@ -4757,7 +4757,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 100.0,
+    "composite_score": 98.8,
     "status": "HIGHLY_ANOMALOUS",
     "identifiers": {
       "description": "ANOMALY:time"
@@ -4767,7 +4767,7 @@
         "name": "global",
         "key": {},
         "weight": 1.0,
-        "anomaly_score": 100.0,
+        "anomaly_score": 98.80000000000003,
         "score_label": "HIGHLY_ANOMALOUS",
         "properties": {
           "buffer_size": 2500,
@@ -4778,7 +4778,7 @@
             {
               "field": "timestamp.hour",
               "value": 23.0,
-              "delta": 35.0243,
+              "delta": 47.5905,
               "preprocessed": {
                 "timestamp.hour": [
                   2.2620728841235835
@@ -4786,29 +4786,9 @@
               }
             },
             {
-              "field": "timestamp.dayofweek",
-              "value": 0.0,
-              "delta": 19.8277,
-              "preprocessed": {
-                "timestamp.dayofweek": [
-                  -1.4227443634778605
-                ]
-              }
-            },
-            {
-              "field": "client.os",
-              "value": "Android",
-              "delta": 14.831,
-              "preprocessed": {
-                "client.os": [
-                  1.0
-                ]
-              }
-            },
-            {
               "field": "user.id",
               "value": "user_004",
-              "delta": 11.1188,
+              "delta": 13.1264,
               "preprocessed": {
                 "user.id": [
                   20.0
@@ -4816,29 +4796,9 @@
               }
             },
             {
-              "field": "client.browser",
-              "value": "Firefox",
-              "delta": 8.3096,
-              "preprocessed": {
-                "client.browser": [
-                  3.0
-                ]
-              }
-            },
-            {
-              "field": "ip.country_iso",
-              "value": "DE",
-              "delta": 3.9465,
-              "preprocessed": {
-                "ip.country_iso": [
-                  3.0
-                ]
-              }
-            },
-            {
               "field": "user.department",
               "value": "IT",
-              "delta": 3.4224,
+              "delta": 11.2414,
               "preprocessed": {
                 "user.department": [
                   3.0
@@ -4846,9 +4806,19 @@
               }
             },
             {
+              "field": "client.os",
+              "value": "Android",
+              "delta": 8.774,
+              "preprocessed": {
+                "client.os": [
+                  1.0
+                ]
+              }
+            },
+            {
               "field": "timestamp.is_weekend",
               "value": 0.0,
-              "delta": 2.6586,
+              "delta": 6.9477,
               "preprocessed": {
                 "timestamp.is_weekend": [
                   -0.09125253410768894
@@ -4856,12 +4826,42 @@
               }
             },
             {
+              "field": "timestamp.dayofweek",
+              "value": 0.0,
+              "delta": 5.3363,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  -1.4227443634778605
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "DE",
+              "delta": 3.8382,
+              "preprocessed": {
+                "ip.country_iso": [
+                  3.0
+                ]
+              }
+            },
+            {
               "field": "latency",
               "value": 22.0,
-              "delta": 0.8612,
+              "delta": 1.2756,
               "preprocessed": {
                 "latency": [
                   -1.1190600301657636
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Firefox",
+              "delta": 0.67,
+              "preprocessed": {
+                "client.browser": [
+                  3.0
                 ]
               }
             }
@@ -4894,7 +4894,7 @@
             {
               "field": "user.id",
               "value": "user_022",
-              "delta": 55.3858,
+              "delta": 41.1306,
               "preprocessed": {
                 "user.id": [
                   14.0
@@ -4902,19 +4902,9 @@
               }
             },
             {
-              "field": "user.department",
-              "value": "Aftersales",
-              "delta": 15.6394,
-              "preprocessed": {
-                "user.department": [
-                  5.0
-                ]
-              }
-            },
-            {
               "field": "client.browser",
               "value": "Firefox",
-              "delta": 13.9053,
+              "delta": 20.0503,
               "preprocessed": {
                 "client.browser": [
                   3.0
@@ -4922,29 +4912,9 @@
               }
             },
             {
-              "field": "timestamp.is_weekend",
-              "value": 0.0,
-              "delta": 6.1997,
-              "preprocessed": {
-                "timestamp.is_weekend": [
-                  -0.09125253410768894
-                ]
-              }
-            },
-            {
-              "field": "ip.country_iso",
-              "value": "US",
-              "delta": 3.0639,
-              "preprocessed": {
-                "ip.country_iso": [
-                  4.0
-                ]
-              }
-            },
-            {
               "field": "client.os",
               "value": "Linux",
-              "delta": 2.9888,
+              "delta": 16.3825,
               "preprocessed": {
                 "client.os": [
                   3.0
@@ -4952,19 +4922,19 @@
               }
             },
             {
-              "field": "latency",
-              "value": 136.0,
-              "delta": 1.8573,
+              "field": "user.department",
+              "value": "Aftersales",
+              "delta": 8.4122,
               "preprocessed": {
-                "latency": [
-                  1.0095244478015832
+                "user.department": [
+                  5.0
                 ]
               }
             },
             {
               "field": "timestamp.hour",
               "value": 16.0,
-              "delta": 0.8307,
+              "delta": 4.7827,
               "preprocessed": {
                 "timestamp.hour": [
                   0.8330403461881537
@@ -4974,10 +4944,40 @@
             {
               "field": "timestamp.dayofweek",
               "value": 0.0,
-              "delta": 0.1292,
+              "delta": 3.4093,
               "preprocessed": {
                 "timestamp.dayofweek": [
                   -1.4227443634778605
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "US",
+              "delta": 3.3506,
+              "preprocessed": {
+                "ip.country_iso": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 1.2832,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09125253410768894
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 136.0,
+              "delta": 1.1986,
+              "preprocessed": {
+                "latency": [
+                  1.0095244478015832
                 ]
               }
             }
@@ -4989,8 +4989,8 @@
   },
   {
     "accepted": true,
-    "composite_score": 75.55,
-    "status": "ANOMALOUS",
+    "composite_score": 28.3,
+    "status": "NORMAL",
     "identifiers": {
       "description": "ANOMALY:time"
     },
@@ -4999,8 +4999,8 @@
         "name": "global",
         "key": {},
         "weight": 1.0,
-        "anomaly_score": 75.55000000000001,
-        "score_label": "ANOMALOUS",
+        "anomaly_score": 28.305,
+        "score_label": "NORMAL",
         "properties": {
           "buffer_size": 2500,
           "events_since_retrain": 21
@@ -5010,7 +5010,7 @@
             {
               "field": "timestamp.hour",
               "value": 6.0,
-              "delta": 24.518,
+              "delta": 12.0845,
               "preprocessed": {
                 "timestamp.hour": [
                   -1.2084347080053175
@@ -5020,7 +5020,7 @@
             {
               "field": "client.os",
               "value": "Windows",
-              "delta": 21.5072,
+              "delta": 4.883,
               "preprocessed": {
                 "client.os": [
                   4.0
@@ -5028,29 +5028,9 @@
               }
             },
             {
-              "field": "user.department",
-              "value": "IT",
-              "delta": 13.5982,
-              "preprocessed": {
-                "user.department": [
-                  3.0
-                ]
-              }
-            },
-            {
-              "field": "client.browser",
-              "value": "Firefox",
-              "delta": 5.8892,
-              "preprocessed": {
-                "client.browser": [
-                  3.0
-                ]
-              }
-            },
-            {
               "field": "user.id",
               "value": "user_007",
-              "delta": 5.2682,
+              "delta": 3.7298,
               "preprocessed": {
                 "user.id": [
                   31.0
@@ -5058,19 +5038,19 @@
               }
             },
             {
-              "field": "ip.country_iso",
-              "value": "US",
-              "delta": 3.1329,
+              "field": "user.department",
+              "value": "IT",
+              "delta": 3.5856,
               "preprocessed": {
-                "ip.country_iso": [
-                  4.0
+                "user.department": [
+                  3.0
                 ]
               }
             },
             {
               "field": "timestamp.dayofweek",
               "value": 1.0,
-              "delta": 1.0031,
+              "delta": 2.0335,
               "preprocessed": {
                 "timestamp.dayofweek": [
                   -0.7289937257161124
@@ -5078,9 +5058,29 @@
               }
             },
             {
+              "field": "client.browser",
+              "value": "Firefox",
+              "delta": 1.4376,
+              "preprocessed": {
+                "client.browser": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "US",
+              "delta": 0.4118,
+              "preprocessed": {
+                "ip.country_iso": [
+                  4.0
+                ]
+              }
+            },
+            {
               "field": "latency",
               "value": 110.0,
-              "delta": 0.5342,
+              "delta": 0.0935,
               "preprocessed": {
                 "latency": [
                   0.524057812475697
@@ -5090,7 +5090,7 @@
             {
               "field": "timestamp.is_weekend",
               "value": 0.0,
-              "delta": 0.0989,
+              "delta": 0.0458,
               "preprocessed": {
                 "timestamp.is_weekend": [
                   -0.09125253410768894
@@ -5105,7 +5105,7 @@
   },
   {
     "accepted": true,
-    "composite_score": 24.38,
+    "composite_score": 17.59,
     "status": "NORMAL",
     "identifiers": {
       "description": "NORMAL"
@@ -5115,7 +5115,7 @@
         "name": "global",
         "key": {},
         "weight": 1.0,
-        "anomaly_score": 24.375,
+        "anomaly_score": 17.595,
         "score_label": "NORMAL",
         "properties": {
           "buffer_size": 2500,
@@ -5124,19 +5124,19 @@
         "explanation": {
           "features": [
             {
-              "field": "client.os",
-              "value": "Windows",
-              "delta": 8.243,
+              "field": "ip.country_iso",
+              "value": "DE",
+              "delta": 5.5819,
               "preprocessed": {
-                "client.os": [
-                  4.0
+                "ip.country_iso": [
+                  3.0
                 ]
               }
             },
             {
               "field": "timestamp.hour",
               "value": 14.0,
-              "delta": 4.9532,
+              "delta": 3.0906,
               "preprocessed": {
                 "timestamp.hour": [
                   0.4247453353494595
@@ -5146,7 +5146,7 @@
             {
               "field": "timestamp.dayofweek",
               "value": 2.0,
-              "delta": 4.2701,
+              "delta": 2.6839,
               "preprocessed": {
                 "timestamp.dayofweek": [
                   -0.03524308795436442
@@ -5154,11 +5154,11 @@
               }
             },
             {
-              "field": "ip.country_iso",
-              "value": "DE",
-              "delta": 2.4468,
+              "field": "client.browser",
+              "value": "Firefox",
+              "delta": 2.06,
               "preprocessed": {
-                "ip.country_iso": [
+                "client.browser": [
                   3.0
                 ]
               }
@@ -5166,7 +5166,7 @@
             {
               "field": "user.id",
               "value": "user_049",
-              "delta": 2.2982,
+              "delta": 1.7924,
               "preprocessed": {
                 "user.id": [
                   35.0
@@ -5174,29 +5174,9 @@
               }
             },
             {
-              "field": "user.department",
-              "value": "Product-C",
-              "delta": 1.502,
-              "preprocessed": {
-                "user.department": [
-                  7.0
-                ]
-              }
-            },
-            {
-              "field": "client.browser",
-              "value": "Firefox",
-              "delta": 0.5943,
-              "preprocessed": {
-                "client.browser": [
-                  3.0
-                ]
-              }
-            },
-            {
               "field": "latency",
               "value": 47.0,
-              "delta": 0.0612,
+              "delta": 1.2055,
               "preprocessed": {
                 "latency": [
                   -0.6522651885062578
@@ -5204,277 +5184,19 @@
               }
             },
             {
-              "field": "timestamp.is_weekend",
-              "value": 0.0,
-              "delta": 0.0063,
-              "preprocessed": {
-                "timestamp.is_weekend": [
-                  -0.09125253410768894
-                ]
-              }
-            }
-          ],
-          "baseline_score": 0.0
-        }
-      }
-    ]
-  },
-  {
-    "accepted": true,
-    "composite_score": 5.42,
-    "status": "NORMAL",
-    "identifiers": {
-      "description": "NORMAL"
-    },
-    "scores": [
-      {
-        "name": "global",
-        "key": {},
-        "weight": 1.0,
-        "anomaly_score": 5.415,
-        "score_label": "NORMAL",
-        "properties": {
-          "buffer_size": 2500,
-          "events_since_retrain": 21
-        },
-        "explanation": {
-          "features": [
-            {
-              "field": "client.browser",
-              "value": "Safari",
-              "delta": 1.2762,
-              "preprocessed": {
-                "client.browser": [
-                  2.0
-                ]
-              }
-            },
-            {
-              "field": "client.os",
-              "value": "iOS",
-              "delta": 1.209,
-              "preprocessed": {
-                "client.os": [
-                  2.0
-                ]
-              }
-            },
-            {
-              "field": "user.department",
-              "value": "IT",
-              "delta": 1.1437,
-              "preprocessed": {
-                "user.department": [
-                  3.0
-                ]
-              }
-            },
-            {
-              "field": "user.id",
-              "value": "user_007",
-              "delta": 0.8287,
-              "preprocessed": {
-                "user.id": [
-                  31.0
-                ]
-              }
-            },
-            {
-              "field": "timestamp.hour",
-              "value": 15.0,
-              "delta": 0.3988,
-              "preprocessed": {
-                "timestamp.hour": [
-                  0.6288928407688066
-                ]
-              }
-            },
-            {
-              "field": "ip.country_iso",
-              "value": "US",
-              "delta": 0.2057,
-              "preprocessed": {
-                "ip.country_iso": [
-                  4.0
-                ]
-              }
-            },
-            {
-              "field": "timestamp.is_weekend",
-              "value": 0.0,
-              "delta": 0.1832,
-              "preprocessed": {
-                "timestamp.is_weekend": [
-                  -0.09125253410768894
-                ]
-              }
-            },
-            {
-              "field": "timestamp.dayofweek",
-              "value": 2.0,
-              "delta": 0.1212,
-              "preprocessed": {
-                "timestamp.dayofweek": [
-                  -0.03524308795436442
-                ]
-              }
-            },
-            {
-              "field": "latency",
-              "value": 102.0,
-              "delta": 0.0485,
-              "preprocessed": {
-                "latency": [
-                  0.37468346314465517
-                ]
-              }
-            }
-          ],
-          "baseline_score": 0.0
-        }
-      }
-    ]
-  },
-  {
-    "accepted": true,
-    "composite_score": 21.66,
-    "status": "NORMAL",
-    "identifiers": {
-      "description": "NORMAL"
-    },
-    "scores": [
-      {
-        "name": "global",
-        "key": {},
-        "weight": 1.0,
-        "anomaly_score": 21.66,
-        "score_label": "NORMAL",
-        "properties": {
-          "buffer_size": 2500,
-          "events_since_retrain": 21
-        },
-        "explanation": {
-          "features": [
-            {
               "field": "client.os",
               "value": "Windows",
-              "delta": 6.4453,
+              "delta": 0.6662,
               "preprocessed": {
                 "client.os": [
                   4.0
                 ]
               }
             },
-            {
-              "field": "timestamp.dayofweek",
-              "value": 2.0,
-              "delta": 6.0169,
-              "preprocessed": {
-                "timestamp.dayofweek": [
-                  -0.03524308795436442
-                ]
-              }
-            },
-            {
-              "field": "ip.country_iso",
-              "value": "US",
-              "delta": 4.7165,
-              "preprocessed": {
-                "ip.country_iso": [
-                  4.0
-                ]
-              }
-            },
-            {
-              "field": "user.department",
-              "value": "IT",
-              "delta": 1.5563,
-              "preprocessed": {
-                "user.department": [
-                  3.0
-                ]
-              }
-            },
-            {
-              "field": "timestamp.hour",
-              "value": 16.0,
-              "delta": 1.2211,
-              "preprocessed": {
-                "timestamp.hour": [
-                  0.8330403461881537
-                ]
-              }
-            },
-            {
-              "field": "user.id",
-              "value": "user_007",
-              "delta": 0.7788,
-              "preprocessed": {
-                "user.id": [
-                  31.0
-                ]
-              }
-            },
-            {
-              "field": "client.browser",
-              "value": "Firefox",
-              "delta": 0.4932,
-              "preprocessed": {
-                "client.browser": [
-                  3.0
-                ]
-              }
-            },
-            {
-              "field": "timestamp.is_weekend",
-              "value": 0.0,
-              "delta": 0.2959,
-              "preprocessed": {
-                "timestamp.is_weekend": [
-                  -0.09125253410768894
-                ]
-              }
-            },
-            {
-              "field": "latency",
-              "value": 111.0,
-              "delta": 0.1359,
-              "preprocessed": {
-                "latency": [
-                  0.5427296061420773
-                ]
-              }
-            }
-          ],
-          "baseline_score": 0.0
-        }
-      }
-    ]
-  },
-  {
-    "accepted": true,
-    "composite_score": 20.85,
-    "status": "NORMAL",
-    "identifiers": {
-      "description": "NORMAL"
-    },
-    "scores": [
-      {
-        "name": "global",
-        "key": {},
-        "weight": 1.0,
-        "anomaly_score": 20.85,
-        "score_label": "NORMAL",
-        "properties": {
-          "buffer_size": 2500,
-          "events_since_retrain": 21
-        },
-        "explanation": {
-          "features": [
             {
               "field": "user.department",
               "value": "Product-C",
-              "delta": 6.9643,
+              "delta": 0.467,
               "preprocessed": {
                 "user.department": [
                   7.0
@@ -5482,19 +5204,85 @@
               }
             },
             {
-              "field": "latency",
-              "value": 133.0,
-              "delta": 4.7945,
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 0.0475,
               "preprocessed": {
-                "latency": [
-                  0.9535090668024425
+                "timestamp.is_weekend": [
+                  -0.09125253410768894
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 13.32,
+    "status": "NORMAL",
+    "identifiers": {
+      "description": "NORMAL"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 13.320000000000002,
+        "score_label": "NORMAL",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 21
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "ip.country_iso",
+              "value": "US",
+              "delta": 3.7444,
+              "preprocessed": {
+                "ip.country_iso": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "user.id",
+              "value": "user_007",
+              "delta": 2.6309,
+              "preprocessed": {
+                "user.id": [
+                  31.0
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Safari",
+              "delta": 2.0435,
+              "preprocessed": {
+                "client.browser": [
+                  2.0
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "IT",
+              "delta": 1.6389,
+              "preprocessed": {
+                "user.department": [
+                  3.0
                 ]
               }
             },
             {
               "field": "timestamp.dayofweek",
               "value": 2.0,
-              "delta": 3.5731,
+              "delta": 1.2707,
               "preprocessed": {
                 "timestamp.dayofweek": [
                   -0.03524308795436442
@@ -5502,9 +5290,191 @@
               }
             },
             {
+              "field": "client.os",
+              "value": "iOS",
+              "delta": 1.0893,
+              "preprocessed": {
+                "client.os": [
+                  2.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 0.8008,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09125253410768894
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 102.0,
+              "delta": 0.0795,
+              "preprocessed": {
+                "latency": [
+                  0.37468346314465517
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 15.0,
+              "delta": 0.022,
+              "preprocessed": {
+                "timestamp.hour": [
+                  0.6288928407688066
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 21.22,
+    "status": "NORMAL",
+    "identifiers": {
+      "description": "NORMAL"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 21.224999999999998,
+        "score_label": "NORMAL",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 21
+        },
+        "explanation": {
+          "features": [
+            {
+              "field": "ip.country_iso",
+              "value": "US",
+              "delta": 6.5737,
+              "preprocessed": {
+                "ip.country_iso": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.hour",
+              "value": 16.0,
+              "delta": 6.017,
+              "preprocessed": {
+                "timestamp.hour": [
+                  0.8330403461881537
+                ]
+              }
+            },
+            {
+              "field": "client.os",
+              "value": "Windows",
+              "delta": 2.9673,
+              "preprocessed": {
+                "client.os": [
+                  4.0
+                ]
+              }
+            },
+            {
+              "field": "timestamp.dayofweek",
+              "value": 2.0,
+              "delta": 2.0124,
+              "preprocessed": {
+                "timestamp.dayofweek": [
+                  -0.03524308795436442
+                ]
+              }
+            },
+            {
+              "field": "client.browser",
+              "value": "Firefox",
+              "delta": 1.7309,
+              "preprocessed": {
+                "client.browser": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "user.id",
+              "value": "user_007",
+              "delta": 1.2421,
+              "preprocessed": {
+                "user.id": [
+                  31.0
+                ]
+              }
+            },
+            {
+              "field": "user.department",
+              "value": "IT",
+              "delta": 0.6202,
+              "preprocessed": {
+                "user.department": [
+                  3.0
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 111.0,
+              "delta": 0.0519,
+              "preprocessed": {
+                "latency": [
+                  0.5427296061420773
+                ]
+              }
+            },
+            {
+              "field": "timestamp.is_weekend",
+              "value": 0.0,
+              "delta": 0.0094,
+              "preprocessed": {
+                "timestamp.is_weekend": [
+                  -0.09125253410768894
+                ]
+              }
+            }
+          ],
+          "baseline_score": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": 10.36,
+    "status": "NORMAL",
+    "identifiers": {
+      "description": "NORMAL"
+    },
+    "scores": [
+      {
+        "name": "global",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": 10.364999999999998,
+        "score_label": "NORMAL",
+        "properties": {
+          "buffer_size": 2500,
+          "events_since_retrain": 21
+        },
+        "explanation": {
+          "features": [
+            {
               "field": "user.id",
               "value": "user_046",
-              "delta": 2.9803,
+              "delta": 3.1874,
               "preprocessed": {
                 "user.id": [
                   42.0
@@ -5512,9 +5482,29 @@
               }
             },
             {
+              "field": "user.department",
+              "value": "Product-C",
+              "delta": 2.6868,
+              "preprocessed": {
+                "user.department": [
+                  7.0
+                ]
+              }
+            },
+            {
+              "field": "ip.country_iso",
+              "value": "US",
+              "delta": 1.7058,
+              "preprocessed": {
+                "ip.country_iso": [
+                  4.0
+                ]
+              }
+            },
+            {
               "field": "client.browser",
               "value": "Firefox",
-              "delta": 0.9786,
+              "delta": 1.373,
               "preprocessed": {
                 "client.browser": [
                   3.0
@@ -5524,7 +5514,7 @@
             {
               "field": "client.os",
               "value": "iOS",
-              "delta": 0.6012,
+              "delta": 1.0445,
               "preprocessed": {
                 "client.os": [
                   2.0
@@ -5532,19 +5522,29 @@
               }
             },
             {
-              "field": "timestamp.hour",
-              "value": 16.0,
-              "delta": 0.434,
+              "field": "timestamp.dayofweek",
+              "value": 2.0,
+              "delta": 0.1373,
               "preprocessed": {
-                "timestamp.hour": [
-                  0.8330403461881537
+                "timestamp.dayofweek": [
+                  -0.03524308795436442
+                ]
+              }
+            },
+            {
+              "field": "latency",
+              "value": 133.0,
+              "delta": 0.0918,
+              "preprocessed": {
+                "latency": [
+                  0.9535090668024425
                 ]
               }
             },
             {
               "field": "timestamp.is_weekend",
               "value": 0.0,
-              "delta": 0.296,
+              "delta": 0.0859,
               "preprocessed": {
                 "timestamp.is_weekend": [
                   -0.09125253410768894
@@ -5552,12 +5552,12 @@
               }
             },
             {
-              "field": "ip.country_iso",
-              "value": "US",
-              "delta": 0.2281,
+              "field": "timestamp.hour",
+              "value": 16.0,
+              "delta": 0.0525,
               "preprocessed": {
-                "ip.country_iso": [
-                  4.0
+                "timestamp.hour": [
+                  0.8330403461881537
                 ]
               }
             }

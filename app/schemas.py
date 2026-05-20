@@ -18,6 +18,14 @@ class FieldContributionOut(BaseModel):
     value: Any
     delta: float | None
     preprocessed: dict[str, list[float]]
+    raw: dict[str, str] | None = None
+
+    @model_serializer(mode="wrap")
+    def _serialize(self, handler: Any) -> dict[str, Any]:
+        d = handler(self)
+        if not d.get("raw"):
+            d.pop("raw", None)
+        return d
 
 
 class CohortExplanationOut(BaseModel):
@@ -57,6 +65,14 @@ class IngestFeatureOut(BaseModel):
     field: str
     value: Any
     preprocessed: dict[str, list[float]]
+    raw: dict[str, str] | None = None
+
+    @model_serializer(mode="wrap")
+    def _serialize(self, handler: Any) -> dict[str, Any]:
+        d = handler(self)
+        if not d.get("raw"):
+            d.pop("raw", None)
+        return d
 
 
 class IngestCohortOut(BaseModel):

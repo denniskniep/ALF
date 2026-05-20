@@ -1,0 +1,22 @@
+[
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "message",
+            "value": "User logged in from Safari on macOS",
+            "preprocessed": {
+              "message": [
+                0.21592984408847302,
+                0.48064408216510496
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

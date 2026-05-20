@@ -1,0 +1,58 @@
+[
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "message",
+            "value": "Service nginx started successfully",
+            "preprocessed": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "message",
+            "value": "Service redis started successfully",
+            "preprocessed": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "message",
+            "value": "Service postgres started successfully",
+            "preprocessed": {
+              "message__template": [
+                1.0
+              ],
+              "message__var_0": [
+                1123.0
+              ]
+            },
+            "raw": {
+              "message__template": "Service <*> started successfully",
+              "message__var_0": "postgres"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

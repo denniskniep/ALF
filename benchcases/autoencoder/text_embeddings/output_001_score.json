@@ -1,7 +1,7 @@
 [
   {
     "accepted": true,
-    "composite_score": 9.0,
+    "composite_score": 2.25,
     "status": "NORMAL",
     "identifiers": {
       "description": "NORMAL"
@@ -11,7 +11,7 @@
         "name": "test",
         "key": {},
         "weight": 1.0,
-        "anomaly_score": 9.0,
+        "anomaly_score": 2.25,
         "score_label": "NORMAL",
         "properties": {
           "buffer_size": 200,
@@ -22,18 +22,26 @@
             {
               "field": "message",
               "value": "The quick brown fox jumps over the lazy dog",
-              "delta": 9.0,
+              "delta": 2.25,
               "preprocessed": {
-                "message": [
-                  -0.048033925203851816,
-                  0.41847371126596666,
-                  0.15118244417913407,
-                  -0.19239834476345843,
-                  -0.06642134744451056,
-                  0.14875516340164907,
-                  -0.1205139276111394,
-                  0.19458364540503345
+                "message__template": [
+                  1.0
+                ],
+                "message__var_0": [
+                  754.0
+                ],
+                "message__var_1": [
+                  580.0
+                ],
+                "message__var_2": [
+                  1746.0
                 ]
+              },
+              "raw": {
+                "message__template": "The quick <*> <*> jumps over the lazy <*>",
+                "message__var_0": "brown",
+                "message__var_1": "fox",
+                "message__var_2": "dog"
               }
             }
           ],
@@ -44,8 +52,8 @@
   },
   {
     "accepted": true,
-    "composite_score": 29.81,
-    "status": "NORMAL",
+    "composite_score": 77.5,
+    "status": "ANOMALOUS",
     "identifiers": {
       "description": "NORMAL"
     },
@@ -54,8 +62,8 @@
         "name": "test",
         "key": {},
         "weight": 1.0,
-        "anomaly_score": 29.8125,
-        "score_label": "NORMAL",
+        "anomaly_score": 77.5,
+        "score_label": "ANOMALOUS",
         "properties": {
           "buffer_size": 200,
           "events_since_retrain": 0
@@ -65,18 +73,26 @@
             {
               "field": "message",
               "value": "The quick yellow lion jumps over the lazy cat",
-              "delta": 29.8125,
+              "delta": 77.5,
               "preprocessed": {
-                "message": [
-                  -0.06755863770727479,
-                  0.27862892681961526,
-                  -0.4007342705371847,
-                  -0.15227072517661155,
-                  0.08647942065979242,
-                  0.11848970892032301,
-                  0.15352508478464183,
-                  -0.019831710586424182
+                "message__template": [
+                  1.0
+                ],
+                "message__var_0": [
+                  1148.0
+                ],
+                "message__var_1": [
+                  142.0
+                ],
+                "message__var_2": [
+                  1267.0
                 ]
+              },
+              "raw": {
+                "message__template": "The quick <*> <*> jumps over the lazy <*>",
+                "message__var_0": "yellow",
+                "message__var_1": "lion",
+                "message__var_2": "cat"
               }
             }
           ],
@@ -87,8 +103,8 @@
   },
   {
     "accepted": true,
-    "composite_score": 15.0,
-    "status": "NORMAL",
+    "composite_score": 39.0,
+    "status": "SLIGHTLY_ELEVATED",
     "identifiers": {
       "description": "NORMAL"
     },
@@ -97,8 +113,8 @@
         "name": "test",
         "key": {},
         "weight": 1.0,
-        "anomaly_score": 15.0,
-        "score_label": "NORMAL",
+        "anomaly_score": 39.0,
+        "score_label": "SLIGHTLY_ELEVATED",
         "properties": {
           "buffer_size": 200,
           "events_since_retrain": 0
@@ -108,18 +124,26 @@
             {
               "field": "message",
               "value": "The quick purple elephant jumps over the lazy snake",
-              "delta": 15.0,
+              "delta": 39.0,
               "preprocessed": {
-                "message": [
-                  -0.19654015543170733,
-                  -0.15742425602997598,
-                  -0.06441341780685078,
-                  -0.07998581386250386,
-                  0.12292863356043102,
-                  -0.024978596718103506,
-                  0.04628492065480901,
-                  0.016265178540068523
+                "message__template": [
+                  1.0
+                ],
+                "message__var_0": [
+                  573.0
+                ],
+                "message__var_1": [
+                  1551.0
+                ],
+                "message__var_2": [
+                  550.0
                 ]
+              },
+              "raw": {
+                "message__template": "The quick <*> <*> jumps over the lazy <*>",
+                "message__var_0": "purple",
+                "message__var_1": "elephant",
+                "message__var_2": "snake"
               }
             }
           ],
@@ -130,8 +154,8 @@
   },
   {
     "accepted": true,
-    "composite_score": 4.69,
-    "status": "NORMAL",
+    "composite_score": 81.25,
+    "status": "ANOMALOUS",
     "identifiers": {
       "description": "NORMAL"
     },
@@ -140,8 +164,8 @@
         "name": "test",
         "key": {},
         "weight": 1.0,
-        "anomaly_score": 4.6875,
-        "score_label": "NORMAL",
+        "anomaly_score": 81.25,
+        "score_label": "ANOMALOUS",
         "properties": {
           "buffer_size": 200,
           "events_since_retrain": 0
@@ -151,18 +175,26 @@
             {
               "field": "message",
               "value": "The quick pink unicorn jumps over the lazy dragon",
-              "delta": 4.6875,
+              "delta": 81.25,
               "preprocessed": {
-                "message": [
-                  -0.14359745404900565,
-                  -0.14232378292217163,
-                  0.002205194912744096,
-                  0.00599233470388489,
-                  0.0025636343960526477,
-                  0.01966457464576699,
-                  0.04172234483862549,
-                  0.005928213700599441
+                "message__template": [
+                  1.0
+                ],
+                "message__var_0": [
+                  23.0
+                ],
+                "message__var_1": [
+                  1397.0
+                ],
+                "message__var_2": [
+                  28.0
                 ]
+              },
+              "raw": {
+                "message__template": "The quick <*> <*> jumps over the lazy <*>",
+                "message__var_0": "pink",
+                "message__var_1": "unicorn",
+                "message__var_2": "dragon"
               }
             }
           ],
@@ -173,8 +205,8 @@
   },
   {
     "accepted": true,
-    "composite_score": 21.94,
-    "status": "NORMAL",
+    "composite_score": 100.0,
+    "status": "HIGHLY_ANOMALOUS",
     "identifiers": {
       "description": "ANOMALY"
     },
@@ -183,32 +215,14 @@
         "name": "test",
         "key": {},
         "weight": 1.0,
-        "anomaly_score": 21.9375,
-        "score_label": "NORMAL",
+        "anomaly_score": 100.0,
+        "score_label": "HIGHLY_ANOMALOUS",
         "properties": {
           "buffer_size": 200,
           "events_since_retrain": 0
         },
         "explanation": {
-          "features": [
-            {
-              "field": "message",
-              "value": "The slow green deer walks next to the lazy rabbit",
-              "delta": 21.9375,
-              "preprocessed": {
-                "message": [
-                  0.18227224303173978,
-                  -0.22349401594298454,
-                  0.09214893918787925,
-                  -0.11052151170710059,
-                  0.14243305756620223,
-                  0.21616496977554472,
-                  0.03814014400672005,
-                  -0.09975067288695941
-                ]
-              }
-            }
-          ],
+          "features": [],
           "baseline_score": 0.0
         }
       }

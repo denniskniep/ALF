@@ -94,7 +94,7 @@ class AutoencoderDetector(BaseModel):
         "boolean":         "PassThrough",
         "str_categorical": "LabelIndex",
         "str_identifier":  "HashIndex",
-        "str_text":        "SentenceTransformerEncoder"
+        "str_text":        "Drain3Encoder"
     }
 
     def __init__(
@@ -486,6 +486,7 @@ class AutoencoderDetector(BaseModel):
                 value=flat.get(field_name),
                 delta=round(delta, 4),
                 preprocessed={fi.unique_key: features[fi] for fi in fis},
+                raw={fi.unique_key: fi.raw for fi in fis if fi.raw is not None},
             ))
 
         contributors.sort(key=lambda c: abs(c.delta), reverse=True)

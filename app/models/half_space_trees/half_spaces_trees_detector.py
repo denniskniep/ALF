@@ -132,6 +132,7 @@ class HalfSpaceTreesDetector(BaseModel):
                 value=flat.get(original_field),
                 delta=delta,
                 preprocessed={fi.unique_key: features[fi] for fi in fis},
+                raw={fi.unique_key: fi.raw for fi in fis if fi.raw is not None},
             ))
         contributors.sort(key=lambda c: abs(c.delta), reverse=True)
         return CohortExplanation(features=contributors, baseline_score=round(baseline_score, 4))

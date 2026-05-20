@@ -24,17 +24,15 @@ features:
     message:
       type: str_text
       preprocessor:
-        name: SentenceTransformerEncoder
-        params:
-          embed_dim: 8
+        name: Drain3Encoder
 
 results:
-  f1: 0.0
-  recall: 0.0
-  precision: 0.0
-  tp: 0
-  fp: 0
-  tn: 4
-  fn: 1
-  fp_scores: []
-  fn_scores: [21.94]
+  f1: 0.5
+  recall: 1.0
+  precision: 0.333333
+  tp: 1
+  fp: 2
+  tn: 2
+  fn: 0
+  fp_scores: [77.5, 81.25]
+  fn_scores: []

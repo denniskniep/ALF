@@ -1,0 +1,41 @@
+[
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "message",
+            "value": "",
+            "preprocessed": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "message",
+            "value": "   ",
+            "preprocessed": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": []
+      }
+    ]
+  }
+]

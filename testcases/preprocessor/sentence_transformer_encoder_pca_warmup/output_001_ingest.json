@@ -1,0 +1,32 @@
+[
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "message",
+            "value": "User logged in from Chrome on Windows",
+            "preprocessed": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "message",
+            "value": "User logged in from Firefox on Linux",
+            "preprocessed": {}
+          }
+        ]
+      }
+    ]
+  }
+]

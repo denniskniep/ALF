@@ -1,0 +1,16 @@
+cohorts:
+- name: test
+  features_config: default
+  fields: []
+  weight: 1.0
+  warmup_count: 3
+  model:
+    name: NoOp
+database:
+  type: memory
+features:
+  default:
+    message:
+      type: str_text
+      preprocessor:
+        name: Drain3Encoder

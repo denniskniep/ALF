@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 from abc import ABC, abstractmethod
-from dataclasses import dataclass, field
+from dataclasses import dataclass, field as dc_field
 from typing import Any
 
 from app.features.preprocessors import FieldInfo
@@ -12,6 +12,7 @@ class FeatureResult:
     field: str
     value: Any
     preprocessed: dict[str, list[float]]
+    raw: dict[str, str] = dc_field(default_factory=dict)
 
 
 @dataclass
@@ -20,6 +21,7 @@ class FieldContribution:
     value: Any
     delta: float | None
     preprocessed: dict[str, list[float]]
+    raw: dict[str, str] = dc_field(default_factory=dict)
 
 
 @dataclass
@@ -31,7 +33,7 @@ class CohortExplanation:
 @dataclass
 class DetectorResult:
     score: float | None
-    properties: dict[str, Any] = field(default_factory=dict)
+    properties: dict[str, Any] = dc_field(default_factory=dict)
     explanation: CohortExplanation | None = None
     score_label: str = ""
 

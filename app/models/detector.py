@@ -84,6 +84,7 @@ class Detector:
                 field=field,
                 value=value,
                 preprocessed={fi.unique_key: last_preprocessed[fi] for fi in last_preprocessed if fi.original == field},
+                raw={fi.unique_key: fi.raw for fi in last_preprocessed if fi.original == field and fi.raw is not None},
             )
             for field, (value, _) in extracted.items()
         ]
@@ -106,7 +107,16 @@ class Detector:
         result.score_label = labels.score_label(result.score)
         if result.explanation is None:
             result.explanation = CohortExplanation(
-                features=[FieldContribution(field=k, value=v, delta=None, preprocessed={}) for k, v in flat.items()],
+                features=[
+                    FieldContribution(
+                        field=k,
+                        value=v,
+                        delta=None,
+                        preprocessed={},
+                        raw={fi.unique_key: fi.raw for fi in final if fi.original == k and fi.raw is not None},
+                    )
+                    for k, v in flat.items()
+                ],
                 baseline_score=None,
             )
         return result

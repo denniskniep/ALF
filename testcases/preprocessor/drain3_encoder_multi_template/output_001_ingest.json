@@ -1,0 +1,158 @@
+[
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "message",
+            "value": "Service nginx started successfully",
+            "preprocessed": {
+              "message__template": [
+                1.0
+              ]
+            },
+            "raw": {
+              "message__template": "Service nginx started successfully"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "message",
+            "value": "Failed login for user admin from 192.168.1.1",
+            "preprocessed": {
+              "message__template": [
+                2.0
+              ]
+            },
+            "raw": {
+              "message__template": "Failed login for user admin from 192.168.1.1"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "message",
+            "value": "Service redis started successfully",
+            "preprocessed": {
+              "message__template": [
+                1.0
+              ],
+              "message__var_0": [
+                101.0
+              ]
+            },
+            "raw": {
+              "message__template": "Service <*> started successfully",
+              "message__var_0": "redis"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "message",
+            "value": "Failed login for user bob from 10.0.0.1",
+            "preprocessed": {
+              "message__template": [
+                2.0
+              ],
+              "message__var_0": [
+                1106.0
+              ],
+              "message__var_1": [
+                42.0
+              ]
+            },
+            "raw": {
+              "message__template": "Failed login for user <*> from <*>",
+              "message__var_0": "bob",
+              "message__var_1": "10.0.0.1"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "message",
+            "value": "Service postgres started successfully",
+            "preprocessed": {
+              "message__template": [
+                1.0
+              ],
+              "message__var_0": [
+                1123.0
+              ]
+            },
+            "raw": {
+              "message__template": "Service <*> started successfully",
+              "message__var_0": "postgres"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "cohorts": [
+      {
+        "name": "test",
+        "features": [
+          {
+            "field": "message",
+            "value": "Failed login for user alice from 172.16.0.1",
+            "preprocessed": {
+              "message__template": [
+                2.0
+              ],
+              "message__var_0": [
+                1878.0
+              ],
+              "message__var_1": [
+                116.0
+              ]
+            },
+            "raw": {
+              "message__template": "Failed login for user <*> from <*>",
+              "message__var_0": "alice",
+              "message__var_1": "172.16.0.1"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

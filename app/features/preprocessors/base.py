@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from typing import Any, Protocol, runtime_checkable
 
 
@@ -19,11 +19,14 @@ class FieldInfo:
     preprocessor is the class name of the FieldPreprocessor that produced this value
     (e.g. "LabelIndex", "StandardScaler").  Downstream models use it to route features
     — AutoencoderDetector checks fi.preprocessor to decide embedding vs numeric pathway.
+
+    raw is optional human-readable metadata set by preprocessors.
     """
     original: str
     bucket: str = ""
     limits: tuple[float, float] | None = None
     preprocessor: str = ""
+    raw: str | None = field(default=None, compare=False, hash=False)
 
     @property
     def unique_key(self) -> str:

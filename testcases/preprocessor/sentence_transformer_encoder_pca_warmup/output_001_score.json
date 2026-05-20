@@ -1,0 +1,28 @@
+[
+  {
+    "accepted": true,
+    "composite_score": null,
+    "status": "insufficient_data",
+    "scores": [
+      {
+        "name": "test",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": null,
+        "score_label": "INSUFFICIENT_DATA",
+        "properties": {},
+        "explanation": {
+          "features": [
+            {
+              "field": "message",
+              "value": "User logged in from Safari on macOS",
+              "delta": null,
+              "preprocessed": {}
+            }
+          ],
+          "baseline_score": null
+        }
+      }
+    ]
+  }
+]

@@ -74,7 +74,7 @@ def ingest(
             IngestCohortOut(
                 name=r.name,
                 features=[
-                    IngestFeatureOut(field=f.field, value=f.value, preprocessed=f.preprocessed)
+                    IngestFeatureOut(field=f.field, value=f.value, preprocessed=f.preprocessed, raw=f.raw or None)
                     for f in r.features
                 ],
             )
@@ -124,7 +124,7 @@ def score(
                     properties=r.properties,
                     explanation=CohortExplanationOut(
                         features=[
-                            FieldContributionOut(field=c.field, value=c.value, delta=c.delta, preprocessed=c.preprocessed)
+                            FieldContributionOut(field=c.field, value=c.value, delta=c.delta, preprocessed=c.preprocessed, raw=c.raw or None)
                             for c in r.explanation.features
                         ],
                         baseline_score=r.explanation.baseline_score,

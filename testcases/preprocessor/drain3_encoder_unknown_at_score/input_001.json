@@ -1,0 +1,11 @@
+{
+  "ingest": [
+    {"message": "Service nginx started successfully"},
+    {"message": "Service redis started successfully"},
+    {"message": "Service postgres started successfully"}
+  ],
+  "scores": [
+    {"message": "Service memcached started successfully"},
+    {"message": "Kernel panic: unable to handle paging request at 0xdeadbeef"}
+  ]
+}

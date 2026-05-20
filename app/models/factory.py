@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import inspect
+
 from app.config import FeatureConfig, ModelConfig
 from app.models.autoencoder import AutoencoderDetector
 from app.models.base import BaseModel
@@ -27,6 +29,7 @@ def create_model(
         )
     params = dict(model_cfg.params)
     if warmup_count is not None and "warmup_count" not in params:
-        params["warmup_count"] = warmup_count
+        if "warmup_count" in inspect.signature(cls.__init__).parameters:
+            params["warmup_count"] = warmup_count
     model = cls(**params)
     return Detector(model=model, name=name, feature_cfg=feature_cfg, warmup_count=warmup_count or 0)

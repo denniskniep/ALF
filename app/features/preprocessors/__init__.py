@@ -14,6 +14,7 @@ from app.features.preprocessors.pass_through import PassThrough
 from app.features.preprocessors.standard_scaler import StandardScaler
 from app.features.preprocessors.one_hot_encoder import OneHotEncoder
 from app.features.preprocessors.sentence_transformer_encoder import SentenceTransformerEncoder
+from app.features.preprocessors.drain3_encoder import Drain3Encoder
 
 _FACTORIES: dict[str, Callable[[dict, int], FieldPreprocessor]] = {
     "NoOp":                         lambda p, wc: NoOp(),
@@ -26,6 +27,7 @@ _FACTORIES: dict[str, Callable[[dict, int], FieldPreprocessor]] = {
     "OneHotEncoder":                lambda p, wc: OneHotEncoder(**p),
     "OneHotHashEncoder":            lambda p, wc: OneHotHashEncoder(**{"seed": 0, **p}),
     "SentenceTransformerEncoder":   lambda p, wc: SentenceTransformerEncoder(warmup_count=wc, **p),
+    "Drain3Encoder":                lambda p, wc: Drain3Encoder(**p),
 }
 
 

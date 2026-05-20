@@ -1,0 +1,58 @@
+[
+  {
+    "accepted": true,
+    "composite_score": null,
+    "status": "insufficient_data",
+    "scores": [
+      {
+        "name": "test",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": null,
+        "score_label": "INSUFFICIENT_DATA",
+        "properties": {},
+        "explanation": {
+          "features": [
+            {
+              "field": "message",
+              "value": "Service memcached started successfully",
+              "delta": null,
+              "preprocessed": {},
+              "raw": {
+                "message__template": "Service <*> started successfully",
+                "message__var_0": "memcached"
+              }
+            }
+          ],
+          "baseline_score": null
+        }
+      }
+    ]
+  },
+  {
+    "accepted": true,
+    "composite_score": null,
+    "status": "insufficient_data",
+    "scores": [
+      {
+        "name": "test",
+        "key": {},
+        "weight": 1.0,
+        "anomaly_score": null,
+        "score_label": "INSUFFICIENT_DATA",
+        "properties": {},
+        "explanation": {
+          "features": [
+            {
+              "field": "message",
+              "value": "Kernel panic: unable to handle paging request at 0xdeadbeef",
+              "delta": null,
+              "preprocessed": {}
+            }
+          ],
+          "baseline_score": null
+        }
+      }
+    ]
+  }
+]

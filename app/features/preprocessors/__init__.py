@@ -15,23 +15,24 @@ from app.features.preprocessors.standard_scaler import StandardScaler
 from app.features.preprocessors.one_hot_encoder import OneHotEncoder
 from app.features.preprocessors.sentence_transformer_encoder import SentenceTransformerEncoder
 
-_FACTORIES: dict[str, Callable[[dict], FieldPreprocessor]] = {
-    "NoOp":                         lambda p: NoOp(),
-    "PassThrough":                  lambda p: PassThrough(),
-    "FrequencyEncoder":             lambda p: FrequencyEncoder(),
-    "HashIndex":                    lambda p: HashIndex(**{"seed": 0, **p}),
-    "LabelIndex":                   lambda p: LabelIndex(**p),
-    "MinMaxScaler":                 lambda p: MinMaxScaler(),
-    "StandardScaler":               lambda p: StandardScaler(),
-    "OneHotEncoder":                lambda p: OneHotEncoder(**p),
-    "OneHotHashEncoder":            lambda p: OneHotHashEncoder(**{"seed": 0, **p}),
-    "SentenceTransformerEncoder":   lambda p: SentenceTransformerEncoder(**p),
+_FACTORIES: dict[str, Callable[[dict, int], FieldPreprocessor]] = {
+    "NoOp":                         lambda p, wc: NoOp(),
+    "PassThrough":                  lambda p, wc: PassThrough(),
+    "FrequencyEncoder":             lambda p, wc: FrequencyEncoder(),
+    "HashIndex":                    lambda p, wc: HashIndex(**{"seed": 0, **p}),
+    "LabelIndex":                   lambda p, wc: LabelIndex(**p),
+    "MinMaxScaler":                 lambda p, wc: MinMaxScaler(),
+    "StandardScaler":               lambda p, wc: StandardScaler(),
+    "OneHotEncoder":                lambda p, wc: OneHotEncoder(**p),
+    "OneHotHashEncoder":            lambda p, wc: OneHotHashEncoder(**{"seed": 0, **p}),
+    "SentenceTransformerEncoder":   lambda p, wc: SentenceTransformerEncoder(warmup_count=wc, **p),
 }
 
 
 def make_field_preprocessor(
     field_cfg: FieldConfig,
     type_defaults: dict[str, str] | None = None,
+    warmup_count: int = 0,
 ) -> FieldPreprocessor:
     if type_defaults is None:
         raise ValueError("type_defaults are not set!")
@@ -40,7 +41,7 @@ def make_field_preprocessor(
     factory = _FACTORIES.get(name)
     if factory is None:
         raise ValueError(f"Unknown preprocessor: {name!r}")
-    return factory(params)
+    return factory(params, warmup_count)
 
 
 __all__ = ["FieldInfo", "FieldPreprocessor", "make_field_preprocessor"]

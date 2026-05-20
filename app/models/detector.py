@@ -41,7 +41,7 @@ class Detector:
         self._model = model
         self.name = name
         self.feature_cfg = feature_cfg or FeatureConfig()
-        self._preprocessor = Preprocessor(model.PREPROCESSOR_TYPE_DEFAULTS)
+        self._preprocessor = Preprocessor(model.PREPROCESSOR_TYPE_DEFAULTS, warmup_count=warmup_count)
         self._n_learned: int = 0
         self._lock = threading.Lock()
         self._warmup_count: int = warmup_count

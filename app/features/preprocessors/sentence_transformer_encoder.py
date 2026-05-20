@@ -25,7 +25,7 @@ def _silence_stderr():
             yield
 
 
-# Shared model cache — keyed by (repo_id, resolved_cache_dir).
+# Shared model cache — keyed by repo_id.
 # SentenceTransformer inference is read-only, so one instance is safe to share
 # across all cohorts and threads.
 _MODEL_CACHE: dict[str, "SentenceTransformer"] = {}
@@ -33,33 +33,31 @@ _MODEL_CACHE: dict[str, "SentenceTransformer"] = {}
 
 class SentenceTransformerEncoder:
     """Encodes a text field into a fixed-size dense float vector using a pre-trained
-    sentence transformer, projected down to embed_dim dimensions via a fixed random
-    projection matrix.
+    sentence transformer, projected down to embed_dim dimensions.
 
-    The sentence transformer is pre-trained and frozen — no training or fine-tuning
-    happens here. The random projection reduces the model's native embedding dimension
-    (384 for all-MiniLM-L6-v2) to embed_dim using a fixed seed, preserving approximate
-    distances (Johnson-Lindenstrauss lemma).
+    Two projection modes:
 
-    Keep embed_dim comparable to other related embed_dim
-    (e.g. categorical fields in Autoencoder default 8–32) so the text
-    field does not dominate the AE input vector and gradient signal.
+    Random projection (pca_warmup=0, default):
+        A fixed matrix seeded by `seed` reduces the native embedding dimension to
+        embed_dim. Stateless — no warmup required. Preserves approximate distances
+        (Johnson-Lindenstrauss lemma) but does not focus on directions of maximum
+        variance for your domain's vocabulary.
+
+    PCA projection (pca_warmup=N, N >= embed_dim):
+        learn_pre_transform accumulates N raw embeddings, then fits PCA via SVD and
+        stores the top embed_dim principal components as the projection matrix.
+        The field is treated as absent (returns {}) until PCA is fitted, so the model
+        does not see the field for the first N events. Yields better variance coverage
+        for domain-specific vocabulary at the cost of a stateful warmup period.
+
+    Keep embed_dim comparable to other embedding fields (e.g. 8–32)
 
     Model caching:
         The model is downloaded once to cache_dir and reused on subsequent runs.
         cache_dir can be absolute or relative to the repository root.
 
     Absent / empty values:
-        Returns an empty dict
-
-    Potential optimization — PCA projection:
-        The fixed random projection preserves approximate distances but does not focus
-        on the directions of maximum variance for your domain's text. An alternative is
-        to accumulate N embeddings during warm-up, fit PCA on them, and use the top
-        embed_dim principal components as the projection matrix. This yields better
-        variance coverage for domain-specific vocabulary at the cost of a stateful
-        warm-up period (field is treated as absent until PCA is fitted). For most use
-        cases the random projection is sufficient.
+        Returns an empty dict.
 
     Parameters
     ----------
@@ -72,7 +70,12 @@ class SentenceTransformerEncoder:
         repository root. Defaults to .local/modelcache/.
     seed
         Seed for the random projection matrix. Same seed always produces the same
-        projection — consistent feature values across restarts.
+        projection — consistent feature values across restarts. Ignored when
+        warmup_count > 0.
+    warmup_count
+        Injected automatically from the cohort's warmup_count — not a user-facing
+        config parameter. 0 uses the fixed random projection. Must be >= embed_dim
+        when > 0.
     """
 
     def __init__(
@@ -81,14 +84,19 @@ class SentenceTransformerEncoder:
         embed_dim: int = 8,
         cache_dir: str = ".local/modelcache",
         seed: int = 42,
+        warmup_count: int = 0,
     ) -> None:
+        if warmup_count > 0 and warmup_count < embed_dim:
+            raise ValueError(
+                f"warmup_count ({warmup_count}) must be >= embed_dim ({embed_dim}) "
+                "so SVD can produce enough principal components."
+            )
+
         from huggingface_hub import try_to_load_from_cache
         from sentence_transformers import SentenceTransformer
 
         resolved = Path(cache_dir) if Path(cache_dir).is_absolute() else _REPO_ROOT / cache_dir
         resolved.mkdir(parents=True, exist_ok=True)
-
-        import torch
 
         model_repo_id = model if "/" in model else f"sentence-transformers/{model}"
         if model_repo_id not in _MODEL_CACHE:
@@ -106,20 +114,42 @@ class SentenceTransformerEncoder:
                 )
         self._st_model = _MODEL_CACHE[model_repo_id]
         self._embed_dim = embed_dim
+        self._pca_warmup = warmup_count
 
-        source_dim = self._st_model.get_embedding_dimension()
-        rng = np.random.default_rng(seed)
-        projection = rng.standard_normal((source_dim, embed_dim))
-        projection /= np.linalg.norm(projection, axis=0)
-        self._projection: np.ndarray = projection
+        if warmup_count > 0:
+            self._projection: np.ndarray | None = None
+            self._pca_buffer: list[np.ndarray] = []
+        else:
+            source_dim = self._st_model.get_embedding_dimension()
+            rng = np.random.default_rng(seed)
+            projection = rng.standard_normal((source_dim, embed_dim))
+            projection /= np.linalg.norm(projection, axis=0)
+            self._projection = projection
+            self._pca_buffer = []
 
     def learn_pre_transform(self, key: str, value: Any) -> None:
-        pass
+        if self._pca_warmup == 0 or self._projection is not None:
+            return
+        if not value or not str(value).strip():
+            return
+        embedding = self._st_model.encode(str(value), convert_to_numpy=True, show_progress_bar=False)
+        self._pca_buffer.append(embedding)
+        if len(self._pca_buffer) >= self._pca_warmup:
+            self._fit_pca()
+
+    def _fit_pca(self) -> None:
+        X = np.stack(self._pca_buffer).astype(np.float64)
+        X -= X.mean(axis=0)
+        _, _, Vt = np.linalg.svd(X, full_matrices=False)
+        self._projection = Vt[: self._embed_dim].T  # (source_dim, embed_dim)
+        self._pca_buffer.clear()
 
     def learn_post_transform(self, key: str, value: Any) -> None:
         pass
 
     def transform(self, key: str, value: Any) -> dict[FieldInfo, list[float]]:
+        if self._projection is None:
+            return {}
         if not value or not str(value).strip():
             return {}
         embedding = self._st_model.encode(str(value), convert_to_numpy=True, show_progress_bar=False)

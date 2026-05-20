@@ -3,14 +3,14 @@ cohorts:
   features_config: default
   fields: []
   weight: 1.0
-  warmup_count: 20
+  warmup_count: 50
   model:
     name: Autoencoder
     params:
       buffer_size: 200
       retrain_every: 20
       epochs_per_retrain: 2
-      embed_dim: 32
+      embed_dim: 8
       seed: 42
 
 database:
@@ -26,15 +26,15 @@ features:
       preprocessor:
         name: SentenceTransformerEncoder
         params:
-          embed_dim: 32
+          embed_dim: 8
 
 results:
   f1: 0.0
   recall: 0.0
   precision: 0.0
   tp: 0
-  fp: 2
-  tn: 2
+  fp: 0
+  tn: 4
   fn: 1
-  fp_scores: [71.88, 100.0]
-  fn_scores: [44.0]
+  fp_scores: []
+  fn_scores: [21.94]

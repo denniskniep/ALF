@@ -1,0 +1,9 @@
+{
+  "ingest": [
+    {"message": "User logged in from Chrome on Windows"},
+    {"message": "User logged in from Firefox on Linux"}
+  ],
+  "scores": [
+    {"message": "User logged in from Safari on macOS"}
+  ]
+}

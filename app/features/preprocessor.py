@@ -15,8 +15,9 @@ class Preprocessor:
     Picklable so Detector can include it in its state blob.
     """
 
-    def __init__(self, type_defaults: dict[str, str]) -> None:
+    def __init__(self, type_defaults: dict[str, str], warmup_count: int = 0) -> None:
         self._type_defaults = type_defaults
+        self._warmup_count = warmup_count
         self._preprocessors: dict[str, FieldPreprocessor] = {}
 
     def process_batch(
@@ -52,6 +53,6 @@ class Preprocessor:
     def _get_or_create(self, flat_key: str, field_cfg: FieldConfig) -> FieldPreprocessor:
         if flat_key not in self._preprocessors:
             self._preprocessors[flat_key] = make_field_preprocessor(
-                field_cfg, self._type_defaults
+                field_cfg, self._type_defaults, warmup_count=self._warmup_count
             )
         return self._preprocessors[flat_key]

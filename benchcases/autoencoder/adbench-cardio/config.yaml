@@ -1,0 +1,123 @@
+cohorts:
+  - name: "global"
+    features_config: "default"
+    fields: []
+    weight: 1.0
+    warmup_count: 100
+    model:
+      name: Autoencoder
+      params:
+        buffer_size: 2500
+        retrain_every: 25
+        epochs_per_retrain: 2
+        seed: 42
+
+database:
+  type: memory
+
+identifiers:
+  - description
+
+features:
+  default:
+    feature_0:
+      type: numeric
+      preprocessor:
+        name: PassThrough
+    feature_1:
+      type: numeric
+      preprocessor:
+        name: PassThrough
+    feature_2:
+      type: numeric
+      preprocessor:
+        name: PassThrough
+    feature_3:
+      type: numeric
+      preprocessor:
+        name: PassThrough
+    feature_4:
+      type: numeric
+      preprocessor:
+        name: PassThrough
+    feature_5:
+      type: numeric
+      preprocessor:
+        name: PassThrough
+    feature_6:
+      type: numeric
+      preprocessor:
+        name: PassThrough
+    feature_7:
+      type: numeric
+      preprocessor:
+        name: PassThrough
+    feature_8:
+      type: numeric
+      preprocessor:
+        name: PassThrough
+    feature_9:
+      type: numeric
+      preprocessor:
+        name: PassThrough
+    feature_10:
+      type: numeric
+      preprocessor:
+        name: PassThrough
+    feature_11:
+      type: numeric
+      preprocessor:
+        name: PassThrough
+    feature_12:
+      type: numeric
+      preprocessor:
+        name: PassThrough
+    feature_13:
+      type: numeric
+      preprocessor:
+        name: PassThrough
+    feature_14:
+      type: numeric
+      preprocessor:
+        name: PassThrough
+    feature_15:
+      type: numeric
+      preprocessor:
+        name: PassThrough
+    feature_16:
+      type: numeric
+      preprocessor:
+        name: PassThrough
+    feature_17:
+      type: numeric
+      preprocessor:
+        name: PassThrough
+    feature_18:
+      type: numeric
+      preprocessor:
+        name: PassThrough
+    feature_19:
+      type: numeric
+      preprocessor:
+        name: PassThrough
+    feature_20:
+      type: numeric
+      preprocessor:
+        name: PassThrough
+
+results:
+  train_count: 1465
+  score_count: 366
+  accepted_count: 1831
+  unaccepted_count: 0
+  normal_count: 190
+  anomaly_count: 176
+  f1: 0.815584
+  recall: 0.892045
+  precision: 0.751196
+  tp: 157
+  fp: 52
+  tn: 138
+  fn: 19
+  fp_scores: [82.54, 82.28, 82.54, 81.51, 83.58, 84.09, 73.75, 83.58, 72.72, 77.37, 79.18, 89.66, 83.06, 83.06, 84.61, 84.09, 83.32, 81.25, 81.77, 81.77, 81.51, 77.37, 79.18, 92.76, 91.72, 77.63, 80.47, 82.03, 81.77, 82.8, 95.86, 95.86, 78.66, 73.49, 72.46, 84.35, 84.09, 82.54, 82.8, 74.78, 83.06, 81.77, 74.78, 70.65, 92.76, 87.59, 84.09, 74.78, 70.65, 82.03, 97.93, 84.09]
+  fn_scores: [50.55, 42.83, 68.48, 45.45, 46.28, 48.76, 28.14, 34.14, 50.55, 27.57, 26.84, 56.9, 48.62, 26.38, 38.83, 69.03, 29.87, 69.59, 61.03]

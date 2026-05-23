@@ -1,0 +1,79 @@
+cohorts:
+  - name: "global"
+    features_config: "default"
+    fields: []
+    weight: 1.0
+    warmup_count: 100
+    model:
+      name: Autoencoder
+      params:
+        buffer_size: 2500
+        retrain_every: 25
+        epochs_per_retrain: 2
+        seed: 42
+
+database:
+  type: memory
+
+identifiers:
+  - description
+
+features:
+  default:
+    duration: numeric
+    protocol_type: str_categorical
+    service: str_categorical
+    flag: str_categorical
+    src_bytes: numeric
+    dst_bytes: numeric
+    land: str_categorical
+    wrong_fragment: numeric
+    urgent: numeric
+    hot: numeric
+    num_failed_logins: numeric
+    logged_in: str_categorical
+    num_compromised: numeric
+    root_shell: numeric
+    su_attempted: numeric
+    num_root: numeric
+    num_file_creations: numeric
+    num_shells: numeric
+    num_access_files: numeric
+    num_outbound_cmds: numeric
+    is_host_login: str_categorical
+    is_guest_login: str_categorical
+    count: numeric
+    srv_count: numeric
+    serror_rate: numeric
+    srv_serror_rate: numeric
+    rerror_rate: numeric
+    srv_rerror_rate: numeric
+    same_srv_rate: numeric
+    diff_srv_rate: numeric
+    srv_diff_host_rate: numeric
+    dst_host_count: numeric
+    dst_host_srv_count: numeric
+    dst_host_same_srv_rate: numeric
+    dst_host_diff_srv_rate: numeric
+    dst_host_same_src_port_rate: numeric
+    dst_host_srv_diff_host_rate: numeric
+    dst_host_serror_rate: numeric
+    dst_host_srv_serror_rate: numeric
+    dst_host_rerror_rate: numeric
+    dst_host_srv_rerror_rate: numeric
+results:
+  train_count: 1000
+  score_count: 200
+  accepted_count: 1200
+  unaccepted_count: 0
+  normal_count: 85
+  anomaly_count: 115
+  f1: 0.564706
+  recall: 0.417391
+  precision: 0.872727
+  tp: 48
+  fp: 7
+  tn: 78
+  fn: 67
+  fp_scores: [79.0, 89.5, 83.88, 82.75, 73.75, 72.63, 88.0]
+  fn_scores: [13.88, 12.08, 26.66, 13.54, 12.97, 29.78, 29.14, 69.2, 54.8, 57.6, 2.63, 26.92, 33.4, 32.6, 28.91, 12.52, 22.39, 69.2, 33.6, 12.41, 20.51, 12.9, 42.0, 17.59, 14.21, 13.54, 28.12, 13.05, 13.01, 14.7, 11.74, 14.17, 4.76, 25.09, 21.9, 20.78, 28.61, 11.51, 14.85, 13.61, 20.81, 11.7, 18.52, 12.86, 12.64, 0.45, 29.25, 17.66, 25.46, 14.25, 0.0, 19.8, 33.6, 29.33, 12.08, 1.12, 6.0, 16.31, 18.38, 62.0, 28.54, 22.65, 11.81, 42.4, 11.81, 21.67, 24.68]

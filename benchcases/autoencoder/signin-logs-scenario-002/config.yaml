@@ -29,6 +29,12 @@ features:
     latency: numeric
 
 results:
+  train_count: 4000
+  score_count: 40
+  accepted_count: 4040
+  unaccepted_count: 0
+  normal_count: 20
+  anomaly_count: 20
   f1: 0.926829
   recall: 0.95
   precision: 0.904762

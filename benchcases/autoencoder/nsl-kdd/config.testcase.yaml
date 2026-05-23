@@ -1,0 +1,18 @@
+output-ingest: []
+output-score:
+  - "001"
+  - "002"
+
+input:
+  - arff:
+      url: "https://raw.githubusercontent.com/jmnwong/NSL-KDD-Dataset/refs/heads/master/KDDTrain%2B.arff"
+      step: "001"
+      score_split_by: 0.0
+      anomalyWhenMatch: ".class == 'anomaly'"
+      limit: 1000
+  - arff:
+      url: "https://raw.githubusercontent.com/jmnwong/NSL-KDD-Dataset/refs/heads/master/KDDTest%2B.arff"
+      step: "002"
+      score_split_by: 1.0
+      anomalyWhenMatch: ".class == 'anomaly'"
+      limit: 200

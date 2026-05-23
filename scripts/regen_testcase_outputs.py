@@ -31,11 +31,27 @@ from utils import load_testcase_config, progress, should_generate
 
 
 
-def regen_case(case_dir: Path, label: str) -> int:
-    """Regenerate outputs for one case. Returns total number of events processed."""
+def regen_case(
+    case_dir: Path,
+    label: str,
+    input_overrides: dict[str, Path] | None = None,
+    ingest_output_dir: Path | None = None,
+) -> int:
+    """Regenerate outputs for one case. Returns total number of events processed.
+
+    If ingest_output_dir is set, ingest responses are always captured and written
+    there (even when gen_ingest is False), so callers can use them for metrics.
+    """
     cfg = load_testcase_config(case_dir)
     os.environ["CONFIG_PATH"] = str(case_dir / "config.yaml")
-    step_inputs = sorted(case_dir.glob("input_*.json"))
+
+    step_map: dict[str, Path] = {}
+    for p in sorted(case_dir.glob("input_*.json")):
+        step_map[p.stem.split("_", 1)[1]] = p
+    if input_overrides:
+        step_map.update(input_overrides)
+    step_inputs = [step_map[k] for k in sorted(step_map)]
+
     total_events = 0
 
     with TestClient(app_module.app) as client:
@@ -51,12 +67,13 @@ def regen_case(case_dir: Path, label: str) -> int:
 
             t_step_start = time.perf_counter()
 
+            capture_ingest = gen_ingest or ingest_output_dir is not None
             ingest_outputs = []
             for i, doc in enumerate(ingest_docs):
                 elapsed = time.perf_counter() - t_step_start
                 ms_per_event = elapsed / (i + 1) * 1000 if i > 0 else None
                 progress(label, i + 1, total, ms_per_event)
-                if gen_ingest:
+                if capture_ingest:
                     ingest_outputs.append(
                         client.post("/ingest?include_features=true", json={"payload": doc}).json()
                     )
@@ -80,6 +97,8 @@ def regen_case(case_dir: Path, label: str) -> int:
 
             if gen_ingest:
                 (case_dir / f"output_{step_num}_ingest.json").write_text(json.dumps(ingest_outputs, indent=2) + "\n")
+            elif ingest_output_dir is not None:
+                (ingest_output_dir / f"output_{step_num}_ingest.json").write_text(json.dumps(ingest_outputs, indent=2) + "\n")
             if gen_score:
                 (case_dir / f"output_{step_num}_score.json").write_text(json.dumps(score_outputs, indent=2) + "\n")
 

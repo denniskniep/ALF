@@ -1,0 +1,14 @@
+output-ingest: []
+output-score:
+  - "001"
+
+input:
+  - csv:
+      url: "https://raw.githubusercontent.com/logpai/loghub/refs/heads/master/Linux/Linux_2k.log_structured.csv"
+      step: "001"
+      csv:
+        delimiter: ","
+        encoding: "utf-8"
+      score_split_by: 0.2
+      # E8 = "ALERT exited abnormally with [1]" — clear system fault signal
+      anomalyWhenMatch: ".EventId == 'E8'"

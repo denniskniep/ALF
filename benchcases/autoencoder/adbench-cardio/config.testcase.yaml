@@ -1,0 +1,10 @@
+output-ingest: []
+output-score:
+  - "001"
+
+input:
+  - npz:
+      url: "https://raw.githubusercontent.com/Minqi824/ADBench/main/adbench/datasets/Classical/6_cardio.npz"
+      step: "001"
+      score_split_by: 0.2
+      anomalyWhenMatch: ".y == 1"

@@ -27,6 +27,12 @@ features:
         name: Drain3Encoder
 
 results:
+  train_count: 250
+  score_count: 5
+  accepted_count: 255
+  unaccepted_count: 0
+  normal_count: 4
+  anomaly_count: 1
   f1: 0.5
   recall: 1.0
   precision: 0.333333
